@@ -1,6 +1,6 @@
 ---
-title: Verkaufssteuer sowie Steuergruppen in den USA und in Kanada| Microsoft Docs
-description: "Mehr erfahren über das Einrichten von Verkaufssteuern, Steuergruppen, Steuergebieten, Steuerzuständigkeiten und Steuereinzelheiten."
+title: Verkaufssteuer sowie Steuergruppen in den USA und in Kanada einrichten| Microsoft Docs
+description: "Mehr erfahren über das Einrichten von Verkaufssteuern, Steuergruppen, Steuergebieten, Steuerzuständigkeiten und Steuereinzelheiten (Staat, Gemeinde, Städte und Standorte)."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -13,14 +13,14 @@ ms.search.keywords: local
 ms.date: 03/29/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: ff1981a428a2cd3b3864b7f0cc795a1abeab7a10
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 763bb1b954b30734b0f81f121a6534c83442321a
 ms.contentlocale: de-at
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="sales-tax-and-tax-groups-in-the-us-and-canada"></a>Verkaufssteuer sowie Steuergruppen in den USA und in Kanada
+# <a name="reporting-sales-tax-in-the-us-and-canada"></a>Verkaufssteuer in den USA und in Kanada melden
 Wenn Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] zum ersten Mal starten, können Sie eine unterstützte Einrichtung in Anspruch nehmen, um Verkaufssteuersteuerinformationen für Ihre Firma, Debitoren und Kreditoren schnell und einfach zu einrichten. In Minutenschnelle sind Sie bereit, Verkaufsbelege und Einkaufsbelege mit der Verkaufssteuer zu erstellen, die richtig berechnet werden kann. Dies wird erklärt [in unserem Blogeintrag](https://madeira.microsoft.com/blog/sales-tax-setup-made-easy).
 Wenn Sie auf das leere "Mein Unternehmen" umlagern, empfiehlt es sich, dass Sie beginnen, jedes einzelne der unterstützen Setuphandbücher zu verwenden, einschließlich demjenigen für die Verkaufssteuer. Wenn Sie es vorziehen, die Verkaufssteuer selber einzurichten, beschreibt dieser Artikel, was Sie berücksichtigen müssen.  
 
@@ -43,5 +43,5 @@ Wenn Sie in den USA einem Debitor an einem Lagerort verkaufen, in dem Sie keinen
 [Finance einrichten](finance-setup-finance.md)  
 [Verkaufssteuer sowie Steuern auf Waren und Dienstleistungen in Kanada](ca-finance-tax.md)  
 [Einfaches Einrichten der Verkaufssteuer](https://madeira.microsoft.com/blog/sales-tax-setup-made-easy)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md]  
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

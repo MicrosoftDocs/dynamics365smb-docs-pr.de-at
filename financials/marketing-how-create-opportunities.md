@@ -1,6 +1,6 @@
 ---
-title: 'Vorgehensweise: Erstellen von Verkaufschancen| Microsoft Docs'
-description: Beschreibt die Erstellung von Verkaufschancen zu Kontakten in Financials
+title: Erstellen von Verkaufschancen| Microsoft Docs
+description: Beschreibt die Erstellung von Verkaufschancen oder Kontakten in Financials.
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 387f79fcdbc0aef9a8b920e9df008b60445bd622
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 3137ed6aeaa235e2f2b4db7fdfb7dd7b8570c886
 ms.contentlocale: de-at
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -28,7 +28,7 @@ In dem Fenster **Verkaufschancenübersicht** können Sie Verkaufschancen erstell
 Bevor Sie Verkaufschancen erstellen können, müssen Sie Verkaufsprozesse erstellen. Weitere Informationen finden Sie unter [Vorgehensweise: Einrichten von Verkaufschancen für Verkaufsprozesse und Prozess-Stufen](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
 ## <a name="to-create-an-opportunity-from-a-salesperson"></a>So erstellen Sie ein Angebot für einen Verkäufer
-1. In der oberen rechter Ecke wählen Sie das Symbol **Nach Seite oder Bericht suchen aus **![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "")Symbol nach Seite oder Bericht suchen. Geben Sie **Verkäufer** ein und wählen Sie dann den entsprechenden Link aus.
+1. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Verkäufer** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Wählen Sie den Verkäufer aus, für den eine Verkaufschance erstellt werden soll.
 3. Wählen Sie die **Verkaufschancen**-Aktion aus, und wählen Sie dann **Übersicht**.
 4. Wählen Sie Aktion **Neu** aus, und füllen Sie die relevanten Felder aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -36,7 +36,7 @@ Bevor Sie Verkaufschancen erstellen können, müssen Sie Verkaufsprozesse erstel
 
 
 ## <a name="to-create-an-opportunity-from-a-contact"></a>So erstellen Sie ein Angebot für einen Kontakt
-1. In der oberen rechter Ecke wählen Sie das Symbol **Nach Seite oder Bericht suchen aus **![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "")Symbol nach Seite oder Bericht suchen. Geben Sie **Kontakte** ein und wählen Sie dann den entsprechenden Link aus.
+1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen")aus und geben Sie **Kontakte** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Wählen Sie den Kontakt aus, für den eine Verkaufschance erstellt werden soll.
 3. Führen Sie einen der folgenden Schritte aus:
    * Wählen Sie die Aktion **Verkaufschance erstellen** aus.
