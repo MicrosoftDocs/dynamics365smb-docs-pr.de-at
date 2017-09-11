@@ -16,27 +16,26 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: a01f90d93c12cf429264f525df3a7e42e01d7e33
 ms.contentlocale: de-at
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="set-up-project-management"></a>Projektmanagement einrichten
-Bevor Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] verwnden können, um Projekte zu verwalten, müssen Sie Ressourcen, Arbeitszeitblätter und Projekte einrichten.
+# <a name="set-up-project-management"></a><span data-ttu-id="e2ab8-103">Projektmanagement einrichten</span><span class="sxs-lookup"><span data-stu-id="e2ab8-103">Set Up Project Management</span></span>
+<span data-ttu-id="e2ab8-104">Bevor Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] verwnden können, um Projekte zu verwalten, müssen Sie Ressourcen, Arbeitszeitblätter und Projekte einrichten.</span><span class="sxs-lookup"><span data-stu-id="e2ab8-104">Before you can use [!INCLUDE[d365fin](includes/d365fin_md.md)] to manage projects, you must set up resources, time sheets, and jobs.</span></span>
 
-Dann können Sie Projekte und Planressourcen für Projekte erstellen sowie Budget- und Titelmaschinen- und -Mitarbeiterstunden mit Arbeitszeittabellen verwalten. Weitere Informationen finden Sie unter [Projekte Verwalten](projects-manage-projects.md).  
+<span data-ttu-id="e2ab8-105">Dann können Sie Projekte und Planressourcen für Projekte erstellen sowie Budget- und Titelmaschinen- und -Mitarbeiterstunden mit Arbeitszeittabellen verwalten.</span><span class="sxs-lookup"><span data-stu-id="e2ab8-105">Then you can create jobs and schedule resources for projects as well as manage budgets and track machine and employee hours with time sheets.</span></span> <span data-ttu-id="e2ab8-106">Weitere Informationen finden Sie unter [Projekte Verwalten](projects-manage-projects.md).</span><span class="sxs-lookup"><span data-stu-id="e2ab8-106">For more information, see [Manage Projects](projects-manage-projects.md).</span></span>  
 
-In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.
+<span data-ttu-id="e2ab8-107">In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.</span><span class="sxs-lookup"><span data-stu-id="e2ab8-107">The following table describes a sequence of tasks, with links to the topics that describe them.</span></span>
 
-| An | Siehe |
+| <span data-ttu-id="e2ab8-108">An</span><span class="sxs-lookup"><span data-stu-id="e2ab8-108">To</span></span> | <span data-ttu-id="e2ab8-109">Siehe</span><span class="sxs-lookup"><span data-stu-id="e2ab8-109">See</span></span> |
 | --- | --- |
-| Legen Sie Ihre Ressourcen und die verwandten Kosten und Preise fest, entweder für einzelne Ressourcen, für Ressourcengruppen oder für alle verfügbaren Ressourcen des Unternehmens. |[Vorgehensweise: Ressourcen einrichten](projects-how-setup-resources.md) |
-| Mit Arbeitszeittabellen kann eine Ressource den Zeitverbrauch für eine Mitarbeiter oder einen Arbeitsplatz einfach melden, und ein Manager kann den Verbrauch und die Verteilung einfach überprüfen. |[Gewusst wie: Einrichten von Arbeitszeittabellen](projects-how-setup-time-sheets.md) |
-| Erstellen Sie Projektkarten und bereiten Sie Projektaufgaben vor. Richten Sie Preise für Projektartikel und Projektressourcen ein und definieren Sie Projektbuchungsgruppen. |[So wird's gemacht: Projekte einrichten](projects-how-setup-jobs.md) |
+| <span data-ttu-id="e2ab8-110">Legen Sie Ihre Ressourcen und die verwandten Kosten und Preise fest, entweder für einzelne Ressourcen, für Ressourcengruppen oder für alle verfügbaren Ressourcen des Unternehmens.</span><span class="sxs-lookup"><span data-stu-id="e2ab8-110">Set up your resources and the related costs and prices, either for individual resources, resource groups, or for all available resources of the company.</span></span> |[<span data-ttu-id="e2ab8-111">Vorgehensweise: Ressourcen einrichten</span><span class="sxs-lookup"><span data-stu-id="e2ab8-111">How to: Set Up Resources</span></span>](projects-how-setup-resources.md) |
+| <span data-ttu-id="e2ab8-112">Mit Arbeitszeittabellen kann eine Ressource den Zeitverbrauch für eine Mitarbeiter oder einen Arbeitsplatz einfach melden, und ein Manager kann den Verbrauch und die Verteilung einfach überprüfen.</span><span class="sxs-lookup"><span data-stu-id="e2ab8-112">Enable resources to report time usage for an individual or a machine and enable a manager to review the usage and its allocation.</span></span> |[<span data-ttu-id="e2ab8-113">Gewusst wie: Einrichten von Arbeitszeittabellen</span><span class="sxs-lookup"><span data-stu-id="e2ab8-113">How to: Set Up Time Sheets</span></span>](projects-how-setup-time-sheets.md) |
+| <span data-ttu-id="e2ab8-114">Erstellen Sie Projektkarten und bereiten Sie Projektaufgaben vor.</span><span class="sxs-lookup"><span data-stu-id="e2ab8-114">Create job cards and prepare job tasks.</span></span> <span data-ttu-id="e2ab8-115">Richten Sie Preise für Projektartikel und Projektressourcen ein und definieren Sie Projektbuchungsgruppen.</span><span class="sxs-lookup"><span data-stu-id="e2ab8-115">Set up prices for job items and job resources and define job posting groups.</span></span> |[<span data-ttu-id="e2ab8-116">So wird's gemacht: Projekte einrichten</span><span class="sxs-lookup"><span data-stu-id="e2ab8-116">How to: Set Up Jobs</span></span>](projects-how-setup-jobs.md) |
 
-## <a name="see-also"></a>Siehe auch
-[Projekte verwalten](projects-manage-projects.md)  
-[Finanzen](finance.md)  
-[Einkauf](purchasing-manage-purchasing.md)         
-[Verkauf](sales-manage-sales.md)     
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+## <a name="see-also"></a><span data-ttu-id="e2ab8-117">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="e2ab8-117">See Also</span></span>
+[<span data-ttu-id="e2ab8-118">Projekte verwalten</span><span class="sxs-lookup"><span data-stu-id="e2ab8-118">Manage Projects</span></span>](projects-manage-projects.md)  
+[<span data-ttu-id="e2ab8-119">Finanzen</span><span class="sxs-lookup"><span data-stu-id="e2ab8-119">Finance</span></span>](finance.md)  
+<span data-ttu-id="e2ab8-120">[Einkauf](purchasing-manage-purchasing.md)       </span><span class="sxs-lookup"><span data-stu-id="e2ab8-120">[Purchasing](purchasing-manage-purchasing.md)       </span></span>  
+<span data-ttu-id="e2ab8-121">[Verkauf](sales-manage-sales.md)   </span><span class="sxs-lookup"><span data-stu-id="e2ab8-121">[Sales](sales-manage-sales.md)   </span></span>  
+<span data-ttu-id="e2ab8-122">[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="e2ab8-122">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
 
