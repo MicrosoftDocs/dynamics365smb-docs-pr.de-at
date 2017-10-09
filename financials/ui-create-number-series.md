@@ -11,12 +11,11 @@ ms.workload: na
 ms.search.keywords: numbers, numbering
 ms.date: 06/02/2017
 ms.author: solsen
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 7cc119c5879400adf63e468259a2c3a275b71cca
 ms.contentlocale: de-at
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-create-number-series"></a>So geht es: Erstellen von Nummernserien
@@ -27,7 +26,7 @@ Für jeden eingerichteten Mandanten müssen eindeutige Identifizierungscodes fü
 
 Ein Nummerierungssystem wird durch Einrichten mindestens eines Codes für die einzelnen Arten von Masterdaten oder Belegen eingerichtet. So können Sie beispielsweise einen Code für die Nummerierung von Debitoren, einen weiteren Code für die Nummerierung von Verkaufsrechnungen und einen weiteren Code für die Nummerierung von Belegen in Fibu Buch.-Blättern einrichten. Nachdem ein Code eingerichtet wurde, muss mindestens eine Nummernserienzeile eingerichtet werden. Die Nummernserienzeile enthält Informationen wie die erste und die letzte Nummer der Serie sowie das Startdatum. Pro Nummernseriencode lassen sich mehrere Nummernserienzeilen mit unterschiedlichem Startdatum einrichten. Die Serie wird fortlaufend verwendet, wobei jede Serie zum entsprechenden Startdatum beginnt.
 
-Sie legen in der Regel die Nummernserie fest, um automatisch die nächste fortlaufende Nummer auf neuen Karten oder Dokumente einzusetzen, die Sie erstellen. Sie können eine Nummernserie festlegen, bei der Sie manuell die neue Nummer eingeben können. Sie definieren dies mit **Manuelle Nr.** Kontrollkästchen aktivieren.
+Sie legen in der Regel die Nummernserie fest, um automatisch die nächste fortlaufende Nummer auf neuen Karten oder Dokumente einzusetzen, die Sie erstellen. Sie können eine Nummernserie festlegen, bei der Sie manuell die neue Nummer eingeben können. Sie definieren dies mit dem Kontrollkästchen **Manuelle Nr.**
 
 Verwenden Sie Nummernserienbeziehungen, wenn Sie für eine Masterdatenart mehrere Nummernseriencodes verwenden möchten – beispielsweise, um für unterschiedliche Artikelkategorien unterschiedliche Nummernserien zu verwenden.
 
@@ -36,7 +35,7 @@ Verwenden Sie Nummernserienbeziehungen, wenn Sie für eine Masterdatenart mehrer
 2. Wählen Sie die Aktion **Neu** aus.
 3. Auf der neuen Zeile füllen Sie die Felder wie erforderlich aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-***** TIPP *****: Um manuelle Eingabe einer neuen Nummer auf Karten oder Belegen zu ermöglichen, wählen Sie " **Standardnr.** Kontrollkästchen und dann **Manuelle Nr.** Kontrollkästchen aktivieren.
+**TIPP**: Um manuelle Eingabe einer neuen Nummer auf Karten oder Belegen zu ermöglichen, wählen Sie das Kontrollkästchen **Standardnr.** aus und wählen Sie das Kontrollkästchen **Manuelle Nr.**.
 
 Wenn Sie nun eine neue Karte oder einen neuen Beleg erstellen, der eingerichtet ist, die gewünschten Nummernserien zu verwenden, können Sie die **Nr.** manuell ausfüllen Feld mit beliebigem Wert.  
 
