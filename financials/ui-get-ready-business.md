@@ -1,6 +1,6 @@
 ---
 title: Willkommen| Microsoft Docs
-description: "Gliedert die unterstützten Einrichtungshandbücher, Videos, Hilfethemen, Seiten und Fenster, die sie verwenden, um Dynamics 365 for Financials zu nutzen."
+description: "Gliedert die unterstützten Einrichtungshandbücher, Videos, Hilfethemen, Seiten und Fenster, die sie verwenden, um Dynamics 365 Business edition zu nutzen."
 documentationcenter: 
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
@@ -12,16 +12,16 @@ ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
 ms.date: 03/21/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 129cc1326b9a35a41f0c12db51af25de6dc4fa3b
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: e6a467f526b8bb1c55af686817ed3e419b214dbb
 ms.contentlocale: de-at
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="getting-ready-for-doing-business"></a>Vorbereitungen zum Tätigen von Geschäften
 Glückwünsche, Sie haben soeben Ihren ersten Mandanten in [!INCLUDE[d365fin](includes/d365fin_md.md)]  eingerichtet.
 
-Für Unterstützung zum Tätigen vom Geschäften erhalten, können Sie das Fenster **Geschäfts-Hilfe** aufsuchen. Dort können Sie die unterstützte Hilfe starten oder Hilfethemen für ausgewählte Einrichtungsaufgaben aufrufen. Sie rufen das Fenster aus dem Diagramm im Rollencenter zu **Geschäftsführer** auf, indem Sie das Steuerelement ***** Geschäfts-Hilfe ***** auswählen, und dann die Aktion **Einrichtungs- und Hilfe-Ressourcen anzeigen** auswählen. Wenn Sie die Seite aktualisieren, wird das Diagramm der Einrichtungs- und Hilferessourcen ersetzt.
+Für Unterstützung zum Tätigen vom Geschäften erhalten, können Sie das Fenster **Geschäfts-Hilfe** aufsuchen. Dort können Sie die unterstützte Hilfe starten oder Hilfethemen für ausgewählte Einrichtungsaufgaben aufrufen. Sie rufen das Fenster aus dem Diagramm im Rollencenter zu **Geschäftsführer** auf, indem Sie das Steuerelement **Geschäfts-Hilfe** auswählen, und dann die Aktion **Einrichtungs- und Hilfe-Ressourcen anzeigen** auswählen. Wenn Sie die Seite aktualisieren, wird das Diagramm der Einrichtungs- und Hilferessourcen ersetzt.
 
 Auf der Homepage am unteren Rand des Navigationsbereichs finden Sie das Menü **Einrichtung und Erweiterungen**. Erweitern Sie die Schaltfläche **Startseite**, um den Navigationsbereich anzuzeigen. Hier sehen Sie eine Übersicht der unterstützten Einrichtung , die Ihnen bei den ersten Schritten helfen kann. Sobald Sie Daten wie Debitoren, Kreditoren und Artikel von Ihrem vorhandenen Finanzsystem migriert haben, können Sie bereit damit zu beginnen. Je nach Ihrem Bedarf sollten Sie in Betracht ziehen, ob die unterstützte Einrichtung Ihnen helfen kann. Wenn ein Bereich nicht durch eine unterstützte Einrichtung abgedeckt wird, wählen Sie die Aktion **Manuelle Einrichtung**  aus, um auf das Einrichtungsfenster zuzugreifen, in dem Sie Einrichtungsfelder für alle Bereiche manuell ausfüllen können. Weitere Informationen finden Sie unter [Einrichten von [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)
 
@@ -30,7 +30,7 @@ Auf der Homepage am unteren Rand des Navigationsbereichs finden Sie das Menü **
 
 Im Fenster **Unterstützte Einrichtung** finden Sie Folgendes in der Umgebung **Basic**:
 
-| Unterstützte Einrichtung | Description |
+| Unterstützte Einrichtung | Beschreibung |
 | --- | --- |
 | Meine Unternehmen einrichten |Erstellt ein neues Testunternehmen, für das Sie Daten eingeben und mit dem Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] testen können. Wenn Sie die Erste-Schritte-Tour durchlaufen haben, ist dieses möglicherweise bereits **Abgeschlossen**. |
 | Geschäftsdaten migrieren |Lässt Sie Ihre vorhandenen Firmendaten wie Debitoren, Kreditoren und Artikel aus Excel oder aus Quickbooks importieren. |
@@ -59,7 +59,7 @@ Im [!INCLUDE[d365fin](includes/d365fin_md.md)]  finden Sie die Hilfethemen, die 
 Auf Grundlage Ihre migrierten Daten können Sie jetzt fortfahren, um neue Verkäufe oder Einkaufsbelege zu erstellen. Verwenden Sie den Bereich **Mein Unternehmen** im Abschnitt **Startseite**, um rasch ein neues Verkaufsangebot, eine Verkaufsrechnung, ein Verkaufsauftrag, eine Einkaufsrechnung oder eine Zahlungsregistrierung zu erstellen.
 
 ## <a name="see-also"></a>Siehe auch
-[Willkommen bei [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
+[Willkommen bei [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Vorgehensweise: Verwalten Sie Benutzer und Berechtigungen](ui-how-users-permissions.md)
 
