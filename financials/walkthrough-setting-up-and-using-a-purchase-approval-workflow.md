@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: 7ce4b45d740e50bba8256e72fcf43c70ea85922c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 58c243000bea5b70666b2a08cdd5696444e22f0f
 ms.contentlocale: de-at
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Exemplarische Vorgehensweise: Einrichten und Nutzen eines Einkaufsanfrage-Genehmigungsworkflows
@@ -115,7 +115,7 @@ Geben Sie an, wie und wann Sie über Genehmigungsanforderungen benachrichtigt we
 Stellen Sie sicher, dass die Aufgabenwarteschlange in Ihrer Installation so eingerichtet wurde, dass Workflowbenachrichtigungen verarbeitet werden.  
 
 ### <a name="to-start-the-notify-job-queue"></a>So starten Sie die Aufgabenwarteschlange für Benachrichtungen  
-1.  Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen]Symbol (media/ui-search/search_small.png "")Nach Seite oder Bericht suchen und geben **Projektwarteschlange** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen Symbol") und geben **Projektwarteschlange** ein. Wählen Sie dann den zugehörigen Link aus.  
 2.  Im Fenster **Projektwarteschlange** wählen Sie die Zeile für die Aufgabenwarteschlange BENACHR. aus, und wählen anschließend auf der Registerkarte **Start** in der Gruppe **Vorgang** die Option **Aufgabenwarteschlange** starten aus.  
 
 ## <a name="using-the-approval-workflow"></a>Nutzung des Genehmigungsworkflows  
@@ -158,14 +158,14 @@ Sie haben jetzt einen einfachen Genehmigungsworkflow auf Grundlage die ersten be
 
 Die Basisversion von [!INCLUDE[d365fin](includes/d365fin_md.md)] umfasst mehrere Workflowvorlagen für Szenarien, die durch den Anwendungscode unterstützt werden. Die meisten dieser Worflowvorlagen sind Genehmigungsworkflows. Weitere Informationen finden Sie unter Workflow Vorlagen  
 
-Sie definieren Workflowsvariationen, indem Sie die Felder in den Workflowzeilen über vordefinierte vom Anwendungscode unterstützten Listen mit Ereignissen und Reaktionen ausfüllen. Weitere Informationen finden Sie unter [Gewusst wie: Workflows erstellen](across-how-to-create-workflows.md).  
+Sie definieren Workflowsvariationen, indem Sie die Felder in den Workflowzeilen über vordefinierte vom Anwendungscode unterstützten Listen mit Ereignissen und Reaktionen ausfüllen. Weitere Informationen finden Sie unter [Workflows erstellen](across-how-to-create-workflows.md).  
 
 Wenn ein Szenario ein Workflowereignis oder -antwort benötigt, die nicht unterstützt wird, muss ein Microsoft-Partner diese implementieren, indem er den Anwendungscode anpasst. Weitere Informationen finden Sie unter [Exemplarische Vorgehensweise: Implementieren von neuen Workflowereignissen und von Kampagnenreaktionen](/dynamics-nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses) in der Entwickler- und IT-Pro-Hilfe.  
 
 ## <a name="see-also"></a>Siehe auch  
-[Gewusst wie: Einrichten von Genehmigungsbenutzern](across-how-to-set-up-approval-users.md)   
+[Genehmigungsbenutzer einrichten](across-how-to-set-up-approval-users.md)   
 [Einrichten von Workflowbenachrichtigungen](across-setting-up-workflow-notifications.md)   
-[So wird's gemacht: Erstellen von Workflows](across-how-to-create-workflows.md)   
-[Gewusst wie: Genehmigungsworkflow verwenden](across-how-use-approval-workflows.md)   
+[Erstellen eines Workflows](across-how-to-create-workflows.md)   
+[Artikelgenehmigungsworkflow verwenden](across-how-use-approval-workflows.md)   
 [Workflow](across-workflow.md)
 

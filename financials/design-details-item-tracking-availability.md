@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bd69a3da7a0a5e766a232e8999056ac60109e7b1
 ms.openlocfilehash: cdfb96475c46d56f32e5f0133efc7852a10ae446
 ms.contentlocale: de-at
-ms.lasthandoff: 10/02/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-item-tracking-availability"></a>Designdetails: Artikelverfolgungsverfügbarkeit
@@ -24,7 +24,7 @@ Die **Artikelverfolgungszeilen** und **Artikelverlaufs-Zusammenfassung** Fenster
 
  Bei Öffnen des Fensters **Artikelnachverfolgungszeilen** werden Daten aus den Tabellen **Artikelposten** und **Reservierungsposten** abgerufen, jedoch ohne Datumsfilter. Wenn Sie das Feld **Seriennr**. oder das Feld **Chargennr**. auswählen, wird das Fenster  geöffnet und eine Zusammenfassung der **Artikelverfolgungsinformationen**in der Tabelle **Reservierungsposten** angezeigt. Die Zusammenfassung enthält die folgenden Informationen über jede Serien- oder Chargennummer auf der Artikelverfolgungszeile:  
 
-|Feld|Beschreibung|  
+|Feld|Description|  
 |---------------------------------|---------------------------------------|  
 |**Gesamtmenge**|Die Gesamtmenge der aktuell im Lager vorhandenen Chargen- oder Seriennummern.|  
 |**Total angeforderte Menge**|Enthält die Gesamtmenge der aktuell angeforderten Chargen- oder Seriennummer in allen Belegen.|  

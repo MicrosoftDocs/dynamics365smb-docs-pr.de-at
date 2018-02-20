@@ -1,6 +1,6 @@
 ---
 title: 'Designdetails: Durchschnittskosten | Microsoft Docs'
-description: Die Durchschnittskosten eines Artikels werden mit einem periodischen gewichteten Durchschnitt berechnet, basierend auf der Durchschnittskostenperiode, die in Dynamics 365  eingerichtet wurde.
+description: Die Durchschnittskosten eines Artikels werden mit einem periodischen gewichteten Durchschnitt berechnet, basierend auf der Durchschnittskostenperiode, die in Finance and Operations, Business edition eingerichtet wurde.
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 70a0773826984bab5c49334a88ea48872a629023
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 9e04bd1dbbae80cd209b28c14764fbf7dc7f0934
 ms.contentlocale: de-at
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="design-details-average-cost"></a>Designdetails: Durchschnittskosten
@@ -25,7 +25,7 @@ Die Durchschnittskosten eines Artikels werden mit einem periodischen gewichteten
 ## <a name="setting-up-average-cost-calculation"></a>Einrichten der-Durchschnittskostenberechnung  
  In der folgenden Tabelle werden die beiden Felder im Fenster **Lager einrichten**beschrieben, die ausgefüllt werden müssen, um die Durchschnittskostenberechnung zu aktivieren.  
 
-|Feld|Beschreibung|  
+|Feld|Description|  
 |---------------------------------|---------------------------------------|  
 |**Durchschnittskostenperiode**|Gibt an, in welcher Periode die Durchschnittskosten berechnet werden. Folgende Optionen sind verfügbar:<br /><br /> -   **Tag**<br />-   **Woche**<br />-   **Monat**<br />-   **Buchhaltungsperiode**<br /><br /> Für alle Lagerabgänge, die während der Durchschnittskostenperiode gebucht wurden, wird der durchschnittliche Einstandspreis verwendet, der für diese Periode berechnet wurde.|  
 |**Einst.-Pr.(durchschn.)Ber.-Art**|Gibt an, wie die durchschnittlichen Kosten eines Artikels berechnet werden. Folgende Optionen sind verfügbar:<br /><br /> -   **Artikel**<br />-   **Artikel, Variante und Lagerort**<br />     Wenn diese Option ausgewählt ist, berechnet die Anwendung den durchschnittlichen Einstandspreis pro Artikel für jeden Lagerort und für jede Variante des Artikels. Dies bedeutet, dass der durchschnittliche Einstandspreis des Artikels davon abhängt, wo er gelagert wird und welche Variante (z. B. welche Farbe) des Artikels Sie ausgewählt haben.|  
@@ -71,8 +71,8 @@ Die Durchschnittskosten eines Artikels werden mit einem periodischen gewichteten
 
 |**Artikelnr.**|**Variantencode**|**Lagerortcode**|**Bewertungsdatum**|**Einstandspreis ist reguliert**|  
 |-------------------------------------|-----------------------------------------|------------------------------------------|-------------------------------------------|---------------------------------------------|  
-|ARTIKEL1||BLAU|01-01-20|Nein|  
-|ARTIKEL1||BLAU|02-01-20|Nein|  
+|ARTIKEL1||BLAU|01-01-20|Nr.|  
+|ARTIKEL1||BLAU|02-01-20|Nr.|  
 |ARTIKEL1||BLAU|02-02-20|Nein|  
 |ARTIKEL1||BLAU|02-03-20|Nein|  
 
@@ -138,7 +138,7 @@ Die Durchschnittskosten eines Artikels werden mit einem periodischen gewichteten
 
 |Szenario|Buchungsdatum|Bewertete Menge|Neubewertung|Bewertungsdatum|  
 |--------------|-------------------------------------|-----------------------------------------|-----------------|-----------------------------------------|  
-|1||Positiv|Nein|Buchungsdatum des Artikelpostens|  
+|1||Positiv|Nr.|Buchungsdatum des Artikelpostens|  
 |2|Später als das letzte Bewertungsdatum von ausgeglichenen Wertposten|Negativ|Nein|Buchungsdatum des Artikelpostens|  
 |3|Früher als das letzte Bewertungsdatum von ausgeglichenen Wertposten|Positiv|Nein|Neuestes Bewertungsdatum der ausgeglichenen Wertposten|  
 |4||Negativ|Ja|Zeigt das Buchungsdatum des Neubewertungseintrags an.|  

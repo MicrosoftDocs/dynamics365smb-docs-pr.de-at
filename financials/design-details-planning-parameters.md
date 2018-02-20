@@ -1,6 +1,6 @@
 ---
 title: 'Designdetails: Planungsparameter | Microsoft Docs'
-description: "Dieses Thema beschreibt die verschiedenen Planungsparameter, die Sie in Dynamics 365 verwenden können."
+description: "Dieses Thema beschreibt die verschiedenen Planungsparameter, die Sie in Finance and Operations, Business edition verwenden können."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords: planning, design
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 5ab63063b5ad2ae453ecb9953ba4547f31536ee8
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 335063984ab5d8ef1cbc9187352aa12287f6ade0
 ms.contentlocale: de-at
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="design-details-planning-parameters"></a>Designdetails: Planungsparameter
@@ -44,7 +44,7 @@ Das Feld **Zeitrahmen** wird von Minimalbestandrichtlinien verwendet (**Feste Be
 
 Die Standardsicherheitsbeschaffungszeit im Feld **Herstellung einrichten** sollte mindestens auf einen Tag gesetzt werden. Das Fälligkeitsdatum des Bedarfs ist möglicherweise bekannt, nicht jedoch die Fälligkeitsuhrzeit. Die Planung plant rückwärts, um den Bruttobedarf zu decken, und, wenn kein Sicherheitszuschlag zur Beschaffungszeit definiert ist, können die Waren zu spät eintreffen, um den Bedarf zu decken.  
 
-Drei zusätzlich Wiederbestell-Periodenfelder **Neuplanungsperiode****Loskumulierungsperiode** und  **Toleranzperiode** spielen auch eine Rolle beim Definieren der Wiederbestellung. Weitere Informationen finden Sie unter "Optimieren des Zeitpunktes und der Menge bei einer Neubestellung".  
+Drei zusätzlich Wiederbestell-Periodenfelder **Neuplanungsperiode** **Loskumulierungsperiode** und **Toleranzperiode** spielen auch eine Rolle beim Definieren der Wiederbestellung. Weitere Informationen finden Sie unter "Optimieren des Zeitpunktes und der Menge bei einer Neubestellung".  
 
 ## <a name="define-how-much-to-reorder"></a>Definieren Sie, wie viel neu bestellt werden soll  
 Wenn das Planungssystem die Notwendigkeit einer Neubestellung erkennt, wird das ausgewählte Wiederbeschaffungsverfahren verwendet, um zu ermitteln, wann und wie viel bestellt werden soll.  
@@ -57,7 +57,7 @@ Unabhängige vom Wiederbeschaffungsverfahrens folgt das Planungssystem normalerw
 4. Wenn mehr Grobbedarf vor dem Fälligkeitsdatum des vorwärts geplanten Auftragsvorschlag besteht und dieser Bedarf den derzeit geplanten voraussichtlich verfügbaren Lagerbestand unter den Sicherheitsbestand bringt, wird die Auftragsmenge entsprechend erhöht. Die vorgeschlagene Beschaffungsauftrag wird dann vom Fälligkeitsdatum dieses Grobbedarfs, der den Sicherheitsbestand unterschritten hätte, rückwärts geplant.  
 5. Wenn das Feld **Zeitrahmen** nicht ausgefüllt ist, wird nur der Bruttobedarf am gleichen Fälligkeitsdatum hinzugefügt.  
 
-     Drei zusätzlich Wiederbestell-Periodenfelder **Neuplanungsperiode****Loskumulierungsperiode** und  **Toleranzperiode** spielen auch eine Rolle beim Definieren der Wiederbestellung. Weitere Informationen finden Sie unter "Optimieren des Zeitpunktes und der Menge bei einer Neubestellung".  
+     Drei zusätzlich Wiederbestell-Periodenfelder **Neuplanungsperiode** **Loskumulierungsperiode** und **Toleranzperiode** spielen auch eine Rolle beim Definieren der Wiederbestellung. Weitere Informationen finden Sie unter "Optimieren des Zeitpunktes und der Menge bei einer Neubestellung".  
 
 ### <a name="reordering-policies"></a>Wiederbeschaffungsverfahren  
 Die folgenden Wiederbeschaffungsrichtlinien beeinflussen die Menge, die nachbestellt wird.  
@@ -80,7 +80,7 @@ Um einen rationalen Beschaffungsplan zu erhalten, kann ein Planer Planungsparame
 
 Die Terminierung für die Neuplanungsperiode, die Toleranzperiode und die Loskumulierungsperiode basiert auf einem Lieferdatum. Das Zeitrahmen basiert auf dem Planungsstartdatum, wie in der folgenden Abbildung gezeigt.  
 
-![Zeitrahmen-Elemente] (media/supply_planning_5_time_bucket_elements.png "supply_planning_5_time_bucket_elements")  
+![Zeitrahmen-Elemente](media/supply_planning_5_time_bucket_elements.png "supply_planning_5_time_bucket_elements")  
 
 In den folgenden Beispielen stellen die schwarzen Pfeile vorhandenen Bedarf (aufwärts) und Bedarf dar (abwärts). Rote, grüne und orange Pfeile sind Planungsvorschläge.  
 

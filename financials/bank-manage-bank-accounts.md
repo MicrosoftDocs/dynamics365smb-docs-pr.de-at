@@ -13,10 +13,10 @@ ms.search.keywords: reconcile
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
-ms.openlocfilehash: 2e8314c6da4da73712787a40204a964922f153f4
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 0d126a89064c3e899f864e63647e76f5e59e1666
 ms.contentlocale: de-at
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-bank-accounts"></a>Verwalten von Bankkonten
@@ -31,13 +31,16 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 | Aktion | Siehe |
 | --- | --- |
 | Abstimmen von Bankkonten in Verbindung mit der Zahlungsverarbeitung im Fenster **Zahlungsabstimmungsbuch.-Blatt**. |[Zahlungen automatisch vornehmen und Bankkonten abstimmen](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
-| Abstimmen von Bankkonten, inklusive Scheckposten, als separate Aufgabe im Fenster **Bankkontoabstimmung**. |[Gewusst wie: Bankkonten separat abstimmen](bank-how-reconcile-bank-accounts-separately.md) |
-| Buchen von Überweisungen zwischen Bankkonten in der gleichen oder in unterschiedlichen Währungen. |[Gewusst wie: Bank-Geldmittel überweisen](bank-how-transfer-bank-funds.md) |
+| Abstimmen von Bankkonten, inklusive Scheckposten, als separate Aufgabe im Fenster **Bankkontoabstimmung**. |[Bankkonten separat abstimmen](bank-how-reconcile-bank-accounts-separately.md) |
+| Buchen von Überweisungen zwischen Bankkonten in der gleichen oder in unterschiedlichen Währungen. |[Bank-Geldmittel überweisen](bank-how-transfer-bank-funds.md) |
 
 ## <a name="see-also"></a>Siehe auch
 [Einrichten von Banken](bank-setup-banking.md)  
 [Verwalten von Forderungen](receivables-manage-receivables.md)  
-[Verwalten von Verbindlichkeiten](payables-manage-payables.md)    
+[Verwalten von Verbindlichkeiten|](payables-manage-payables.md)    
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)  
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

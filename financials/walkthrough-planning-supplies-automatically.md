@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: bbe470538bb79e9f6fb6860ee32d75b5d56db9e8
 ms.contentlocale: de-at
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="walkthrough-planning-supplies-automatically"></a>Exemplarische Vorgehensweise: Automatische Beschaffungsplanung
@@ -90,7 +90,7 @@ Die Begriffe "Planung ausführen" oder "Nettobedarf ausführen" beziehen sich au
 
 ### <a name="to-create-the-sales-order"></a>So erstellen Sie den Verkaufsauftrag  
 
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus, geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link aus.  
+1.  Alternativ wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Verkaufsauftrag** ein. Wählen Sie dann den zugehörigen Link aus.  
 2.  Wählen Sie die Aktion **Neu** aus.  
 3.  Füllen Sie im Fenster **Verkaufsauftrag** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
@@ -102,7 +102,7 @@ Die Begriffe "Planung ausführen" oder "Nettobedarf ausführen" beziehen sich au
 
 ### <a name="to-create-a-regenerative-plan-to-fulfill-demand-at-location-blue"></a>So erstellen Sie eine Neuplanung, um den Bedarf am Standort BLAU zu erfüllen  
 
-1.  Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen] Symbol (media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Arbeitszeitplanung** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen Symbol") aus und geben Sie **Arbeitszeitplanung** ein. Wählen Sie dann den zugehörigen Link aus.  
 2.  Wählen Sie die **Neuplanung berechnen** Aktion aus.  
 3.  Im **Arbeitsplan - Plan berechnen** Fenster füllen Sie die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
@@ -125,7 +125,7 @@ Die Begriffe "Planung ausführen" oder "Nettobedarf ausführen" beziehen sich au
 
 ### <a name="to-calculate-mrp-to-include-underlying-component-needs"></a>Nettobedarf berechnen, um den Bedarf zugrunde liegender Komponenten einzuschließen  
 
-1.  Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen] Symbol (media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Arbeitszeitplanung** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen Symbol") aus und geben Sie **Arbeitszeitplanung** ein. Wählen Sie dann den zugehörigen Link aus.  
 2.  Wählen Sie die **Neuplanung berechnen** Aktion aus.  
 3.  Im **Arbeitsplan - Plan berechnen** Fenster füllen Sie die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
@@ -219,7 +219,7 @@ Die Begriffe "Planung ausführen" oder "Nettobedarf ausführen" beziehen sich au
 
 3.  Akzeptieren Sie die Verfügbarkeitswarnung und klicken Sie auf **Ja**, um die Bedarfsmenge zu erfassen.  
 4.  Als Nächstes führen Sie die Neuplanung durch, um den aktuellen Beschaffungsplan anzupassen.  
-5.  Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen] Symbol (media/ui-search/search_small.png "Nach Seite oder Bericht suchen") aus und geben Sie **Arbeitszeitplanung** ein. Wählen Sie dann den zugehörigen Link aus.  
+5.  Wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen Symbol") aus und geben Sie **Arbeitszeitplanung** ein. Wählen Sie dann den zugehörigen Link aus.  
 6.  Wählen Sie die **Nettoveränderung berechnen** Aktion aus.  
 7.  Im **Arbeitsplan - Plan berechnen** Fenster füllen Sie die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
