@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 40f8d00c8ee064fdee4b676e4863279ec9e50d6d
 ms.contentlocale: de-at
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="connecting-to-your-financials-data-to-build-a-business-app-using-powerapps"></a>Verknüpfung an Ihre Finanzdaten, um eine Geschäfts-App mithilfe PowerApps zu erstellen
@@ -31,7 +31,7 @@ Sie können die Daten [!INCLUDE[d365fin](includes/d365fin_md.md)] als Datenquell
 3. Wählen Sie den Editor, PowerApps-Studio für Windows oder PowerApps-Studio für Internet aus.
 
    PowerApps-Studio für Windows ist eine Desktop-Anwendung, die verwendet wird, um PowerApps zu erstellen und zu veröffentlichen. PowerApps-Studio für Internet ist eine Online-Lösung, die verwendet wird, um PowerApps zu erstellen und zu veröffentlichen.
-4. Der nächste Schritt, um ein PowerApp zu erstellen ist die Auswahl der Daten. Wählen Sie das Pfeilsymbol aus und wählen Sie dann die Option **Neue Verbindung** in der oberen linken Seite der Seite aus.
+4. Der nächste Schritt, um ein PowerApp zu erstellen ist die Auswahl der Daten. Wählen Sie das Pfeilsymbol aus und wählen Sie dann die Option ***** Neue Verbindung ***** in der oberen linken Seite der Seite aus.
 5. In der Liste der verfügbaren Verbindungscodes, wählen Sie **Dynamics 365 for Finance and Operations, Business edition** aus.
 6. PowerApps zeigt eine Verbindungsseite an, die Sie zur Eingabe der Informationen auffordert, die benötigt werden, um sich mit Ihren [!INCLUDE[d365fin](includes/d365fin_md.md)] Daten zu verbinden. Zum Verbinden, müssen Sie eine OData URL, Benutzername, Mandantenname und Kennwort angeben.
 
