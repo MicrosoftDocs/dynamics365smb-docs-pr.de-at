@@ -13,8 +13,8 @@ ms.search.keywords: policy, coverage
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ae2c552c4e3c43a17f481d3dce1657c5a870372d
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 1c84275357b6bf5726a7c60396ad22b4670de3e1
 ms.contentlocale: de-at
 ms.lasthandoff: 03/22/2018
 
@@ -58,7 +58,7 @@ Nachfolgend wird beschrieben, wie Sie eine Versicherungs Buch.-Blattzeile manuel
 ## <a name="to-update-the-insurance-value-of-a-fixed-asset"></a>So aktualisieren Sie den Versicherungswert einer Anlage
 Sie können die Stapelverarbeitung **Indexiere Versicherung** verwenden, um den Wert der versicherten Anlagen zu aktualisieren.  
 
-1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Versicherung indexieren** ein. Wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Versicherung indexieren** ein. Wählen Sie dann den zugehörigen Link aus.
 2. Füllen Sie die Felder je nach Bedarf aus.
 
     > [!NOTE]  

@@ -11,8 +11,8 @@ ms.search.keywords: GetAddress.io, postcodes, postal, address, extension
 ms.date: 04/20/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6e6875a7f09417017a3d80909ef11511359d0164
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 1b3bf0abcf6ccb19c9c399849a03cee5c470ade8
 ms.contentlocale: de-at
 ms.lasthandoff: 03/22/2018
 
@@ -26,7 +26,7 @@ Die britische Postleitzahlerweiterung GetAddress.io kann Zeit sparen und hilft F
 
     > [!NOTE]  
     >   Die Option **Adresse aus der Postleitzahl suchen** ist nur verfügbar, wenn das Feld **Länder-/Regionscode** entweder leer oder **GB** enthält.
-2. Im Fenster ***** Postleitzahl-Suche ***** im Feld ***** Postleitzahl *****, geben Sie die Postleitzahl ein oder wählen Sie diese aus.  
+2. Im Fenster **Postleitzahl-Suche** im Feld **Postleitzahl**, geben Sie die Postleitzahl ein oder wählen Sie diese aus.  
 3. Im Fenster **Adressen-Auswahl** wählen Sie die Adresse aus.  
 
 > [!TIP]  

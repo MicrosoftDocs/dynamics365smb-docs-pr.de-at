@@ -1,8 +1,6 @@
 ---
 title: 'Gewusst wie: Lieferbenachrichtigungen manuell erstellen'
 description: "In Business Central können Sie Lieferbenachrichtigungen erstellen, wenn eine Bestellung nicht wie erwartet geliefert wurde."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,18 +11,12 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 01da5391b5ea218c15f893eb654cb48903d77436
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 66c0f7f983711dae359f057ff3b4ebdce1c65da7
 ms.contentlocale: de-at
 ms.lasthandoff: 03/22/2018
 
 ---
-<a name="-head"></a><<<<<<< KOPF
-=======
-# <a name="create-delivery-reminders-manually"></a>So erstellen Sie Lieferanmahnungen manuell
-<a name="in-included365finincludesd365finmdmd-you-can-create-delivery-reminders-when-a-purchase-has-not-been-delivered-as-expected-you-can-create-a-single-delivery-reminder-manually-or-you-can-generate-delivery-reminders-for-all-overdue-deliveries-for-more-information-see-generate-delivery-remindershow-to-generate-delivery-remindersmd"></a>In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] können Sie Lieferbenachrichtigung erstellen, wenn ein Kauf nicht wie erwartet geliefert wurde.. Sie können manuell eine einzelne Lieferbenachrichtigung erstellen oder Lieferbenachrichtigung für alle überfälligen Lieferungen generieren lassen. Weitere Informationen finden Sie unter [Lieferbenachrichtigungen erstellen](how-to-generate-delivery-reminders.md).
-=======
->>>>>>> refs/remotes/origin/Update14
 # <a name="create-delivery-reminders-manually"></a>So erstellen Sie Lieferanmahnungen manuell
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], können Sie Lieferbenachrichtigungen erstellen, wenn eine Bestellung nicht wie erwartet geliefert wurde. Sie können eine einzelne Lieferbenachrichtigung manuell erstellen oder Sie können Lieferbenachrichtigungen für alle überfälligen Lieferungen erstellen. Weitere Informationen finden Sie unter [Lieferbenachrichtigungen erstellen](how-to-generate-delivery-reminders.md).
 

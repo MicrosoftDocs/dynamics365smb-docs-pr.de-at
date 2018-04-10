@@ -13,8 +13,8 @@ ms.search.keywords: Odata, Power App, SOAP
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8db67d30ba18e9f7dba14b93ddf7b4de6e2b6444
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 0e6310e9789e8a0f2ceaed44f1209cdcf425ef1e
 ms.contentlocale: de-at
 ms.lasthandoff: 03/22/2018
 
@@ -31,7 +31,7 @@ Sie können die Daten [!INCLUDE[d365fin](includes/d365fin_md.md)] als Datenquell
 3. Wählen Sie den Editor, PowerApps-Studio für Windows oder PowerApps-Studio für Internet aus.
 
    PowerApps-Studio für Windows ist eine Desktop-Anwendung, die verwendet wird, um PowerApps zu erstellen und zu veröffentlichen. PowerApps-Studio für Internet ist eine Online-Lösung, die verwendet wird, um PowerApps zu erstellen und zu veröffentlichen.
-4. Der nächste Schritt, um ein PowerApp zu erstellen ist die Auswahl der Daten. Wählen Sie das Pfeilsymbol aus und wählen Sie dann die Option ***** Neue Verbindung ***** in der oberen linken Seite der Seite aus.
+4. Der nächste Schritt, um ein PowerApp zu erstellen ist die Auswahl der Daten. Wählen Sie das Pfeilsymbol aus und wählen Sie dann die Option **Neue Verbindung** in der oberen linken Seite der Seite aus.
 5. In der Liste der verfügbaren Verbindungscodes, wählen Sie **Dynamics 365 Business Central** aus.
 6. PowerApps zeigt eine Verbindungsseite an, die Sie zur Eingabe der Informationen auffordert, die benötigt werden, um sich mit Ihren [!INCLUDE[d365fin](includes/d365fin_md.md)] Daten zu verbinden. Zum Verbinden, müssen Sie eine OData URL, Benutzername, Mandantenname und Kennwort angeben.
 
@@ -49,12 +49,12 @@ Sie können die Daten [!INCLUDE[d365fin](includes/d365fin_md.md)] als Datenquell
 9. Wiederholen Sie die vorherigen Schritte, um zusätzliche [!INCLUDE[d365fin](includes/d365fin_md.md)] Daten Ihrem Power BI Datenmodell hinzuzufügen.
 
    > [!NOTE]  
->    Sobald Sie sich erfolgreich verbunden haben mit [!INCLUDE[d365fin](includes/d365fin_md.md)] werden Sie nicht erneut nach OData URL, Benutzername oder Kennwort gefragt.
+   >    Sobald Sie sich erfolgreich verbunden haben mit [!INCLUDE[d365fin](includes/d365fin_md.md)] werden Sie nicht erneut nach OData URL, Benutzername oder Kennwort gefragt.
 
 Zu diesem Zeitpunkt haben Sie erfolgreich Ihre Business Central Daten verbunden und sind bereit, Ihre PowerApp zu bauen. Weitere Informationen finden Sie in der [PowerApps Dokumentation](https://powerapps.microsoft.com/tutorials/getting-started/).
 
 ## <a name="see-also"></a>Siehe auch
-[Willkommen bei [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Erste Schritte](product-get-started.md)  
 [Geschäftsdaten aus anderen Finanzsystemen migrieren](upload-data.md)  
 [Einrichten [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Finanzen](finance.md)  
