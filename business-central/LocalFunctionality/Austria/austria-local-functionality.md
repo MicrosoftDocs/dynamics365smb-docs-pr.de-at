@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 29da7b2dff85d812e563ef140140f3372b71c9c3
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: cc088771c8e57d75c1be054980a21e4c4545b455
 ms.contentlocale: de-at
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="austria-local-functionality"></a><span data-ttu-id="e03d1-103">Lokale Funktion (Österreich)</span><span class="sxs-lookup"><span data-stu-id="e03d1-103">Austria Local Functionality</span></span>
@@ -36,5 +36,5 @@ ms.lasthandoff: 03/22/2018
 <span data-ttu-id="e03d1-114">[Arbeiten mit [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="e03d1-114">[Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)</span></span>
 
 ## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](../../includes/training_link_md.md)]
+ 
 
