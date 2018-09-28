@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: cc088771c8e57d75c1be054980a21e4c4545b455
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6308d0cded07abcf8a64e89858d57a7ac13b9d27
 ms.contentlocale: de-at
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="austria-local-functionality"></a><span data-ttu-id="e03d1-103">Lokale Funktion (Österreich)</span><span class="sxs-lookup"><span data-stu-id="e03d1-103">Austria Local Functionality</span></span>

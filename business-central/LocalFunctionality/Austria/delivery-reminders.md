@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4663efda61ddc75adb63c9d834560b7684b26b76
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 5623ff019aaab2c5e9efe21fb620dbce2bb7f730
 ms.contentlocale: de-at
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="delivery-reminders"></a><span data-ttu-id="50486-103">Lieferbenachrichtigungen</span><span class="sxs-lookup"><span data-stu-id="50486-103">Delivery Reminders</span></span>
@@ -42,7 +42,7 @@ ms.lasthandoff: 03/22/2018
 
 <span data-ttu-id="50486-128">Sie können Belege auch in Bezug auf Bestellzeilen und Verkaufsauftragszeilen nachverfolgen.</span><span class="sxs-lookup"><span data-stu-id="50486-128">You can also track documents in relation to purchase order lines and sales order lines.</span></span>  
 
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)]<span data-ttu-id="50486-129"> stellt die folgenden Berichte bereit:</span><span class="sxs-lookup"><span data-stu-id="50486-129"> provides the following reports:</span></span>  
+[!INCLUDE[d365fin](../../includes/d365fin_md.md)] <span data-ttu-id="50486-129">stellt die folgenden Berichte bereit:</span><span class="sxs-lookup"><span data-stu-id="50486-129"> provides the following reports:</span></span>  
 
 - <span data-ttu-id="50486-130">**Reg. Lieferbenachrichtigung** – Zum Anzeigen der Lieferbenachrichtigungen für Kreditoren.</span><span class="sxs-lookup"><span data-stu-id="50486-130">**Issued Delivery Reminder** - To view the delivery reminders for vendors.</span></span>  
 - <span data-ttu-id="50486-131">**Lieferbenachrichtigung - Test** -, Um die Lieferbenachrichtigung zu prüfen, bevor Sie diese registrieren.</span><span class="sxs-lookup"><span data-stu-id="50486-131">**Delivery Reminder - Test** - To verify the delivery reminders before you issue them.</span></span>  

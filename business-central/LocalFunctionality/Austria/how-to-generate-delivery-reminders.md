@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: b5b2f749b0245efea4188c1de0eda5fbdf816306
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: cec10d193d3f5334e1c3bde09ff1939bee336311
 ms.contentlocale: de-at
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="generate-delivery-reminders"></a><span data-ttu-id="c5756-103">So erstellen Sie Lieferanmahnungen</span><span class="sxs-lookup"><span data-stu-id="c5756-103">Generate Delivery Reminders</span></span>
