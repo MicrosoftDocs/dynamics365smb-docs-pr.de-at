@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8c0535db9e0745f23290c733f1c992e9d61d463f
+ms.sourcegitcommit: 2af7adc4bfa71c12fedd87f02bdabcd78ac49844
+ms.openlocfilehash: 4aa465ec9bb715cc8b5df458af8c8145e34294bd
 ms.contentlocale: de-at
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 10/15/2018
 
 ---
 # <a name="create-a-vat-statement"></a>Erstellen einer MwSt.-Abrechnung
@@ -46,7 +46,7 @@ ms.lasthandoff: 03/22/2018
 3.  Wählen Sie die Schaltfläche **OK** aus.  
 4.  Speichern oder öffnen Sie nach der entsprechenden Aufforderung die generierte XML-Datei und FDF-Datei.  
 
-Wenn Ihre MwSt-Abrechnung fehlerfrei ist, können Sie die FDF-Datei an die Steuerbehörde übermitteln. Weitere Informationen finden Sie online unter [Finanz-Online portal](http://go.microsoft.com/fwlink/?LinkId=239929).  
+Wenn Ihre MwSt-Abrechnung fehlerfrei ist, können Sie die FDF-Datei an die Steuerbehörde übermitteln. Weitere Informationen finden Sie online unter [Finanz-Online portal](https://go.microsoft.com/fwlink/?LinkId=239929).  
 
 ## <a name="see-also"></a>Siehe auch  
 [MwSt.-Abrechnung](vat-reporting.md)

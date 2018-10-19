@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 06/02/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 23a9cd7a8a7f579f63937ac4fc28e6d4958f3f9a
+ms.sourcegitcommit: 2af7adc4bfa71c12fedd87f02bdabcd78ac49844
+ms.openlocfilehash: f0bdc88cb2d52ed8e1558fb140f904f792e539ff
 ms.contentlocale: de-at
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 10/15/2018
 
 ---
 # <a name="close-accounting-periods"></a>Schließen von Buchhaltungsperioden
 Wenn ein Geschäftsjahr vorbei ist, müssen die Perioden, aus denen es besteht, geschlossen werden.
 
 ## <a name="to-close-accounting-periods"></a>Buchhaltungsperioden schließen:
-1. Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **Buchungsperioden** ein. Wählen Sie dann den zugehörigen Link aus.
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Buchungsperioden** ein, und wählen dann den zugehörigen Link aus.
 2. Im Fenster **Buchhaltungsperioden** wählen Sie die Aktion **Jahr abschließen**.
 
     Sind mehrere Geschäftsjahre offen, wird angenommen, dass das früheste automatisch abgeschlossen werden soll. Ein Mitteilungsfenster wird angezeigt, in dem das zu schließende Jahr angegeben wird und die Konsequenzen erklärt werden.

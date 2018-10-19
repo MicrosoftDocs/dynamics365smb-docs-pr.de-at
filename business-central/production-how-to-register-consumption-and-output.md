@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6b36df4ccf85ce9126fe1090e86d2549737e3195
+ms.sourcegitcommit: 2af7adc4bfa71c12fedd87f02bdabcd78ac49844
+ms.openlocfilehash: 03c9439bde3a8e5b1c1caaeae362fcd6609f7a63
 ms.contentlocale: de-at
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 10/15/2018
 
 ---
 # <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Gemeinsames Erfassen und Buchen von Verbrauch und Istmeldungen für eine einzelne freigegebene Fertigungsauftragszeile
@@ -29,7 +29,7 @@ Diese Ausführungsaufgabe wird im Fenster **Produktions Buch.-Blatt** ausgeführ
 >  Komponenten ohne Verbindungscodes werden im Buchungsblatt zuerst aufgeführt.  
 
 ## <a name="to-register-consumption-and-output"></a>Verbrauch und Istmeldungen registrieren  
-1.  Wählen Sie ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen")aus und geben Sie **Freigegebene Produktionsaufträge** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Freigegebene FA** ein, und wählen dann den zugehörigen Link aus.  
 2.  Öffnen Sie eine freigegebene FA-Zeile, die zur Registrierung bereitsteht. Klicken Sie auf dem Inforegister  **Zeilen** auf die Aktion **Zeilen** und klicken Sie dann auf **Produktions Buch.-Blatt**.  
 
     Das Fenster **Produktions Buch.-Blatt** wird geöffnet, und die Buch.-Blattzeilen für den Fertigungsauftrag werden gemäß den Fenstern **FA-Komponente** und **FA-Arbeitsplan** angezeigt. Diese Zeilen stammen aus der Fertigungsstückliste und dem Arbeitsplan, die dem Artikel zugewiesen wurden, der gefertigt wird. Weitere Informationen finden Sie unter [Erstellen von Montagestücklisten](production-how-to-create-routings.md).  

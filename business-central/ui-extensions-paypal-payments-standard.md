@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize
-ms.date: 03/29/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 356f01706f40bdb8fd46871e3dbde73577a78117
+ms.sourcegitcommit: 2af7adc4bfa71c12fedd87f02bdabcd78ac49844
+ms.openlocfilehash: 6aa3eec4afc365789b1fd85d64781593156ba068
 ms.contentlocale: de-at
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 10/15/2018
 
 ---
-# <a name="the-paypal-payments-standard-extension-to-business-central"></a>Die PayPal Payments Standarderweiterung für Business Central 
+# <a name="the-paypal-payments-standard-extension"></a>Die PayPal Payments Standard-Erweiterung
 Debitoren erfordern regelmäßig höheren Kundenservice, sowohl in Bezug auf Produktqualität wie auch in Bezug auf Lieferungs- und Zahlungsoptionen. Mit dem Paypal-Zahlungsstandard-Service erhöhen Sie Ihren Kundenservice.
 
 Als Alternative zu Zahlungen per Banktransfer oder Kreditkarten können Sie Ihren Debitoren anbieten, über Paypal zu bezahlen. Wenn Sie eine Verkaufsrechnung oder einen Verkaufsauftrag per E-Mail versenden, hat es einen Paypal-Link im E-Mail-Text und im angefügten PDF-Dokument. Wenn der Debitor den Link auswählt, erscheint die Service-Seite für Ihr Paypal-Konto mit den Zahlungsdetails für den Verkauf. Der Kunde kann die Rechnung wie jede andere PayPal-Zahlung bezahlen.

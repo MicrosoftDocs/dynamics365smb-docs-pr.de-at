@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e00df5ac20c9fcd692919c622deb237999171fbc
+ms.sourcegitcommit: 2af7adc4bfa71c12fedd87f02bdabcd78ac49844
+ms.openlocfilehash: d16e9405cea366e11ee6319b06052fe0a2b76676
 ms.contentlocale: de-at
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 10/15/2018
 
 ---
 # <a name="about-planning-functionality"></a>Info zu Planungsfunktionen
@@ -76,7 +76,7 @@ Die folgenden Auftragsmodifikationen sind auf der Artikel- oder Lagerhaltungsdat
 Zu den globalen Planungseinrichtungsfeldern im Fenster **Produktion Einrichtung** gehören:  
 
 -   Dyn. Stückl.-Ebene berechnen  
--   Aktuelle Absatzplanung  
+-   Aktuelle Bedarfsplanung  
 -   Absatzpl. pro Lagerort verw.  
 -   Vorg. Sich.-Zuschl. Besch.-Zt.  
 -   Leerer Überlauflevel  
