@@ -10,30 +10,30 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchasing agent
-ms.date: 03/29/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2d27c275bc5a811dcde5e5b338469d97b0630092
+ms.sourcegitcommit: 2af7adc4bfa71c12fedd87f02bdabcd78ac49844
+ms.openlocfilehash: d3fd3e614ae636db8a2be0364892cceb104fe878
 ms.contentlocale: de-at
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 10/15/2018
 
 ---
-# <a name="set-up-purchasers"></a><span data-ttu-id="24573-103">Einkäufer einrichten</span><span class="sxs-lookup"><span data-stu-id="24573-103">Set Up Purchasers</span></span>
-<span data-ttu-id="24573-104">Falls in Ihrem Unternehmen mehrere Einkäufer tätig sind, können Sie diese in einem Fenster einrichten und jedem einen Code zuweisen.</span><span class="sxs-lookup"><span data-stu-id="24573-104">If several purchasers work at your company, you can set them up in a window and assign them each a code.</span></span> <span data-ttu-id="24573-105">Diese Codes können Sie dann für statistische Auswertungen und als Filter in Berichten verwenden</span><span class="sxs-lookup"><span data-stu-id="24573-105">You can then use the codes to prepare statistics and to filter information in printed reports.</span></span>
+# <a name="set-up-purchasers"></a><span data-ttu-id="aacc3-103">Einkäufer einrichten</span><span class="sxs-lookup"><span data-stu-id="aacc3-103">Set Up Purchasers</span></span>
+<span data-ttu-id="aacc3-104">Falls in Ihrem Unternehmen mehrere Einkäufer tätig sind, können Sie diese in einem Fenster einrichten und jedem einen Code zuweisen.</span><span class="sxs-lookup"><span data-stu-id="aacc3-104">If several purchasers work at your company, you can set them up in a window and assign them each a code.</span></span> <span data-ttu-id="aacc3-105">Diese Codes können Sie dann für statistische Auswertungen und als Filter in Berichten verwenden</span><span class="sxs-lookup"><span data-stu-id="aacc3-105">You can then use the codes to prepare statistics and to filter information in printed reports.</span></span>
 
-## <a name="to-set-up-purchasers"></a><span data-ttu-id="24573-106">So richten Sie Einkäufer ein</span><span class="sxs-lookup"><span data-stu-id="24573-106">To set up purchasers</span></span>
-1. <span data-ttu-id="24573-107">Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Einkäufer/Verkäufer** ein. Wählen Sie dann den zugehörigen Link aus.</span><span class="sxs-lookup"><span data-stu-id="24573-107">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Salespeople/Purchasers**, and then choose the related link.</span></span>
-2. <span data-ttu-id="24573-108">Wählen Sie im Fenster **Verkäufer/Einkäufer** die Aktion **Neu** aus.</span><span class="sxs-lookup"><span data-stu-id="24573-108">In the **Salespeople/Purchasers** window, choose **New**.</span></span>
-3. <span data-ttu-id="24573-109">Füllen Sie im Fenster **Verkäufer-/Einkäuferkarte** die Felder nach Bedarf aus.</span><span class="sxs-lookup"><span data-stu-id="24573-109">In the **Salesperson/Purchaser Card** window, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+## <a name="to-set-up-purchasers"></a><span data-ttu-id="aacc3-106">So richten Sie Einkäufer ein</span><span class="sxs-lookup"><span data-stu-id="aacc3-106">To set up purchasers</span></span>
+1. <span data-ttu-id="aacc3-107">Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Verkäufer/Käufer** ein, und wählen dann den zugehörigen Link aus.</span><span class="sxs-lookup"><span data-stu-id="aacc3-107">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Salespeople/Purchasers**, and then choose the related link.</span></span>
+2. <span data-ttu-id="aacc3-108">Wählen Sie im Fenster **Verkäufer/Einkäufer** die Aktion **Neu** aus.</span><span class="sxs-lookup"><span data-stu-id="aacc3-108">In the **Salespeople/Purchasers** window, choose **New**.</span></span>
+3. <span data-ttu-id="aacc3-109">Füllen Sie im Fenster **Verkäufer-/Einkäuferkarte** die Felder nach Bedarf aus.</span><span class="sxs-lookup"><span data-stu-id="aacc3-109">In the **Salesperson/Purchaser Card** window, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-assign-purchasers-to-vendors"></a><span data-ttu-id="24573-110">Einkäufer Kreditoren zuweisen</span><span class="sxs-lookup"><span data-stu-id="24573-110">To assign purchasers to vendors</span></span>
-1. <span data-ttu-id="24573-111">Wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen")und geben **Bankkonten** ein. Wählen Sie dann den zugehörigen Link aus.</span><span class="sxs-lookup"><span data-stu-id="24573-111">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Vendors**, and then choose the related link.</span></span>
-2. <span data-ttu-id="24573-112">Öffnen Sie die relevante Kreditorenkarte für den Kreditor, dem ein Einkäufer zugewiesen wird.</span><span class="sxs-lookup"><span data-stu-id="24573-112">Open the relevant vendor card for the vendor that will be assigned a purchaser.</span></span>
-3. <span data-ttu-id="24573-113">Wählen Sie im Feld **Einkäufercode** den entsprechenden Code aus, und schließen Sie dann das Fenster.</span><span class="sxs-lookup"><span data-stu-id="24573-113">In the **Purchaser Code** field, select the applicable purchaser code and then close the window.</span></span>
+## <a name="to-assign-purchasers-to-vendors"></a><span data-ttu-id="aacc3-110">Einkäufer Kreditoren zuweisen</span><span class="sxs-lookup"><span data-stu-id="aacc3-110">To assign purchasers to vendors</span></span>
+1. <span data-ttu-id="aacc3-111">Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Verkäufer** ein, und wählen dann den zugehörigen Link aus.</span><span class="sxs-lookup"><span data-stu-id="aacc3-111">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.</span></span>
+2. <span data-ttu-id="aacc3-112">Öffnen Sie die relevante Kreditorenkarte für den Kreditor, dem ein Einkäufer zugewiesen wird.</span><span class="sxs-lookup"><span data-stu-id="aacc3-112">Open the relevant vendor card for the vendor that will be assigned a purchaser.</span></span>
+3. <span data-ttu-id="aacc3-113">Wählen Sie im Feld **Einkäufercode** den entsprechenden Code aus, und schließen Sie dann das Fenster.</span><span class="sxs-lookup"><span data-stu-id="aacc3-113">In the **Purchaser Code** field, select the applicable purchaser code and then close the window.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="24573-114">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="24573-114">See Also</span></span>
-[<span data-ttu-id="24573-115">Einkaufeinrichten</span><span class="sxs-lookup"><span data-stu-id="24573-115">Setting Up Purchasing</span></span>](purchasing-setup-purchasing.md)  
-[<span data-ttu-id="24573-116">Verwalten von Verbindlichkeiten|</span><span class="sxs-lookup"><span data-stu-id="24573-116">Managing Payables</span></span>](payables-manage-payables.md)  
-<span data-ttu-id="24573-117">[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="24573-117">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+## <a name="see-also"></a><span data-ttu-id="aacc3-114">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="aacc3-114">See Also</span></span>
+[<span data-ttu-id="aacc3-115">Einkaufeinrichten</span><span class="sxs-lookup"><span data-stu-id="aacc3-115">Setting Up Purchasing</span></span>](purchasing-setup-purchasing.md)  
+[<span data-ttu-id="aacc3-116">Verwalten von Verbindlichkeiten</span><span class="sxs-lookup"><span data-stu-id="aacc3-116">Managing Payables</span></span>](payables-manage-payables.md)  
+<span data-ttu-id="aacc3-117">[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="aacc3-117">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 
