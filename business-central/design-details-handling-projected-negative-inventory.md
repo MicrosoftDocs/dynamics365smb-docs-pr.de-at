@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: 
 ms.date: 10/01/2018
 ms.author: sgroespe
+redirect_url: design-details-handling-reordering-policies
 ms.translationtype: HT
-ms.sourcegitcommit: 2af7adc4bfa71c12fedd87f02bdabcd78ac49844
-ms.openlocfilehash: 25a2017fd91f09a9d7725c68ffaa0df48a041294
+ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
+ms.openlocfilehash: cfedced3a1e7ccf94294ebd36f4fb5311fd1933e
 ms.contentlocale: de-at
-ms.lasthandoff: 10/15/2018
+ms.lasthandoff: 11/20/2018
 
 ---
 # <a name="design-details-handling-projected-negative-inventory"></a><span data-ttu-id="4b7a7-106">Designdetails: Umgang mit voraussichtlichem negativem Lagerbestand</span><span class="sxs-lookup"><span data-stu-id="4b7a7-106">Design Details: Handling Projected Negative Inventory</span></span>

@@ -10,11 +10,12 @@ ms.workload: na
 ms.search.keywords: bank file export, re-export, bank transfer, AMC, bank data conversion service, funds transfer
 ms.date: 10/01/2018
 ms.author: sgroespe
+redirect_url: finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer
 ms.translationtype: HT
-ms.sourcegitcommit: 2af7adc4bfa71c12fedd87f02bdabcd78ac49844
-ms.openlocfilehash: 456b7bcad13972943ad130f505b29a926ccaf221
+ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
+ms.openlocfilehash: ed8c325facb65f141fcbbed17202e0549bffe284
 ms.contentlocale: de-at
-ms.lasthandoff: 10/15/2018
+ms.lasthandoff: 11/20/2018
 
 ---
 # <a name="export-payments-to-a-bank-file"></a><span data-ttu-id="240c7-103">Zahlungen in eine Bankdatei exportieren</span><span class="sxs-lookup"><span data-stu-id="240c7-103">Export Payments to a Bank File</span></span>
