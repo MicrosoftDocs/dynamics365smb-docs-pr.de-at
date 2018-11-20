@@ -12,6 +12,7 @@ ms.workload: na
 ms.search.keywords: 
 ms.date: 10/01/2018
 ms.author: sgroespe
+redirect_url: design-details-handling-reordering-policies
 ms.translationtype: HT
 ms.sourcegitcommit: 2af7adc4bfa71c12fedd87f02bdabcd78ac49844
 ms.openlocfilehash: 25a2017fd91f09a9d7725c68ffaa0df48a041294

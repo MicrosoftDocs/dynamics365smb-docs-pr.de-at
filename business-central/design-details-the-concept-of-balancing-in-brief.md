@@ -12,6 +12,7 @@ ms.workload: na
 ms.search.keywords: 
 ms.date: 10/01/2018
 ms.author: sgroespe
+redirect_url: design-details-balancing-demand-and-supply
 ms.translationtype: HT
 ms.sourcegitcommit: 2af7adc4bfa71c12fedd87f02bdabcd78ac49844
 ms.openlocfilehash: c6c7adb07337643360baa9cacf4eff659e7557c3

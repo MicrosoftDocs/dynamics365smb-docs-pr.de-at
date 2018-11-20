@@ -10,6 +10,7 @@ ms.workload: na
 ms.search.keywords: 
 ms.date: 10/01/2018
 ms.author: sgroespe
+redirect_url: finance-collect-payments-with-sepa-direct-debit
 ms.translationtype: HT
 ms.sourcegitcommit: 2af7adc4bfa71c12fedd87f02bdabcd78ac49844
 ms.openlocfilehash: ee07ca7ba498858fac794f1ee1f27f281de8ae02
