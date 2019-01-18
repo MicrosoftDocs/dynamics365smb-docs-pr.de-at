@@ -13,30 +13,30 @@ ms.search.keywords: contact, prospect, client
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.sourcegitcommit: 2af7adc4bfa71c12fedd87f02bdabcd78ac49844
 ms.openlocfilehash: 156a1265e8a10138b44535945aa75319680d280a
 ms.contentlocale: de-at
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 10/15/2018
 
 ---
-# <a name="managing-relationships"></a><span data-ttu-id="c48a9-103">Verwalten von Beziehungen</span><span class="sxs-lookup"><span data-stu-id="c48a9-103">Managing Relationships</span></span>
-<span data-ttu-id="c48a9-104">Die Marketing & Vertriebsverwaltungsfeatures von [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützen Sie beim Verwalten und Ausführen von Verkaufsmaßnahmen.</span><span class="sxs-lookup"><span data-stu-id="c48a9-104">The relationship management features of [!INCLUDE[d365fin](includes/d365fin_md.md)] help you manage and support your sales efforts.</span></span> <span data-ttu-id="c48a9-105">Mit diesen Features haben Sie Zugriff auf umfassende und exakte Informationen, dank derer Sie Ihre Aktivitäten auf bevorzugte Debitoren-Kontaktsegmente konzentrieren können.</span><span class="sxs-lookup"><span data-stu-id="c48a9-105">With these features, you have access to complete and accurate information so you can focus your interactions on preferred customer/contact segments.</span></span>
+# <a name="managing-relationships"></a><span data-ttu-id="c94bc-103">Verwalten von Beziehungen</span><span class="sxs-lookup"><span data-stu-id="c94bc-103">Managing Relationships</span></span>
+<span data-ttu-id="c94bc-104">Die Marketing & Vertriebsverwaltungsfeatures von [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützen Sie beim Verwalten und Ausführen von Verkaufsmaßnahmen.</span><span class="sxs-lookup"><span data-stu-id="c94bc-104">The relationship management features of [!INCLUDE[d365fin](includes/d365fin_md.md)] help you manage and support your sales efforts.</span></span> <span data-ttu-id="c94bc-105">Mit diesen Features haben Sie Zugriff auf umfassende und exakte Informationen, dank derer Sie Ihre Aktivitäten auf bevorzugte Debitoren-Kontaktsegmente konzentrieren können.</span><span class="sxs-lookup"><span data-stu-id="c94bc-105">With these features, you have access to complete and accurate information so you can focus your interactions on preferred customer/contact segments.</span></span>
 
-<span data-ttu-id="c48a9-106">Bei Verkaufs- und Marketingmaßnahmen dreht sich alles um die richtige Entscheidung und das richtige Timing.</span><span class="sxs-lookup"><span data-stu-id="c48a9-106">Good sales and marketing practices are all about how to make the best decisions at the right time.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="c48a9-107">stellt eine exakte und zeitnahe Übersicht über die Kontaktinformationen bereit, die es Ihnen ermöglicht, Interessenten gegenüber effizienter aufzutreten und die Kundenzufriedenheit zu steigern.</span><span class="sxs-lookup"><span data-stu-id="c48a9-107"> provides a precise and timely overview of your contact information so that you can serve your prospective customers more efficiently and increase customer satisfaction.</span></span>
+<span data-ttu-id="c94bc-106">Bei Verkaufs- und Marketingmaßnahmen dreht sich alles um die richtige Entscheidung und das richtige Timing.</span><span class="sxs-lookup"><span data-stu-id="c94bc-106">Good sales and marketing practices are all about how to make the best decisions at the right time.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="c94bc-107">stellt eine exakte und zeitnahe Übersicht über die Kontaktinformationen bereit, die es Ihnen ermöglicht, Interessenten gegenüber effizienter aufzutreten und die Kundenzufriedenheit zu steigern.</span><span class="sxs-lookup"><span data-stu-id="c94bc-107">provides a precise and timely overview of your contact information so that you can serve your prospective customers more efficiently and increase customer satisfaction.</span></span>
 
-<span data-ttu-id="c48a9-108">Um mit der Kostenrechnung anzufangen, sehen Sie sich die folgenden Themen an.</span><span class="sxs-lookup"><span data-stu-id="c48a9-108">To get started, see the following topics:</span></span>
+<span data-ttu-id="c94bc-108">Um mit der Kostenrechnung anzufangen, sehen Sie sich die folgenden Themen an.</span><span class="sxs-lookup"><span data-stu-id="c94bc-108">To get started, see the following topics:</span></span>
 
-[<span data-ttu-id="c48a9-109">Kontakte verwalten</span><span class="sxs-lookup"><span data-stu-id="c48a9-109">Managing Contacts</span></span>](marketing-contacts.md)  
-[<span data-ttu-id="c48a9-110">Verwalten von Segmenten</span><span class="sxs-lookup"><span data-stu-id="c48a9-110">Managing Segments</span></span>](marketing-segments.md)  
-[<span data-ttu-id="c48a9-111">Aktivitäten aufzeichnen</span><span class="sxs-lookup"><span data-stu-id="c48a9-111">Recording Interactions</span></span>](marketing-interactions.md)  
-[<span data-ttu-id="c48a9-112">Verwaltung von Marketingkampagnen</span><span class="sxs-lookup"><span data-stu-id="c48a9-112">Managing Marketing Campaigns</span></span>](marketing-campaigns.md)  
-[<span data-ttu-id="c48a9-113">Verkaufschancen verwalten</span><span class="sxs-lookup"><span data-stu-id="c48a9-113">Managing Sales Opportunities</span></span>](marketing-manage-sales-opportunities.md)
+[<span data-ttu-id="c94bc-109">Kontakte verwalten</span><span class="sxs-lookup"><span data-stu-id="c94bc-109">Managing Contacts</span></span>](marketing-contacts.md)  
+[<span data-ttu-id="c94bc-110">Verwalten von Segmenten</span><span class="sxs-lookup"><span data-stu-id="c94bc-110">Managing Segments</span></span>](marketing-segments.md)  
+[<span data-ttu-id="c94bc-111">Aktivitäten aufzeichnen</span><span class="sxs-lookup"><span data-stu-id="c94bc-111">Recording Interactions</span></span>](marketing-interactions.md)  
+[<span data-ttu-id="c94bc-112">Verwaltung von Marketingkampagnen</span><span class="sxs-lookup"><span data-stu-id="c94bc-112">Managing Marketing Campaigns</span></span>](marketing-campaigns.md)  
+[<span data-ttu-id="c94bc-113">Verkaufschancen verwalten</span><span class="sxs-lookup"><span data-stu-id="c94bc-113">Managing Sales Opportunities</span></span>](marketing-manage-sales-opportunities.md)
 
-## <a name="see-also"></a><span data-ttu-id="c48a9-114">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="c48a9-114">See Also</span></span>
-[<span data-ttu-id="c48a9-115">Verkauf</span><span class="sxs-lookup"><span data-stu-id="c48a9-115">Sales</span></span>](sales-manage-sales.md)  
-[<span data-ttu-id="c48a9-116">Marketing & Vertrieb einrichten</span><span class="sxs-lookup"><span data-stu-id="c48a9-116">Setting Up Relationship Management</span></span>](marketing-setup-marketing.md)  
-[<span data-ttu-id="c48a9-117">Die erstellten Debitoren und Verkäufe in Dynamics 365 for Sales verwalten</span><span class="sxs-lookup"><span data-stu-id="c48a9-117">Managing Customers and Sales Created in Dynamics 365 for Sales</span></span>](marketing-integrate-dynamicscrm.md)  
-<span data-ttu-id="c48a9-118">[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="c48a9-118">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+## <a name="see-also"></a><span data-ttu-id="c94bc-114">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="c94bc-114">See Also</span></span>
+[<span data-ttu-id="c94bc-115">Verkauf</span><span class="sxs-lookup"><span data-stu-id="c94bc-115">Sales</span></span>](sales-manage-sales.md)  
+[<span data-ttu-id="c94bc-116">Marketing & Vertrieb einrichten</span><span class="sxs-lookup"><span data-stu-id="c94bc-116">Setting Up Relationship Management</span></span>](marketing-setup-marketing.md)  
+[<span data-ttu-id="c94bc-117">Die erstellten Debitoren und Verkäufe in Dynamics 365 for Sales verwalten</span><span class="sxs-lookup"><span data-stu-id="c94bc-117">Managing Customers and Sales Created in Dynamics 365 for Sales</span></span>](marketing-integrate-dynamicscrm.md)  
+<span data-ttu-id="c94bc-118">[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="c94bc-118">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
  
