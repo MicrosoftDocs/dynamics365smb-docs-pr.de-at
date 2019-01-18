@@ -11,10 +11,10 @@ ms.search.keywords: news
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
-ms.openlocfilehash: d5ec4a7b95fb0287bf0063809c98e675a43fa568
+ms.sourcegitcommit: 2af7adc4bfa71c12fedd87f02bdabcd78ac49844
+ms.openlocfilehash: 205cb582c77216114985143c4ebe8e95154c26ca
 ms.contentlocale: de-at
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 10/15/2018
 
 ---
 # <a name="whats-new-in-dynamics-365-business-central"></a>E-Mail in Dynamics 365 Business Central

@@ -13,10 +13,10 @@ ms.search.keywords: personnel, people, employee, staff, HR
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
-ms.openlocfilehash: a0254dad989b361883dd62f1f798686452941538
+ms.sourcegitcommit: 2af7adc4bfa71c12fedd87f02bdabcd78ac49844
+ms.openlocfilehash: 209a36d19d38f62aa94f77f8ef33b849c078dd67
 ms.contentlocale: de-at
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 10/15/2018
 
 ---
 # <a name="manage-human-resources"></a>Personalwesen verwalten

@@ -13,10 +13,10 @@ ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 595e6fb7cc8239ea33cf57aadfd8b0f3419323e5
+ms.sourcegitcommit: 2af7adc4bfa71c12fedd87f02bdabcd78ac49844
+ms.openlocfilehash: 2be3a29ad88c46f8b96b9f4bed34602da35fbcb7
 ms.contentlocale: de-at
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 10/15/2018
 
 ---
 # <a name="viewing-list-data-in-power-bi-reports-in-business-central"></a>Anzeigen von Listendaten in Power BI-Berichten in Business Central 
@@ -31,7 +31,7 @@ Wenn Sie den Bericht in Power BI Desktop erstellen, definieren Sie die Datenquel
 Um Daten in Berichten zu filtern, basierend auf dem ausgewählten Datensatz der Listenseite, muss der primäre Schlüssel als Berichtsfilter verwendet werden. Die Primärschlüssel müssen Teil des Datasets sein, um die Berichte korrekt zu filtern. In den meisten Fällen ist der Primärschlüssel für eine Liste **Nr.** Feld  
 
 ## <a name="defining-the-report-filter"></a>Definiert den Berichts-Filter
-Der Bericht wird benötigt, um einen grundlegenden Berichtsfilter (kein Seiten- oder visueller Filter und kein erweiterter Filter), um Filter in der Power BI  ein Sichtfilter und keinen gewechselten Filter haben z in der Energie BI Infosteuerung korrekt anzuzeigen. Der Filter, der zum Power BI Bericht von jeder Listenseite übergeben wird, basiert auf dem Primärschlüssel, wie im vorherigen Abschnitt erläutert.  
+Der Bericht wird benötigt, um einen grundlegenden Berichtsfilter (kein Seiten- oder visueller Filter und kein erweiterter Filter), um Filter in der Power BI  ein Sichtfilter und keinen gewechselten Filter) haben z in der Energie BI Infosteuerung korrekt anzuzeigen. Der Filter, der zum Power BI Bericht von jeder Listenseite übergeben wird, basiert auf dem Primärschlüssel, wie im vorherigen Abschnitt erläutert.  
 
 Um einen Filter für den Bericht zu definieren, wählen Sie den Primärschlüssel aus der Liste der verfügbaren Felder und ziehen dann das Feld in den Abschnitt **Berichts-Filter**.  
 

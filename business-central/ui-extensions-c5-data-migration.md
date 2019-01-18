@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
-ms.date: 04/09/208
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: fa6779ee8fb2bbb453014e32cb7f3cf8dcfa18da
-ms.openlocfilehash: 698bde6949c6053501881d07135586810fc81bdd
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5c89d841cdf0e92af4a3dc497cb9c807798e3924
 ms.contentlocale: de-at
-ms.lasthandoff: 04/11/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
-# <a name="the-c5-data-migration-extension-for-business-central"></a>Die C5 Datenmigrations-Erweiterung für Business Central
+# <a name="the-c5-data-migration-extension"></a>Die C5-Datenmigrations-Erweiterung
 Verwenden Sie diese Erweiterung, um Debitoren, Kreditoren, Artikel und Sachkonten von Microsoft Dynamics C5 2012 zu [!INCLUDE[d365fin](includes/d365fin_md.md)] zu migrieren. Sie können historische Posten für Sachkonten auch migrieren.
 
 > [!Note]
@@ -30,9 +30,10 @@ Verwenden Sie diese Erweiterung, um Debitoren, Kreditoren, Artikel und Sachkonte
 Die folgenden Daten werden für jede Einheit migriert:
 
 **Debitoren**
+* Kontakte  
 * Ort
 * Land
-* Kunden-Dimensionen (Abteilung, Kostenträger, Kostenstelle)
+* Debitoren-Dimensionen (Abteilung, Kostenträger, Kostenstelle)
 * Lieferbedingungsmethode
 * Vertriebsmitarbeiter
 * Zahlungsbedingungen
@@ -44,12 +45,13 @@ Wenn Sie Konten migrieren, werden auch die folgenden Daten migriert:
 
 * Debitorenbuchungsgruppe
 * Fibu Buch.-Blattname
-* Migrieren Sie offene Debitorenposten (Kundenbucheinträge)
+* Migrieren Sie offene Debitorenposten (Debitorenbucheinträge)
 
 **Kreditoren**
+* Kontakte
 * Ort
 * Land
-* Kunden-Dimensionen (Abteilung, Kostenträger, Kostenstelle)
+* Debitoren-Dimensionen (Abteilung, Kostenträger, Kostenstelle)
 * Rechnungsrabatt
 * Lieferbedingungsmethode
 * Einkäufer
@@ -75,6 +77,7 @@ Wenn Sie Konten migrieren, werden auch die folgenden Daten migriert:
 * Einheiten
 * Artikelverfolgungscode
 * Debitorenpreisgruppe
+* Montagestücklisten
 
 Wenn Sie Konten migrieren, werden auch die folgenden Daten migriert:
 
@@ -97,11 +100,8 @@ Wenn Sie Konten migrieren, werden auch die folgenden Daten migriert:
 Es gibt nur einige wenige Schritte, um die Daten aus C5 zu exportieren und sie in [!INCLUDE[d365fin](includes/d365fin_md.md)] zu importieren:  
 
 1. In C5 verwenden Sie die Funktion **Datenbank exportieren**, um die Daten zu exportieren. Senden Sie dann den Exportordner an einen komprimierten (gezippten) Ordner.  
-2. Wählen Sie dann in [!INCLUDE[d365fin](includes/d365fin_md.md)] das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben Sie **Datenmigration** ein und wählen dann **Datenmigration**.  
+2. Wählen Sie in [!INCLUDE[d365fin](includes/d365fin_md.md)] das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Datenmigration** ein, und wählen Sie dann **Datenmigration** aus.  
 3. Schliessen Sie die Schritte im unterstützten Setup ab. Stellen Sie sicher, dass Sie**Importieren aus Microsoft Dynamcis C5 2012** als die Datenquelle auswählen.  
-
-> [!Note]
-> Mandanten fügen häufig Felder hinzu, um C5 für ihren jeweiligen Geschäftsbereich anzupassen. [!INCLUDE[d365fin](includes/d365fin_md.md)] migriert nicht Daten vom benutzerdefinierten Feldern. Die Migration schlägt fehl, wenn Sie mehr als 10 benutzerdefinierte Felder haben.
 
 ## <a name="viewing-the-status-of-the-migration"></a>Zeigt den Status der Datenmigration an
 Verwenden Sie die Seite **Datenmigrations-Übersicht**, um den Erfolg der Migration zu überwachen. Die Seite zeigt Informationen wie die Anzahl von Einheiten, die migriert wurde, den Status der Migration und die Anzahl von Artikeln an, die migriert wurden und ob sie erfolgreich war. Sie zeigt auch die Anzahl von Fehlern, Sie können überprüfen, was schief ging und macht es wenn möglich einfach, zur Einheit zu gehen und das Problem zu lösen. Weitere Informationen finden Sie im nächsten Abschnitt dieses Themas.  
@@ -111,9 +111,9 @@ Verwenden Sie die Seite **Datenmigrations-Übersicht**, um den Erfolg der Migrat
 
 ## <a name="how-to-avoid-double-posting"></a>Wie Sie Doppel-Buchung vermeiden
 Um Doppelbuchungen in der Finanzbuchhaltung zu vermeiden, werden folgende Gegenkonten für offene Transaktionen verwendet:  
-  
+
 * Für Kreditoren verwenden wir das A-/P-Konto in der Kreditorenbuchungsgruppe.  
-* Für Kreditoren verwenden wir das A-/P-Konto in der Kreditorenbuchungsgruppe.  
+* Für Debitoren verwenden wir das A-/P-Konto in der Kreditorenbuchungsgruppe.  
 * Für Artikel erstellen wir eine Buchungsmatrix, bei der im Korrekturkonto das Konto jenes ist, das als Lagerkonto in der Lagerbuchungseinrichtung angegeben ist.  
 
 ## <a name="correcting-errors"></a>Nachbesserung
@@ -122,7 +122,9 @@ Falls etwas schief geht und ein Fehler auftritt, wird das **Status** Feld **Abge
 * Die Nummer im Feld **Fehlerzahl** für die Einheit.  
 * Die Einheit und dann die Aktion **Fehler anzeigen**.  
 
-Um auf der Seite **Datenmigrations-Fehler** einen Fehler zu korrigieren, können Sie eine Fehlermeldung auswählen, und dann **Datensatz bearbeiten** auswählen, um die Seite zu öffnen, welche de Daten für die migrierte Einheit enthält. Nachdem Sie eines oder mehrere Fehler korrigiert haben, können Sie **Migrieren von** wählen, um nur die Einheiten zu migrieren, die Sie korrigierten, ohne die Migration vollständig erneut durchführen zu müssen.  
+Um auf der Seite **Datenmigrations-Fehler** einen Fehler zu korrigieren, können Sie eine Fehlermeldung auswählen, und dann **Datensatz bearbeiten** auswählen, um die Daten für die migrierte Einheit anzuzeigen. Wenn Sie mehrere Fehler beheben müssen, können Sie **Stapelfehlerkorrektur** auswählen, um auf die Einheiten in einer Liste zu bearbeiten. Sie müssen immer noch einzelne Datensätze öffnen, wenn der Fehler durch einen entsprechenden Posten verursacht wurde. Beispielsweise wird ein Kreditor nicht migriert, wenn die E-Mail-Adresse einer Kontaktperson ein ungültiges Format hat.
+
+Nachdem Sie eines oder mehrere Fehler korrigiert haben, können Sie **Migrieren von** wählen, um nur die Einheiten zu migrieren, die Sie korrigierten, ohne die Migration vollständig erneut durchführen zu müssen.  
 
 > [!Tip]
 > Wenn Sie mehr als einen Fehler korrigiert haben, können Sie die Funktion **Weitere auswählen** verwenden, um mehrere Zeilen auszuwählen, um diese zu migrieren. Wenn es Fehler gibt, die nicht zur Korrektur wichtig sind, können Sie diese auswählen und dann **Auswahl überspringen** auswählen.
@@ -145,5 +147,5 @@ Sie können Datenmigration unterbrechen, indem Sie **Automatisches Beenden alle 
 
 ## <a name="see-also"></a>Siehe auch
 [Anpassen [!INCLUDE[d365fin](includes/d365fin_md.md)] Erweiterungen nutzenb](ui-extensions.md)  
-[Erste Schritte](product-get-started.md) 
+[Erste Schritte](product-get-started.md)
 

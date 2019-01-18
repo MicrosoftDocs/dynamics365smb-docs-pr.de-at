@@ -12,10 +12,10 @@ ms. search.keywords: app, add-in, manifest, customize
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: ac0e4a77cd217a74e315d4e601fed7e0a4e7f203
+ms.sourcegitcommit: 2af7adc4bfa71c12fedd87f02bdabcd78ac49844
+ms.openlocfilehash: c58f3e40394e17252c985f32483e2128733b2695
 ms.contentlocale: de-at
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 10/15/2018
 
 ---
 # <a name="microsoft-business-central-extensions-by-other-providers"></a>Microsoft Business Central Erweiterungen durch andere Anbieter

@@ -1,5 +1,5 @@
 ---
-title: Passen Sie den Betrag des Details an, die in Listen angezeigt werden
+title: Passen Sie den Betrag des Details an, die in Listen | Microsoft Docs angezeigt werden
 description: "Sie können Listen in detaillierten Ansichten anzeigen, die mehr Informationen geben, oder als Kacheln anzeigen, die einfach, dargestellt werden."
 services: project-madeira
 documentationcenter: 
@@ -13,10 +13,10 @@ ms.search.keywords: personalization
 ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: dcad65142e4f2c9fc9ab6c5ab01ed4bb057721a0
+ms.sourcegitcommit: 2af7adc4bfa71c12fedd87f02bdabcd78ac49844
+ms.openlocfilehash: 8f196f8df6683b0a7d11e75b8da53861facab0c0
 ms.contentlocale: de-at
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 10/15/2018
 
 ---
 # <a name="displaying-lists-in-different-ways"></a>Anzeigen von Listen in verschiedenen Ansichten

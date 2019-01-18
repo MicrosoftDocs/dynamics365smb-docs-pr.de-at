@@ -13,10 +13,10 @@ ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: e4cda1f4770117065d1650a0c51dbd46fdf8baac
+ms.sourcegitcommit: 2af7adc4bfa71c12fedd87f02bdabcd78ac49844
+ms.openlocfilehash: 4ac052f6a757c60dbe1a87f511c37910616f6206
 ms.contentlocale: de-at
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 10/15/2018
 
 ---
 # <a name="finance"></a>Finanzen
@@ -29,14 +29,14 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 | Aktion | Siehe |
 | --- | --- |
 | Ordnen Sie eingehende Zahlungen zu, stimmen Bankkonten während des Zahlungsausgleichs ab und erfassen Sie offene Salden. |[Verwalten von Forderungen](receivables-manage-receivables.md) |
-| Verarbeiten Sie Zahlungen, ordnen Sie ausgehende Zahlungen zu und bearbeiten Sie Schecks. |[Verwalten von Verbindlichkeiten|](payables-manage-payables.md) |
+| Verarbeiten Sie Zahlungen, ordnen Sie ausgehende Zahlungen zu und bearbeiten Sie Schecks. |[Verwalten von Verbindlichkeiten](payables-manage-payables.md) |
 |Lassen Sie Ihre Debitoren zahlen, bevor Sie liefern, oder machen Sie die Zahlung an Ihre Kreditoren, bevor diese an Sie liefern.|[Fakturieren von Vorauszahlungen](finance-invoice-prepayments.md)|
 | Stimmen Sie Bankkonten ab und transferieren Sie Beträge zwischen Bankkonten. |[Verwalten von Bankkonten](bank-manage-bank-accounts.md) |
 |Einrichten von Intercompanypartner und verarbeiten von Transaktionen, manuzell oder automatisch, zwischen juristischen Personen innerhalb derselben Mandanten.|[Intercompanytransaktionen verwalten](intercompany-manage.md)|
 |Kombiniert Sachposten aus mehreren Mandanten in einem konsolidierten virtuellen "Mandanten" für Finanzanalyse.|[Konsolidieren von Finanzdaten aus mehreren Unternehmen](finance-consolidated-company-reporting.md)|
 |Analysieren der laufenden Geschäftskosten durch das Zuordnen der tatsächlichen und budgetierten Kosten für Arbeitsgänge, Abteilungen, Produkte und Projekte zur Analyse der Rentabilität Ihres Unternehmens|[Kostenrechnung](finance-manage-cost-accounting.md)|
 |Verwalten von Lager- und Fertigungskosten, Melden von Kosten und Abstimmen von Kosten mit der Finanzbuchhaltung|[Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)|
-| Entwickeln Sie ein Verständnis für die Finanzbuchhaltung und den Kontenplan |[Verständnis der Fibu und des COA](finance-general-ledger.md) |
+| Entwickeln Sie ein Verständnis für die Finanzbuchhaltung und den Kontenplan |[Verständis der Fibu und des Kontoplans](finance-general-ledger.md) |
 | Fügen Sie Dimensionen für umfangreichere Business Intelligence hinzu. |[Arbeiten mit Dimensionen](finance-dimensions.md) |
 | Erstellen Sie Sachkonto-Budgets, um verschiedene Finanzaktivitäten zu prognostizieren und Dimensionen zu den einzelnen Intelligence-Zwecken zuzuordnen. |[Sachkontenbudgets erstellen](finance-how-create-budgets.md) |
 |Erfassen von Umsatz oder Ausgaben direkt in der Finanzbuchhaltung, ohne dedizierte Unternehmensbelege zu buchen.|[Buchen von Transaktionen direkt in der Finanzbuchhaltung](finance-how-post-transactions-directly.md)|

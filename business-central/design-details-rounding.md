@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 231481ed9b8de81fb565e86e9b89c96434545cbf
+ms.sourcegitcommit: 2af7adc4bfa71c12fedd87f02bdabcd78ac49844
+ms.openlocfilehash: 2d866fda09934aadf9744f152f3a711193ac23f0
 ms.contentlocale: de-at
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 10/15/2018
 
 ---
 # <a name="design-details-rounding"></a>Designdetails: Rundung
@@ -59,7 +59,7 @@ Rundungsreste können auftreten, wenn Sie die Kosten einer Bestandsminderung bew
 |02-01-20|-1|-3.33|2|2|  
 |03-01-20|-1|-3.33|3|3|  
 |04-01-20|-1|-3.33|4|4|  
-|01-01-20|0|-0.01|1|5|  
+|01-01-20|0|-0.01|0|5|  
 
 ## <a name="see-also"></a>Siehe auch  
  [Designdetails: Lagerkostenberechnung](design-details-inventory-costing.md)   

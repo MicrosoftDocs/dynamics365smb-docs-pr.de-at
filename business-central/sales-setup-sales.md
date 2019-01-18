@@ -13,10 +13,10 @@ ms.search.keywords: trade, sell, configure
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 00e83452109c6fa31c3eb56d5631f972e5239314
+ms.sourcegitcommit: 2af7adc4bfa71c12fedd87f02bdabcd78ac49844
+ms.openlocfilehash: 445b2c8ad3b5d4989324bae3d27423163d6808b5
 ms.contentlocale: de-at
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 10/15/2018
 
 ---
 # <a name="setting-up-sales"></a>Einrichten von Verkäufen
@@ -30,7 +30,7 @@ Einrichten von finanzbezogenen Verkäufen wie Zahlungsformen und Währungen werd
 
 | An | Siehe |
 | --- | --- |
-| Erstellen Sie eine Debitorenkarte für jeden Debitor, an den Sie verkaufen. |[Registriert einen neuen Debitor.](sales-how-register-new-customers.md) |
+| Erstellen Sie eine Debitorenkarte für jeden Debitor, an den Sie verkaufen. |[Neue Debitoren registrieren](sales-how-register-new-customers.md) |
 | Aktivieren Sie Debitoren, um über Paypal zu bezahlen, indem Sie das Paypal-Logo in Verkaufsbelegen auswählen. |[Aktivieren von Debitoren-Zahlungen durch Paypal](sales-how-enable-payment-service-extensions.md) |
 | Geben Sie die verschiedenen Rabatte und alternativen Preise ein, die Sie den Debitoren abhängig von Artikel, Mengen und/oder Datum gewähren. |[Erfassen von Verkaufspreisen, Skonti und Zahlungsvereinbarungen](sales-how-record-sales-price-discount-payment-agreements.md) |
 | Einrichten von Verkäufer, sodass Sie diese den Debitorenkontakten zuweisen können oder die Leistung des Verkaufspersonals messen können und als Basis für die Berechnung von Verkaufsprovisionen oder der Prämie zuweisen können. |[Verkäufer einrichten](sales-how-setup-salespeople.md) |

@@ -11,10 +11,10 @@ ms.search.keywords: availability, localization
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7664360941313da6ea0b797ef00df2e9810ad62
-ms.openlocfilehash: ffe2c700ed409a0881c94ddfd0157cf32141c60f
+ms.sourcegitcommit: 2af7adc4bfa71c12fedd87f02bdabcd78ac49844
+ms.openlocfilehash: 6271cc49358c4f31edfdfdda60e87655a53eea50
 ms.contentlocale: de-at
-ms.lasthandoff: 07/09/2018
+ms.lasthandoff: 10/15/2018
 
 ---
 # <a name="local-functionality-in-included365finlongincludesd365finlongmdmd"></a>Lokale Funktion in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -52,7 +52,7 @@ Wählen Sie den entsprechenden Link, um mehr über die lokalen Funktionen für j
 
 ## <a name="see-also"></a>Siehe auch
 [Erste Schritte](product-get-started.md)  
-[Konformität](compliance/compliance-overview.md)  
+[Kompatibilität](compliance/compliance-overview.md)  
 [Internationale Verfügbarkeit von Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/get-started/availability)  
 [Entwicklung einer Lokalisierungslösung](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization)  
 

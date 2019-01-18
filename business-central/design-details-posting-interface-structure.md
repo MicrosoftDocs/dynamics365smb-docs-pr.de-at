@@ -13,10 +13,10 @@ ms.search.keywords: posting, interface, design
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4d5aede731958f6f07b361cf2b4f2351bb5ad06a
+ms.sourcegitcommit: 2af7adc4bfa71c12fedd87f02bdabcd78ac49844
+ms.openlocfilehash: 236cbcc45ccca23905dcb79a491236c80b2bdebf
 ms.contentlocale: de-at
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 10/15/2018
 
 ---
 # <a name="design-details-posting-interface-structure"></a>Designdetails: Buchungs-Schnittstellenstruktur

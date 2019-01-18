@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2af7adc4bfa71c12fedd87f02bdabcd78ac49844
-ms.openlocfilehash: c8f020547cb48e288c1e1defac14993fab6bb21f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 8fc06a83a4bbf6acb5da076e21169819a6bb07de
 ms.contentlocale: de-at
-ms.lasthandoff: 10/15/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="copy-data-to-new-companies"></a>So kopieren Sie Daten in neue Mandanten.
@@ -26,7 +26,7 @@ Sie können häufig verwendete Werte aus einem vorhandenen Mandanten in einen ne
 1. Öffnen des neuen Mandanten  
 2. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Konfigurationsarbeitsblatt** ein, und wählen dann den zugehörigen Link aus.  
 3. Wählen Sie **Daten von Mandanten kopieren**.  
-4. Wählen Sie im Fenster **Mandantendaten kopieren** einen Mandanten aus, um aus dem Feld **Kopieren von** zu kopieren und wählen Sie dann die Schaltfläche **OK** aus.  
+4. Wählen Sie auf der Seite **Mandantendaten kopieren** einen Mandanten aus, um aus dem Feld **Kopieren von** zu kopieren und wählen Sie dann die Schaltfläche **OK** aus.  
 5. Wählen Sie eine Tabelle in einem der Konfigurationspakete aus, die Sie importiert haben, und wählen Sie in der Registerkarte Start in der Gruppe Vorgang die Option **Daten kopieren** aus.
 
 ## <a name="see-also"></a>Siehe auch

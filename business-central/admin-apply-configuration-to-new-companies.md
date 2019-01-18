@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
-ms.openlocfilehash: 68a0c21fd79d0fffcb2a7d7eb9aeb161f06fba33
+ms.sourcegitcommit: 2af7adc4bfa71c12fedd87f02bdabcd78ac49844
+ms.openlocfilehash: c51c3af057e59505ad478b51a40c15605ec0d64b
 ms.contentlocale: de-at
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 10/15/2018
 
 ---
 # <a name="apply-configurations-to-new-companies"></a>Übernehmen von Konfiguration in neue Mandanten

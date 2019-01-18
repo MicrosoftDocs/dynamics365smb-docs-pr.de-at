@@ -13,10 +13,10 @@ ms. search.keywords: app, add-in, manifest, customize, stream, bank account link
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5dddfc8526904a978d742e0987bb1769791e794c
+ms.sourcegitcommit: 2af7adc4bfa71c12fedd87f02bdabcd78ac49844
+ms.openlocfilehash: dcca7adcb8d078ee0abd436f58afc024b424bcd7
 ms.contentlocale: de-at
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 10/15/2018
 
 ---
 # <a name="the-envestnet-yodlee-bank-feeds-extension"></a>Die Envestnet Yodlee Bank-Erweiterung

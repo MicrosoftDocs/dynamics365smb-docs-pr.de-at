@@ -13,10 +13,10 @@ ms.search.keywords: microsoft partner
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: e47877a6cf6e7d9b976b8624786e725b87b0ee1f
+ms.sourcegitcommit: 2af7adc4bfa71c12fedd87f02bdabcd78ac49844
+ms.openlocfilehash: cc628a8f9c4a9727b359877ebe54eef25c947138
 ms.contentlocale: de-at
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 10/15/2018
 
 ---
 # <a name="become-a-reseller-of-included365finlongincludesd365finlongmdmd"></a>Werden ein Wiederverkäufer von [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]

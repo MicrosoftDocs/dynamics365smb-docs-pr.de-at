@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ded6baf8247bfbc34063f5595d42ebaf6bb300d8
-ms.openlocfilehash: a20a40e0f2d7198ce8af71298093893f16df5299
+ms.sourcegitcommit: 2af7adc4bfa71c12fedd87f02bdabcd78ac49844
+ms.openlocfilehash: 3a5806711b693dadbbaf033ffd769c5eabebe8de
 ms.contentlocale: de-at
-ms.lasthandoff: 08/13/2018
+ms.lasthandoff: 10/15/2018
 
 ---
 # <a name="design-details-code-examples-of-changed-patterns-in-modifications"></a>Designdetails: Codebeispiele von geänderten Mustern in Änderungen

@@ -1,6 +1,6 @@
 ---
 title: 'Gewusst wie: Registrieren von Lieferbenachrichtigungen'
-description: "Nachdem Sie Lieferbenachrichtigungen erstellt haben, müssen Sie sie registrieren und ausdrücken, damit Sie die Benachrichtigungen an Kreditoren senden können. Vor dem Ausstellen von Lieferbenachrichtigungen können Sie einen Testbericht drucken."
+description: "Nachdem Sie Lieferbenachrichtigungen erstellt haben, müssen Sie sie registrieren und ausdrücken, damit Sie die Benachrichtigungen an Kreditoren senden können. Vor der Registrierung der Lieferbenachrichtigungen können Sie einen Testbericht drucken."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,23 +13,23 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: edc847e73bcc3fe7d98ce68311fd9ebbdbc5308c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: db51c5df27802525ab20be569e8c4fefdeb7642d
 ms.contentlocale: de-at
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="issue-delivery-reminders"></a>Lieferbenachrichtigung registrieren
-Nachdem Sie Lieferbenachrichtigungen erstellt haben, müssen Sie sie registrieren und ausdrucken, sodass Sie Mahnungen an Kreditoren verschicken können. Vor dem Ausstellen von Lieferbenachrichtigungen können Sie einen Testbericht drucken. Weitere Informationen finden Sie unter [Vorgehensweise: Drucken von Testberichten für  Lieferbenachrichtigungen](how-to-print-test-reports-for-delivery-reminders.md).  
+Nachdem Sie Lieferbenachrichtigungen erstellt haben, müssen Sie sie registrieren und ausdrücken, damit Sie die Benachrichtigungen an Kreditoren senden können. Vor dem Ausstellen von Lieferbenachrichtigungen können Sie einen Testbericht drucken. Weitere Informationen finden Sie unter [Vorgehensweise: Drucken von Testberichten für  Lieferbenachrichtigungen](how-to-print-test-reports-for-delivery-reminders.md).  
 
-Beim Registrieren der Lieferantenbenachrichtigungen erzeugt die Anwendung Lieferantenbenachrichtigungsposten. Sie können die generierten Posten im Fenster **Lieferanmahnungsposten** ansehen.  
+Beim Registrieren der Lieferbenachrichtigungen werden Lieferanmahnungsposten erstellt. Sie können die generierten Posten auf der Seite **Lieferanmahnungsposten** ansehen.  
 
 ## <a name="to-issue-delivery-reminders"></a>So registrieren Sie Lieferbenachrichtigungen  
 
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Nach Seite oder Bericht suchen") , geben Sie **Lieferbenachrichtigung** ein, und wählen Sie dann den zugehörigen Link.  
-2.  Wählen Sie im Fenster **Lieferbenachrichtigung** die Lieferbenachrichtigung, die Sie registrieren möchten, und wählen Sie dann die Aktion **Bearbeiten**.  
+1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Nach Seite oder Bericht suchen"), geben Sie **Lieferanmahnung** ein, und wählen Sie dann den zugehörigen Link.  
+2.  Wählen Sie auf der Seite **Lieferanmahnung** die Lieferanmahnung, die Sie registrieren möchten, und wählen Sie dann die Aktion **Bearbeiten**.  
 3.  Wählen Sie die Aktion **Registrieren**.  
-4.  Füllen Sie im Fenster **Lieferbenachrichtigung registrieren** auf dem Inforegister **Optionen** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
+4.  Füllen Sie auf der Seite **Lieferanmahnung registrieren** auf dem Inforegister **Optionen** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
     |Feld|Description|  
     |---------------------------------|---------------------------------------|  
@@ -42,9 +42,9 @@ Beim Registrieren der Lieferantenbenachrichtigungen erzeugt die Anwendung Liefer
     > [!NOTE]  
     >  Sie können die Filter entfernen und alle Lieferbenachrichtigungen gleichzeitig übermitteln.  
 
-6.  Wählen Sie die Schaltfläche **OK** aus.  
+6.  Wählen Sie die Schaltfläche **OK**.  
 
-Sie können die registrierten Lieferbenachrichtigungen im Fenster **Reg. Lieferbenachrichtigung** betrachten. Wenn Sie möchten, können Sie jetzt eine Lieferbenachrichtigung drucken.  
+Sie können die registrierten Lieferanmahnungen auf der Seite **Reg. Lieferanmahnung** betrachten. Wenn Sie möchten, können Sie jetzt eine Lieferbenachrichtigung drucken.  
 
 ## <a name="to-view-delivery-reminder-ledger-entries"></a>So zeigen Sie die Lieferanmahnungsposten an  
 
@@ -52,7 +52,7 @@ Sie können die registrierten Lieferbenachrichtigungen im Fenster **Reg. Lieferb
 2.  Wählen Sie die Bestellung aus, für die Sie den Benachrichtigungsstatus anzeigen möchten, und wählen Sie dann die Aktion **Bearbeiten**.  
 3.  Wählen Sie die Aktion **Lieferanmahnungsposten**.  
 
-Im registrierten Lieferbenachrichtigungskopf-Fenster, können Sie die Lieferbenachrichtigungsposten der ausgewählten Bestellung anzeigen.  
+Auf der Seite „Lieferanmahnungsposten” können Sie die Lieferanmahnungsposten für die ausgewählte Bestellung betrachten.  
 
 ## <a name="see-also"></a>Siehe auch  
  [Lieferanmahnungen](delivery-reminders.md)   
