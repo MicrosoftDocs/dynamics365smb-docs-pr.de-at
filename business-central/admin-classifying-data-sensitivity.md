@@ -10,10 +10,10 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 9e3e08135055aaf849b2fd847388269be1475b3c
+ms.sourcegitcommit: bc644e1467823a8339d61739dc30d0e3229ee547
+ms.openlocfilehash: 6195a6a6f1d712c7bcd33e5b8aafed6fddb6598d
 ms.contentlocale: de-at
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 11/29/2018
 
 ---
 

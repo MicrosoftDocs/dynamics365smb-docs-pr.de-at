@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/11/2018
+ms.date: 12/19/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2af7adc4bfa71c12fedd87f02bdabcd78ac49844
-ms.openlocfilehash: d0239dc2b808c9dc130237f40544c6e2b6d2e8f7
+ms.sourcegitcommit: aa1e7b13cf6cc56df1a6922a9b123e7cc19580c6
+ms.openlocfilehash: 696836b4837076b996a91702b1016e5c9b12f869
 ms.contentlocale: de-at
-ms.lasthandoff: 10/15/2018
+ms.lasthandoff: 12/19/2018
 
 ---
 # <a name="austria-local-functionality"></a>Lokale Funktion (Österreich)
@@ -37,7 +37,8 @@ In den folgenden Themen werden Funktionen beschrieben, die der österreichischen
 [Melden von MwSt. an die Steuerbehörden](../../finance-how-report-vat.md)  
 [Gewusst wie: Einrichten von Lieferbenachrichtigungen](how-to-set-up-delivery-reminders.md)  
 [Einrichten von Lieferbenachrichtigungsbestimmungen, Stufen und Text](how-to-set-up-delivery-reminder-terms-levels-and-text.md)  
-[Währungswechselkurse aktualisieren](../../finance-how-update-currencies.md)    
+[Wechselkurse aktualisieren](../../finance-how-update-currencies.md)
+[Zusätzliche Berichtswährung einrichten](../../finance-how-setup-additional-currencies.md)    
 [MwSt.-Abrechnung](vat-reporting.md)
 
 ## <a name="see-also"></a>Siehe auch

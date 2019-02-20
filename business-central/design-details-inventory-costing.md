@@ -11,10 +11,10 @@ ms.search.keywords: design, inventory, costing
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2af7adc4bfa71c12fedd87f02bdabcd78ac49844
-ms.openlocfilehash: 04f41fa7b075692fef8243e24cff1ef3a5ebaf65
+ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
+ms.openlocfilehash: 830c14eb96557f8852d0a4758922503fe0179b58
 ms.contentlocale: de-at
-ms.lasthandoff: 10/15/2018
+ms.lasthandoff: 11/29/2018
 
 ---
 # <a name="design-details-inventory-costing"></a>Designdetails: Lagerkostenberechnung
@@ -38,6 +38,7 @@ Die Kostenverwaltung, die auch als "Lagerabgang" bezeichnet wird, dient zum Erfa
 [Designdetails: Fertigungsauftragsbuchung](design-details-production-order-posting.md)  
 [Designdetails: Montageauftragsbuchung](design-details-assembly-order-posting.md)  
 [Designdetails: Abgleich mit der Finanzbuchhaltung](design-details-reconciliation-with-the-general-ledger.md)  
-[Designdetails: Konten in der Finanzbuchhaltung](design-details-accounts-in-the-general-ledger.md)  
+[Designdetails: Konten in der Finanzbuchhaltung](design-details-accounts-in-the-general-ledger.md)
+[Designdetails: Aktuellen Lagerwert ermitteln](design-details-inventory-valuation.md)  
 [Designdetails: Neubewertung](design-details-revaluation.md)
 
