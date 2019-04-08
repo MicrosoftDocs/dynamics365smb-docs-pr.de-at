@@ -1,1 +1,1 @@
-<span data-ttu-id="a8f57-101">Dynamics 365 — Buchhalter-Hub</span><span class="sxs-lookup"><span data-stu-id="a8f57-101">Dynamics 365 — Accountant Hub</span></span>
+<span data-ttu-id="ee35f-101">Dynamics 365 — Accountant Hub</span><span class="sxs-lookup"><span data-stu-id="ee35f-101">Dynamics 365 — Accountant Hub</span></span>

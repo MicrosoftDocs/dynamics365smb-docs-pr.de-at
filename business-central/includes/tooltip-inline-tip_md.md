@@ -1,1 +1,1 @@
-<span data-ttu-id="60ab5-101">Fahren Sie über ein Feld, um eine Kurzbeschreibung zu lesen.</span><span class="sxs-lookup"><span data-stu-id="60ab5-101">Hover over a field to read a short description.</span></span>
+<span data-ttu-id="bbabe-101">Fahren Sie über ein Feld, um eine Kurzbeschreibung zu lesen.</span><span class="sxs-lookup"><span data-stu-id="bbabe-101">Hover over a field to read a short description.</span></span>
