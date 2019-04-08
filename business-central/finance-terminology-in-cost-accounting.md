@@ -1,23 +1,23 @@
 ---
 title: Terminologie der Kostenrechnung | Microsoft Docs
-description: "Dieses Thema definiert die Schlüsselbegriffe, die in der Kostenrechnung verwendet werden."
+description: Dieses Thema definiert die Schlüsselbegriffe, die in der Kostenrechnung verwendet werden.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 2af7adc4bfa71c12fedd87f02bdabcd78ac49844
 ms.openlocfilehash: 9518c0b249ffe73b90082bd14f350e8fb464d1c9
-ms.contentlocale: de-at
-ms.lasthandoff: 10/15/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-AT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "823336"
 ---
 # <a name="terminology-in-cost-accounting"></a>Terminologie der Kostenrechnung
 Dieses Thema definiert die Schlüsselbegriffe, die in der Kostenrechnung verwendet werden.  
@@ -53,4 +53,3 @@ Dieses Thema definiert die Schlüsselbegriffe, die in der Kostenrechnung verwend
  [Informationen zur Kostenrechnung](finance-about-cost-accounting.md)   
  [Kostenrechnung](finance-manage-cost-accounting.md)  
  [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

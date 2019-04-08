@@ -1,8 +1,8 @@
 ---
 title: Einrichten von Service | Microsoft Docs
-description: "Überblick der Aufgaben zur Serviceeinrichtung für eine passende Serviceverwaltungsmethode für Ihre Organisation."
+description: Überblick der Aufgaben zur Serviceeinrichtung für eine passende Serviceverwaltungsmethode für Ihre Organisation.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,14 +12,13 @@ ms.workload: na
 ms.search.keywords: service, service items, repairs, maintenance, fix
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 2af7adc4bfa71c12fedd87f02bdabcd78ac49844
 ms.openlocfilehash: c4b8287c8e1c056bd45a30376e96aca1f8f4ddcc
-ms.contentlocale: de-at
-ms.lasthandoff: 10/15/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-AT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "823539"
 ---
-
 # <a name="setting-up-service-management"></a>Einrichten der Serviceverwaltung
 Bevor Sie mit den Servicemanagement-Funktionen in [!INCLUDE[d365fin](includes/d365fin_md.md)] beginnen können, müssen einige Dinge eingerichtet werden. Beispielsweise können Sie Codierung für Standardservices, Symptome und Fehlercodes festlegen und die Serviceartikel und Serviceartikeltypen einrichten, die vom Kundendienst des Unternehmens benötigt werden.  
 
@@ -47,4 +46,3 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 ## <a name="see-also"></a>Siehe auch 
 [Service](service-service.md)  
 [Erste Schritte](product-get-started.md)  
-

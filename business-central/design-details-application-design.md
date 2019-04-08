@@ -1,22 +1,22 @@
 ---
 title: Designdetails | Microsoft Docs
-description: "Dieser Inhalt enthält detaillierte technische Informationen über komplexe Anwendungsbereiche in  Business Central."
+description: Dieser Inhalt enthält detaillierte technische Informationen über komplexe Anwendungsbereiche in  Business Central.
 author: SorenGP
-documentationcenter: 
+documentationcenter: ''
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 2af7adc4bfa71c12fedd87f02bdabcd78ac49844
 ms.openlocfilehash: f374daae5d7135324ef4fc3da4845a992aa0ccb5
-ms.contentlocale: de-at
-ms.lasthandoff: 10/15/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-AT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "823590"
 ---
 # <a name="design-details"></a>Designdetails
 Dieser Inhalt enthält detaillierte technische Informationen über komplexe Anwendungsbereiche in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -41,4 +41,3 @@ Dieser Inhalt enthält detaillierte technische Informationen über komplexe Anwe
 
  ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
   
-

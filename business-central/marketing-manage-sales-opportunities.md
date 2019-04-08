@@ -1,8 +1,8 @@
 ---
 title: Verwaltung von Verkaufschancen und Leads | Microsoft Docs
-description: "Beschreibt, wie sämtliche eingehenden Leads oder Verkaufschancen in Business Central verwaltet werden und verknüpft die Verkaufschance mit einem Vertriebsmitarbeiter, um die potenziellen Verkäufe nachverfolgen zu können."
+description: Beschreibt, wie sämtliche eingehenden Leads oder Verkaufschancen in Business Central verwaltet werden und verknüpft die Verkaufschance mit einem Vertriebsmitarbeiter, um die potenziellen Verkäufe nachverfolgen zu können.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 2af7adc4bfa71c12fedd87f02bdabcd78ac49844
 ms.openlocfilehash: cb391e079d65283aef5aff1d4a30d14123065ba5
-ms.contentlocale: de-at
-ms.lasthandoff: 10/15/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-AT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "823335"
 ---
 # <a name="managing-sales-opportunities"></a>Verkaufschancen verwalten
 Alle eingehenden Informationen zu potenziellen Kunden können als Verkaufschance behandelt werden. Sie können Verkaufschancen erstellen und diese einem Verkäufer zuordnen, um potenziellen Verkäufe nachverfolgen zu können.
@@ -36,4 +36,3 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 [Verkauf](sales-manage-sales.md)  
 [Erstellen und Verwalten von Kontakten](marketing-contacts.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

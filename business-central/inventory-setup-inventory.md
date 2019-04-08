@@ -1,8 +1,8 @@
 ---
 title: Einrichten von Bestand | Microsoft Docs
-description: "Beschreibt, wie Lagervorgänge und Lagerorte eingerichtet werden, einschließlich Umlagerungsrouten und Standorte wie Lagerorte."
+description: Beschreibt, wie Lagervorgänge und Lagerorte eingerichtet werden, einschließlich Umlagerungsrouten und Standorte wie Lagerorte.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: warehouse, stock
 ms.date: 10/01/2018
 ms.author: SorenGP
-ms.translationtype: HT
-ms.sourcegitcommit: 2af7adc4bfa71c12fedd87f02bdabcd78ac49844
 ms.openlocfilehash: 8e4033412560e8dc847397c4399e12985490bf78
-ms.contentlocale: de-at
-ms.lasthandoff: 10/15/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-AT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "823181"
 ---
 # <a name="setting-up-inventory"></a>Bestand einrichten
 Bevor Sie Lageraktivitäten und Lagerbewertung verwalten können, müssen die Regeln und Werte konfiguriert werden, die die Lagerbestandsrichtlinien des Unternehmens definieren.
@@ -35,7 +35,7 @@ Wenn Sie Ihr Lager so eingerichtet haben, können Sie verschiedene Lagervorgäng
 |Erfahren Sie, wie Sie das Feld **Art** entsprechend dem Geschäftszweck auf der Artikelkarte ausfüllen.|[Info zu Elementtypen](inventory-about-item-types.md)| 
 |Einrichten mehrerer Einheiten für einen Artikel, den Sie für Alternativvorrat, beispielsweise auf Verkauf, Einkauf oder Buchungen innerhalb der Fertigung verwenden können.|[Artikeleinheiten einrichten](inventory-how-setup-units-of-measure.md)|
 |Sie können Lagerhaltungsdaten verwenden, um Informationen über Ihre Artikel für einen bestimmten Lagerortcode und/oder einen bestimmten Variantencode zu speichern.|[Lagerhaltungsdaten einrichten](inventory-how-to-set-up-stockkeeping-units.md)|
-| Artikel den Kategorien zuweisen und ihnen Attribute zuweisen, damit Sie und die Kunden die Artikel finden. |[Artikel kategorisieren](inventory-how-categorize-items.md) |
+| Artikel den Kategorien zuweisen und ihnen Attribute zuweisen, damit Sie und die Debitoren die Artikel finden. |[Artikel kategorisieren](inventory-how-categorize-items.md) |
 
 ## <a name="see-also"></a>Siehe auch
 [Verwalten des Lagerbestands](inventory-manage-inventory.md)  
@@ -43,4 +43,3 @@ Wenn Sie Ihr Lager so eingerichtet haben, können Sie verschiedene Lagervorgäng
 [Verkäufe verwalten](sales-manage-sales.md)    
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)
-

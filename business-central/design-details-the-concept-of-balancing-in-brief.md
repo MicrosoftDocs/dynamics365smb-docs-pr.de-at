@@ -1,24 +1,24 @@
 ---
-title: "Designdetails: Das Ausgleichskonzept in Kürze | Microsoft Docs"
-description: "Der Bedarf wird von Kunden eines Unternehmens vorgegeben. Der Vorrat ist das, was das Unternehmen erstellen oder entfernen kann, um Saldi auszugleichen. Die Planungssystem beginnt mit dem unabhängigen Bedarf und verfolgt ihn rückwärts zum Vorrat."
+title: 'Designdetails: Das Ausgleichskonzept in Kürze | Microsoft Docs'
+description: Der Bedarf wird von Kunden eines Unternehmens vorgegeben. Der Vorrat ist das, was das Unternehmen erstellen oder entfernen kann, um Saldi auszugleichen. Die Planungssystem beginnt mit dem unabhängigen Bedarf und verfolgt ihn rückwärts zum Vorrat.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
+ms.openlocfilehash: ccf9857752fffd873e171880274a5a039c69bdec
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 2af7adc4bfa71c12fedd87f02bdabcd78ac49844
-ms.openlocfilehash: c6c7adb07337643360baa9cacf4eff659e7557c3
-ms.contentlocale: de-at
-ms.lasthandoff: 10/15/2018
-
+ms.contentlocale: de-AT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "823736"
 ---
 # <a name="design-details-the-concept-of-balancing-in-brief"></a>Designdetails: Das Ausgleichskonzept in Kürze
 Der Bedarf wird von Kunden eines Unternehmens vorgegeben. Der Vorrat ist das, was das Unternehmen erstellen oder entfernen kann, um Saldi auszugleichen. Die Planungssystem beginnt mit dem unabhängigen Bedarf und verfolgt ihn rückwärts zum Vorrat.  
@@ -33,4 +33,3 @@ Der Bedarf wird von Kunden eines Unternehmens vorgegeben. Der Vorrat ist das, wa
  [Designdetails: Ausgleich von Bedarf und Vorrat](design-details-balancing-demand-and-supply.md)   
  [Designdetails: Zentrale Konzepte des Planungssystems](design-details-central-concepts-of-the-planning-system.md)   
  [Designdetails: Vorratsplanung](design-details-supply-planning.md)
-
