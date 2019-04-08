@@ -1,24 +1,24 @@
 ---
 title: 'Designdetails: Bedarf und Vorrat | Microsoft Docs'
-description: "Bedarf ist der Oberbegriff, der für jede Art Brutto-Bedarf verwendet wird, beispielsweise für Verkaufsauftrags und Komponentenbedarf aus einem Fertigungsauftrag. Darüber hinaus ermöglicht die Anwendung weitere technische Bedarfsarten, wie z.B. negative Lagerbestände und Einkaufsreklamationen."
+description: Bedarf ist der Oberbegriff, der für jede Art Brutto-Bedarf verwendet wird, beispielsweise für Verkaufsauftrags und Komponentenbedarf aus einem Fertigungsauftrag. Darüber hinaus ermöglicht die Anwendung weitere technische Bedarfsarten, wie z.B. negative Lagerbestände und Einkaufsreklamationen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
-ms.translationtype: HT
-ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
 ms.openlocfilehash: ad6684bb1fefe10fc965c3c8a7780c6aa8a9d685
-ms.contentlocale: de-at
-ms.lasthandoff: 11/20/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-AT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "824281"
 ---
 # <a name="design-details-demand-and-supply"></a>Designdetails: Bedarf und Vorrat
 Bedarf ist der Oberbegriff, der für jede Art Brutto-Bedarf verwendet wird, beispielsweise für Verkaufsauftrags und Komponentenbedarf aus einem Fertigungsauftrag. Darüber hinaus ermöglicht die Anwendung weitere technische Bedarfsarten, wie z.B. negative Lagerbestände und Einkaufsreklamationen.  
@@ -35,4 +35,3 @@ Bedarf ist der Oberbegriff, der für jede Art Brutto-Bedarf verwendet wird, beis
  [Designdetails: Ausgleich von Bedarf und Vorrat](design-details-balancing-demand-and-supply.md)   
  [Designdetails: Zentrale Konzepte des Planungssystems](design-details-central-concepts-of-the-planning-system.md)   
  [Designdetails: Vorratsplanung](design-details-supply-planning.md)
-

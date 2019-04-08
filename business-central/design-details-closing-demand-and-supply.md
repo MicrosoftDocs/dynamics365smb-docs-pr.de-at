@@ -1,8 +1,8 @@
 ---
 title: 'Designdetails: Bedarf und Vorrat | Microsoft Docs'
-description: "Dieses Thema stellt einen Vorschlag bereit, was zu tun ist, nachdem Sie das Zubehör-Ausgleichsverfahren ausgeführt haben."
+description: Dieses Thema stellt einen Vorschlag bereit, was zu tun ist, nachdem Sie das Zubehör-Ausgleichsverfahren ausgeführt haben.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: design, planning, example, closing, supply
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
-ms.translationtype: HT
-ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
 ms.openlocfilehash: 73ddbe9746d7681d11e61f10037bf26f792acffa
-ms.contentlocale: de-at
-ms.lasthandoff: 11/20/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-AT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "824335"
 ---
 # <a name="design-details-closing-demand-and-supply"></a>Designdetails: Abschluss von Bedarf und Vorrat
 Wenn die Zubehör-Ausgleichsverfahren ausgeführt wurden, gibt es drei mögliche Schlusssituationen:  
@@ -44,4 +44,3 @@ Damit sind die Beschreibungen dazu, wie Bedarf und Vorrat vom Planungssystem gel
 [Designdetails: Ausgleich von Bedarf und Vorrat](design-details-balancing-demand-and-supply.md)   
 [Designdetails: Zentrale Konzepte des Planungssystems](design-details-central-concepts-of-the-planning-system.md)   
 [Designdetails: Vorratsplanung](design-details-supply-planning.md)
-

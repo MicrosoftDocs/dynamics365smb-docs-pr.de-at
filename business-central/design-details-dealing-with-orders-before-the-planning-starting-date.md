@@ -1,8 +1,8 @@
 ---
-title: "Designdetails: Umgang mit Aufträgen vor dem Planungs-Startdatum | Microsoft Docs"
-description: "In diesem Thema werden die Regeln beschrieben, die Planung für Aufträge in der fixierten Zone anwendet."
+title: 'Designdetails: Umgang mit Aufträgen vor dem Planungs-Startdatum | Microsoft Docs'
+description: In diesem Thema werden die Regeln beschrieben, die Planung für Aufträge in der fixierten Zone anwendet.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: planning, frozen, design serial, lot
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
-ms.translationtype: HT
-ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
 ms.openlocfilehash: 9fee9eff60b441ef2d4782a77a6fbbbe8b01af03
-ms.contentlocale: de-at
-ms.lasthandoff: 11/20/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-AT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "824093"
 ---
 # <a name="design-details-dealing-with-orders-before-the-planning-starting-date"></a>Designdetails: Umgang mit Aufträgen vor dem Planungs-Startdatum
 Um zu vermeiden, dass ein Beschaffungsplan unmöglichen und daher unbrauchbare Vorschläge anzeigt, berücksichtigt das Planungssystem die Periode bis zum Startdatum als fixierte Zone, für die nichts geplant wird. Die folgende Regel gilt für die fixierte Zone:  
@@ -42,4 +42,3 @@ Wenn Serien-/Chargennummern erforderlich sind, oder ein Auftrag-zu-Auftrag-Link 
 [Designdetails: Ausgleich von Bedarf und Vorrat](design-details-balancing-demand-and-supply.md)   
 [Designdetails: Zentrale Konzepte des Planungssystems](design-details-central-concepts-of-the-planning-system.md)   
 [Designdetails: Vorratsplanung](design-details-supply-planning.md)
-

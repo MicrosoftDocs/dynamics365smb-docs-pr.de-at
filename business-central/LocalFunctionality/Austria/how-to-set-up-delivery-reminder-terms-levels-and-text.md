@@ -1,23 +1,23 @@
 ---
 title: 'Gewusst wie: Einrichten von Lieferbenachrichtigungsmethoden, -stufen und -text'
-description: "Zur Erstellung von Lieferbenachrichtigungen müssen Sie bestimmte Dinge einrichten."
+description: Zur Erstellung von Lieferbenachrichtigungen müssen Sie bestimmte Dinge einrichten.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: a5230e066c072744dcd5a472c94bc661b49943cd
-ms.contentlocale: de-at
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-AT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826309"
 ---
 # <a name="set-up-delivery-reminder-terms-levels-and-text"></a>Einrichten von Lieferbenachrichtigungsbestimmungen, Stufen und Text
 Zur Erstellung von Lieferbenachrichtigungen müssen Sie Folgendes einrichten:  
@@ -74,4 +74,3 @@ Im folgenden Verfahren wird beschrieben, wie Sie den Vortext einrichten. Diese S
  [So werden Lieferbenachrichtigungscodes zu Kreditoren zugewiesen](how-to-assign-delivery-reminder-codes-to-vendors.md)   
  [So erstellen Sie Lieferanmahnungen manuell](how-to-create-delivery-reminders-manually.md)   
  [Lieferbenachrichtigung registrieren](how-to-issue-delivery-reminders.md)
-

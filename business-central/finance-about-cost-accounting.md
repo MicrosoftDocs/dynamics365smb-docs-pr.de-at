@@ -1,23 +1,23 @@
 ---
 title: Informationen zur Kostenrechnung | Microsoft Docs
-description: "Kostenrechnung wird verwendet, um Ihnen dabei zu helfen, die Kosten des Betriebs eines Geschäftes zu erkennen."
+description: Kostenrechnung wird verwendet, um Ihnen dabei zu helfen, die Kosten des Betriebs eines Geschäftes zu erkennen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 2af7adc4bfa71c12fedd87f02bdabcd78ac49844
 ms.openlocfilehash: d7eafb21bbcf6c4b446f02b3a33ff6349c2d415d
-ms.contentlocale: de-at
-ms.lasthandoff: 10/15/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-AT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "824280"
 ---
 # <a name="about-cost-accounting"></a>Informationen zur Kostenrechnung
 Kostenrechnung wird verwendet, um Ihnen dabei zu helfen, die Kosten des Betriebs eines Geschäftes zu erkennen. Kostenrechnungsinformationen sollen Folgendes analysieren:  
@@ -75,4 +75,3 @@ Die meisten Berichte und Statistiken basieren auf den gebuchten Kostenposten. Si
  [Finanzen](finance.md)   
  [Terminologie der Kostenrechnung](finance-terminology-in-cost-accounting.md)  
  [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,8 +1,8 @@
 ---
-title: Erhalten von Informationen zu Finanzbuchhaltung und Kontoplan| Microsoft Docs
+title: Erhalten von Informationen zu Finanzbuchhaltung und COA| Microsoft Docs
 description: Beschreibt die Finanzbuchhaltung, den Kontenplan und die Kontokategorien.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,14 +12,14 @@ ms.workload: na
 ms.search.keywords: analysis, history, track
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 40363e1ef9deeda6b39e2d554c5c3dc3a85334b8
-ms.contentlocale: de-at
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-AT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "824329"
 ---
-# <a name="understanding-the-general-ledger-and-the-coa"></a>Verständis der Fibu und des Kontoplans
+# <a name="understanding-the-general-ledger-and-the-coa"></a>Verständnis der Fibu und des COA
 Die Finanzbuchhaltung speichert Ihre Finanzdaten, und der Kontenplan zeigt die Konten, auf die alle Sachposten gebucht werden, an. [!INCLUDE[d365fin](includes/d365fin_md.md)]umfasst einen Standardkontenplan, der zur Unterstützung Ihres Unternehmens bereit steht.
 
 ## <a name="general-ledger-setup-and-general-posting-setup"></a>Finanzbuchhaltung Einrichtung und Buchungsmatrix Einrichtung
@@ -65,4 +65,3 @@ Wenn Sie das nächste Mal ein Kontenschemata auf Grundlage Ihre Änderungen erst
 [Finanzen](finance.md)  
 [Einrichten oder Ändern des Kontenplans](finance-setup-chart-accounts.md)  
 [Business Intelligence](bi.md)  
-

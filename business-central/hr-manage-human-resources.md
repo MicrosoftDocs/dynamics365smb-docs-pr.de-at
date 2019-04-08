@@ -1,8 +1,8 @@
 ---
-title: "Personal-Funktionalität nutzen| Microsoft Docs"
-description: "Sie können neue Mitarbeiter registrieren, Informationen über bestehende Mitarbeiter bearbeiten und Fehlzeiten aufzeichnen und analysieren."
+title: Personal-Funktionalität nutzen| Microsoft Docs
+description: Sie können neue Mitarbeiter registrieren, Informationen über bestehende Mitarbeiter bearbeiten und Fehlzeiten aufzeichnen und analysieren.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 2af7adc4bfa71c12fedd87f02bdabcd78ac49844
 ms.openlocfilehash: 209a36d19d38f62aa94f77f8ef33b849c078dd67
-ms.contentlocale: de-at
-ms.lasthandoff: 10/15/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-AT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "824448"
 ---
 # <a name="manage-human-resources"></a>Personalwesen verwalten
 In [!INCLUDE[d365fin](includes/d365fin_md.md)] können Sie ausführliche Datensätze über Ihre Mitarbeiter anlegen. Sie haben die Möglichkeit zum Erfassen und Pflegen von Mitarbeiterinformationen wie Arbeitsverträgen, vertraulichen Informationen, Qualifikationen oder Mitarbeiterkontakten.
@@ -37,4 +37,3 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 [Finanzen](finance.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Sie können auswählen, welche Funktionen angezeigt werden](ui-experiences.md)        
-

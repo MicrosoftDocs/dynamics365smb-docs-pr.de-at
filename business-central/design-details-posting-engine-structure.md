@@ -1,23 +1,23 @@
 ---
 title: Design Details - Buchungsmodulstruktur | Microsoft Docs
-description: "Buchungsschnittstelle und verschiedene andere Funktionen in Codeunit 12 verwenden Buchungsmodulfunktionen, um Sachposten und MwSt.-Posten-Datensätze vorzubereiten und einzufügen. Das Buchungsmodul ist auch für Sachpostenjournalerstellung zuständig."
+description: Buchungsschnittstelle und verschiedene andere Funktionen in Codeunit 12 verwenden Buchungsmodulfunktionen, um Sachposten und MwSt.-Posten-Datensätze vorzubereiten und einzufügen. Das Buchungsmodul ist auch für Sachpostenjournalerstellung zuständig.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 2af7adc4bfa71c12fedd87f02bdabcd78ac49844
 ms.openlocfilehash: 58a319db86be7a93467a624b56fafc0da122c7fb
-ms.contentlocale: de-at
-ms.lasthandoff: 10/15/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-AT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "823815"
 ---
 # <a name="design-details-posting-engine-structure"></a>Designdetails: Buchungs-Modul-Struktur
 Buchungsschnittstelle und verschiedene andere Funktionen in Codeunit 12 verwenden Buchungsmodulfunktionen, um Sachposten und MwSt.-Posten-Datensätze vorzubereiten und einzufügen. Das Buchungsmodul ist auch für Sachpostenjournalerstellung zuständig.  

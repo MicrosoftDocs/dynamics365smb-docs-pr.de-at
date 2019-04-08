@@ -1,6 +1,6 @@
 ---
-title: "Überblick der Aufgaben zum Verwalten von Verkäufen | Microsoft Docs"
-description: "Beschreibt, wie Verkaufsaktivitäten verwaltet werden"
+title: Überblick der Aufgaben zum Verwalten von Verkäufen | Microsoft Docs
+description: Beschreibt, wie Verkaufsaktivitäten verwaltet werden
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: trade, sell
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 2af7adc4bfa71c12fedd87f02bdabcd78ac49844
 ms.openlocfilehash: 6c8c3f39d782a33896e531c4bfdf95b589458f99
-ms.contentlocale: de-at
-ms.lasthandoff: 10/15/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-AT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "824184"
 ---
 # <a name="sales"></a>Verkauf
 Sie erstellen eine Verkaufsrechnung oder eine Bestellung, um Ihre Vereinbarung mit dem Kunden zu erfassen, um bestimmte Produkte unter speziellen Liefer- und Zahlungsbedingungen zu verkaufen.
@@ -38,12 +38,12 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 
 | Aufgabe | Siehe |
 | --- | --- |
-|Erstellen Sie eine Debitorenkarte für jeden Debitor, an den Sie verkaufen.|[Registriert einen neuen Debitor.](sales-how-register-new-customers.md)|
+|Erstellen Sie eine Debitorenkarte für jeden Debitor, an den Sie verkaufen.|[Neue Debitoren registrieren](sales-how-register-new-customers.md)|
 | Erstellen Sie ein Verkaufsangebot, in dem Sie Produkte auf verkäuflichen Bedingungen anbieten, bevor Sie das Angebot in eine Verkaufsrechnung umwandeln. |[Verkaufsangebote machen](sales-how-make-offers.md) |
-| Erstellen Sie eine Verkaufsrechnung, um Ihre Vereinbarung mit dem Kunden zu erfassen, um Produkte unter speziellen Lieferungs- und Zahlungsbedingungen zu verkaufen. |[Verkaufsrechnung](sales-how-invoice-sales.md) |
+| Erstellen Sie eine Verkaufsrechnung, um Ihre Vereinbarung mit dem Debitoren zu erfassen, um Produkte unter speziellen Lieferungs- und Zahlungsbedingungen zu verkaufen. |[Fakturieren eines Verkaufs](sales-how-invoice-sales.md) |
 | Verarbeiten Sie einen Verkaufsauftrag, der Teillieferung oder Direktlieferungen beinhaltet. |[Produkte verkaufen](sales-how-sell-products.md) |
 |Richten Sie Standardverkaufscodes oder Standardeinkaufscodes, die Sie in Belegen beispielsweise für Wiederk Ersatzaufträge schnell einfügen können.|[Erstellen Sie wiederkehrende Verkaufs- und Einkaufszeilen](sales-how-work-standard-lines.md)|  
-| Verknüpfen Sie einen Verkaufsauftrag mit einer Bestellung, um einen Direktlieferungsartikel zu verkaufen, der direkt von Ihrem Lieferanten an Ihren Kunden geliefert wird. |[Direktlieferungen machen](sales-how-drop-shipment.md) |
+| Verknüpfen Sie einen Verkaufsauftrag mit einer Bestellung, um einen Direktlieferungsartikel zu verkaufen, der direkt von Ihrem Kreditor an Ihren Debitoren geliefert wird. |[Direktlieferungen machen](sales-how-drop-shipment.md) |
 |Lassen Sie einen Katalogartikel von einem Kreditor an Ihr Lager liefern, so dass Sie den Artikel an Ihren Debitor liefern können.|[Spezialaufträge erstellen:](sales-how-to-create-special-orders.md)|
 | Verwendungsfunktionen in einer unbezahlten gebuchten Verkaufsrechnung, um einen Gutschriftsprozess automatisch auszuführen, und entweder die Verkaufsrechnung zu stornieren oder neu zu erstellen, um Korrekturen vorzunehmen. |[Ändern oder Löschen einer unbezahlten Verkaufsrechnung](sales-how-correct-cancel-sales-invoice.md) |
 | Erstellen Sie eine Verkaufsgutschrift, um eine bestimmte gebuchte Verkaufsrechnung wiederherzustellen, um anzugeben, welche Produkte der Debitor zurückliefert und welchen Zahlungsbetrag Sie erstatten. |[Verarbeiten einer Verkaufsrücklieferung oder von Stornierungen](sales-how-process-sales-returns-cancellations.md) |
@@ -54,7 +54,7 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 
 ## <a name="see-also"></a>Siehe auch
 [Einrichten von Verkäufen](sales-setup-sales.md)  
-[Registriert einen neuen Debitor.](sales-how-register-new-customers.md)  
+[Neue Debitoren registrieren](sales-how-register-new-customers.md)  
 [Verwalten von Forderungen](receivables-manage-receivables.md)  
 [Verwalten von Verbindlichkeiten](payables-manage-payables.md)  
 [Projektmanagement](projects-manage-projects.md)    
@@ -62,4 +62,3 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-

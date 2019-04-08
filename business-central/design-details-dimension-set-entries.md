@@ -2,7 +2,7 @@
 title: Designdetails - Dimensionssatzposten | Microsoft Docs
 description: Diese Dokumentation stellt einen detaillierten technischen Einblick in die Urheberrechtshinweise und Prinzipien bereit, die verwendet werden, um die Dimensionsposten-Einlagerungs- und Buchungsfunktion in  neu zu gestalten.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: design, dimensions, codeunit
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 2af7adc4bfa71c12fedd87f02bdabcd78ac49844
 ms.openlocfilehash: 5563241784aaf8bfa1a29f8568411be657647cf7
-ms.contentlocale: de-at
-ms.lasthandoff: 10/15/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-AT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "823962"
 ---
 # <a name="design-details-dimension-set-entries"></a>Designdetails: Dimensionssatzposten
 Diese Dokumentation stellt einen detaillierten technischen Einblick in die Urheberrechtshinweise und Prinzipien bereit, die verwendet werden, um die Dimensionsposten-Einlagerungs- und Buchungsfunktion in [!INCLUDE[d365fin](includes/d365fin_md.md)] neu zu gestalten. Die Dokumentation beginnt mit der Beschreibung der konzeptionellen Übersichten der Neugestaltung. Dann wird die technische Architektur erklärt, um zu zeigen, wie die Neugestaltung erstellt wird. Schließlich bietet sie Codebeispiele, die Sie für Dimensionscodemigration und -Upgrade vorbereiten.  
@@ -28,4 +28,3 @@ Diese Dokumentation stellt einen detaillierten technischen Einblick in die Urheb
 [Designdetails: Tabellenstruktur](design-details-table-structure.md)  
 [Designdetails: Codeunit 408 Dimension Management](design-details-codeunit-408-dimension-management.md)  
 [Designdetails: Codebeispiele von geänderten Mustern in Änderungen](design-details-code-examples-of-changed-patterns-in-modifications.md)
-

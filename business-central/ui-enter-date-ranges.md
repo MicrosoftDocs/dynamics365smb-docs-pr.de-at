@@ -1,7 +1,7 @@
 ---
 title: Eingeben von Datumsangaben und Uhrzeiten in Business Central  | Microsoft Docs
-description: "Erfahren Sie, wie Sie Datumsangaben und Uhrzeiten einschließlich verschiedener Produktivitätstipps wie Stenografie, Ausdrücke und Bereiche eingegeben. Filtern Sie Listen oder Berichte bis zu einem bestimmten Datum oder zu Zeiträumen."
-documentationcenter: 
+description: Erfahren Sie, wie Sie Datumsangaben und Uhrzeiten einschließlich verschiedener Produktivitätstipps wie Stenografie, Ausdrücke und Bereiche eingegeben. Filtern Sie Listen oder Berichte bis zu einem bestimmten Datum oder zu Zeiträumen.
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,14 +11,13 @@ ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 54466c381bbeb3653a239920c00dd6f45536d9e3
-ms.contentlocale: de-at
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-AT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "823785"
 ---
-
 # <a name="working-with-calendar-dates-and-times"></a>Arbeiten mit Datumsangaben und Uhrzeiten in Kalendern
 
 [!INCLUDE[d365fin](includes/d365fin_long_md.md)] bietet mehrere Möglichkeiten, Datumsangaben und Uhrzeiten einzugeben, einschließlich leistungsstarker Funktionen, die die Dateneingabe beschleunigen oder Ihnen helfen, komplexe Kalenderausdrücke zu schreiben. Es gibt verschiedene Bereiche in der Anwendung, in denen Sie Daten und Uhrzeiten in die Felder eingeben können. So können Sie beispielsweise das Warenausgangsdatum für einen Auftrag festlegen. Wenn Sie Listen oder Berichtsdaten filtern, können Sie Datumswerten und Uhrzeiten eingeben, um genau die Daten zu finden, an denen Sie interessiert sind.
@@ -372,4 +371,3 @@ Wenn die Maßeinheit beispielsweise Stunden ist, wird die Zahl `5` in 5 h konve
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](ui-work-product.md)  
 [Terminberechnung für Einkäufe](purchasing-date-calculation-for-purchases.md)  
 [Eingeben von Kriterien in Filtern](ui-enter-criteria-filters.md)  
-

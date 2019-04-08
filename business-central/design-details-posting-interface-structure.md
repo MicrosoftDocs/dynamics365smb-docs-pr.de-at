@@ -1,8 +1,8 @@
 ---
 title: Design Details - Buchungsschnittstellenstruktur | Microsoft Docs
-description: "Dieses Thema enthält einen Überblick zu den globalen Verfahren in der Buchungsschnittstellenstruktur."
+description: Dieses Thema enthält einen Überblick zu den globalen Verfahren in der Buchungsschnittstellenstruktur.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: posting, interface, design
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 2af7adc4bfa71c12fedd87f02bdabcd78ac49844
 ms.openlocfilehash: 236cbcc45ccca23905dcb79a491236c80b2bdebf
-ms.contentlocale: de-at
-ms.lasthandoff: 10/15/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-AT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "823852"
 ---
 # <a name="design-details-posting-interface-structure"></a>Designdetails: Buchungs-Schnittstellenstruktur
 In [!INCLUDE[d365fin](includes/d365fin_md.md)]-Buchungsschnittstellenstruktur gibt es mehrere globale Verfahren, die dieselbe Struktur verwenden:  

@@ -2,7 +2,7 @@
 title: Einrichten von Banken | Microsoft Docs
 description: Sie verwenden Bankkontokarten, um Ihre Bankkonten und Einrichtungsbankfeeds, wie Yodlee, um Daten auszutauschen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, link
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 2af7adc4bfa71c12fedd87f02bdabcd78ac49844
 ms.openlocfilehash: 092d8d3f114eac890c97eca520de7b9adbc37108
-ms.contentlocale: de-at
-ms.lasthandoff: 10/15/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-AT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "824237"
 ---
 # <a name="setting-up-banking"></a>Einrichten von Banken
 Bankkontokarten dienen zum Nachverfolgen aller Bankkonten in beliebiger Währung. Sobald Bankkonten eingerichtet wurden, können auch Schecks gedruckt werden.
@@ -35,4 +35,3 @@ Um elektronische Bankdienstleistungen zum Importieren von Bankkontoauszügen und
 [Verwalten von Forderungen](receivables-manage-receivables.md)  
 [Verwalten von Verbindlichkeiten](payables-manage-payables.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

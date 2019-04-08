@@ -1,7 +1,7 @@
 ---
 title: Nutzung von Business Central ohne Outlook| Microsoft Docs
-description: "Sie können Business Central als Ihr Geschäftsposteingang in Outlook verwenden, da es mit Office 365 integriert ist. Sie können aber auch ohne Outlook in einem Browser oder auf dem mobilen Gerät arbeiten."
-documentationcenter: 
+description: Sie können Business Central als Ihr Geschäftsposteingang in Outlook verwenden, da es mit Office 365 integriert ist. Sie können aber auch ohne Outlook in einem Browser oder auf dem mobilen Gerät arbeiten.
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 2af7adc4bfa71c12fedd87f02bdabcd78ac49844
 ms.openlocfilehash: 49ed0eea3af363b368693b9df34bb6284ccc47ce
-ms.contentlocale: de-at
-ms.lasthandoff: 10/15/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-AT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "824421"
 ---
 # <a name="using-business-central-without-outlook"></a>Nutzung von Business Central ohne Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] ist mit Office 365 integriert, und Sie können [!INCLUDE[d365fin](includes/d365fin_md.md)] als Ihr Unternehmenspostfach in Outlook verwenden. Wenn, wenn Sie kein Outlook haben, können Sie mit [!INCLUDE[d365fin](includes/d365fin_md.md)] im Browser oder auf dem mobilen Gerät arbeiten.  
@@ -30,4 +30,3 @@ Sie können Dokumente wie Rechnungen als E-Mail über Ihre geschäftliche E-Mail
 [Nutzen Sie Business Central als Ihr Unternehmenspostfach in Outlook](admin-outlook.md)  
 [Abrufen von Business Central auf meinem mobilen Gerät](install-mobile-app.md)  
 [Senden von Belegen über E-Mail](ui-how-send-documents-email.md)
-

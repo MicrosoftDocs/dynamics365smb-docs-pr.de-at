@@ -1,8 +1,8 @@
 ---
-title: "Überblick der Aufgaben zum konfigurieren von Verkaufsprozessen | Microsoft Docs"
-description: "Gliedert die Aufgaben, um Regeln und Werte einzurichten, um Ihre Vertriebsrichtlinien und Arbeitsgänge zu definieren."
+title: Überblick der Aufgaben zum konfigurieren von Verkaufsprozessen | Microsoft Docs
+description: Gliedert die Aufgaben, um Regeln und Werte einzurichten, um Ihre Vertriebsrichtlinien und Arbeitsgänge zu definieren.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: trade, sell, configure
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 2af7adc4bfa71c12fedd87f02bdabcd78ac49844
 ms.openlocfilehash: 445b2c8ad3b5d4989324bae3d27423163d6808b5
-ms.contentlocale: de-at
-ms.lasthandoff: 10/15/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-AT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "824555"
 ---
 # <a name="setting-up-sales"></a>Einrichten von Verkäufen
 Bevor Sie Verkaufsprozesse verwalten können, müssen die Regeln und Werte konfiguriert werden, die die Vertriebsrichtlinien des Mandanten definieren.
@@ -42,4 +42,3 @@ Einrichten von finanzbezogenen Verkäufen wie Zahlungsformen und Währungen werd
 ## <a name="see-also"></a>Siehe auch
 [Verkauf](sales-manage-sales.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

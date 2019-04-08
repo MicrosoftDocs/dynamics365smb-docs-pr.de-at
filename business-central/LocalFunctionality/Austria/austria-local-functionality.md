@@ -1,23 +1,23 @@
 ---
-title: "Lokale Funktion (Österreich)"
-description: "Die folgenden Themen beschreiben die lokale Funktion in der österreichischen Version von Business Central."
+title: Lokale Funktion (Österreich)
+description: Die folgenden Themen beschreiben die lokale Funktion in der österreichischen Version von Business Central.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 12/19/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: aa1e7b13cf6cc56df1a6922a9b123e7cc19580c6
 ms.openlocfilehash: 696836b4837076b996a91702b1016e5c9b12f869
-ms.contentlocale: de-at
-ms.lasthandoff: 12/19/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: de-AT
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826319"
 ---
 # <a name="austria-local-functionality"></a>Lokale Funktion (Österreich)
 In den folgenden Themen werden Funktionen beschrieben, die der österreichischen Version von [!INCLUDE[d365fin](../../includes/d365fin_md.md)] eigen sind.  
@@ -45,4 +45,3 @@ In den folgenden Themen werden Funktionen beschrieben, die der österreichischen
 [Arbeiten mit [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)
 
 ## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
-
