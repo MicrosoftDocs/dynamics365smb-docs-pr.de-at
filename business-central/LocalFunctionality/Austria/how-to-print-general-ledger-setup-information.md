@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: d51f8fd839b13002db1c3808cb00aabe223b4f68
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 13fef12d485fad51602629bb753dd6db7bfe3caa
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826311"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "912962"
 ---
 # <a name="print-general-ledger-setup-information"></a>Drucken von Finanzbuchhaltungs-Setupinformationen
 Bevor Sie [!INCLUDE[d365fin](../../includes/d365fin_md.md)] im täglichen Geschäft verwenden können, können Sie **Finanzbuchhaltungseinrichtungs-Informationen** ausführen, um die Stammdaten anzuzeigen, die Sie eingerichtet haben. Sie können diese Stammdaten durchgehen, sodass Sie eine Grundlage für den Vergleich haben und dann überprüfen können, ob Sie die Buchungsgruppen korrekt eingerichtet haben.  

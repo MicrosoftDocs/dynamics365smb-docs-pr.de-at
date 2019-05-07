@@ -3,43 +3,48 @@ title: Lokale Funktion (Österreich)
 description: Die folgenden Themen beschreiben die lokale Funktion in der österreichischen Version von Business Central.
 services: project-madeira
 documentationcenter: ''
-author: SorenGP
+author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 12/19/2018
-ms.author: sgroespe
-ms.openlocfilehash: 696836b4837076b996a91702b1016e5c9b12f869
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.date: 04/01/2019
+ms.author: soalex
+ms.openlocfilehash: 53a996e20a03bc0dc8b7b1c3e198bfa993f6e24c
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826319"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "914057"
 ---
 # <a name="austria-local-functionality"></a>Lokale Funktion (Österreich)
 In den folgenden Themen werden Funktionen beschrieben, die der österreichischen Version von [!INCLUDE[d365fin](../../includes/d365fin_md.md)] eigen sind.  
 
-## <a name="in-this-section"></a>In diesem Abschnitt  
+## <a name="feature-availability"></a>Verfügbarkeit der Funktion
 
-[So werden Lieferbenachrichtigungscodes zu Kreditoren zugewiesen](how-to-assign-delivery-reminder-codes-to-vendors.md)  
-[Kopieren vorhandener Artikel in neue Artikel](how-to-copy-existing-items-to-new-items.md)  
-[Erstellen einer MwSt.-Abrechnung](how-to-create-a-vat-statement.md)  
-[So erstellen Sie Lieferanmahnungen manuell](how-to-create-delivery-reminders-manually.md)  
-[Lieferanmahnungen](delivery-reminders.md)  
-[So erstellen Sie Lieferanmahnungen](how-to-generate-delivery-reminders.md)  
-[Drucken von Finanzbuchhaltungs-Setupinformationen](how-to-print-general-ledger-setup-information.md)    
-[So drucken Sie im Verlauf von Stapelbuchungen Verkaufsaufträge und Bestellungen](how-to-print-sales-and-purchase-orders-during-batch-posting.md)    
-[So drucken Sie Testberichte vor dem Registrieren von Lieferanmahnungen](how-to-print-test-reports-for-delivery-reminders.md)  
-[Gewusst wie: Druck von Listenberichten für Kreditorenzahlungen](how-to-print-vendor-payments-list-reports.md)  
-[Melden von MwSt. an die Steuerbehörden](../../finance-how-report-vat.md)  
-[Gewusst wie: Einrichten von Lieferbenachrichtigungen](how-to-set-up-delivery-reminders.md)  
-[Einrichten von Lieferbenachrichtigungsbestimmungen, Stufen und Text](how-to-set-up-delivery-reminder-terms-levels-and-text.md)  
-[Wechselkurse aktualisieren](../../finance-how-update-currencies.md)
-[Zusätzliche Berichtswährung einrichten](../../finance-how-setup-additional-currencies.md)    
-[MwSt.-Abrechnung](vat-reporting.md)
+* MwSt. und Steuer
+    * [Erstellen einer MwSt.-Abrechnung](how-to-create-a-vat-statement.md) **Jetzt erhältlich**
+    * [MwSt.-Abrechnung](vat-reporting.md) **Jetzt erhältlich**
+
+* Bankgeschäfte und Zahlungen
+    * [Druck von Listenberichten für Kreditorenzahlungen](how-to-print-vendor-payments-list-reports.md) **Jetzt erhältlich**
+
+* Einkauf
+    * [Lieferbenachrichtigungen](delivery-reminders.md) **Jetzt erhältlich**
+    * [Einrichten von Lieferbenachrichtigungen](how-to-set-up-delivery-reminders.md) **Jetzt erhältlich**
+    * [Einrichten von Lieferbenachrichtigungsbestimmungen, Stufen und Text](how-to-set-up-delivery-reminder-terms-levels-and-text.md) **Jetzt erhältlich**
+    * [So werden Lieferbenachrichtigungscodes zu Kreditoren zugewiesen](how-to-assign-delivery-reminder-codes-to-vendors.md) **Jetzt erhältlich**
+    * [Generieren von Lieferbenachrichtigungen](how-to-generate-delivery-reminders.md) **Jetzt erhältlich**
+    * [Manuelles Erstellen von Lieferbenachrichtigungen](how-to-create-delivery-reminders-manually.md) **Jetzt erhältlich**
+    * [Ausstellen von Lieferbenachrichtigungen](how-to-issue-delivery-reminders.md) **Jetzt erhältlich**
+    * [So drucken Sie Testberichte vor dem Registrieren von Lieferanmahnungen](how-to-print-test-reports-for-delivery-reminders.md) **Jetzt erhältlich**
+
+* Allgemein
+    * [Kopieren von vorhandenen Artikeln in neue Artikel](how-to-copy-existing-items-to-new-items.md) **Jetzt erhältlich**
+    * [Drucken von Finanzbuchhaltungs-Setupinformationen](how-to-print-general-ledger-setup-information.md) **Jetzt erhältlich**
+    * [Drucken von Verkaufsaufträgen und Bestellungen während der Stapelbuchung](how-to-print-sales-and-purchase-orders-during-batch-posting.md) **Jetzt erhältlich**
 
 ## <a name="see-also"></a>Siehe auch
 [Arbeiten mit [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)
