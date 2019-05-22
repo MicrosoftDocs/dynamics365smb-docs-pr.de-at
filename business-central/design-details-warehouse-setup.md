@@ -11,14 +11,14 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 3b847791283820d8b9996f417e2bae1ca8c0e461
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "939387"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246329"
 ---
 # <a name="design-details-warehouse-setup"></a>Designdetails: Lagereinrichtung
-Lagerfunktionen in [!INCLUDE[d365fin](includes/d365fin_md.md)] enthalten verschiedene Komplexitätsstufen, definiert durch Lizenzberechtigungen in den angebotenen Elementen. Die Komplexitätsstufe in einer Lagerlösung ist weitgehend durch den Lagerplatz definiert, der auf Lagerortkarten eingerichtet ist, die wiederum lizenz-gesteuert ist, sodass der Zugriff auf Lagerplatzsetupfelder durch die Lizenz definiert ist. Darüber hinaus steuern die Anwendungsobjekte in der Lizenz, welche UI-Dokumente für die unterstützten Lageraktivitäten zu verwenden sind.  
+Lagerfunktionen in [!INCLUDE[d365fin](includes/d365fin_md.md)] enthalten verschiedene Komplexitätsstufen, definiert durch Lizenzberechtigungen in den angebotenen Elementen. Die Komplexitätsstufe in einer Lagerlösung ist weitgehend durch den Lagerplatz definiert, der auf Lagerortkarten eingerichtet ist, die wiederum lizenz-gesteuert ist, sodass der Zugriff auf Lagerplatzsetupfelder durch die Lizenz definiert ist. Darüber hinaus steuern die Anwendungsobjekte in der Lizenz, welche UI-Belege für die unterstützten Lageraktivitäten zu verwenden sind.  
 
 Die folgenden lagerbezogenen Elemente sind verfügbar:  
 
@@ -35,9 +35,9 @@ Die folgenden lagerbezogenen Elemente sind verfügbar:
 
 Weitere Informationen über jedes Element finden Sie unter[[!INCLUDE[d365fin](includes/d365fin_md.md)] Preisübersichten](https://go.microsoft.com/fwlink/?LinkId=238341) (PartnerSource-Konto erforderlich).  
 
-Die nachstehende Tabelle zeigt, welche Elemente benötigt werden, um verschiedene Lagerkomplexitätsebenen zu definieren, welche UI-Dokumente die einzelnen Ebenen unterstützen und welche Lagerortcodes diese Ebenen in der [!INCLUDE[d365fin](includes/d365fin_md.md)] Demodatenbank widerspiegeln.  
+Die nachstehende Tabelle zeigt, welche Elemente benötigt werden, um verschiedene Lagerkomplexitätsebenen zu definieren, welche UI-Belege die einzelnen Ebenen unterstützen und welche Lagerortcodes diese Ebenen in der [!INCLUDE[d365fin](includes/d365fin_md.md)] Demodatenbank widerspiegeln.  
 
-|Komplexitätsebene|Description|UI-Dokument|CRONUS-Lagerort|Minimale Elementanforderung|  
+|Komplexitätsebene|Description|UI-Beleg|CRONUS-Lagerort|Minimale Elementanforderung|  
 |----------------------|---------------------------------------|-----------------|---------------------------------|---------------------------------|  
 |1|Keine dedizierte Lageraktivität.<br /><br /> Eingangs-/Lieferungsbuchung aus Aufträgen.|Bestellung|BLAU|Grundlegender Lagerbestand|  
 |2|Keine dedizierte Lageraktivität.<br /><br /> Eingangs-/Lieferungsbuchung aus Aufträgen.<br /><br /> Lagerplatzcode ist erforderlich.|Auftrag, mit Lagerplatzcode|SILBER|Grundlegender Lagerbestand/Lagerplatz|  
@@ -46,7 +46,7 @@ Die nachstehende Tabelle zeigt, welche Elemente benötigt werden, um verschieden
 |5|Erweiterte Lageraktivität, für mehrere Aufträge.<br /><br /> Konsolidierte Eingangs-/Lieferungsbuchung, basierend auf Lager-Einlagerungs-/Kommissionierungsregistrierungen.<br /><br /> Lagerplatzcode ist erforderlich.|Wareneingang/Einlagerung/Kommissionierung/Warenausgang/Kommissioniervorschlag/Einlagerungsvorschlag, mit Lagerplatzcode|(GRÜN + Lagerplatz notwendig)|Grundlegender Lagerbestand/Lagerplatz/Wareneingang/Einlagerung/Kommissionierung/Lagerlieferung|  
 |6 <br /><br /> **Hinweis**: Diese Ebene wird als "Logistik" bezeichnet, da sie die detailliertesten Logistiksysteme benötigt.|Erweiterte Lageraktivität, für mehrere Aufträge<br /><br /> Konsolidierte Eingangs-/Lieferungsbuchung, basierend auf Lager-Einlagerungs-/Kommissionierungsregistrierungen.<br /><br /> Lagerplatzcode ist erforderlich.<br /><br /> Zone/Klassencode ist optional.<br /><br /> Lagermitarbeiter durch Workflow gesteuert<br /><br /> Lagerplatzauffüllungsplanung<br /><br /> Lagerplatzpriorität<br /><br /> Lagerplatz-Setup nach Kapazität<br /><br /> Einfügen  <!-- Hand-held device integration -->|Wareneingang/Einlagerung/Kommissionierung/Warenausgang/Kommissioniervorschlag/Einlagerungsvorschlag. Kommissionierung/interne Einlagerung, mit/Lagerplatz/Zonencode Klasse<br /><br /> Verschiedene Arbeitsblätter für Lagerplatzverwaltung<br /><br /> ADCS-Bildschirme|WEISS|Grundlegender Lagerbestand/Lagerplatz/Einlagerung/Wareneingang/Kommissionierung/Lagerlieferung/Logistiksysteme/interne Kommissionierungen und Einlagerungen/Lagerplatzeinrichtung<!-- Automated Data Capture System/ -->Lagerplatz-Setup|  
 
-Beispiele dazu, wie die UI-Dokumente pro Lagerkomplexitätsebene verwendet werden, finden Sie unter [Designdetails: Eingehender Lagerhausfluss](design-details-outbound-warehouse-flow.md).  
+Beispiele dazu, wie die UI-Belege pro Lagerkomplexitätsebene verwendet werden, finden Sie unter [Designdetails: Eingehender Lagerhausfluss](design-details-outbound-warehouse-flow.md).  
 
 ## <a name="bin-and-bin-content"></a>Lagerplatz,Lagerplatzinhalt  
 Ein Lagerplatz ist ein Speicherbehälter, der dafür ausgelegt ist, diskrete Teile aufzunehmen. Es ist die kleinste Containereinheit in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Artikelmengen in Lagerplätzen werden als Lagerplatzinhalte bezeichnet. Ein Lookup aus dem Feld **Artikel** oder aus Feld **Lagerplatzcode** auf jeder lagerbezogenen Belegzeile zeigt die berechnete Verfügbarkeit des Artikels am Lagerplatz an.  
@@ -120,7 +120,7 @@ Ein Lagerort ist eine physische Struktur oder ein Ort, an der/dem Lagerbestand e
 ## <a name="first-expired-first-out"></a>Ausgang nach frühestem Ablaufdatum  
 Wenn Sie das Kontrollkästchen **Gemäß FEFO kommissionieren** im Inforegister **Lagerplatzprüfung** auf der Lagerortkarte wählen, werden Artikel mit Artikelverfolgung entsprechend ihrem Ablaufdatum kommissioniert. Die Artikel mit den frühesten Ablaufdaten werden zuerst kommissioniert.  
 
-Lageraktivitäten in allen Kommissionierungs- und Umlagerungsdokumenten werden gemäß FEFO sortiert, es sei denn, den fraglichen Artikel ist bereits eine Serien-/Chargennummer zugeordnet. Wenn nur einem Teil der Menge auf der Zeile bereits Chargen- oder Seriennummern zugewiesen sind, wird die verbleibende zu kommissionierende Menge nach dem FEFO-Prinzip sortiert.  
+Lageraktivitäten in allen Kommissionierungs- und Umlagerungsbelegen werden gemäß FEFO sortiert, es sei denn, den fraglichen Artikel ist bereits eine Serien-/Chargennummer zugeordnet. Wenn nur einem Teil der Menge auf der Zeile bereits Chargen- oder Seriennummern zugewiesen sind, wird die verbleibende zu kommissionierende Menge nach dem FEFO-Prinzip sortiert.  
 
 Bei der Kommissionierung über FEFO wählt die Anwendung verfügbare Artikel auf der Grundlage des Ablaufdatums aus; das Ergebnis ist eine temporäre Artikelverfolgungsliste, die auf dem Ablaufdatum basiert. Weisen zwei Artikel dasselbe Ablaufdatum aus, wählt die Anwendung den Artikel mit der niedrigeren Chargen- oder Seriennummer zuerst aus. Sind die Chargen- oder Seriennummern identisch, wählt die Anwendung den Artikel aus, der zuerst ausgewählt wurde. Die Standardkriterien für die Auswahl der Artikel in Kommissionierungslagerplätzen, wie z. B. nach Lagerplatzpriorität und Gebindeanbruch, werden auf diese temporäre FEFO-Artikelverfolgungsliste angewendet.  
 

@@ -11,11 +11,11 @@ ms.search.keywords: tasks, work
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 90ec163e5a58ffc95de1af14f30dfcd7f8c8acc8
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "933018"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1241090"
 ---
 # <a name="add-comments-to-cards-and-documents"></a>Hinzufügen von Bemerkungen zu Karten und Belegen
 Fügen Sie zusätzlichen Informationen zu Konten, Debitorenkarten oder Verkaufsaufträgen, Verträge, wie eine Sonderpreis- oder Zustellungsmethode, mit anderen Benutzern mitzuteilen hinzu.
@@ -28,7 +28,7 @@ Außerdem können Sie definieren, welche Bemerkungen von einer Art Beleg auf ein
 > [!NOTE]
 > Bemerkungen werden nicht auf Berichten oder externen Erfassungsbelegen gedruckt.
 
-Nachfolgend wird erläutert, wie einer Bemerkung einer Artikelkarte hinzugefügt wird. Die Schritte sind für alle anderen Karten ähnlich und Dokumente, außer in Belegzeilen, die **Bemerkungen** Aktion wird auf ein Zeilenaktionsmenü platziert.
+Nachfolgend wird erläutert, wie einer Bemerkung einer Artikelkarte hinzugefügt wird. Die Schritte sind für alle anderen Karten ähnlich und Belege, außer in Belegzeilen, die **Bemerkungen** Aktion wird auf ein Zeilenaktionsmenü platziert.
 
 ## <a name="to-add-a-comments-to-an-item-card"></a>Um Bemerkungen einer Artikelkarte hinzuzufügen
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Katalogartikel** ein, und wählen dann den zugehörigen Link aus.

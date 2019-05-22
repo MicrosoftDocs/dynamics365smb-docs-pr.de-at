@@ -1,6 +1,6 @@
 ---
 title: 'Vorgehensweise: Verknüpfung von Datensätzen zu externen Informationen oder Programmen | Microsoft Docs'
-description: Fügen Sie einem Dokument oder einer Website einen Link zu einem bestimmten Datensatz hinzu, beispielsweise zu einer Debitorenkarte oder einem Dokument.
+description: Fügen Sie einem Beleg oder einer Website einen Link zu einem bestimmten Datensatz hinzu, beispielsweise zu einer Debitorenkarte oder einem Beleg.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,11 +11,11 @@ ms.search.keywords: ''
 ms.date: 04/12/2019
 ms.author: jswymer
 ms.openlocfilehash: 602d520043c5192109ccc4e2605ae0e231dafc1e
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "990194"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250359"
 ---
 # <a name="add-links-to-websites-documents-or-programs-on-records"></a>Hinzufügen von Links zu Websites, Belegen oder Programmen in Datensätzen
 An einem bestimmten Datensatz, beispielsweise einem Debitoren Beleg oder Verkaufsauftrag, können Sie einen Link einem externen Beleg, einer Website oder einer Anwendung hinzufügen. Möglicherweise möchten Sie einen Link einrichten, durch den eine neue leere E-Mail an einen bestimmten Empfänger geöffnet wird, wenn darauf geklickt wird. Die Kartenseite für einige Einträge wie Debitoren- und Kreditorenkarten beinhalten ein Feld mit der Bezeichnung  **Homepage**, in dem eine URL eingegeben werden kann. Wenn Sie andere Links einbeziehen möchten, können Sie die Methode verwenden, die in diesem Artikel beschrieben wird.  

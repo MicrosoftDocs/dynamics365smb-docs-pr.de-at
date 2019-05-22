@@ -12,14 +12,14 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 5f11d7c5607f54061166eebd11fb7e7cc58d5fbc
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.openlocfilehash: aeed39953f6b5219dcc290a3416a9dd7e2e69d89
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "921695"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1446778"
 ---
-# <a name="managing-interactions-for-segments"></a>Verwalten von Aktivitäten für Segmente
+# <a name="manage-interactions-for-segments"></a>Aktivitäten für Segmente verwalten
 Die Seite **Segment** ist ein Arbeitsschein, in dem Sie folgende Aufgaben ausführen können:
 
 * Segmente erstellen
@@ -37,7 +37,7 @@ Es gibt verschiedene Arten, Segmente zu erstellen:
 ## <a name="interactions"></a>Aktivitäten
 Auf der Seite **Segment** können Sie Aktivitäten für mehrere Kontakte gleichzeitig erstellen. Sie können z. B. ein Segment mit einem Microsoft Word-Dokument verbinden, sodass Sie einen Brief an alle Kontakte in dem Segment verschicken können.
 
-Sie können Informationen über die Aktivität für das Segment im **Segmentkopf** festlegen. Sie können z. B. entscheiden, welche Aktivitätenvorlage Sie für alle Kontakte verwenden möchten, Sie eine Beschreibung oder eine Korrespondenzart festlegen usw. Sie können diese Informationen in der Segmentszeile für jeden einzelnen Kontakt verändern, z. B., indem Sie eine andere Beschreibung eingeben. Wenn Sie ein Segment mit einem Dokument in Microsoft Word verknüpfen, können Sie das Dokument für einen oder mehrere Kontakte des Segments personalisieren, indem Sie dem Dokument z. B. individuelle Kommentare hinzufügen.
+Sie können Informationen über die Aktivität für das Segment im **Segmentkopf** festlegen. Sie können z. B. entscheiden, welche Aktivitätenvorlage Sie für alle Kontakte verwenden möchten, Sie eine Beschreibung oder eine Korrespondenzart festlegen usw. Sie können diese Informationen in der Segmentszeile für jeden einzelnen Kontakt verändern, z. B., indem Sie eine andere Beschreibung eingeben. Wenn Sie ein Segment mit einem Beleg in Microsoft Word verknüpfen, können Sie den Beleg für einen oder mehrere Kontakte des Segments personalisieren, indem Sie dem Beleg z. B. individuelle Kommentare hinzufügen.
 
 ## <a name="logging"></a>Protokollieren
 Wenn Sie auf der Seite **Segment** **Protokoll** wählen, werden alle Aktivitäten auf der Seite **Aktivitätenprotokollposten** gespeichert und das Segment wird protokolliert. Nachdem Sie das Segment protokolliert haben, finden Sie es nur in auf der Seite **Protokollierte Segmente**.

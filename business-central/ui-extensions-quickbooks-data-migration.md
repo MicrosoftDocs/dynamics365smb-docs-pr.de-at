@@ -11,11 +11,11 @@ ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: 44807f1e5fdbf3295ba0e52ccc0a556d342f3e46
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "937521"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250541"
 ---
 # <a name="the-quickbooks-data-migration-extension"></a>Die QuickBooks-Datenmigrationserweiterung
 Diese Erweiterung macht es einfach, Debitoren, Kreditoren und Artikel aus QuickBooks in [!INCLUDE[d365fin](includes/d365fin_md.md)] zu migrieren. Wenn Ihr Geschäft QuickBooks heute verwendet, können Sie die Daten exportieren und dann eine unterstützte Einrichtungsanleitung öffnen, um die Daten hochzuladen und in [!INCLUDE[d365fin](includes/d365fin_md.md)] zu migrieren.  
@@ -31,7 +31,7 @@ Sie können die folgenden Daten aus QuickBooks Online in Business Central import
 - Kontenplan  
 - Saldovortragtransaktion in der Finanzbuchhaltung  
 - Verfügbare Mengen für Lagerartikel  
-- Offene Dokumente für Debitoren und Kreditoren, wie beispielsweise Rechnungen, Gutschriften und Zahlungen  
+- Offene Belege für Debitoren und Kreditoren, wie beispielsweise Rechnungen, Gutschriften und Zahlungen  
 
 Es migrieren nur Gesamtbeträge auf Einkaufs- und Verkaufsbelegen. Wir aktualisieren keine teilweise bezahlten Beträge. Wenn ein Debitor 300 von insgesamt 500 Dollar einer Verkaufsrechnung bezahlt hat, migrieren wir die vollständigen 500. Wenn Sie Teilzahlungen erhalten, müssen Sie diese manuell aktualisieren, entweder, vor oder nach dem Sie Daten migrieren. Es ist empfehlenswert, ausstehende Transaktionen anzuwenden, bevor Sie migrieren, das ist einfacher danach.
 

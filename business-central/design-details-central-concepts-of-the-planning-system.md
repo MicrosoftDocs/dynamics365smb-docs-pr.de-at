@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 529f1c71111fd6ea0b93e7d29d2f5f6b6f1df3ae
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "924703"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247526"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Designdetails: Zentrale Konzepte des Planungssystems
 Die Planungsfunktionen sind in einer Stapelverarbeitung enthalten, die zuerst die entsprechenden Artikel und die Periode für die Planung auswählt. Dann ruft die Stapelverarbeitung entsprechend der Stücklistenebene jedes Artikels (Stücklistenposition), eine Codeeinheit ab, die einen Beschaffungsplan erstellt, indem Angebot-Nachfrage-Sätze abgegeglichen und dem Benutzer mögliche Aktionen vorgeschlagen werden. Die vorgeschlagenen Aktionen erscheinen als Zeilen im Planungsvorschlag oder Bestellvorschlag.  
@@ -252,7 +252,7 @@ Die Achtungswarnung wird in drei Situationen angezeigt:
 ## <a name="error-logs"></a>Fehlerprotokolle  
 Auf der Anforderungsseite „Plan berechnen“ kann der Benutzer das Feld **Abbrechen und ersten Fehler anzeigen** auswählen, um die Planung anzuhalten, wenn der erste Fehler aufgetreten ist. Gleichzeitig wird eine Meldung angezeigt, die Informationen zu dem Fehler enthält. Gibt es einen Fehler, werden im Planungsvorschlag nur die Planungszeilen angezeigt, die vor dem Fehler erfolgreich erstellt wurden.  
 
-Wenn das Feld nicht aktiviert ist, wird die Stapelverarbeitung „Planung berechnen“ fortgesetzt, bis sie abgeschlossen ist. Fehler unterbrechen die Stapelverarbeitung nicht. Sind Fehler vorhanden, wird nach Beendigung der Stapelverarbeitung eine Meldung angezeigt, die mitteilt, wie viele Artikel betroffen sind. Danach wird die Seite **Planungsfehlerprotokoll** geöffnet, in dem weitere Informationen zu den Fehlern sowie den Verknüpfungen für die betroffenen Dokumente oder Setupkarten bereitgestellt werden.  
+Wenn das Feld nicht aktiviert ist, wird die Stapelverarbeitung „Planung berechnen“ fortgesetzt, bis sie abgeschlossen ist. Fehler unterbrechen die Stapelverarbeitung nicht. Sind Fehler vorhanden, wird nach Beendigung der Stapelverarbeitung eine Meldung angezeigt, die mitteilt, wie viele Artikel betroffen sind. Danach wird die Seite **Planungsfehlerprotokoll** geöffnet, in dem weitere Informationen zu den Fehlern sowie den Verknüpfungen für die betroffenen Belege oder Setupkarten bereitgestellt werden.  
 
 ![Fehlermeldungen im Planungsvorschlag](media/NAV_APP_supply_planning_1_error_log.png "Fehlermeldungen im Planungsvorschlag")  
 
@@ -264,7 +264,7 @@ Das Feld kann vom Benutzer manuell festgelegt werden, in einigen Fällen wird es
 Weitere Informationen darüber, wie dieses Feld verwendet wird, finden Sie unter [Designdetails: Umlagerungen von Planung](design-details-transfers-in-planning.md).  
 
 ## <a name="order-planning"></a>Auftragsplanung  
-Das grundlegende Tool für die Beschaffungsplanung, das durch die Seite **Auftragsplanung** angegeben wird, ist für die manuelle Entscheidungsfindung gedacht. Berücksichtigt keine Planungsparameter und wird daher nicht weiter in diesem Dokument erläutert. Weitere Informationen zur Auftragsplanungsfunktion finden Sie in der Hilfe in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Das grundlegende Tool für die Beschaffungsplanung, das durch die Seite **Auftragsplanung** angegeben wird, ist für die manuelle Entscheidungsfindung gedacht. Berücksichtigt keine Planungsparameter und wird daher nicht weiter in diesem Beleg erläutert. Weitere Informationen zur Auftragsplanungsfunktion finden Sie in der Hilfe in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 > [!NOTE]  
 >  Es wird nicht empfohlen, Auftragsplanung zu verwenden, wenn das Unternehmen bereits Planungs- oder Bestellvorschläge verwendet. Die über die Seite erstellten Beschaffungsaufträge **Auftragsplanung** können während der automatisierten Planungsläufe geändert oder gelöscht werden. Dies liegt daran, dass der automatisierte Planungslauf Planungsparameter verwendet und diese möglicherweise vom Benutzer nicht berücksichtigt werden, der den manuellen Plan auf der Seite "Auftragsplanung" erzeugt hat.  

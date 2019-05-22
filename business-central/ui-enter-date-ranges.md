@@ -12,11 +12,11 @@ ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
 ms.date: 04/01/2019
 ms.author: jswymer
 ms.openlocfilehash: c7e80edfd796056176d37ad12a56c76e64bb44e6
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "932995"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250957"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Arbeiten mit Datumsangaben und Uhrzeiten in Kalendern
 
@@ -41,7 +41,7 @@ The following sections describe how you can enter dates, times, datetimes, durat
 
 In einem Datumsfeld können Sie unter Verwendung des Standardformats ein Datum für Ihre Bereichseinstellung eingeben. Verschiedene Regionen können verschiedene Trennzeichen zwischen Tagen, Monaten und Jahren verwenden. Beispielsweise werden in einigen Regionen Bindestriche verwendet (mm-tt-jjjj) und in anderen werden Schrägstriche verwenden (mm/tt/jjjj). Sie können allerdings sämtliche Trennzeichen verwenden, sogar einen Leerzeichen, und das Datum wird automatisch zu den Trennzeichen geändert, die Ihrer Region entsprechen.
 
-Beachten Sie, dass, das Format, in dem Datumswerte in gedruckten Berichten oder per E-Mail gesendeten Dokumenten von Ihrer persönlichen Regionseinstellung nicht beeinflusst wird.
+Beachten Sie, dass, das Format, in dem Datumswerte in gedruckten Berichten oder per E-Mail gesendeten Belegen von Ihrer persönlichen Regionseinstellung nicht beeinflusst wird.
 
 Um produktiver mit Datumswerten und Uhrzeiten zu arbeiten, können Sie alle Methoden oder Formate verwenden, die in den folgenden Abschnitten beschrieben werden. 
 

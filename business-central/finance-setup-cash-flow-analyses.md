@@ -13,11 +13,11 @@ ms.search.keywords: money flow, expense and income, liquidity, cash receipts min
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: 442d16561321acc552a2cf39a1659d763e6f319a
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "939571"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244095"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Aufstellung Cashflow-Analyse
 Wenn Sie etwas Unterstützung benötigen, was Sie mit Ihrem Barkonto zu tun sollen, schauen Sie sich das Diagramm im Buchhalter-Rollencenter an:  
@@ -58,7 +58,7 @@ Um diese einzurichten, suchen Sie für nach **Cashflowkonten***, wählen Sie den
 ## <a name="set-up-cash-flow-forecasts"></a>Richtet Cashflowplanungen ein
 Das Diagramm **Cashflowplanung** verwendet Cashflowkonten, Cashfloweinrichtung und Cashflowplanungen. Einige werden bereitgestellt, aber Sie können eigene einrichten, indem Sie die unterstützte Einrichtung verwenden. Die unterstützte Einrichtung definiert u.a., wie oft die Planung aktualisiert werden soll, die Konten, die darauf basieren sollen, Informationen darüber, wann Sie Steuern bezahlen und ob [Cortana Intelligence](https://www.microsoft.com/en-us/cloud-platform/what-is-cortana-intelligence-suite) verwendet werden soll.  
 
-Cashflowplanungen können Cortana Intelligence verwenden, um Dokumente mit einem Fälligkeitsdatum in der Zukunft zu berücksichtigen. Das Ergebnis ist eine umfassendere Voraussage. Die Verknüpfung zu Cortana Intelligence ist bereits eingerichtet. Sie müssen sie nur aktivieren. Wenn Sie sich bei [!INCLUDE[d365fin](includes/d365fin_md.md)] anmelden, wird eine Benachrichtigung in einer blauen Leiste angezeigt mit einem Link zur Standardcashfloweinrichtung. Die Mitteilung wird jeweils nur einmal angezeigt. Wenn Sie sie schließen, sich aber dazu entscheiden, Cortana Intelligence zu aktivieren, können Sie die unterstützte Einrichtung oder den manuellen Vorgang nutzen.  
+Cashflowplanungen können Cortana Intelligence verwenden, um Belege mit einem Fälligkeitsdatum in der Zukunft zu berücksichtigen. Das Ergebnis ist eine umfassendere Voraussage. Die Verknüpfung zu Cortana Intelligence ist bereits eingerichtet. Sie müssen sie nur aktivieren. Wenn Sie sich bei [!INCLUDE[d365fin](includes/d365fin_md.md)] anmelden, wird eine Benachrichtigung in einer blauen Leiste angezeigt mit einem Link zur Standardcashfloweinrichtung. Die Mitteilung wird jeweils nur einmal angezeigt. Wenn Sie sie schließen, sich aber dazu entscheiden, Cortana Intelligence zu aktivieren, können Sie die unterstützte Einrichtung oder den manuellen Vorgang nutzen.  
 
 > [!NOTE]  
 >   Alternativ können Sie Ihren eigenen vorbestimmten Webdienst verwenden. Weitere Informationen finden Sie unter [Erstellen und verwenden von eigenen vorbestimmten Webdiensten für Cashflowplanungen](#AnchorText).  

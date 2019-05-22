@@ -11,11 +11,11 @@ ms.search.keywords: payment process, cash receipts, customer payment
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 9f44b2f134d87368b61bcf3b5ac84d225b1491e7
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "924603"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252245"
 ---
 # <a name="reconcile-customer-payments-from-a-list-of-unpaid-sales-documents"></a>Debitoren-Zahlungen aus einer Liste mit unbezahlten Verkaufsbelegen abstimmen
 Wenn Ihre Debitoren Zahlungen an Ihr elektronisches Bankkonto getätigt haben, müssen Sie jeden gezahlten Betrag auf den zugehörigen Verkaufsbeleg anwenden und dann die Zahlung buchen, um die Debitoren-, Sachkonto- und Bankposten zu aktualisieren. Abhängig von den Unternehmensanforderungen können Sie bezahlt werden und die Zahlung auf unterschiedliche Arten erfassen: automatisch und durch Zahlungsverkehr.  
@@ -143,7 +143,7 @@ Die Seite **Zahlungserfassungs** unterstützt Sie bei Aufgaben, die interne Kont
 
 Wenn eine Zahlung erfolgt ist, auf der Bank oder anderweitig verzeichnet wurde, wird normalerweise der zugehörige Verkaufs- oder Einkaufsbeleg als Zeile auf der Seite **Zahlungserfassung** dargestellt, da für den betreffenden Beleg die Zahlung noch für den ausstehenden Betrag gebucht werden muss. Manchmal wird jedoch eine Zahlung, die geleistet wurde, nicht durch eine Zeile auf der Seite **Zahlungserfassung** dargestellt, da der jeweilige Beleg üblicherweise nicht vollständig fakturiert wurde.
 
-Auf der Seite **Dokument suchen** können Sie aus Belegen suchen, die nicht vollständig fakturiert wurden. Sie können basierend auf einer oder mehrerer der folgenden Kriterien suchen:  
+Auf der Seite **Beleg suchen** können Sie aus Belegen suchen, die nicht vollständig fakturiert wurden. Sie können basierend auf einer oder mehrerer der folgenden Kriterien suchen:  
 
 * Belegnummer  
 * Betrag oder Betragsbereich  
@@ -151,8 +151,8 @@ Auf der Seite **Dokument suchen** können Sie aus Belegen suchen, die nicht voll
 Nachfolgend wird erklärt, wie man einen bestimmten Beleg findet, indem man beide Suchkriterien verwendet.  
 
 1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Zahlung erfassen** ein, und wählen dann den zugehörigen Link aus.
-2. Zeigen Sie mit dem Mauszeiger auf eine beliebige Zeile und wählen Sie **Dokument suchen**.
-3. Auf der Seite **Dokumentsuche** geben Sie einen Suchwert im Feld **Dokumentennummer** ein.  
+2. Zeigen Sie mit dem Mauszeiger auf eine beliebige Zeile und wählen Sie **Beleg suchen**.
+3. Auf der Seite **Belegsuche** geben Sie einen Suchwert im Feld **Belegnummer** ein.  
 
     > [!NOTE]  
     >   Der Wert, den Sie hier eingeben, ist in den ausgeblendeten Platzhalterzeichen enthalten. Das bedeutet, dass die Funktion in allen Belegnummern sucht, die den eingegebenen Wert enthalten.    
@@ -164,7 +164,7 @@ Nachfolgend wird erklärt, wie man einen bestimmten Beleg findet, indem man beid
 
 Die Suchfunktion sucht unter Belegen, die nicht vollständig fakturiert sind basierend auf den angegebenen Kriterien.  
 
-Wenn einer oder mehrere Belege mit den Suchkriterien im Feld **Ergebnis Dokumentsuche** übereinstimmen, dann öffnet sich die Seite, um Zeilen anzuzeigen, die diese Dokumente darstellen. Jede Zeile enthält eine Belegnummer, eine Beschreibung und Betrag, sodass Sie einen bestimmten Beleg einfach suchen können, zum Beispiel basierend auf Informationen über Ihren Bankkontoauszug.  
+Wenn einer oder mehrere Belege mit den Suchkriterien im Feld **Ergebnis Belegsuche** übereinstimmen, dann öffnet sich die Seite, um Zeilen anzuzeigen, die diese Belege darstellen. Jede Zeile enthält eine Belegnummer, eine Beschreibung und Betrag, sodass Sie einen bestimmten Beleg einfach suchen können, zum Beispiel basierend auf Informationen über Ihren Bankkontoauszug.  
 
 Wenn eine Zahlung in der Bank nicht durch einen Beleg in [!INCLUDE[d365fin](includes/d365fin_md.md)] angegeben wird, dann können Sie eine Fibu Buch.-Blattzeile aus der Seite **Zahlungserfassung** öffnen, um die Zahlung direkt auf das Hauptkonto zu buchen, ohne die Zahlung auf einen Beleg anzuwenden. Alternativ können Sie die Zahlung im Buch.-Blatt buchen, bis der Ursprung der Zahlung gelöst wurde.  
 

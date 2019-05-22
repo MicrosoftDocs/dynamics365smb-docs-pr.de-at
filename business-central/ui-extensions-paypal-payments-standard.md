@@ -13,11 +13,11 @@ ms. search.keywords: app, add-in, manifest, customize
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: f715108b17d355084fee7983e106cd33dd476906
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "911805"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249784"
 ---
 # <a name="the-paypal-payments-standard-extension"></a>Die PayPal Payments Standard-Erweiterung
 Debitoren erfordern regelmäßig höheren Debitorenservice, sowohl in Bezug auf Produktqualität wie auch in Bezug auf Lieferungs- und Zahlungsoptionen. Mit dem Paypal-Zahlungsstandard-Service erhöhen Sie Ihren Kundenservice.
@@ -30,7 +30,7 @@ Der Paypal-Zahlungsstandard-Service hat folgende Vorteile:
 * Debitoren haben mehr Arten, Rechnungen zu bezahlen.
 * Paypal bietet einen vertrauenswürdigen Zahlungsservice an, den Debitoren gegenüber der Eingabe von Kreditkarteninformationen auf der Websites bevorzugen.
 * Paypal bietet mehrere Arten zur Zahlungsabwicklung an, einschließlich Kreditkartenverarbeitung, Paypal-Konten und andere Quellen.
-* Der Paypal-Link kann automatisch allen Verkaufsdokumenten oder manuell vom Benutzer hinzugefügt werden.
+* Der Paypal-Link kann automatisch allen Verkaufsbelegen oder manuell vom Benutzer hinzugefügt werden.
 * Der Paypal-Zahlungsstandard-Service kostet keine Monatsgebühren oder Gebühren für die Einrichtung.
 * Da dies eine Erweiterung ist, können Sie den Paypal-Zahlungsstandard-Service einfach aktivieren wenn und wenn Ihr Geschäft sie benötigt.  
 

@@ -12,11 +12,11 @@ ms.workload: na
 ms.date: 04/01/2019
 ms.author: solsen
 ms.openlocfilehash: 9cb6047a5293a3134a433ea9610e31dca5943e1d
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "926313"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249347"
 ---
 # <a name="preview-posting-results"></a>Vorschau-Buchungs-Ergebnisse
 Auf jedem Beleg und Buch.-Blatt, die gebucht werden können, können Sie die Schaltfläche **Vorschau-Buchung** auswählen, um verschiedene Arten von Posten zu überprüfen, die erstellt werden, wenn Sie den Beleg oder das Buch.-Blatt buchen.
@@ -29,6 +29,6 @@ Auf jedem Beleg und Buch.-Blatt, die gebucht werden können, können Sie die Sch
    Die Seite **Sachkosten in der Vorschau** zeigt, welche Einträge beim Buchen der Einkaufsrechnung erstellt werden.
 
 ## <a name="see-also"></a>Siehe auch
-[Journale und Dokumente buchen](ui-post-documents-journals.md)  
+[Journale und Belege buchen](ui-post-documents-journals.md)  
 [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Allgemeine Geschäftsfunktionen](ui-across-business-areas.md)
