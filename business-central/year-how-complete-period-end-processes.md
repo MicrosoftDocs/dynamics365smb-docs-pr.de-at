@@ -13,53 +13,53 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ag
 ms.date: 04/01/2019
 ms.author: jswymer
 ms.openlocfilehash: cbbfb06052f8286822f4ab722d00706de303dc02
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "939525"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1248718"
 ---
-# <a name="overview-of-tasks-to-close-accounting-periods"></a><span data-ttu-id="f34e2-103">Überblick zu Aufgaben, Buchhaltungsperioden zu schließen</span><span class="sxs-lookup"><span data-stu-id="f34e2-103">Overview of Tasks to Close Accounting Periods</span></span>
-[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="f34e2-104">zwingt Sie nicht, Perioden zu schließen, aber es gibt viele Aktivitäten am Periodenende (Monatsende), die Sie ausführen können.</span><span class="sxs-lookup"><span data-stu-id="f34e2-104">does not force you to close periods, however, there are many period-end (month-end) activities that you can do.</span></span> <span data-ttu-id="f34e2-105">Dieses Thema zeigt eine Übersicht von optionalen Vorgängen und Aktivitäten für Perioden, die bereitstehen.</span><span class="sxs-lookup"><span data-stu-id="f34e2-105">This topic provides an overview of optional processes and activities for closing periods.</span></span>  
+# <a name="overview-of-tasks-to-close-accounting-periods"></a><span data-ttu-id="e7d85-103">Überblick zu Aufgaben, Buchhaltungsperioden zu schließen</span><span class="sxs-lookup"><span data-stu-id="e7d85-103">Overview of Tasks to Close Accounting Periods</span></span>
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="e7d85-104">zwingt Sie nicht, Perioden zu schließen, aber es gibt viele Aktivitäten am Periodenende (Monatsende), die Sie ausführen können.</span><span class="sxs-lookup"><span data-stu-id="e7d85-104">does not force you to close periods, however, there are many period-end (month-end) activities that you can do.</span></span> <span data-ttu-id="e7d85-105">Dieses Thema zeigt eine Übersicht von optionalen Vorgängen und Aktivitäten für Perioden, die bereitstehen.</span><span class="sxs-lookup"><span data-stu-id="e7d85-105">This topic provides an overview of optional processes and activities for closing periods.</span></span>  
 
-## <a name="general-ledger"></a><span data-ttu-id="f34e2-106">Sachposten</span><span class="sxs-lookup"><span data-stu-id="f34e2-106">General Ledger</span></span>
-* <span data-ttu-id="f34e2-107">Geben Sie systemweite und benutzerspezifische Buchungsperioden an.</span><span class="sxs-lookup"><span data-stu-id="f34e2-107">Specify system-wide and user-specific posting periods.</span></span>  
+## <a name="general-ledger"></a><span data-ttu-id="e7d85-106">Sachposten</span><span class="sxs-lookup"><span data-stu-id="e7d85-106">General Ledger</span></span>
+* <span data-ttu-id="e7d85-107">Geben Sie systemweite und benutzerspezifische Buchungsperioden an.</span><span class="sxs-lookup"><span data-stu-id="e7d85-107">Specify system-wide and user-specific posting periods.</span></span>  
 
-    <span data-ttu-id="f34e2-108">Dies gibt die Daten an, zwischen denen Buchungen zulässig sind.</span><span class="sxs-lookup"><span data-stu-id="f34e2-108">This specifies the dates between which you allow posting.</span></span> <span data-ttu-id="f34e2-109">Je nach Geschäftsanforderungen empfiehlt es sich, die Buchungsdatumsbereiche für Benutzer zu Beginn des Periodenabschlusses einzugrenzen.</span><span class="sxs-lookup"><span data-stu-id="f34e2-109">Depending on your business, you may want to allow posting at the start of the period, or toward the end.</span></span> <span data-ttu-id="f34e2-110">Weitere Informationen finden Sie unter [Abschließen von Buchhaltungsperioden](finance-how-specify-posting-periods.md).</span><span class="sxs-lookup"><span data-stu-id="f34e2-110">For more information, see [Specify Posting Periods](finance-how-specify-posting-periods.md).</span></span>  
-* <span data-ttu-id="f34e2-111">Führen Sie alle notwendigen Sachpostenregulierungen durch.</span><span class="sxs-lookup"><span data-stu-id="f34e2-111">Make all necessary G/L adjustments.</span></span>  
-* <span data-ttu-id="f34e2-112">Aktualisieren und buchen Sie wiederkehrende Buch.-Blätter.</span><span class="sxs-lookup"><span data-stu-id="f34e2-112">Update and post Recurring Journals.</span></span>  
+    <span data-ttu-id="e7d85-108">Dies gibt die Daten an, zwischen denen Buchungen zulässig sind.</span><span class="sxs-lookup"><span data-stu-id="e7d85-108">This specifies the dates between which you allow posting.</span></span> <span data-ttu-id="e7d85-109">Je nach Geschäftsanforderungen empfiehlt es sich, die Buchungsdatumsbereiche für Benutzer zu Beginn des Periodenabschlusses einzugrenzen.</span><span class="sxs-lookup"><span data-stu-id="e7d85-109">Depending on your business, you may want to allow posting at the start of the period, or toward the end.</span></span> <span data-ttu-id="e7d85-110">Weitere Informationen finden Sie unter [Abschließen von Buchhaltungsperioden](finance-how-specify-posting-periods.md).</span><span class="sxs-lookup"><span data-stu-id="e7d85-110">For more information, see [Specify Posting Periods](finance-how-specify-posting-periods.md).</span></span>  
+* <span data-ttu-id="e7d85-111">Führen Sie alle notwendigen Sachpostenregulierungen durch.</span><span class="sxs-lookup"><span data-stu-id="e7d85-111">Make all necessary G/L adjustments.</span></span>  
+* <span data-ttu-id="e7d85-112">Aktualisieren und buchen Sie wiederkehrende Buch.-Blätter.</span><span class="sxs-lookup"><span data-stu-id="e7d85-112">Update and post Recurring Journals.</span></span>  
   <!--* Process Consolidations-->
-* <span data-ttu-id="f34e2-113">Führen Sie Kontenschemata wie folgt aus:</span><span class="sxs-lookup"><span data-stu-id="f34e2-113">Run account schedules as follows:</span></span>  
-  * <span data-ttu-id="f34e2-114">Öffnen Sie die Seite **Kontenschema** und klicken Sie auf **Drucken**.</span><span class="sxs-lookup"><span data-stu-id="f34e2-114">Open the **Account Schedule** page, and then choose the **Print** action.</span></span>  
+* <span data-ttu-id="e7d85-113">Führen Sie Kontenschemata wie folgt aus:</span><span class="sxs-lookup"><span data-stu-id="e7d85-113">Run account schedules as follows:</span></span>  
+  * <span data-ttu-id="e7d85-114">Öffnen Sie die Seite **Kontenschema** und klicken Sie auf **Drucken**.</span><span class="sxs-lookup"><span data-stu-id="e7d85-114">Open the **Account Schedule** page, and then choose the **Print** action.</span></span>  
 
-## <a name="sales-and-receivables"></a><span data-ttu-id="f34e2-115">Debitoren und Verkauf</span><span class="sxs-lookup"><span data-stu-id="f34e2-115">Sales and Receivables</span></span>
-* <span data-ttu-id="f34e2-116">Alle Aufträge, Rechnungen, Gutschriften und Reklamationen werden gebucht.</span><span class="sxs-lookup"><span data-stu-id="f34e2-116">Post all sales orders, invoices, credit memos, and return orders.</span></span>  
-* <span data-ttu-id="f34e2-117">Buchen Sie alle Barzahlungseingangs-Buch.-Blätter.</span><span class="sxs-lookup"><span data-stu-id="f34e2-117">Post all cash receipt journals.</span></span>  
-* <span data-ttu-id="f34e2-118">Aktualisieren und buchen Sie wiederkehrende Buch.-Blätter, die sich auf Debitoren und Verkauf beziehen.</span><span class="sxs-lookup"><span data-stu-id="f34e2-118">Update and post recurring journals that are related to sales and receivables.</span></span>  
-* <span data-ttu-id="f34e2-119">Stimmen Sie die Debitoren mit der Finanzbuchhaltung ab.</span><span class="sxs-lookup"><span data-stu-id="f34e2-119">Reconcile accounts receivable to the general ledger.</span></span>  
-* <span data-ttu-id="f34e2-120">Führen Sie die Stapelverarbeitung **Fakturierte Aufträge löschen** aus.</span><span class="sxs-lookup"><span data-stu-id="f34e2-120">Run the **Delete Invoiced Sales Orders** batch job.</span></span>  
+## <a name="sales-and-receivables"></a><span data-ttu-id="e7d85-115">Debitoren und Verkauf</span><span class="sxs-lookup"><span data-stu-id="e7d85-115">Sales and Receivables</span></span>
+* <span data-ttu-id="e7d85-116">Alle Aufträge, Rechnungen, Gutschriften und Reklamationen werden gebucht.</span><span class="sxs-lookup"><span data-stu-id="e7d85-116">Post all sales orders, invoices, credit memos, and return orders.</span></span>  
+* <span data-ttu-id="e7d85-117">Buchen Sie alle Barzahlungseingangs-Buch.-Blätter.</span><span class="sxs-lookup"><span data-stu-id="e7d85-117">Post all cash receipt journals.</span></span>  
+* <span data-ttu-id="e7d85-118">Aktualisieren und buchen Sie wiederkehrende Buch.-Blätter, die sich auf Debitoren und Verkauf beziehen.</span><span class="sxs-lookup"><span data-stu-id="e7d85-118">Update and post recurring journals that are related to sales and receivables.</span></span>  
+* <span data-ttu-id="e7d85-119">Stimmen Sie die Debitoren mit der Finanzbuchhaltung ab.</span><span class="sxs-lookup"><span data-stu-id="e7d85-119">Reconcile accounts receivable to the general ledger.</span></span>  
+* <span data-ttu-id="e7d85-120">Führen Sie die Stapelverarbeitung **Fakturierte Aufträge löschen** aus.</span><span class="sxs-lookup"><span data-stu-id="e7d85-120">Run the **Delete Invoiced Sales Orders** batch job.</span></span>  
 
-## <a name="purchases-and-payables"></a><span data-ttu-id="f34e2-121">Kreditoren und Einkauf</span><span class="sxs-lookup"><span data-stu-id="f34e2-121">Purchases and Payables</span></span>
-* <span data-ttu-id="f34e2-122">Alle Aufträge, Rechnungen, Gutschriften und Reklamationen für Kreditoren werden gebucht.</span><span class="sxs-lookup"><span data-stu-id="f34e2-122">Post all purchase orders, invoices, credit memos, and return orders.</span></span>  
-* <span data-ttu-id="f34e2-123">Buchen Sie das Zahlungsausgangs Buch.-Blatt.</span><span class="sxs-lookup"><span data-stu-id="f34e2-123">Post all payment journals.</span></span>  
-* <span data-ttu-id="f34e2-124">Aktualisieren und buchen Sie wiederkehrende Buch.-Blätter, die sich auf Kreditoren und Einkäufe beziehen.</span><span class="sxs-lookup"><span data-stu-id="f34e2-124">Update and post recurring journals that are related to purchases & payables.</span></span>  
-* <span data-ttu-id="f34e2-125">Führen Sie den Bericht **Kreditor - Saldenrückblick** aus, und stimmen Sie die Kreditoren mit der Finanzbuchhaltung ab.</span><span class="sxs-lookup"><span data-stu-id="f34e2-125">Run the **Aged Accounts Payable** report and reconcile accounts payable to the general ledger.</span></span>  
-* <span data-ttu-id="f34e2-126">Führen Sie die Stapelverarbeitung **Erledigte fakturierte Bestellungen löschen** aus.</span><span class="sxs-lookup"><span data-stu-id="f34e2-126">Run the **Delete Invoiced Purchase Orders** batch job.</span></span>  
+## <a name="purchases-and-payables"></a><span data-ttu-id="e7d85-121">Kreditoren und Einkauf</span><span class="sxs-lookup"><span data-stu-id="e7d85-121">Purchases and Payables</span></span>
+* <span data-ttu-id="e7d85-122">Alle Aufträge, Rechnungen, Gutschriften und Reklamationen für Kreditoren werden gebucht.</span><span class="sxs-lookup"><span data-stu-id="e7d85-122">Post all purchase orders, invoices, credit memos, and return orders.</span></span>  
+* <span data-ttu-id="e7d85-123">Buchen Sie das Zahlungsausgangs Buch.-Blatt.</span><span class="sxs-lookup"><span data-stu-id="e7d85-123">Post all payment journals.</span></span>  
+* <span data-ttu-id="e7d85-124">Aktualisieren und buchen Sie wiederkehrende Buch.-Blätter, die sich auf Kreditoren und Einkäufe beziehen.</span><span class="sxs-lookup"><span data-stu-id="e7d85-124">Update and post recurring journals that are related to purchases & payables.</span></span>  
+* <span data-ttu-id="e7d85-125">Führen Sie den Bericht **Kreditor - Saldenrückblick** aus, und stimmen Sie die Kreditoren mit der Finanzbuchhaltung ab.</span><span class="sxs-lookup"><span data-stu-id="e7d85-125">Run the **Aged Accounts Payable** report and reconcile accounts payable to the general ledger.</span></span>  
+* <span data-ttu-id="e7d85-126">Führen Sie die Stapelverarbeitung **Erledigte fakturierte Bestellungen löschen** aus.</span><span class="sxs-lookup"><span data-stu-id="e7d85-126">Run the **Delete Invoiced Purchase Orders** batch job.</span></span>  
 
-<span data-ttu-id="f34e2-127">Anlagen</span><span class="sxs-lookup"><span data-stu-id="f34e2-127">Fixed Assets</span></span>
-* <span data-ttu-id="f34e2-128">Alle Wartungskosten wurden über die Anlagen-Buch.-Blätter oder Rechnungen gebucht.</span><span class="sxs-lookup"><span data-stu-id="f34e2-128">Post all maintenance costs have been posted through the fixed asset journals or invoices.</span></span>
-* <span data-ttu-id="f34e2-129">Buchen Sie Regulierungen.</span><span class="sxs-lookup"><span data-stu-id="f34e2-129">Post adjustments.</span></span>
-* <span data-ttu-id="f34e2-130">Buchen Sie die Zuschreibung.</span><span class="sxs-lookup"><span data-stu-id="f34e2-130">Post appreciation.</span></span>
-* <span data-ttu-id="f34e2-131">Buchen Sie die Abschreibung.</span><span class="sxs-lookup"><span data-stu-id="f34e2-131">Post depreciation.</span></span>
-* <span data-ttu-id="f34e2-132">Aktualisieren und buchen Sie das Buch.-Blatt für wiederkehrende Anlagen</span><span class="sxs-lookup"><span data-stu-id="f34e2-132">Update and post the recurring fixed asset journal.</span></span>
+<span data-ttu-id="e7d85-127">Anlagen</span><span class="sxs-lookup"><span data-stu-id="e7d85-127">Fixed Assets</span></span>
+* <span data-ttu-id="e7d85-128">Alle Wartungskosten wurden über die Anlagen-Buch.-Blätter oder Rechnungen gebucht.</span><span class="sxs-lookup"><span data-stu-id="e7d85-128">Post all maintenance costs have been posted through the fixed asset journals or invoices.</span></span>
+* <span data-ttu-id="e7d85-129">Buchen Sie Regulierungen.</span><span class="sxs-lookup"><span data-stu-id="e7d85-129">Post adjustments.</span></span>
+* <span data-ttu-id="e7d85-130">Buchen Sie die Zuschreibung.</span><span class="sxs-lookup"><span data-stu-id="e7d85-130">Post appreciation.</span></span>
+* <span data-ttu-id="e7d85-131">Buchen Sie die Abschreibung.</span><span class="sxs-lookup"><span data-stu-id="e7d85-131">Post depreciation.</span></span>
+* <span data-ttu-id="e7d85-132">Aktualisieren und buchen Sie das Buch.-Blatt für wiederkehrende Anlagen</span><span class="sxs-lookup"><span data-stu-id="e7d85-132">Update and post the recurring fixed asset journal.</span></span>
 
-<span data-ttu-id="f34e2-133">Intercompany</span><span class="sxs-lookup"><span data-stu-id="f34e2-133">Intercompany</span></span>
-* <span data-ttu-id="f34e2-134">Verarbeiten von Intercompanytransaktionen</span><span class="sxs-lookup"><span data-stu-id="f34e2-134">Process Intercompany Transactions</span></span>
+<span data-ttu-id="e7d85-133">Intercompany</span><span class="sxs-lookup"><span data-stu-id="e7d85-133">Intercompany</span></span>
+* <span data-ttu-id="e7d85-134">Verarbeiten von Intercompanytransaktionen</span><span class="sxs-lookup"><span data-stu-id="e7d85-134">Process Intercompany Transactions</span></span>
 
-## <a name="calculate-and-process-sales-tax"></a><span data-ttu-id="f34e2-135">Berechnen und erfassen Sie die MwSt.</span><span class="sxs-lookup"><span data-stu-id="f34e2-135">Calculate and Process Sales Tax</span></span>
-* <span data-ttu-id="f34e2-136">Schließen Sie Steuer-Abrechnungen ab.</span><span class="sxs-lookup"><span data-stu-id="f34e2-136">Complete Tax Statements.</span></span>  
+## <a name="calculate-and-process-sales-tax"></a><span data-ttu-id="e7d85-135">Berechnen und erfassen Sie die MwSt.</span><span class="sxs-lookup"><span data-stu-id="e7d85-135">Calculate and Process Sales Tax</span></span>
+* <span data-ttu-id="e7d85-136">Schließen Sie Steuer-Abrechnungen ab.</span><span class="sxs-lookup"><span data-stu-id="e7d85-136">Complete Tax Statements.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="f34e2-137">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="f34e2-137">See Also</span></span>
-[<span data-ttu-id="f34e2-138">Beenden von Jahresabschluss und Perioden</span><span class="sxs-lookup"><span data-stu-id="f34e2-138">Closing Years and Periods</span></span>](year-close-years-periods.md)  
-[<span data-ttu-id="f34e2-139">Schließen der Bücher</span><span class="sxs-lookup"><span data-stu-id="f34e2-139">Closing Books</span></span>](year-close-books.md)  
-<span data-ttu-id="f34e2-140">[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="f34e2-140">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+## <a name="see-also"></a><span data-ttu-id="e7d85-137">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="e7d85-137">See Also</span></span>
+[<span data-ttu-id="e7d85-138">Beenden von Jahresabschluss und Perioden</span><span class="sxs-lookup"><span data-stu-id="e7d85-138">Closing Years and Periods</span></span>](year-close-years-periods.md)  
+[<span data-ttu-id="e7d85-139">Schließen der Bücher</span><span class="sxs-lookup"><span data-stu-id="e7d85-139">Closing Books</span></span>](year-close-books.md)  
+<span data-ttu-id="e7d85-140">[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="e7d85-140">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
