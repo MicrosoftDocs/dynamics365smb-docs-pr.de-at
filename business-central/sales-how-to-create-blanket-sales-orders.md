@@ -90,7 +90,7 @@ ms.locfileid: "1252337"
     |<span data-ttu-id="3073a-178">**Rücksendungen**</span><span class="sxs-lookup"><span data-stu-id="3073a-178">**Return Receipts**</span></span>|<span data-ttu-id="3073a-179">Mit der ausgewählten Zeile verknüpfte gebuchte Rücksendungen.</span><span class="sxs-lookup"><span data-stu-id="3073a-179">Posted return receipts that have been associated with the selected line.</span></span>|
     |<span data-ttu-id="3073a-180">**Gutschriften**</span><span class="sxs-lookup"><span data-stu-id="3073a-180">**Credit Memos**</span></span>|<span data-ttu-id="3073a-181">Mit der ausgewählten Zeile verknüpfte gebuchte Gutschriften.</span><span class="sxs-lookup"><span data-stu-id="3073a-181">Posted credit memos that have been associated with the selected line.</span></span>|
 
-5. <span data-ttu-id="3073a-182"> Klicken Sie auf der Seite *\*Verkaufszeile** auf Zeile *\*Beleg anzeigen*\*, um den Posten anzuzeigen.</span><span class="sxs-lookup"><span data-stu-id="3073a-182">On the **Sales Lines** page, choose the **Show Document** action to view the entry.</span></span>
+5. <span data-ttu-id="3073a-182"> Klicken Sie auf der Seite **Verkaufszeile** auf Zeile **Beleg anzeigen**, um den Posten anzuzeigen.</span><span class="sxs-lookup"><span data-stu-id="3073a-182">On the **Sales Lines** page, choose the **Show Document** action to view the entry.</span></span>
 
 ## <a name="see-also"></a><span data-ttu-id="3073a-183">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="3073a-183">See Also</span></span>
 <span data-ttu-id="3073a-184">[Verkäufe](sales-manage-sales.md)
