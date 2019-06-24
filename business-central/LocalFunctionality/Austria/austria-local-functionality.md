@@ -12,19 +12,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: soalex
-ms.openlocfilehash: 53a996e20a03bc0dc8b7b1c3e198bfa993f6e24c
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 90eb69893682109d8b349107d65d48b69a5f878d
+ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237734"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1594208"
 ---
 # <a name="austria-local-functionality"></a>Lokale Funktion (Österreich)
 In den folgenden Themen werden Funktionen beschrieben, die der österreichischen Version von [!INCLUDE[d365fin](../../includes/d365fin_md.md)] eigen sind.  
 
 ## <a name="feature-availability"></a>Verfügbarkeit der Funktion
 
-* MwSt. und Steuer
+* MwSt.
     * [Erstellen einer MwSt.-Abrechnung](how-to-create-a-vat-statement.md) **Jetzt erhältlich**
     * [MwSt.-Abrechnung](vat-reporting.md) **Jetzt erhältlich**
 
