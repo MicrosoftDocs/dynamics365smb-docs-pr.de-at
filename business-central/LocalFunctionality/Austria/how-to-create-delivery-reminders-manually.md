@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 87c243de97d0aaf25e0648c5c5e186a972006f94
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: bb21607d80a881813ff8c6c362c1dd8f4efced66
+ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237807"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "1710970"
 ---
 # <a name="create-delivery-reminders-manually"></a>So erstellen Sie Lieferanmahnungen manuell
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], können Sie Lieferbenachrichtigungen erstellen, wenn eine Bestellung nicht wie erwartet geliefert wurde. Sie können eine einzelne Lieferbenachrichtigung manuell erstellen oder Sie können Lieferbenachrichtigungen für alle überfälligen Lieferungen erstellen. Weitere Informationen finden Sie unter [Lieferbenachrichtigungen erstellen](how-to-generate-delivery-reminders.md).
@@ -27,7 +27,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], können Sie Lieferbenachri
 
 1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Nach Seite oder Bericht suchen") , geben Sie **Lieferbenachrichtigung** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie die Aktion **Neu** aus.  
-3.  Füllen Sie auf der Seite **Lieferbenachrichtigung** im Inforegister **Allgemein** die erforderlichen Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
+3.  Füllen Sie auf der Seite **Lieferanmahnung** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
     |Feld|Description|  
     |---------------------------------|---------------------------------------|  
@@ -39,7 +39,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], können Sie Lieferbenachri
     |**Mahnmethodencode**|Gibt den Lieferbenachrichtigungscode für den Kreditor an.|  
     |**Fälligkeitsdatum**|Gibt das Fälligkeitsdatum der Lieferbenachrichtigung an.|  
 
-4.  Wählen Sie die Aktion **Mahnungszeilen vorschlagen**.  
+4.  Wählen Sie die Aktion **Mahnungszeile vorschlagen**.  
 
     Wenn es überfällige Lieferungen vom angegebenen Kreditor gibt, werden diese der Lieferbenachrichtigung hinzugefügt.  
 

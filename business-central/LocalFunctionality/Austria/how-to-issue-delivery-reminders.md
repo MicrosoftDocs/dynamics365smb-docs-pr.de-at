@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: d1619b0b0c91fc1d31b60d8f189fd83febd5ff75
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 4be4475a9bce2b0db4820e35d40a0ee2cd1c45d9
+ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237731"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "1710971"
 ---
 # <a name="issue-delivery-reminders"></a>Lieferbenachrichtigung registrieren
 Nachdem Sie Lieferbenachrichtigungen erstellt haben, müssen Sie sie registrieren und ausdrücken, damit Sie die Benachrichtigungen an Kreditoren senden können. Vor dem Ausstellen von Lieferbenachrichtigungen können Sie einen Testbericht drucken. Weitere Informationen finden Sie unter [Vorgehensweise: Drucken von Testberichten für  Lieferbenachrichtigungen](how-to-print-test-reports-for-delivery-reminders.md).  
@@ -29,7 +29,7 @@ Beim Registrieren der Lieferbenachrichtigungen werden Lieferanmahnungsposten ers
 1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Nach Seite oder Bericht suchen"), geben Sie **Lieferanmahnung** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie auf der Seite **Lieferanmahnung** die Lieferanmahnung, die Sie registrieren möchten, und wählen Sie dann die Aktion **Bearbeiten**.  
 3.  Wählen Sie die Aktion **Registrieren**.  
-4.  Füllen Sie auf der Seite **Lieferanmahnung registrieren** auf dem Inforegister **Optionen** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
+4.  Füllen Sie auf der Seite **Lieferanmahnung registrieren** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
     |Feld|Description|  
     |---------------------------------|---------------------------------------|  
@@ -52,7 +52,7 @@ Sie können die registrierten Lieferanmahnungen auf der Seite **Reg. Lieferanmah
 2.  Wählen Sie die Bestellung aus, für die Sie den Benachrichtigungsstatus anzeigen möchten, und wählen Sie dann die Aktion **Bearbeiten**.  
 3.  Wählen Sie die Aktion **Lieferanmahnungsposten**.  
 
-Auf der Seite „Lieferanmahnungsposten” können Sie die Lieferanmahnungsposten für die ausgewählte Bestellung betrachten.  
+Auf der Seite **Lieferanmahnungsposten** können Sie die Lieferanmahnungsposten für die ausgewählte Bestellung betrachten.  
 
 ## <a name="see-also"></a>Siehe auch  
  [Lieferanmahnungen](delivery-reminders.md)   

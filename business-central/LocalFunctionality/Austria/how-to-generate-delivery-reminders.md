@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 263096194536a9062926d332eecf0bdb3e67c71c
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: af42f088e9899165f878b7c1bd90d988d4abb109
+ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237806"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "1710975"
 ---
 # <a name="generate-delivery-reminders"></a>So erstellen Sie Lieferanmahnungen
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], können Sie Lieferbenachrichtigungen erstellen, wenn eine Bestellung nicht wie erwartet geliefert wurde. Sie können Lieferbenachrichtigung für alle überfälligen Lieferungen generieren lassen oder manuell eine einzelne Lieferbenachrichtigung erstellen. Weitere Informationen finden Sie unter [Gewusst wie: Erstellen von manuellen Lieferbenachrichtigungen](how-to-create-delivery-reminders-manually.md).  
@@ -30,10 +30,10 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], können Sie Lieferbenachri
 1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Nach Seite oder Bericht suchen"), geben Sie **Lieferanmahnung** ein, und wählen Sie dann den zugehörigen Link.  
 2.  Wählen Sie die Aktion **Neu** aus.  
 3.  Wählen Sie auf der Seite **Lieferanmahnung** die Aktion **Lieferanmahnung erstellen**.  
-4.  Wählen Sie im Inforegister **Einkauf Kopfzeile** und **Einkaufszeile** die entsprechenden Filter aus..  
+4.  Wählen Sie die entsprechenden Filter aus.  
 5.  Wählen Sie die Schaltfläche **OK** aus.  
 
-Wenn es überfällige Lieferungen gibt, die denen Filter entsprechen, die Sie festgelegt haben, werden Mahnungen erstellt. So können die Lieferbenachrichtigungen ausgeben und erstellen.  
+Wenn es überfällige Lieferungen gibt, die den Filtern entsprechen, die Sie festgelegt haben, werden Mahnungen erstellt. So können die Lieferbenachrichtigungen ausgeben und erstellen.  
 
 ## <a name="see-also"></a>Siehe auch  
  [So erstellen Sie Lieferanmahnungen manuell](how-to-create-delivery-reminders-manually.md)   

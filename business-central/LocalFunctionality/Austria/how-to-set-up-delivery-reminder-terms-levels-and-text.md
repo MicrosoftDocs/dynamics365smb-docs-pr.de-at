@@ -1,6 +1,6 @@
 ---
 title: 'Gewusst wie: Einrichten von Lieferbenachrichtigungsmethoden, -stufen und -text'
-description: Zur Erstellung von Lieferbenachrichtigungen müssen Sie bestimmte Dinge einrichten.
+description: Zur Erstellung von Lieferbenachrichtigungen müssen Sie bestimmte Aufgaben einrichten.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: aa188221fae0f3da87de0e31c29f339599528ce6
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: af0516f7850f0ebeb543d930ca0eb8df0b48c176
+ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237726"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "1710964"
 ---
 # <a name="set-up-delivery-reminder-terms-levels-and-text"></a>Einrichten von Lieferbenachrichtigungsbestimmungen, Stufen und Text
 Zur Erstellung von Lieferbenachrichtigungen müssen Sie Folgendes einrichten:  

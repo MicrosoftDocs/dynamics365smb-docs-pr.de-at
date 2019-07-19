@@ -1,6 +1,6 @@
 ---
 title: Vorgehensweise beim Kopieren von vorhandenen Artikeln in neue Artikel
-description: Sie können Artikel mit ähnlichen Einstellungen in einem Artikelkatalog gruppieren. Wenn Sie einen neuen Artikel hinzufügen, können Sie zur Zeitersparnis mit der Option Artikel kopieren einen vorhandenen Artikel als Vorlage für einen neuen Artikel verwenden.
+description: Sie können Artikel mit ähnlichen Einstellungen in einem Artikelkatalog gruppieren. Sie können Zeit sparen, wenn Sie einen neuen Artikel hinzufügen, indem Sie mit der Funktion **Artikel kopieren** einen vorhandenen Artikel kopieren und als Vorlage für einen neuen Artikel verwenden.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 48939eb80cae3d5170771362ea6c78854f8651a0
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 86948204c4302a64981d46954f5e1981a794a4be
+ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237738"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "1710973"
 ---
 # <a name="copy-existing-items-to-new-items"></a>Kopieren vorhandener Artikel in neue Artikel
-Sie können Artikel mit ähnlichen Einstellungen in einem Artikelkatalog gruppieren. Wenn Sie einen neuen Artikel hinzufügen, können Sie zur Zeitersparnis mit der Funktion **Artikel kopieren** einen vorhandenen Artikel als Vorlage für einen neuen Artikel verwenden.  
+Sie können Artikel mit ähnlichen Einstellungen in einem Artikelkatalog gruppieren. Sie können Zeit sparen, wenn Sie einen neuen Artikel hinzufügen, indem Sie mit der Funktion **Artikel kopieren** einen vorhandenen Artikel kopieren und als Vorlage für einen neuen Artikel verwenden.  
 
 ## <a name="to-copy-existing-items-to-new-items"></a>So kopieren Sie vorhandene Artikel in neue Artikel  
 

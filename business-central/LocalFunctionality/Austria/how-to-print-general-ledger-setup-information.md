@@ -1,6 +1,6 @@
 ---
 title: 'Gewusst wie: Drucken von Finanzbuchhaltungs-Setupinformationen'
-description: Bevor Sie Business Central im täglichen Geschäft verwenden können, können Sie Finanzbuchhaltungseinrichtungs-Informationen ausführen, um die Stammdaten anzuzeigen, die Sie eingerichtet haben.
+description: Bevor Sie Business Central in Aufgaben des täglichen Geschäfts verwenden können, können Sie Finanzbuchhaltungseinrichtungs-Informationen ausführen, um die Stammdaten anzuzeigen, die Sie eingerichtet haben.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -12,20 +12,20 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 13fef12d485fad51602629bb753dd6db7bfe3caa
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 21df40808cddb7bf66eadd5beafcd2c3ef8087ea
+ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237762"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "1710968"
 ---
 # <a name="print-general-ledger-setup-information"></a>Drucken von Finanzbuchhaltungs-Setupinformationen
-Bevor Sie [!INCLUDE[d365fin](../../includes/d365fin_md.md)] im täglichen Geschäft verwenden können, können Sie **Finanzbuchhaltungseinrichtungs-Informationen** ausführen, um die Stammdaten anzuzeigen, die Sie eingerichtet haben. Sie können diese Stammdaten durchgehen, sodass Sie eine Grundlage für den Vergleich haben und dann überprüfen können, ob Sie die Buchungsgruppen korrekt eingerichtet haben.  
+Bevor Sie [!INCLUDE[d365fin](../../includes/d365fin_md.md)] in Aufgaben des täglichen Geschäfts verwenden können, können Sie **Finanzbuchhaltungseinrichtungs-Informationen** ausführen, um die Stammdaten anzuzeigen, die Sie eingerichtet haben. Sie können diese Stammdaten durchgehen, sodass Sie eine Grundlage für den Vergleich haben und dann überprüfen können, ob Sie die Buchungsgruppen korrekt eingerichtet haben.  
 
 ## <a name="to-print-general-ledger-setup-information"></a>Gewusst wie: Drucken von Finanzbuchhaltungs-Setupinformationen  
 
 1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png " Nach Seite oder Bericht suchen")und geben **Finanzbuchhaltungs-Einrichtungsinformation** ein. Wählen Sie dann den zugehörigen Link aus.  
-2.  Füllen Sie im Stapelverarbeitungsauftrag **Optionen** im Inforegister **Einrichtdungsinformationen** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
+2.  Füllen Sie im Inforegister **Einrichtungsinformationen** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
     |Option|Description|  
     |-------------------------------------|---------------------------------------|  
