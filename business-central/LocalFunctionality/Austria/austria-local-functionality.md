@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: soalex
-ms.openlocfilehash: 90eb69893682109d8b349107d65d48b69a5f878d
-ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
+ms.openlocfilehash: 648d293228e7b093c2ae66565c3bc71220351d9b
+ms.sourcegitcommit: acbbe80503e61296310ea7f787a9d7f4bc6dccd7
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1594208"
+ms.lasthandoff: 08/12/2019
+ms.locfileid: "1870516"
 ---
 # <a name="austria-local-functionality"></a>Lokale Funktion (Österreich)
 In den folgenden Themen werden Funktionen beschrieben, die der österreichischen Version von [!INCLUDE[d365fin](../../includes/d365fin_md.md)] eigen sind.  
@@ -42,7 +42,6 @@ In den folgenden Themen werden Funktionen beschrieben, die der österreichischen
     * [So drucken Sie Testberichte vor dem Registrieren von Lieferanmahnungen](how-to-print-test-reports-for-delivery-reminders.md) **Jetzt erhältlich**
 
 * Allgemein
-    * [Kopieren von vorhandenen Artikeln in neue Artikel](how-to-copy-existing-items-to-new-items.md) **Jetzt erhältlich**
     * [Drucken von Finanzbuchhaltungs-Setupinformationen](how-to-print-general-ledger-setup-information.md) **Jetzt erhältlich**
     * [Drucken von Verkaufsaufträgen und Bestellungen während der Stapelbuchung](how-to-print-sales-and-purchase-orders-during-batch-posting.md) **Jetzt erhältlich**
 
