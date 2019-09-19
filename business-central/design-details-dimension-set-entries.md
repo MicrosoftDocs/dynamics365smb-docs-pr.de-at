@@ -12,19 +12,17 @@ ms.workload: na
 ms.search.keywords: design, dimensions, codeunit
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c6b66ecee87e1fd128733f541d46b97f44af0453
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c97a03d9ce458cefe094b711bfe62a4b3c8e25d7
+ms.sourcegitcommit: 1fa3d33db7bc71e3a27c826308a80ff24a436a72
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1242761"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "1970941"
 ---
-# <a name="design-details-dimension-set-entries"></a><span data-ttu-id="315d0-103">Designdetails: Dimensionssatzposten</span><span class="sxs-lookup"><span data-stu-id="315d0-103">Design Details: Dimension Set Entries</span></span>
-<span data-ttu-id="315d0-104">Diese Dokumentation stellt einen detaillierten technischen Einblick in die Konzepte und Prinzipien der Dimensionsposten-Einlagerungs- und Buchungsfunktion in [!INCLUDE[d365fin](includes/d365fin_md.md)] dar.</span><span class="sxs-lookup"><span data-stu-id="315d0-104">This documentation provides detailed technical insight into the concepts and principles of the dimension-entry storing and posting functionality in [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span> <span data-ttu-id="315d0-105">Die Dokumentation beginnt mit der Beschreibung der konzeptionellen Übersichten.</span><span class="sxs-lookup"><span data-stu-id="315d0-105">The documentation starts by describing conceptual overviews.</span></span> <span data-ttu-id="315d0-106">Dann wird die technische Architektur erklärt.</span><span class="sxs-lookup"><span data-stu-id="315d0-106">Then it explains the technical architecture.</span></span> <span data-ttu-id="315d0-107">Schließlich bietet sie Codebeispiele, die Sie für Dimensionscodemigration und -Upgrade von Versionen vor Dynamics NAV 2013R2 vorbereiten.</span><span class="sxs-lookup"><span data-stu-id="315d0-107">Finally, it provides code examples to prepare you for dimension code migration and upgrade from versions earlier than Dynamics NAV 2013R2.</span></span>  
+# <a name="design-details-dimension-set-entries"></a><span data-ttu-id="0bc67-103">Designdetails: Dimensionssatzposten</span><span class="sxs-lookup"><span data-stu-id="0bc67-103">Design Details: Dimension Set Entries</span></span>
+<span data-ttu-id="0bc67-104">Diese Dokumentation stellt einen detaillierten technischen Einblick in die Konzepte und Prinzipien der Dimensionsposten-Einlagerungs- und Buchungsfunktion in [!INCLUDE[d365fin](includes/d365fin_md.md)] dar.</span><span class="sxs-lookup"><span data-stu-id="0bc67-104">This documentation provides detailed technical insight into the concepts and principles of the dimension-entry storing and posting functionality in [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="315d0-108">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="315d0-108">In This Section</span></span>  
-[<span data-ttu-id="315d0-109">Dimensionssatz-Eintrags-Übersicht</span><span class="sxs-lookup"><span data-stu-id="315d0-109">Dimension Set Entries Overview</span></span>](design-details-dimension-set-entries-overview.md)  
-[<span data-ttu-id="315d0-110">Designdetails: Suche nach Dimensionskombinationen</span><span class="sxs-lookup"><span data-stu-id="315d0-110">Design Details: Searching for Dimension Combinations</span></span>](design-details-searching-for-dimension-combinations.md)  
-[<span data-ttu-id="315d0-111">Designdetails: Tabellenstruktur</span><span class="sxs-lookup"><span data-stu-id="315d0-111">Design Details: Table Structure</span></span>](design-details-table-structure.md)  
-[<span data-ttu-id="315d0-112">Designdetails: Codeunit 408 Dimension Management</span><span class="sxs-lookup"><span data-stu-id="315d0-112">Design Details: Codeunit 408 Dimension Management</span></span>](design-details-codeunit-408-dimension-management.md)  
-[<span data-ttu-id="315d0-113">Designdetails: Codebeispiele von geänderten Mustern in Änderungen</span><span class="sxs-lookup"><span data-stu-id="315d0-113">Design Details: Code Examples of Changed Patterns in Modifications</span></span>](design-details-code-examples-of-changed-patterns-in-modifications.md)
+## <a name="in-this-section"></a><span data-ttu-id="0bc67-105">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="0bc67-105">In This Section</span></span>  
+[<span data-ttu-id="0bc67-106">Dimensionssatz-Eintrags-Übersicht</span><span class="sxs-lookup"><span data-stu-id="0bc67-106">Dimension Set Entries Overview</span></span>](design-details-dimension-set-entries-overview.md)  
+[<span data-ttu-id="0bc67-107">Designdetails: Suche nach Dimensionskombinationen</span><span class="sxs-lookup"><span data-stu-id="0bc67-107">Design Details: Searching for Dimension Combinations</span></span>](design-details-searching-for-dimension-combinations.md)  
+[<span data-ttu-id="0bc67-108">Designdetails: Tabellenstruktur</span><span class="sxs-lookup"><span data-stu-id="0bc67-108">Design Details: Table Structure</span></span>](design-details-table-structure.md)  
