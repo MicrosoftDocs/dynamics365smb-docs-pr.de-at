@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ee3f4705503214c9fcaf086d109029be2070c120
-ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
+ms.openlocfilehash: da4ac44dfa7c0ea7138994c03406624f14b9f84e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "1710960"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300284"
 ---
 # <a name="vat-reporting"></a>MwSt.-Abrechnung
 VIES (VAT Information Exchange System)-Abrechnung ist in der gesamten Europäischen Union (EU) erforderlich und muss landesbezogenen Anforderungen entsprechen (beispielsweise bestimmten Formaten und Dateien). Für die österreichische VIES-Abrechnung werden gedruckte Berichte und XML-Dateien erstellt.

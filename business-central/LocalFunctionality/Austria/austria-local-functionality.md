@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: soalex
-ms.openlocfilehash: 648d293228e7b093c2ae66565c3bc71220351d9b
-ms.sourcegitcommit: acbbe80503e61296310ea7f787a9d7f4bc6dccd7
+ms.openlocfilehash: 438a3d6a0a8ee16c5fdf0f84fddf3b3ad9ddc847
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 08/12/2019
-ms.locfileid: "1870516"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300296"
 ---
 # <a name="austria-local-functionality"></a>Lokale Funktion (Österreich)
 In den folgenden Themen werden Funktionen beschrieben, die der österreichischen Version von [!INCLUDE[d365fin](../../includes/d365fin_md.md)] eigen sind.  
@@ -43,7 +43,6 @@ In den folgenden Themen werden Funktionen beschrieben, die der österreichischen
 
 * Allgemein
     * [Drucken von Finanzbuchhaltungs-Setupinformationen](how-to-print-general-ledger-setup-information.md) **Jetzt erhältlich**
-    * [Drucken von Verkaufsaufträgen und Bestellungen während der Stapelbuchung](how-to-print-sales-and-purchase-orders-during-batch-posting.md) **Jetzt erhältlich**
 
 ## <a name="see-also"></a>Siehe auch
 [Arbeiten mit [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)

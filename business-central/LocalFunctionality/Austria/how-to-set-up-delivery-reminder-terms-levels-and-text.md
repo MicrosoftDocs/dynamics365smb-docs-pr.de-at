@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: af0516f7850f0ebeb543d930ca0eb8df0b48c176
-ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
+ms.openlocfilehash: 05360e2d60d693316a6751d2d15fb026de6409ba
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "1710964"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300286"
 ---
 # <a name="set-up-delivery-reminder-terms-levels-and-text"></a>Einrichten von Lieferbenachrichtigungsbestimmungen, Stufen und Text
 Zur Erstellung von Lieferbenachrichtigungen müssen Sie Folgendes einrichten:  

@@ -10,14 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 189fc0fa2f972e377d7d2a0af6009c39bf4e50a3
-ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
+redirect_url: ../../ui-batch-posting
+ms.openlocfilehash: 7a3c4d7f5b14ee9e9d0a57024a27f9dc5c3e494b
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "1710967"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300290"
 ---
 # <a name="print-sales-and-purchase-orders-during-batch-posting"></a>So drucken Sie im Verlauf von Stapelbuchungen Verkaufsaufträge und Bestellungen
 Nach der Stapelbuchung von Verkaufsaufträgen und Bestellungen können die entsprechenden gebuchten Belege gedruckt werden.  
