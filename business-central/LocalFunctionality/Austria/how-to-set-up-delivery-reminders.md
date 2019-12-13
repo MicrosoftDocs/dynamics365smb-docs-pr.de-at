@@ -1,8 +1,6 @@
 ---
 title: 'Gewusst wie: Einrichten von Lieferbenachrichtigungen'
 description: In Business Central können Sie Lieferbenachrichtigungen nutzen, um Verkäufer über verspätete Lieferungen zu mahnen.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7bf8e32a76f7c2647ff7226f81850357880ea3c9
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 26ed6efb1d2d6905f56ad01ea433238432841655
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300283"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878734"
 ---
 # <a name="set-up-delivery-reminders"></a>Gewusst wie: Einrichten von Lieferbenachrichtigungen
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] können Sie Lieferbenachrichtigungen nutzen, um Verkäufer über verspätete Lieferungen zu mahnen. Um Lieferanmahnungen für Kreditoren zu erstellen, müssen Sie die Stammdaten für die Erstellung von Lieferanmahnungen sowie die Nummernserien für die Lieferanmahnungen auf der Seite **Kreditoren & Einkauf einrichten** einrichten.  
 
 ## <a name="to-set-up-delivery-reminders"></a>Gewusst wie: Einrichten von Lieferbenachrichtigungen  
 
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Nach Seite oder Bericht  suchen") und geben **Kreditoren- und Debitoren-Einrichtung** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Suche nach Seiten- oder Berichtssymbolen") und geben Sie **Kreditoren & Einkauf Einr.** ein. Wählen Sie dann den zugehörigen Link aus.  
 2.  Geben Sie im Feld **Standard Lief.-Mahn. Datumsfeld** eine der Optionen an, wie in der folgenden Tabelle beschrieben.  
 
     |Option|Beschreibung|  

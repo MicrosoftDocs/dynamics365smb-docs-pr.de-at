@@ -1,8 +1,6 @@
 ---
 title: Lieferbenachrichtigungen
 description: Lieferbenachrichtigungen dienen dazu, überfällige Kreditorlieferungen zu verfolgen und Kreditoren an überfällige Lieferungen zu erinnern.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a8d48fc19647c460aa792e1bcf6c10967cb4020b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4121d5e17218c68c33a33a5a90f4b83b9f4a9183
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300297"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878741"
 ---
 # <a name="delivery-reminders"></a>Lieferbenachrichtigungen
 Lieferbenachrichtigungen dienen dazu, überfällige Kreditorlieferungen zu verfolgen und Kreditoren an überfällige Lieferungen zu erinnern. Zur Erstellung von Lieferbenachrichtigungen müssen Sie Folgendes einrichten:  

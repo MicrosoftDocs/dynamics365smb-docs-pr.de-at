@@ -1,8 +1,6 @@
 ---
 title: 'Gewusst wie: Registrieren von Lieferbenachrichtigungen'
 description: Nachdem Sie Lieferbenachrichtigungen erstellt haben, müssen Sie sie registrieren und ausdrücken, damit Sie die Benachrichtigungen an Kreditoren senden können. Vor der Registrierung der Lieferbenachrichtigungen können Sie einen Testbericht drucken.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b66e27b5c367763342012eda9d3f21c551aa82c6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: df8045f76902c91c9bf650fd1c1e90cc67ea773b
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300289"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878835"
 ---
 # <a name="issue-delivery-reminders"></a>Lieferbenachrichtigung registrieren
 Nachdem Sie Lieferbenachrichtigungen erstellt haben, müssen Sie sie registrieren und ausdrücken, damit Sie die Benachrichtigungen an Kreditoren senden können. Vor dem Ausstellen von Lieferbenachrichtigungen können Sie einen Testbericht drucken. Weitere Informationen finden Sie unter [Vorgehensweise: Drucken von Testberichten für  Lieferbenachrichtigungen](how-to-print-test-reports-for-delivery-reminders.md).  
@@ -26,7 +24,7 @@ Beim Registrieren der Lieferbenachrichtigungen werden Lieferanmahnungsposten ers
 
 ## <a name="to-issue-delivery-reminders"></a>So registrieren Sie Lieferbenachrichtigungen  
 
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Nach Seite oder Bericht suchen"), geben Sie **Lieferanmahnung** ein, und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Suche nach Seiten- oder Berichtssymbolen") und geben Sie **Lieferbenachrichtigung** ein. Wählen Sie dann den zugehörigen Link aus.  
 2.  Wählen Sie auf der Seite **Lieferanmahnung** die Lieferanmahnung, die Sie registrieren möchten, und wählen Sie dann die Aktion **Bearbeiten**.  
 3.  Wählen Sie die Aktion **Registrieren**.  
 4.  Füllen Sie auf der Seite **Lieferanmahnung registrieren** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
@@ -48,7 +46,7 @@ Sie können die registrierten Lieferanmahnungen auf der Seite **Reg. Lieferanmah
 
 ## <a name="to-view-delivery-reminder-ledger-entries"></a>So zeigen Sie die Lieferanmahnungsposten an  
 
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Gebuchte Aufträge** ein. Wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Suche nach Seite oder Bericht](../../media/ui-search/search_small.png "Suche nach Seiten- oder Berichtssymbolen"), geben Sie **Einkaufsbestellungen** ein und wählen Sie dann den entsprechenden Link.  
 2.  Wählen Sie die Bestellung aus, für die Sie den Benachrichtigungsstatus anzeigen möchten, und wählen Sie dann die Aktion **Bearbeiten**.  
 3.  Wählen Sie die Aktion **Lieferanmahnungsposten**.  
 

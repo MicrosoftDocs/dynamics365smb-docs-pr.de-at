@@ -1,8 +1,6 @@
 ---
 title: So erstellen Sie eine MwSt.-Abrechnung
 description: Sie können einen regelmäßigen Bericht der MsSt.-Transaktionen übermitteln. Die MwSt.-Abrechnung wird als FDF-Datei übermittelt, die einer bearbeitbaren PDF-Datei von der Steuerbehörde entspricht.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c56500e9a772b29c029d50f4986d7e9b261e413c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4fd7fcd467d268a330827ca855e2a493dc295403
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300294"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878737"
 ---
 # <a name="create-a-vat-statement"></a>Erstellen einer MwSt.-Abrechnung
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)] ermöglicht Ihnen, einen regelmäßigen Bericht der MsSt.-Transaktionen zu übermitteln. Die MwSt.-Abrechnung wird als FDF-Datei übermittelt, die einer bearbeitbaren PDF-Datei von der Steuerbehörde entspricht.  
@@ -27,7 +25,7 @@ ms.locfileid: "2300294"
 
 ## <a name="to-create-a-vat-statement"></a>So erstellen Sie eine MwSt.-Abrechnung  
 
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Nach Seite oder Bericht suchen"), geben Sie **MwSt.-Abrechnung AT** ein, und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie das Symbol ![Suche nach Seite oder Bericht](../../media/ui-search/search_small.png "Suche nach Seiten- oder Berichtssymbolen"), geben Sie **MwSt.-Abrechnung AT** ein und wählen Sie dann den entsprechenden Link.  
 2.  Füllen Sie die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
     |Feld|Description|  
