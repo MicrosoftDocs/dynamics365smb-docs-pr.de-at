@@ -1,8 +1,6 @@
 ---
 title: Einrichtung der Kostenrechnung | Microsoft Docs
 description: Bevor Sie die Arbeit mit der Kostenrechnung beginnen können, müssen Sie Einrichtungsaufgaben ausführen.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a521280c3a3f3f38e06a37984401652d9fa9e50c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: f65755d13ccfb445006fec9dc8c1697777db66c4
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301749"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882515"
 ---
 # <a name="setting-up-cost-accounting"></a>Einrichten der Kostenrechnung
 Bevor Sie die Arbeit mit der Kostenrechnung beginnen können, müssen Sie Einrichtungsaufgaben ausführen.
@@ -38,7 +36,7 @@ Kostenartenpläne ähneln Kontenpläne im Sachkonto. Sie können den Kostenarten
 -   Erstellen Sie einen neuen Kostenartenplan, oder fügen Sie einem vorhandenen Kostenartenplan neue Kostenarten hinzu. Sie müssen jede neue Kostenart einzeln erstellen.  
 
 ### <a name="to-transfer-the-general-ledger-chart-of-accounts-to-the-chart-of-cost-types"></a>So übertragen Sie den Sachkontenplan in den Kostenartenplan.  
-1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kontenplan Kontenarten** ein, und wählen dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Diagramm der Kostenarten** ein und wählen Sie dann den entsprechenden Link.  
 2.  Wählen Sie die Aktion **Kostenarten aus K&ontenplan abrufen**. Klicken Sie im Dialogfeld auf die Schaltfläche **Ja**, um die Übertragung zu bestätigen. Die Funktion verwendet den Kontenplan, um einen Kostenartenplan zu erstellen.  
 
     Der Kostenartenplan enthält jetzt alle GuV-Konten im Sachkonto und umfasst Überschriften und Zwischensummen. Sie können den Kostenartenplan ändern, falls erforderlich. Beispielsweise können Sie doppelt vorhandene Kostenarten löschen.  
@@ -100,7 +98,7 @@ Kostenstellen sind Abteilungen, die für die Kosten und die Einnahmen zuständig
 
 ### <a name="to-transfer-dimension-values-in-the-general-ledger-to-the-chart-of-cost-centers"></a>So transferieren Sie Dimensionswerte im Sachkonto zum Kostenstellenplan  
 1.  Richten Sie eine Dimension als Kostenstellendimension auf der Seite **Kostenstellendimension aktualisieren** ein. Nur die Werte aus dieser Dimension werden übertragen.  
-2.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kontenplan Kontenstelle** ein, und wählen dann den zugehörigen Link aus.  
+2.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Diagramm der Kostenstellen** ein und wählen Sie dann den entsprechenden Link.  
 3.  Klicken Sie auf der Registerkarte **Aktionen** in der Gruppe **Funktion** auf **Kostenstellen aus Dimension abrufen**, um Dimensionswerte zum Kostenstellenplan zu übertragen. Die Funktion überträgt die Dimensionswerte, die Sie in Schritt 1 definiert haben.  
 
     > [!NOTE]  
@@ -133,7 +131,7 @@ Kostenträger sind Projekte, Produkte oder Services eines Unternehmens. Der Kost
 
 ### <a name="to-transfer-dimension-values-from-the-general-ledger-to-the-chart-of-cost-objects"></a>So transferieren Sie Dimensionswerte aus dem Sachkonto zum Kostenträgerplan  
 1.  Legen Sie eine Dimension als Kostenträgerdimension auf der Seite **Kostenträger-Dimensionen aktualisieren** fest. Nur die Werte aus dieser Dimension werden übertragen.  
-2.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kontenplan Kostenobjekte** ein, und wählen dann den zugehörigen Link aus.  
+2.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Diagramm der Kostenträger** ein und wählen Sie dann den entsprechenden Link.  
 3.  Wählen Sie die Aktion **Kostenträger aus Dimension abrufen**, um Dimensionswerte zum Kostenträgerplan zu übertragen. Die Funktion überträgt die Dimensionswerte, die Sie in Schritt 1 definiert haben.  
 
     > [!NOTE]  
