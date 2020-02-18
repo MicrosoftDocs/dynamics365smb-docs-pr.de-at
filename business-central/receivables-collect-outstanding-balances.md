@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 01/13/2020
+ms.date: 01/20/2020
 ms.author: sgroespe
-ms.openlocfilehash: 575e46f7988184f52cddf8e986a7aef05a61804b
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 73e488270862e62a237575929caa3753b4c7f545
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953484"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2991993"
 ---
 # <a name="collect-outstanding-balances"></a>Einziehen von Restbeträgen
 Im Rahmen der Debitorenverwaltung muss auch geprüft werden, ob fällige Beträge pünktlich bezahlt werden. Wenn Debitoren überfällige Zahlungen haben, können Sie den Debitoren-Abrechnungsbericht als Mahnung senden. Sie können auch Mahnungen ausgeben.
@@ -216,7 +216,10 @@ Eine Zinsrechnung ist ähnlich wie eine Rechnung. Sie können den Kopf manuell a
 1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Zinsrechnungen** ein, und wählen Sie dann den entsprechenden Link.  
 2. Wählen Sie die Aktion **Neu** aus, und füllen Sie die Felder nach Bedarf aus.  
 3. Wählen Sie **Zinsgebührmemo-Zeilen** vorschlagen.
-4. Auf der Seite **Zinsrechnungszeile vorschlagen** setzen Sie auf dem Inforegister **Debitorenposten** einen Filter, wenn Sie nur für bestimmte Posten Zinsrechnungen erstellen möchten.  
+4. Auf der Seite **Zinsrechnungszeile vorschlagen** setzen Sie auf dem Inforegister **Debitorenposten** einen Filter, wenn Sie nur für bestimmte Posten Zinsrechnungen erstellen möchten.
+
+    > [!NOTE]
+    > Obwohl sie aufgelistet sind, hat die Auswahl von **Zahlung** und **Gutschrift** als **Belegart**-Filter keine Wirkung, da die Funktion **Zinsrechnung** nur positive Beträge verarbeitet.
 5.  Klicken Sie auf die Schaltfläche **OK**, um den Batchauftrag zu starten.  
 
 ## <a name="to-update-finance-charge-memo-texts"></a>So aktualisieren Sie Zinsrechnungstexte:  
