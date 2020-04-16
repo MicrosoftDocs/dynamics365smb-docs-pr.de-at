@@ -11,26 +11,26 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user setup
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: e51853d3378fe07680667f38bf729673da40a3c7
-ms.sourcegitcommit: 86498fe4326b9ce26cc31e8645db27570d13bdf9
+ms.openlocfilehash: 8b547aaba37285249439bae5a46a516b6620f6df
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2767531"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183493"
 ---
-# <a name="specify-posting-periods"></a><span data-ttu-id="7de9b-103">Festlegen von Buchhaltungsperioden:</span><span class="sxs-lookup"><span data-stu-id="7de9b-103">Specify Posting Periods</span></span>
-<span data-ttu-id="7de9b-104">Verwenden Sie Buchhaltungsperioden, um anzugeben, wenn Benutzer die Finanzbuchhaltung buchen können.</span><span class="sxs-lookup"><span data-stu-id="7de9b-104">Use posting periods to specify when users can post to the general ledger.</span></span>  
+# <a name="specify-posting-periods"></a><span data-ttu-id="144bf-103">Festlegen von Buchhaltungsperioden:</span><span class="sxs-lookup"><span data-stu-id="144bf-103">Specify Posting Periods</span></span>
+<span data-ttu-id="144bf-104">Verwenden Sie Buchhaltungsperioden, um anzugeben, wenn Benutzer die Finanzbuchhaltung buchen können.</span><span class="sxs-lookup"><span data-stu-id="144bf-104">Use posting periods to specify when users can post to the general ledger.</span></span>  
 
-## <a name="to-specify-posting-periods"></a><span data-ttu-id="7de9b-105">Buchhaltungsperioden festlegen:</span><span class="sxs-lookup"><span data-stu-id="7de9b-105">To specify posting periods</span></span>
-1. <span data-ttu-id="7de9b-106">Wählen Sie die ![Glühbirne, die das Symbol Tell Me öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Finanzbuchhaltungs-Einrichtung** ein und wählen Sie dann den entsprechenden Link.</span><span class="sxs-lookup"><span data-stu-id="7de9b-106">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.</span></span>  
-2. <span data-ttu-id="7de9b-107">Aauf der Seite **Finanzbuchhaltungs-Einrichtung:** legen Sie die Periode fest, indem Sie Daten in den Feldern **Buchungen zugel. ab** und **Buchungen zugel. bis** eingeben.</span><span class="sxs-lookup"><span data-stu-id="7de9b-107">On the **General Ledger Setup** page, define the period by entering dates in the **Allow Posting From** and **Allow Posting To** fields.</span></span>  
+## <a name="to-specify-posting-periods"></a><span data-ttu-id="144bf-105">Buchhaltungsperioden festlegen:</span><span class="sxs-lookup"><span data-stu-id="144bf-105">To specify posting periods</span></span>
+1. <span data-ttu-id="144bf-106">Wählen Sie die ![Glühbirne, die das Symbol Tell Me öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Finanzbuchhaltungs-Einrichtung** ein und wählen Sie dann den entsprechenden Link.</span><span class="sxs-lookup"><span data-stu-id="144bf-106">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="144bf-107">Aauf der Seite **Finanzbuchhaltungs-Einrichtung:** legen Sie die Periode fest, indem Sie Daten in den Feldern **Buchungen zugel. ab** und **Buchungen zugel. bis** eingeben.</span><span class="sxs-lookup"><span data-stu-id="144bf-107">On the **General Ledger Setup** page, define the period by entering dates in the **Allow Posting From** and **Allow Posting To** fields.</span></span>  
 
 > [!NOTE]  
->   <span data-ttu-id="7de9b-108">Diese Buchungszeiträume gelten für den Mandanten und alle Anwender.</span><span class="sxs-lookup"><span data-stu-id="7de9b-108">These posting periods apply to the company and to all users.</span></span> <span data-ttu-id="7de9b-109">Wenn Sie für verschiedene Benutzer verschiedene Buchungszeiträume definieren möchten, können Sie diese auf der Seite **Benutzer einrichten**</span><span class="sxs-lookup"><span data-stu-id="7de9b-109">To allow for exceptions, you can define different posting periods for specific users on the **User Setup** page.</span></span> <span data-ttu-id="7de9b-110">Diese Buchungszeiträume haben Vorrang vor jenen, die auf der Seite **Finanzbuchhaltung einrichten** angegeben werden.</span><span class="sxs-lookup"><span data-stu-id="7de9b-110">These posting periods overrule those specified on the **General Ledger Setup** page.</span></span> <span data-ttu-id="7de9b-111">Weitere Informationen finden Sie unter [So richten Sie Zeiteinschränkungen ein](ui-define-granular-permissions.md#to-set-up-user-time-constraints).</span><span class="sxs-lookup"><span data-stu-id="7de9b-111">For more information, see [To set up user time constraints](ui-define-granular-permissions.md#to-set-up-user-time-constraints).</span></span>
+>   <span data-ttu-id="144bf-108">Diese Buchungszeiträume gelten für den Mandanten und alle Anwender.</span><span class="sxs-lookup"><span data-stu-id="144bf-108">These posting periods apply to the company and to all users.</span></span> <span data-ttu-id="144bf-109">Wenn Sie für verschiedene Benutzer verschiedene Buchungszeiträume definieren möchten, können Sie diese auf der Seite **Benutzer einrichten**</span><span class="sxs-lookup"><span data-stu-id="144bf-109">To allow for exceptions, you can define different posting periods for specific users on the **User Setup** page.</span></span> <span data-ttu-id="144bf-110">Diese Buchungszeiträume haben Vorrang vor jenen, die auf der Seite **Finanzbuchhaltung einrichten** angegeben werden.</span><span class="sxs-lookup"><span data-stu-id="144bf-110">These posting periods overrule those specified on the **General Ledger Setup** page.</span></span> <span data-ttu-id="144bf-111">Weitere Informationen finden Sie unter [So richten Sie Zeiteinschränkungen ein](ui-define-granular-permissions.md#to-set-up-user-time-constraints).</span><span class="sxs-lookup"><span data-stu-id="144bf-111">For more information, see [To set up user time constraints](ui-define-granular-permissions.md#to-set-up-user-time-constraints).</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="7de9b-112">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="7de9b-112">See Also</span></span>
-[<span data-ttu-id="7de9b-113">Finanzen</span><span class="sxs-lookup"><span data-stu-id="7de9b-113">Finance</span></span>](finance.md)  
-[<span data-ttu-id="7de9b-114">Abschließen von Periodenabschlüssen</span><span class="sxs-lookup"><span data-stu-id="7de9b-114">Completing Period-End Processes</span></span>](year-how-complete-period-end-processes.md)  
-<span data-ttu-id="7de9b-115">[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="7de9b-115">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+## <a name="see-also"></a><span data-ttu-id="144bf-112">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="144bf-112">See Also</span></span>
+[<span data-ttu-id="144bf-113">Finanzen</span><span class="sxs-lookup"><span data-stu-id="144bf-113">Finance</span></span>](finance.md)  
+[<span data-ttu-id="144bf-114">Abschließen von Periodenabschlüssen</span><span class="sxs-lookup"><span data-stu-id="144bf-114">Completing Period-End Processes</span></span>](year-how-complete-period-end-processes.md)  
+<span data-ttu-id="144bf-115">[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="144bf-115">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>

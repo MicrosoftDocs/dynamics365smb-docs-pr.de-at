@@ -10,39 +10,39 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 209df24710837e3407498c600ec77bea3f76690d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0971998feed22b61dbcb948dda719e7e40287e63
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309141"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181549"
 ---
-# <a name="create-sales-opportunities"></a><span data-ttu-id="3dda1-103">Verkaufschancen erstellen</span><span class="sxs-lookup"><span data-stu-id="3dda1-103">Create Sales Opportunities</span></span>
-<span data-ttu-id="3dda1-104">Sie können Chancen für die Verkaufschancen erstellen, die Sie bei Ihren Kontakten haben.</span><span class="sxs-lookup"><span data-stu-id="3dda1-104">You can create opportunities for the sales opportunities you have on your contacts.</span></span> <span data-ttu-id="3dda1-105">Alle Verkaufschancen müssen einem Verkäufer oder Einkäufer zugeordnet sein und einen Kontakt haben.</span><span class="sxs-lookup"><span data-stu-id="3dda1-105">All opportunities must be assigned to a salesperson or purchaser and must have a contact.</span></span>
+# <a name="create-sales-opportunities"></a><span data-ttu-id="d1cf6-103">Verkaufschancen erstellen</span><span class="sxs-lookup"><span data-stu-id="d1cf6-103">Create Sales Opportunities</span></span>
+<span data-ttu-id="d1cf6-104">Sie können Chancen für die Verkaufschancen erstellen, die Sie bei Ihren Kontakten haben.</span><span class="sxs-lookup"><span data-stu-id="d1cf6-104">You can create opportunities for the sales opportunities you have on your contacts.</span></span> <span data-ttu-id="d1cf6-105">Alle Verkaufschancen müssen einem Verkäufer oder Einkäufer zugeordnet sein und einen Kontakt haben.</span><span class="sxs-lookup"><span data-stu-id="d1cf6-105">All opportunities must be assigned to a salesperson or purchaser and must have a contact.</span></span>
 
-<span data-ttu-id="3dda1-106">Auf der Seite **Verkaufschancenübersicht** können Sie Verkaufschancen erstellen.</span><span class="sxs-lookup"><span data-stu-id="3dda1-106">You can create opportunities from the **Opportunity List** page.</span></span> <span data-ttu-id="3dda1-107">Üblicherweise erstellen Sie Verkaufschancen über bestimmte Kontakte oder Verkäufer.</span><span class="sxs-lookup"><span data-stu-id="3dda1-107">But you typically will create opportunities from the specific contact or salespeople.</span></span>
+<span data-ttu-id="d1cf6-106">Auf der Seite **Verkaufschancenübersicht** können Sie Verkaufschancen erstellen.</span><span class="sxs-lookup"><span data-stu-id="d1cf6-106">You can create opportunities from the **Opportunity List** page.</span></span> <span data-ttu-id="d1cf6-107">Üblicherweise erstellen Sie Verkaufschancen über bestimmte Kontakte oder Verkäufer.</span><span class="sxs-lookup"><span data-stu-id="d1cf6-107">But you typically will create opportunities from the specific contact or salespeople.</span></span>
 
-<span data-ttu-id="3dda1-108">Bevor Sie Verkaufschancen erstellen können, müssen Sie Verkaufsprozesse erstellen.</span><span class="sxs-lookup"><span data-stu-id="3dda1-108">Before you can create opportunities, you must set up opportunity sales cycles.</span></span> <span data-ttu-id="3dda1-109">Weitere Informationen finden Sie unter [Einrichten von Verkaufschancen für Verkaufsprozesse und Prozess-Stufen](marketing-how-setup-opportunity-sales-cycles-stages.md).</span><span class="sxs-lookup"><span data-stu-id="3dda1-109">For more information see [Set Up Opportunity Sales Cycles and Stages](marketing-how-setup-opportunity-sales-cycles-stages.md).</span></span>
+<span data-ttu-id="d1cf6-108">Bevor Sie Verkaufschancen erstellen können, müssen Sie Verkaufsprozesse erstellen.</span><span class="sxs-lookup"><span data-stu-id="d1cf6-108">Before you can create opportunities, you must set up opportunity sales cycles.</span></span> <span data-ttu-id="d1cf6-109">Weitere Informationen finden Sie unter [Einrichten von Verkaufschancen für Verkaufsprozesse und Prozess-Stufen](marketing-how-setup-opportunity-sales-cycles-stages.md).</span><span class="sxs-lookup"><span data-stu-id="d1cf6-109">For more information see [Set Up Opportunity Sales Cycles and Stages](marketing-how-setup-opportunity-sales-cycles-stages.md).</span></span>
 
-## <a name="to-create-an-opportunity-from-a-salesperson"></a><span data-ttu-id="3dda1-110">So erstellen Sie ein Angebot für einen Verkäufer</span><span class="sxs-lookup"><span data-stu-id="3dda1-110">To create an opportunity from a salesperson</span></span>
-1. <span data-ttu-id="3dda1-111">Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Verkäufer** ein, und wählen dann den zugehörigen Link aus.</span><span class="sxs-lookup"><span data-stu-id="3dda1-111">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Salespeople**, and then choose the related link.</span></span>
-2. <span data-ttu-id="3dda1-112">Wählen Sie den Verkäufer aus, für den eine Verkaufschance erstellt werden soll.</span><span class="sxs-lookup"><span data-stu-id="3dda1-112">Select the salesperson from the list for whom you want to create an opportunity.</span></span>
-3. <span data-ttu-id="3dda1-113">Wählen Sie die **Verkaufschancen**-Aktion aus, und wählen Sie dann **Übersicht**.</span><span class="sxs-lookup"><span data-stu-id="3dda1-113">Choose the **Opportunities** action, and then choose **List**.</span></span>
-4. <span data-ttu-id="3dda1-114">Wählen Sie Aktion **Neu** aus, und füllen Sie die relevanten Felder aus.</span><span class="sxs-lookup"><span data-stu-id="3dda1-114">Choose **New**, and then fill in the fields as relevant.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+## <a name="to-create-an-opportunity-from-a-salesperson"></a><span data-ttu-id="d1cf6-110">So erstellen Sie ein Angebot für einen Verkäufer</span><span class="sxs-lookup"><span data-stu-id="d1cf6-110">To create an opportunity from a salesperson</span></span>
+1. <span data-ttu-id="d1cf6-111">Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Verkäufer** ein und wählen Sie dann den entsprechenden Link.</span><span class="sxs-lookup"><span data-stu-id="d1cf6-111">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Salespeople**, and then choose the related link.</span></span>
+2. <span data-ttu-id="d1cf6-112">Wählen Sie den Verkäufer aus, für den eine Verkaufschance erstellt werden soll.</span><span class="sxs-lookup"><span data-stu-id="d1cf6-112">Select the salesperson from the list for whom you want to create an opportunity.</span></span>
+3. <span data-ttu-id="d1cf6-113">Wählen Sie die **Verkaufschancen**-Aktion aus, und wählen Sie dann **Übersicht**.</span><span class="sxs-lookup"><span data-stu-id="d1cf6-113">Choose the **Opportunities** action, and then choose **List**.</span></span>
+4. <span data-ttu-id="d1cf6-114">Wählen Sie Aktion **Neu** aus, und füllen Sie die relevanten Felder aus.</span><span class="sxs-lookup"><span data-stu-id="d1cf6-114">Choose **New**, and then fill in the fields as relevant.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 
 
-## <a name="to-create-an-opportunity-from-a-contact"></a><span data-ttu-id="3dda1-115">So erstellen Sie ein Angebot für einen Kontakt</span><span class="sxs-lookup"><span data-stu-id="3dda1-115">To create an opportunity from a contact</span></span>
-1. <span data-ttu-id="3dda1-116">Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kontakte** ein, und wählen dann den zugehörigen Link aus.</span><span class="sxs-lookup"><span data-stu-id="3dda1-116">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Contacts**, and then choose the related link.</span></span>
-2. <span data-ttu-id="3dda1-117">Wählen Sie den Kontakt aus, für den eine Verkaufschance erstellt werden soll.</span><span class="sxs-lookup"><span data-stu-id="3dda1-117">Select the contact from the list for whom you want to create an opportunity.</span></span>
-3. <span data-ttu-id="3dda1-118">Führen Sie einen der folgenden Schritte aus:</span><span class="sxs-lookup"><span data-stu-id="3dda1-118">Do one of the following:</span></span>
-   * <span data-ttu-id="3dda1-119">Wählen Sie die Aktion **Verkaufschance erstellen** aus.</span><span class="sxs-lookup"><span data-stu-id="3dda1-119">Choose the **Create Opportunity** action.</span></span>
-   * <span data-ttu-id="3dda1-120">Wählen Sie die **Verkaufschancen**-Aktion aus, und wählen Sie dann **Neu**.</span><span class="sxs-lookup"><span data-stu-id="3dda1-120">Choose the  **Opportunities** action, and then choose **New**.</span></span>
-4. <span data-ttu-id="3dda1-121">Füllen Sie die entsprechenden Felder aus.</span><span class="sxs-lookup"><span data-stu-id="3dda1-121">Fill in the relevant fields.</span></span>
+## <a name="to-create-an-opportunity-from-a-contact"></a><span data-ttu-id="d1cf6-115">So erstellen Sie ein Angebot für einen Kontakt</span><span class="sxs-lookup"><span data-stu-id="d1cf6-115">To create an opportunity from a contact</span></span>
+1. <span data-ttu-id="d1cf6-116">Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Kontakte** ein und wählen Sie dann den entsprechenden Link.</span><span class="sxs-lookup"><span data-stu-id="d1cf6-116">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Contacts**, and then choose the related link.</span></span>
+2. <span data-ttu-id="d1cf6-117">Wählen Sie den Kontakt aus, für den eine Verkaufschance erstellt werden soll.</span><span class="sxs-lookup"><span data-stu-id="d1cf6-117">Select the contact from the list for whom you want to create an opportunity.</span></span>
+3. <span data-ttu-id="d1cf6-118">Führen Sie einen der folgenden Schritte aus:</span><span class="sxs-lookup"><span data-stu-id="d1cf6-118">Do one of the following:</span></span>
+   * <span data-ttu-id="d1cf6-119">Wählen Sie die Aktion **Verkaufschance erstellen** aus.</span><span class="sxs-lookup"><span data-stu-id="d1cf6-119">Choose the **Create Opportunity** action.</span></span>
+   * <span data-ttu-id="d1cf6-120">Wählen Sie die **Verkaufschancen**-Aktion aus, und wählen Sie dann **Neu**.</span><span class="sxs-lookup"><span data-stu-id="d1cf6-120">Choose the  **Opportunities** action, and then choose **New**.</span></span>
+4. <span data-ttu-id="d1cf6-121">Füllen Sie die entsprechenden Felder aus.</span><span class="sxs-lookup"><span data-stu-id="d1cf6-121">Fill in the relevant fields.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="3dda1-122">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="3dda1-122">See Also</span></span>
-[<span data-ttu-id="3dda1-123">Verkauf</span><span class="sxs-lookup"><span data-stu-id="3dda1-123">Sales</span></span>](sales-manage-sales.md)  
-[<span data-ttu-id="3dda1-124">Erstellen und Verwalten von Kontakten</span><span class="sxs-lookup"><span data-stu-id="3dda1-124">Creating and Managing Contacts</span></span>](marketing-contacts.md)  
-[<span data-ttu-id="3dda1-125">Arbeiten mit  Business Central</span><span class="sxs-lookup"><span data-stu-id="3dda1-125">Working with Business Central</span></span>](ui-work-product.md)
+## <a name="see-also"></a><span data-ttu-id="d1cf6-122">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="d1cf6-122">See Also</span></span>
+[<span data-ttu-id="d1cf6-123">Verkauf</span><span class="sxs-lookup"><span data-stu-id="d1cf6-123">Sales</span></span>](sales-manage-sales.md)  
+[<span data-ttu-id="d1cf6-124">Erstellen und Verwalten von Kontakten</span><span class="sxs-lookup"><span data-stu-id="d1cf6-124">Creating and Managing Contacts</span></span>](marketing-contacts.md)  
+[<span data-ttu-id="d1cf6-125">Arbeiten mit  Business Central</span><span class="sxs-lookup"><span data-stu-id="d1cf6-125">Working with Business Central</span></span>](ui-work-product.md)
