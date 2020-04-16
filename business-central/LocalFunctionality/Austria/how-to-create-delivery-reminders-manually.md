@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 496726c4701b0baab437e75bf8235d6d9ac7d796
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 825a5acef7ebafc46349852bfedd5bb40dd21708
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300291"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3180940"
 ---
 # <a name="create-delivery-reminders-manually"></a>So erstellen Sie Lieferanmahnungen manuell
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], können Sie Lieferbenachrichtigungen erstellen, wenn eine Bestellung nicht wie erwartet geliefert wurde. Sie können eine einzelne Lieferbenachrichtigung manuell erstellen oder Sie können Lieferbenachrichtigungen für alle überfälligen Lieferungen erstellen. Weitere Informationen finden Sie unter [Lieferbenachrichtigungen erstellen](how-to-generate-delivery-reminders.md).
@@ -25,7 +25,7 @@ In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], können Sie Lieferbenachri
 
 ## <a name="to-create-a-delivery-reminder-manually"></a>So erstellen Sie Lieferantenbenachrichtigungen manuell  
 
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Nach Seite oder Bericht suchen") , geben Sie **Lieferbenachrichtigung** ein, und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Suche nach Seiten- oder Berichtssymbolen") und geben Sie **Lieferbenachrichtigung** ein. Wählen Sie dann den zugehörigen Link aus.  
 2.  Wählen Sie die Aktion **Neu** aus.  
 3.  Füllen Sie auf der Seite **Lieferanmahnung** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 

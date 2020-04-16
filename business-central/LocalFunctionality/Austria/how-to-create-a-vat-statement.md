@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4fd7fcd467d268a330827ca855e2a493dc295403
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 3a0248ba8a3241251a3f8e6a566441dc9424d177
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878737"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3180941"
 ---
 # <a name="create-a-vat-statement"></a>Erstellen einer MwSt.-Abrechnung
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)] ermöglicht Ihnen, einen regelmäßigen Bericht der MsSt.-Transaktionen zu übermitteln. Die MwSt.-Abrechnung wird als FDF-Datei übermittelt, die einer bearbeitbaren PDF-Datei von der Steuerbehörde entspricht.  

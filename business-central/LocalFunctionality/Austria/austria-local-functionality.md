@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: soalex
-ms.openlocfilehash: b29254717096a46518e1fee76e8be14617993fdc
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 180054e374a9c2eef806447fda1992ba5568d0fe
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878730"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3180944"
 ---
 # <a name="austria-local-functionality"></a>Lokale Funktion (Österreich)
 In den folgenden Themen werden Funktionen beschrieben, die der österreichischen Version von [!INCLUDE[d365fin](../../includes/d365fin_md.md)] eigen sind.  

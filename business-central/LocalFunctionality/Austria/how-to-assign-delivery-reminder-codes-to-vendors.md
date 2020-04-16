@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 66d4dcaeee4bdc473af7d6c78ebd18e6c438cc30
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 661f4a249a3da47a4d191d146b9bc6c523df7294
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878729"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3180942"
 ---
 # <a name="assign-delivery-reminder-codes-to-vendors"></a>So werden Lieferbenachrichtigungscodes zu Kreditoren zugewiesen
 Um Lieferbenachrichtungen für überfällige Einkäufe zu aktivieren, müssen Sie Kreditoren Lieferbenachrichtigungsbedingungen zuweisen. Weitere Informationen finden Sie unter [Lieferbenachrichtigungen](delivery-reminders.md).  
