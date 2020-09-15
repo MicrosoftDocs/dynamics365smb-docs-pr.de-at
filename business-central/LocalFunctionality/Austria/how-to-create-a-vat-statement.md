@@ -8,17 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: e58bb9ae6ff5f9c1b82ba7f822c8e99623f2a661
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.date: 08/19/2020
+ms.author: edupont
+ms.openlocfilehash: 0cf63529da5f43ddefb27be5d964c6b69521ab57
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3676713"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778712"
 ---
 # <a name="create-a-vat-statement"></a>Erstellen einer MwSt.-Abrechnung
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)] ermöglicht Ihnen, einen regelmäßigen Bericht der MsSt.-Transaktionen zu übermitteln. Die MwSt.-Abrechnung wird als FDF-Datei übermittelt, die einer bearbeitbaren PDF-Datei von der Steuerbehörde entspricht.  
+
+> [!NOTE]  
+>  Mit Gültigkeit ab dem 1. Juli 2020 haben die österreichischen Behörden als vorübergehende Maßnahme zur Förderung der Wirtschaft in Bereichen, die hart von COVID-19 getroffen wurden, die Mehrwertsteuer für bestimmte Gastronomiedienstleistungen auf 5 % gesenkt. Wenn Sie Debitoren oder Kreditoren in den betroffenen Bereichen haben, müssen Sie MwSt-Buchungsgruppen erstellen, die den korrekten MwSt-Satz widerspiegeln, und diese für Transaktionen verwenden, die ab dem 1. Juli 2020 erstellt wurden. Um sicherzustellen, dass die neuen 5%-MwSt.-Transaktionen korrekt in die MwSt.-Abrechnungen aufgenommen werden, führen Sie die Aktion **MwSt.-Abrechnung aktualisieren** im Feld **Suche** aus. Dadurch wird die MwSt.-Erklärung neu erstellt und die 5%-Transaktionen eingezogen, die im entsprechenden Feld in der offiziellen PDF-Vorlage für die MwSt.-Erklärung zur Berichterstattung bereit sind. Stellen Sie außerdem sicher, dass Sie die offizielle PDF-Vorlage für die MwSt-Berichterstattung erhalten.  
 
 > [!IMPORTANT]  
 >  Vor der Erstellung der MwSt.-Erklärung müssen Sie detaillierte Informationen zu Ihrer Firmenadresse auf der Seite „Firmendaten” angeben. Zu diesen Angaben zählen Straße, Hausnummer, Etage und Zimmernummer. Diese Informationen werden in die FDF-Datei aufgenommen.  
