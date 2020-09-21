@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 4e40f53543b094233c896e627ecfe6eb056e3d20
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 9703034a622b07d4e0154112eff23cdfa6d556ba
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3195500"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3781427"
 ---
 # <a name="letting-d365fin-suggest-values"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] Werte vorschlagen lassen
 [!INCLUDE[d365fin](includes/d365fin_md.md)] kann Ihnen dabei helfen, Aufgaben schneller und korrekter zu erledigen, indem es Felder oder Zeilen mit Daten ergänzt, die Sie sonst berechnen und manuell eingeben müssten. Obwohl solche automatische Dateneingaben immer korrekt sind, können Sie diese später ändern, wenn Sie dies wünschen.
@@ -38,7 +38,7 @@ Ihre Hauptaktionen auf der Seite ist es das Kontrollkästchen **Getätigte Zahlu
 
 ### <a name="to-have-the-date-received-field-on-the-payment-registration-page-filled-automatically"></a>Um das Feld **Eingangsdatum** auf der Seite **Zahlungs-Registrierung** automatisch auszufüllen
 1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Zahlungsregistrierung einrichten** ein, und wählen Sie dann den entsprechenden Link.
-2. Wählen Sie das Kontrollkästchen **Eingangsdatum automatisch ausfüllen** ** aus.
+2. Wählen Sie das Kontrollkästchen **Eingangsdatum automatisch ausfüllen** aus.
 3. Öffnen Sie die Seite **Zahlungs-Registrierung** und fahren Sie fort, um eingehende Debitorenzahlungen anhand der beschriebenen Funktionen zum automatischen Posten eines Feldwerts zu verarbeiten.
 
 ## <a name="see-also"></a>Siehe auch
