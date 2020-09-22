@@ -9,25 +9,25 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 1b7fedfa09999db84f81f15040a0714b9f0fe63e
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 120ad8c446f0626443c8c76a649424cd5bc11a4b
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188389"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3783718"
 ---
-# <a name="copy-data-to-new-companies"></a><span data-ttu-id="9f98f-104">So kopieren Sie Daten in neue Mandanten.</span><span class="sxs-lookup"><span data-stu-id="9f98f-104">Copy Data to New Companies</span></span>
-<span data-ttu-id="9f98f-105">Sie können häufig verwendete Werte aus einem vorhandenen Mandanten in einen neuen kopieren, solange sich beide Mandanten in derselben Datenbank befinden.</span><span class="sxs-lookup"><span data-stu-id="9f98f-105">You can copy commonly used values from an existing company to a new one, as long as both companies are in the same database.</span></span> <span data-ttu-id="9f98f-106">Wenn Sie beispielsweise über eine Standardliste von Symptomcodes verfügen, die allen Ihren Servicemanagementimplementierungen gemein ist, können Sie die Codes problemlos aus einem Mandanten in einen anderen kopieren.</span><span class="sxs-lookup"><span data-stu-id="9f98f-106">For example, if you have a standard list of symptom codes that is common to all your service management implementations, you can copy the codes easily from one company to another.</span></span>  
+# <a name="copy-data-to-new-companies"></a><span data-ttu-id="218ec-104">So kopieren Sie Daten in neue Mandanten.</span><span class="sxs-lookup"><span data-stu-id="218ec-104">Copy Data to New Companies</span></span>
+<span data-ttu-id="218ec-105">Sie können häufig verwendete Werte aus einem vorhandenen Mandanten in einen neuen kopieren, solange sich beide Mandanten in derselben Datenbank befinden.</span><span class="sxs-lookup"><span data-stu-id="218ec-105">You can copy commonly used values from an existing company to a new one, as long as both companies are in the same database.</span></span> <span data-ttu-id="218ec-106">Wenn Sie beispielsweise über eine Standardliste von Symptomcodes verfügen, die allen Ihren Servicemanagementimplementierungen gemein ist, können Sie die Codes problemlos aus einem Mandanten in einen anderen kopieren.</span><span class="sxs-lookup"><span data-stu-id="218ec-106">For example, if you have a standard list of symptom codes that is common to all your service management implementations, you can copy the codes easily from one company to another.</span></span>  
 
-## <a name="to-copy-data-to-a-new-company-using-rapidstart-services"></a><span data-ttu-id="9f98f-107">So kopieren Sie mit RapidStart Services Daten in einen neuen Mandanten</span><span class="sxs-lookup"><span data-stu-id="9f98f-107">To copy data to a new company using RapidStart Services</span></span>  
-1. <span data-ttu-id="9f98f-108">Öffnen des neuen Mandanten</span><span class="sxs-lookup"><span data-stu-id="9f98f-108">Open the new company.</span></span>  
-2. <span data-ttu-id="9f98f-109">Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Konfigurationsarbeitsblatt** ein, und wählen Sie dann den zugehörigen Link.</span><span class="sxs-lookup"><span data-stu-id="9f98f-109">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Worksheet**, and then choose the related link.</span></span>  
-3. <span data-ttu-id="9f98f-110">Wählen Sie **Daten von Mandanten kopieren**.</span><span class="sxs-lookup"><span data-stu-id="9f98f-110">Choose the **Copy Data from Company**.</span></span>  
-4. <span data-ttu-id="9f98f-111">Wählen Sie auf der Seite **Mandantendaten kopieren** einen Mandanten aus, um aus dem Feld **Kopieren von** zu kopieren und wählen Sie dann die Schaltfläche **OK** aus.</span><span class="sxs-lookup"><span data-stu-id="9f98f-111">On the **Copy Company Data** page, choose a company to copy from in the **Copy From** field, and then choose the **OK** button.</span></span>  
-5. <span data-ttu-id="9f98f-112">Wählen Sie eine Tabelle in einem der Konfigurationspakete aus, die Sie importiert haben, und wählen Sie in der Registerkarte Start in der Gruppe Vorgang die Option **Daten kopieren** aus.</span><span class="sxs-lookup"><span data-stu-id="9f98f-112">Select a table from one of the configuration packages that you have imported, and then choose the **Copy Data** action.</span></span>
+## <a name="to-copy-data-to-a-new-company-using-rapidstart-services"></a><span data-ttu-id="218ec-107">So kopieren Sie mit RapidStart Services Daten in einen neuen Mandanten</span><span class="sxs-lookup"><span data-stu-id="218ec-107">To copy data to a new company using RapidStart Services</span></span>  
+1. <span data-ttu-id="218ec-108">Öffnen des neuen Mandanten</span><span class="sxs-lookup"><span data-stu-id="218ec-108">Open the new company.</span></span>  
+2. <span data-ttu-id="218ec-109">Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Konfigurationsarbeitsblatt** ein, und wählen Sie dann den zugehörigen Link.</span><span class="sxs-lookup"><span data-stu-id="218ec-109">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Worksheet**, and then choose the related link.</span></span>  
+3. <span data-ttu-id="218ec-110">Wählen Sie **Daten von Mandanten kopieren**.</span><span class="sxs-lookup"><span data-stu-id="218ec-110">Choose the **Copy Data from Company**.</span></span>  
+4. <span data-ttu-id="218ec-111">Wählen Sie auf der Seite **Mandantendaten kopieren** einen Mandanten aus, um aus dem Feld **Kopieren von** zu kopieren und wählen Sie dann die Schaltfläche **OK** aus.</span><span class="sxs-lookup"><span data-stu-id="218ec-111">On the **Copy Company Data** page, choose a company to copy from in the **Copy From** field, and then choose the **OK** button.</span></span>  
+5. <span data-ttu-id="218ec-112">Wählen Sie eine Tabelle in einem der Konfigurationspakete aus, die Sie importiert haben, und wählen Sie in der Registerkarte Start in der Gruppe Vorgang die Option **Daten kopieren** aus.</span><span class="sxs-lookup"><span data-stu-id="218ec-112">Select a table from one of the configuration packages that you have imported, and then choose the **Copy Data** action.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="9f98f-113">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="9f98f-113">See Also</span></span>
-[<span data-ttu-id="9f98f-114">Konfigurationen für neue Mandanten übernehmen</span><span class="sxs-lookup"><span data-stu-id="9f98f-114">Apply Configurations to New Companies</span></span>](admin-apply-configuration-to-new-companies.md)  
-[<span data-ttu-id="9f98f-115">Mandanten mit RapidStart Services einrichten</span><span class="sxs-lookup"><span data-stu-id="9f98f-115">Setting Up a Company With RapidStart Services</span></span>](admin-set-up-a-company-with-rapidstart.md)  
-[<span data-ttu-id="9f98f-116">Verwaltung</span><span class="sxs-lookup"><span data-stu-id="9f98f-116">Administration</span></span>](admin-setup-and-administration.md)
+## <a name="see-also"></a><span data-ttu-id="218ec-113">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="218ec-113">See Also</span></span>
+[<span data-ttu-id="218ec-114">Konfigurationen für neue Mandanten übernehmen</span><span class="sxs-lookup"><span data-stu-id="218ec-114">Apply Configurations to New Companies</span></span>](admin-apply-configuration-to-new-companies.md)  
+[<span data-ttu-id="218ec-115">Mandanten mit RapidStart Services einrichten</span><span class="sxs-lookup"><span data-stu-id="218ec-115">Setting Up a Company With RapidStart Services</span></span>](admin-set-up-a-company-with-rapidstart.md)  
+[<span data-ttu-id="218ec-116">Verwaltung</span><span class="sxs-lookup"><span data-stu-id="218ec-116">Administration</span></span>](admin-setup-and-administration.md)
