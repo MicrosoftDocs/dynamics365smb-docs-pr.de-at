@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, general journal, posting, codeunit 12
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 1a8654b53dec476b175101a4d9c08f15ab3d6d6f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 4186a97957e48b6d36c478d0280374cce0fbfc76
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185389"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3787888"
 ---
 # <a name="design-details-general-journal-post-line"></a>Designdetails: Fibu Buch.-Blatt-Beitrags-Zeile
 Diese Dokumentation stellt einen detaillierten technischen Einblick in die Urheberrechtshinweise und Prinzipien bereit, die verwendet werden, um die Finanzbuchhaltungs-Buchungsfunktion in [!INCLUDE[d365fin](includes/d365fin_md.md)] neu zu gestalten. Die Neukonstruktion macht Codeunit 12 einfacher und einfacher zu verwalten. Die Dokumentation beginnt mit der Beschreibung der konzeptionellen Übersichten der Neugestaltung. Dann wird die technische Architektur erklärt, um die Änderungen zu zeigen, die sich aus der Neugestaltung ergeben.  
@@ -28,4 +28,4 @@ Diese Dokumentation stellt einen detaillierten technischen Einblick in die Urheb
 [Codeunit 12 Änderungen: Änderungen in Fibu Buch.-Blatt-Beitrags-Verfahren](design-details-codeunit-12-changes-changes-in-general-journal-post-procedures.md)  
 
 ## <a name="see-also"></a>Siehe auch  
-[Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)A
+[Arbeiten mit Fibu Buch.-Blättern](ui-work-general-journals.md)
