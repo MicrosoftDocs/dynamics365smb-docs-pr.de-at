@@ -1,6 +1,6 @@
 ---
-title: 'Gewusst wie: Drucken von Finanzbuchhaltungs-Setupinformationen'
-description: Bevor Sie Business Central in Aufgaben des täglichen Geschäfts verwenden können, können Sie Finanzbuchhaltungseinrichtungs-Informationen ausführen, um die Stammdaten anzuzeigen, die Sie eingerichtet haben.
+title: Drucken von Finanzbuchhaltungs-Setupinformationen [AT]
+description: Bevor Sie die österreichische Version von Business Central in Aufgaben des täglichen Geschäfts verwenden, können Sie Finanzbuchhaltungseinrichtungs-Informationen ausführen, um die Stammdaten anzuzeigen, die Sie eingerichtet haben.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 70288437827cdf9203aea0a0642190dd8052a06c
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: b8ec0ffe53d8dba405959950a6752f32cc82eeea
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778706"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916544"
 ---
-# <a name="print-general-ledger-setup-information"></a>Drucken von Finanzbuchhaltungs-Setupinformationen
+# <a name="print-general-ledger-setup-information-in-the-austrian-version"></a>Drucken von Finanzbuchhaltungs-Setupinformationen in der österreichischen Version
+
 Bevor Sie [!INCLUDE[d365fin](../../includes/d365fin_md.md)] in Aufgaben des täglichen Geschäfts verwenden können, können Sie **Finanzbuchhaltungseinrichtungs-Informationen** ausführen, um die Stammdaten anzuzeigen, die Sie eingerichtet haben. Sie können diese Stammdaten durchgehen, sodass Sie eine Grundlage für den Vergleich haben und dann überprüfen können, ob Sie die Buchungsgruppen korrekt eingerichtet haben.  
 
 ## <a name="to-print-general-ledger-setup-information"></a>Gewusst wie: Drucken von Finanzbuchhaltungs-Setupinformationen  

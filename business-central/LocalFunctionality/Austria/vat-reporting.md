@@ -1,6 +1,6 @@
 ---
-title: MwSt.-Abrechnung
-description: MwSt.-Erklärungen können elektronisch übermittelt werden.
+title: MwSt.-Abrechnung in der österreichischen Version
+description: MwSt.-Erklärungen können in der österreichischen Version elektronisch an Steuerbehörden übermittelt werden.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 34eacc8de1d137fd9fa0f8497f64464dc3030283
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d91876aba06f0df8d597cff69e567f234681c45a
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778680"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916534"
 ---
-# <a name="vat-reporting"></a>MwSt.-Abrechnung
+# <a name="vat-reporting-in-the-austrian-version"></a>MwSt.-Abrechnung in der österreichischen Version
+
 VIES (VAT Information Exchange System)-Abrechnung ist in der gesamten Europäischen Union (EU) erforderlich und muss landesbezogenen Anforderungen entsprechen (beispielsweise bestimmten Formaten und Dateien). Für die österreichische VIES-Abrechnung werden gedruckte Berichte und XML-Dateien erstellt.
 
 Folgende lokale MwSt.-Erklärungen können gedruckt werden:  

@@ -1,6 +1,6 @@
 ---
-title: So drucken Sie Testberichte vor dem Registrieren von Lieferanmahnungen
-description: Nach dem Erstellen von Lieferanmahnungen und der Durchführung von ggf. notwendigen Änderungen können Sie entweder Testberichte drucken oder die Lieferanmahnungen registrieren.
+title: Drucken von Testberichte vor dem Registrieren von Lieferanmahnungen [AT]
+description: Nach dem Erstellen von Lieferanmahnungen und der Durchführung von ggf. notwendigen Änderungen können Sie entweder Testberichte drucken oder die Lieferanmahnungen in der österreichischen Version registrieren.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a59775c65382f07268e8c9f011c84097ab2b7eb8
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 1ce6555d6ce6c43bfec51424c3c5df315b29c7dc
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778704"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916542"
 ---
-# <a name="print-test-reports-for-delivery-reminders"></a>So drucken Sie Testberichte vor dem Registrieren von Lieferanmahnungen
+# <a name="print-test-reports-for-delivery-reminders-in-the-austrian-version"></a>Drucken von Testberichten für Lieferanmahnungen in der österreichischen Version
+
 Nach dem Erstellen von Lieferanmahnungen und der Durchführung von ggf. notwendigen Änderungen können Sie entweder Testberichte drucken oder die Lieferanmahnungen registrieren.  
 
 Ein Testbericht ist ein Dokument, anhand dessen Sie eine Lieferanmahnung vor dem Registrieren prüfen und ändern können.  
