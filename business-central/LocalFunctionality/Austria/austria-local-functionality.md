@@ -8,43 +8,43 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/09/2020
+ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: a282de7e8dea6d5d2c38a66a9f1fa829f0d19425
-ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
+ms.openlocfilehash: bc855987a95485db7c71be0d70ddcb618b483b6c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "3454320"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914654"
 ---
-# <a name="austria-local-functionality"></a><span data-ttu-id="06ee7-103">Lokale Funktion (Österreich)</span><span class="sxs-lookup"><span data-stu-id="06ee7-103">Austria Local Functionality</span></span>
-<span data-ttu-id="06ee7-104">In den folgenden Themen werden Funktionen beschrieben, die der österreichischen Version von [!INCLUDE[d365fin](../../includes/d365fin_md.md)] eigen sind.</span><span class="sxs-lookup"><span data-stu-id="06ee7-104">The following topics describe local functionality that is unique to the Austrian version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].</span></span>  
+# <a name="austria-local-functionality"></a><span data-ttu-id="b3fa5-103">Lokale Funktion (Österreich)</span><span class="sxs-lookup"><span data-stu-id="b3fa5-103">Austria Local Functionality</span></span>
+<span data-ttu-id="b3fa5-104">In den folgenden Themen werden Funktionen beschrieben, die der österreichischen Version von [!INCLUDE[d365fin](../../includes/d365fin_md.md)] eigen sind.</span><span class="sxs-lookup"><span data-stu-id="b3fa5-104">The following topics describe local functionality that is unique to the Austrian version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].</span></span>  
 
-## <a name="feature-availability"></a><span data-ttu-id="06ee7-105">Verfügbarkeit der Funktion</span><span class="sxs-lookup"><span data-stu-id="06ee7-105">Feature Availability</span></span>
+## <a name="feature-availability"></a><span data-ttu-id="b3fa5-105">Verfügbarkeit der Funktion</span><span class="sxs-lookup"><span data-stu-id="b3fa5-105">Feature Availability</span></span>
 
-* <span data-ttu-id="06ee7-106">MwSt.</span><span class="sxs-lookup"><span data-stu-id="06ee7-106">VAT</span></span>
-    * <span data-ttu-id="06ee7-107">[Erstellen einer MwSt.-Abrechnung](how-to-create-a-vat-statement.md) **Jetzt erhältlich**</span><span class="sxs-lookup"><span data-stu-id="06ee7-107">[Create a VAT Statement](how-to-create-a-vat-statement.md) **Available Now**</span></span>
-    * <span data-ttu-id="06ee7-108">[MwSt.-Abrechnung](vat-reporting.md) **Jetzt erhältlich**</span><span class="sxs-lookup"><span data-stu-id="06ee7-108">[VAT Reporting](vat-reporting.md) **Available Now**</span></span>
+* <span data-ttu-id="b3fa5-106">MwSt.</span><span class="sxs-lookup"><span data-stu-id="b3fa5-106">VAT</span></span>
+    * <span data-ttu-id="b3fa5-107">[Erstellen einer MwSt.-Abrechnung](how-to-create-a-vat-statement.md) **Jetzt erhältlich**</span><span class="sxs-lookup"><span data-stu-id="b3fa5-107">[Create a VAT Statement](how-to-create-a-vat-statement.md) **Available Now**</span></span>
+    * <span data-ttu-id="b3fa5-108">[MwSt.-Abrechnung](vat-reporting.md) **Jetzt erhältlich**</span><span class="sxs-lookup"><span data-stu-id="b3fa5-108">[VAT Reporting](vat-reporting.md) **Available Now**</span></span>
 
-* <span data-ttu-id="06ee7-109">Bankgeschäfte und Zahlungen</span><span class="sxs-lookup"><span data-stu-id="06ee7-109">Banking & Payments</span></span>
-    * <span data-ttu-id="06ee7-110">[Druck von Listenberichten für Kreditorenzahlungen](how-to-print-vendor-payments-list-reports.md) **Jetzt erhältlich**</span><span class="sxs-lookup"><span data-stu-id="06ee7-110">[Print Vendor Payments List Reports](how-to-print-vendor-payments-list-reports.md) **Available Now**</span></span>
+* <span data-ttu-id="b3fa5-109">Bankgeschäfte und Zahlungen</span><span class="sxs-lookup"><span data-stu-id="b3fa5-109">Banking & Payments</span></span>
+    * <span data-ttu-id="b3fa5-110">[Druck von Listenberichten für Kreditorenzahlungen](how-to-print-vendor-payments-list-reports.md) **Jetzt erhältlich**</span><span class="sxs-lookup"><span data-stu-id="b3fa5-110">[Print Vendor Payments List Reports](how-to-print-vendor-payments-list-reports.md) **Available Now**</span></span>
 
-* <span data-ttu-id="06ee7-111">Einkauf</span><span class="sxs-lookup"><span data-stu-id="06ee7-111">Purchasing</span></span>
-    * <span data-ttu-id="06ee7-112">[Lieferbenachrichtigungen](delivery-reminders.md) **Jetzt erhältlich**</span><span class="sxs-lookup"><span data-stu-id="06ee7-112">[Delivery Reminders](delivery-reminders.md) **Available Now**</span></span>
-    * <span data-ttu-id="06ee7-113">[Einrichten von Lieferbenachrichtigungen](how-to-set-up-delivery-reminders.md) **Jetzt erhältlich**</span><span class="sxs-lookup"><span data-stu-id="06ee7-113">[Set Up Delivery Reminders](how-to-set-up-delivery-reminders.md) **Available Now**</span></span>
-    * <span data-ttu-id="06ee7-114">[Einrichten von Lieferbenachrichtigungsbestimmungen, Stufen und Text](how-to-set-up-delivery-reminder-terms-levels-and-text.md) **Jetzt erhältlich**</span><span class="sxs-lookup"><span data-stu-id="06ee7-114">[Set Up Delivery Reminder Terms, Levels, and Text](how-to-set-up-delivery-reminder-terms-levels-and-text.md) **Available Now**</span></span>
-    * <span data-ttu-id="06ee7-115">[So werden Lieferbenachrichtigungscodes zu Kreditoren zugewiesen](how-to-assign-delivery-reminder-codes-to-vendors.md) **Jetzt erhältlich**</span><span class="sxs-lookup"><span data-stu-id="06ee7-115">[Assign Delivery Reminder Codes to Vendors](how-to-assign-delivery-reminder-codes-to-vendors.md) **Available Now**</span></span>
-    * <span data-ttu-id="06ee7-116">[Generieren von Lieferbenachrichtigungen](how-to-generate-delivery-reminders.md) **Jetzt erhältlich**</span><span class="sxs-lookup"><span data-stu-id="06ee7-116">[Generate Delivery Reminders](how-to-generate-delivery-reminders.md) **Available Now**</span></span>
-    * <span data-ttu-id="06ee7-117">[Manuelles Erstellen von Lieferbenachrichtigungen](how-to-create-delivery-reminders-manually.md) **Jetzt erhältlich**</span><span class="sxs-lookup"><span data-stu-id="06ee7-117">[Create Delivery Reminders Manually](how-to-create-delivery-reminders-manually.md) **Available Now**</span></span>
-    * <span data-ttu-id="06ee7-118">[Ausstellen von Lieferbenachrichtigungen](how-to-issue-delivery-reminders.md) **Jetzt erhältlich**</span><span class="sxs-lookup"><span data-stu-id="06ee7-118">[Issue Delivery Reminders](how-to-issue-delivery-reminders.md) **Available Now**</span></span>
-    * <span data-ttu-id="06ee7-119">[So drucken Sie Testberichte vor dem Registrieren von Lieferanmahnungen](how-to-print-test-reports-for-delivery-reminders.md) **Jetzt erhältlich**</span><span class="sxs-lookup"><span data-stu-id="06ee7-119">[Print Test Reports for Delivery Reminders](how-to-print-test-reports-for-delivery-reminders.md) **Available Now**</span></span>
+* <span data-ttu-id="b3fa5-111">Einkauf</span><span class="sxs-lookup"><span data-stu-id="b3fa5-111">Purchasing</span></span>
+    * <span data-ttu-id="b3fa5-112">[Lieferbenachrichtigungen](delivery-reminders.md) **Jetzt erhältlich**</span><span class="sxs-lookup"><span data-stu-id="b3fa5-112">[Delivery Reminders](delivery-reminders.md) **Available Now**</span></span>
+    * <span data-ttu-id="b3fa5-113">[Einrichten von Lieferbenachrichtigungen](how-to-set-up-delivery-reminders.md) **Jetzt erhältlich**</span><span class="sxs-lookup"><span data-stu-id="b3fa5-113">[Set Up Delivery Reminders](how-to-set-up-delivery-reminders.md) **Available Now**</span></span>
+    * <span data-ttu-id="b3fa5-114">[Einrichten von Lieferbenachrichtigungsbestimmungen, Stufen und Text](how-to-set-up-delivery-reminder-terms-levels-and-text.md) **Jetzt erhältlich**</span><span class="sxs-lookup"><span data-stu-id="b3fa5-114">[Set Up Delivery Reminder Terms, Levels, and Text](how-to-set-up-delivery-reminder-terms-levels-and-text.md) **Available Now**</span></span>
+    * <span data-ttu-id="b3fa5-115">[So werden Lieferbenachrichtigungscodes zu Kreditoren zugewiesen](how-to-assign-delivery-reminder-codes-to-vendors.md) **Jetzt erhältlich**</span><span class="sxs-lookup"><span data-stu-id="b3fa5-115">[Assign Delivery Reminder Codes to Vendors](how-to-assign-delivery-reminder-codes-to-vendors.md) **Available Now**</span></span>
+    * <span data-ttu-id="b3fa5-116">[Generieren von Lieferbenachrichtigungen](how-to-generate-delivery-reminders.md) **Jetzt erhältlich**</span><span class="sxs-lookup"><span data-stu-id="b3fa5-116">[Generate Delivery Reminders](how-to-generate-delivery-reminders.md) **Available Now**</span></span>
+    * <span data-ttu-id="b3fa5-117">[Manuelles Erstellen von Lieferbenachrichtigungen](how-to-create-delivery-reminders-manually.md) **Jetzt erhältlich**</span><span class="sxs-lookup"><span data-stu-id="b3fa5-117">[Create Delivery Reminders Manually](how-to-create-delivery-reminders-manually.md) **Available Now**</span></span>
+    * <span data-ttu-id="b3fa5-118">[Ausstellen von Lieferbenachrichtigungen](how-to-issue-delivery-reminders.md) **Jetzt erhältlich**</span><span class="sxs-lookup"><span data-stu-id="b3fa5-118">[Issue Delivery Reminders](how-to-issue-delivery-reminders.md) **Available Now**</span></span>
+    * <span data-ttu-id="b3fa5-119">[So drucken Sie Testberichte vor dem Registrieren von Lieferanmahnungen](how-to-print-test-reports-for-delivery-reminders.md) **Jetzt erhältlich**</span><span class="sxs-lookup"><span data-stu-id="b3fa5-119">[Print Test Reports for Delivery Reminders](how-to-print-test-reports-for-delivery-reminders.md) **Available Now**</span></span>
 
-* <span data-ttu-id="06ee7-120">Allgemein</span><span class="sxs-lookup"><span data-stu-id="06ee7-120">General</span></span>
-    * <span data-ttu-id="06ee7-121">[Drucken von Finanzbuchhaltungs-Setupinformationen](how-to-print-general-ledger-setup-information.md) **Jetzt erhältlich**</span><span class="sxs-lookup"><span data-stu-id="06ee7-121">[Print General Ledger Setup Information](how-to-print-general-ledger-setup-information.md) **Available Now**</span></span>
+* <span data-ttu-id="b3fa5-120">Allgemein</span><span class="sxs-lookup"><span data-stu-id="b3fa5-120">General</span></span>
+    * <span data-ttu-id="b3fa5-121">[Drucken von Finanzbuchhaltungs-Setupinformationen](how-to-print-general-ledger-setup-information.md) **Jetzt erhältlich**</span><span class="sxs-lookup"><span data-stu-id="b3fa5-121">[Print General Ledger Setup Information](how-to-print-general-ledger-setup-information.md) **Available Now**</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="06ee7-122">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="06ee7-122">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b3fa5-122">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="b3fa5-122">See Also</span></span>
 
-<span data-ttu-id="06ee7-123">[Arbeiten mit [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="06ee7-123">[Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)</span></span>  
-[<span data-ttu-id="06ee7-124">Verfügbarkeit in Ländern/Regionen und unterstützte Übersetzungen</span><span class="sxs-lookup"><span data-stu-id="06ee7-124">Country/regional availability and supported languages</span></span>](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
+<span data-ttu-id="b3fa5-123">[Arbeiten mit [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="b3fa5-123">[Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)</span></span>  
+[<span data-ttu-id="b3fa5-124">Verfügbarkeit in Ländern/Regionen und unterstützte Übersetzungen</span><span class="sxs-lookup"><span data-stu-id="b3fa5-124">Country/regional availability and supported languages</span></span>](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
 ## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
