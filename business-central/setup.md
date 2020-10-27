@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 80f33734365ad52b59e77d89e35af81d5a798fcb
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 0f33f59975973d8b585c97b53a3801e8706346fc
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194684"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912838"
 ---
 # <a name="setting-up-prodshort"></a>Einrichten von [!INCLUDE[prodshort](includes/prodshort.md)]
 
@@ -45,7 +45,7 @@ Einige Funktionen, sowohl allgemeine als auch solche für bestimmte Geschäftsvo
 |Mit dem Business Central Outlook-Add-In können Sie die Finanzdaten sehen, die mit den Debitoren und Kreditoren verknüpft sind, oder Finanzbelege wie beispielsweise Angebote und Rechnungen erstellen und versenden.|[Nutzen Sie Business Central als Ihr Unternehmenspostfach in Outlook](admin-outlook.md)|
 |Erhalten Sie Einblicke in Ihre Business Central-Daten mit Power BI und Business Central-Inhaltspaketen.|[Aktivieren Sie Ihre Geschäftsdaten für Power BI](admin-powerbi.md)|
 |Verwenden Sie Ihre Business Central-Daten als Teil eines Workflows in Power Automate.|[Business Central  in einem automatisierten Workflow nutzen](across-how-use-financials-data-source-flow.md)|
-|Sie können die Business Central-Daten als Datenquelle in Power Apps bereitstellen.|[Verknüpfung mit Business Central daten, um eine Geschäfts-App mithilfe von Power Apps](across-how-use-financials-data-source-powerapps.md) zu erstellen|
+|Sie können die Business Central-Daten als Datenquelle in Power Apps bereitstellen.|[Verknüpfung mit Business Central daten, um eine Geschäfts-App mithilfe von Power Apps zu erstellen](across-how-use-financials-data-source-powerapps.md)|
 |Verwenden Sie dedizierte QuickBooks-Migrationshandbücher.|[Von QuickBooks-App zu Business Central wechseln](across-quickbooks-to-business-edition.md)|
 |Greifen Sie von Ihrem mobilen Gerät auf Business Central-Daten zu.|[Abrufen von Business Central auf meinem mobilen Gerät](install-mobile-app.md)|
 |Verwenden Sie Massenrechnungsstellung zu Terminen, die in Bookings erstellt wurden.|[Massenrechnungsstellung für Microsoft Bookings](finance-bookings.md)|
