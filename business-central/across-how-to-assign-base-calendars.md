@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cc4ae1263aa6ce12607563f15e9376f9a1d0aa98
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: f6fcaf1594408a80cc9731abca1906082d311bb3
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783241"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916363"
 ---
 # <a name="set-up-base-calendars"></a>Basiskalender einrichten
 Sie können Ihrer Firma sowie Ihren Geschäftspartnern, wie z. B. Debitoren, Kreditoren und Lagerorten oder Standorte zuordnen. Die Liefer- und Wareneingangsdaten auf zukünftigen Verkaufsaufträgen, Einkaufsbestellungen, Umlagerungsaufträgen und in Fertigungsauftragszeilen werden, entsprechend den Arbeitstagen, die im Kalender festgelegt sind, errechnet. Die Hauptaufgabe beim Einrichten eines neuen Basiskalenders ist, die freien Tage festzulegen.  
@@ -55,7 +55,7 @@ Alle Basiskalender, die für den Kreditor oder Lagerort definiert wurden, wirken
 > [!Important]
 > Wenn Ihr Lagerort einen erheblich anderen Kalender als Ihre Kreditoren verwendet, ist es wichtig, dass Sie bestimmte Kalender für die einzelnen Kreditoren einrichten, um optimale Kreditorbeschaffungszeiten zu berechnen. Weitere Informationen darüber, wie Kreditorenkalender eingerichtet werden, finden Sie unter [Zuweisen eines Basiskalenders](across-how-to-assign-base-calendars.md#to-assign-a-base-calendar).
 
-Der Inhalt des Felds **Berechung Beschaffungszeit** wird von der Artikelkarte oder der Lagerhaltungsdatenkarte kopiert, wenn die Beschaffungszeit für den Artikel definiert wird, oder auf der Seite **Artikel/Debitoren Katalog**, wenn die Beschaffungszeit für den Kreditor definiert wird.
+Der Inhalt des Felds **Berechung Beschaffungszeit** wird von der Artikelkarte oder der Lagerhaltungsdatenkarte kopiert, wenn die Beschaffungszeit für den Artikel definiert wird, oder auf der Seite **Artikel/Debitoren Katalog** , wenn die Beschaffungszeit für den Kreditor definiert wird.
 
 ## <a name="to-customize-a-calendar"></a>Einen Kalender individuell anpassen
 Die Hauptaufgabe beim Anpassen eines Basiskalenders für Ihre Firma oder einen Ihrer Geschäftspartner ist, alle Änderungen am Status der Daten als freie Tage oder Arbeitstage einzugeben.
@@ -75,7 +75,7 @@ Die folgende Vorgehensweise verwendet den Fall eines Lagerortes als Beispiel. Be
 
     Wenn Sie **Jährlich** wählen, müssen Sie auch das relevante Datum im Feld **Datum** eingeben. Wenn Sie **Wöchentlich** wählen, müssen Sie auch im Feld **Tag** den relevanten Wochentag wählen. Wenn Sie das Feld leer lassen, müssen Sie das Feld **Datum** ausfüllen. Das Feld **Tag** wird dann automatisch ausgefüllt. Dies kann hilfreich sein, wenn Sie ein individuelles Datum als einen freien Tag (oder einen Arbeitstag) kennzeichnen möchten.
 
-5. Wählen Sie die Schaltfläche **OK**.
+5. Wählen Sie die Schaltfläche **OK** .
 
 Auf der Seite **Spezifische Kalenderposten** werden Sie feststellen, dass die Datumsangaben Ihren Einträgen entsprechend aktualisiert wurden.
 
@@ -101,7 +101,7 @@ Basiskalender werden Ihrer eigenen Firma, Debitoren, Kreditoren, Lagerorten und 
 -   Auf der Seite **Zusteller** wird der Basiskalender im Fenster **Zustellertransportarten** zugeordnet.  
 
 1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Debitoren** ein, und wählen Sie dann den zugehörigen Link.  
-2.  Öffnen Sie die **Debitorenkarte**, für der Sie einen Basiskalender zuordnen möchten.  
+2.  Öffnen Sie die **Debitorenkarte** , für der Sie einen Basiskalender zuordnen möchten.  
 3.  Wählen Sie im Inforegister **Lieferung** im Feld **Basiskalendercode** den Basiskalender aus, den Sie zuordnen möchten.  
 
 > [!IMPORTANT]  
