@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipts, customer payment
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ae93dbb0a24b67eb9d693efbf70ec0f0b6e3ca93
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 44d2031c41a8077e072255be60dd71ff98cd9e78
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782816"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926538"
 ---
 # <a name="reconcile-customer-payments-from-a-list-of-unpaid-sales-documents"></a>Debitoren-Zahlungen aus einer Liste mit unbezahlten Verkaufsbelegen abstimmen
 Wenn Ihre Debitoren Zahlungen an Ihr elektronisches Bankkonto getätigt haben, müssen Sie jeden gezahlten Betrag auf den zugehörigen Verkaufsbeleg anwenden und dann die Zahlung buchen, um die Debitoren-, Sachkonto- und Bankposten zu aktualisieren. Abhängig von den Unternehmensanforderungen können Sie bezahlt werden und die Zahlung auf unterschiedliche Arten erfassen: automatisch und durch Zahlungsverkehr.  
@@ -69,7 +69,7 @@ Zahlungsposten werden in der Finanzbuchhaltung, Bank und in Debitorenkonten gebu
 4. Geben Sie im Feld **Betrag erhalten** die Beträge in mehreren Zeilen ein, die den einmaligen Zahlungsbetrag zusammenfassen.  
 
     > [!TIP]  
-    > Versuchen Sie, mit dem Pauschalbetrag so viele volle Zahlungen wie möglich zu buchen. Geben Sie Beträge auf so viele Zeilen wie möglich ein, die dieselben sind, wie der Betrag im Feld **Verbleibender Betrag**.  
+    > Versuchen Sie, mit dem Pauschalbetrag so viele volle Zahlungen wie möglich zu buchen. Geben Sie Beträge auf so viele Zeilen wie möglich ein, die dieselben sind, wie der Betrag im Feld **Verbleibender Betrag** .  
 5. Wiederholen Sie die Schritte 2-4 für andere Zeilen, die für gebuchte Belege für denselben Debitor stehen, für den eine Pauschalzahlung geleistet wurde.  
 6. Wählen Sie die Aktion **Als einmalige Zahlung buchen** aus. Die eingegebene Zahlungsinformation ist für Belege gebucht, die durch Zeilen dargestellt werden, in denen das Kontrollkästchen **Zahlung getätigt** aktiviert ist.  
 
@@ -82,7 +82,7 @@ Wenn eine Zahlung in der Bank nicht durch einen Beleg in [!INCLUDE[d365fin](incl
 ## <a name="to-process-customer-payments-with-discounts-manually"></a>Vorgehensweise: Manuelle Verarbeitung von Zahlungen mit Rabatten
 Wenn Sie ein Skonto mit dem Debitor vereinbart haben, können die Zahlungsbeträge niedriger als die fakturierten Beträge sein, wenn die Zahlung vor dem vereinbarten Skontodatum auftritt.  
 
-Dieses Thema erläutert vier verschiedene Verfahren zum Buchen von verbilligten Zahlungen auf der Seite **Zahlungserfassung**.  
+Dieses Thema erläutert vier verschiedene Verfahren zum Buchen von verbilligten Zahlungen auf der Seite **Zahlungserfassung** .  
 
 * Der Zahlungsbetrag entspricht dem diskontierten Betrag und dessen Zahlungsdatum liegt vor dem Skontodatum. Sie buchen die Zahlung, wie sie ist.  
 * Der Zahlungsbetrag entspricht dem diskontierten Betrag, aber dessen Zahlungsdatum liegt nach dem Skontodatum. Sie buchen die Zahlung als Teilzahlung. Der Beleg bleibt offen, um den Restbetrag einzufordern/zu bezahlen. Alternativ legen Sie das Skontodatum später fest, um die vollständige Bezahlung zu ermöglichen.  
@@ -91,16 +91,16 @@ Dieses Thema erläutert vier verschiedene Verfahren zum Buchen von verbilligten 
 
 ### <a name="to-process-a-payment-amount-that-is-equal-to-the-discounted-amount-and-where-the-payment-date-is-before-the-discount-date"></a>Zahlungsbetrag verarbeiten, der dem diskontierten Betrag entspricht und dessen Zahlungsdatum vor dem Skontodatum liegt
 1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Zahlungsregistrierung** ein, und wählen Sie dann den entsprechenden Link.  
-2. Geben Sie den Zahlungsbetrag im Feld **Betrag erhalten** ein. Der Betrag ist gleich wie der Betrag im Feld **Restbetrag nach Rabatt**.
+2. Geben Sie den Zahlungsbetrag im Feld **Betrag erhalten** ein. Der Betrag ist gleich wie der Betrag im Feld **Restbetrag nach Rabatt** .
 
     Das Kontrollkästchen **Zahlung erfolgt** wird automatisch aktiviert, und das Feld **Empfangsdatum** wird mit dem Arbeitsdatum ausgefüllt.    
-3. Geben Sie im Feld **Datum erhalten** das Zahlungsdatum ein. Das Datum steht vor dem Datum im Feld **Skontodatum**.
+3. Geben Sie im Feld **Datum erhalten** das Zahlungsdatum ein. Das Datum steht vor dem Datum im Feld **Skontodatum** .
 4. Vergewissern Sie sich, dass das Feld **Restbetrag** den Wert Null (0) enthält.  
-5. Wählen Sie auf der Registerkarte **Zahlung buchen**, um den Gesamtbetrag auf Sach-, Bank- und Debitorenkonten zu buchen.
+5. Wählen Sie auf der Registerkarte **Zahlung buchen** , um den Gesamtbetrag auf Sach-, Bank- und Debitorenkonten zu buchen.
 
 ### <a name="to-process-a-payment-amount-that-is-equal-to-the-discounted-amount-but-where-the-payment-date-is-after-the-discount-date"></a>Zahlungsbetrag verarbeiten, der dem diskontierten Betrag entspricht, dessen Zahlungsdatum jedoch nach dem Skontodatum liegt
 1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Zahlungsregistrierung** ein, und wählen Sie dann den entsprechenden Link.  
-2. Geben Sie den Zahlungsbetrag im Feld **Betrag erhalten** ein. Der Betrag ist gleich wie der Betrag im Feld **Restbetrag nach Rabatt**.
+2. Geben Sie den Zahlungsbetrag im Feld **Betrag erhalten** ein. Der Betrag ist gleich wie der Betrag im Feld **Restbetrag nach Rabatt** .
 
     Das Kontrollkästchen **Zahlung erfolgt** wird automatisch aktiviert, und das Feld **Empfangsdatum** wird mit dem Arbeitsdatum ausgefüllt.
 3. Geben Sie im Feld **Eingangsdatum** ein Zahlungsdatum an, das nach dem Datum im Feld **Skontodatum** liegt. Datumsfelder ändern zu roter Schrift, und eine Fehlermeldung wird unten auf der Seite angezeigt.
@@ -112,29 +112,29 @@ Dieses Thema erläutert vier verschiedene Verfahren zum Buchen von verbilligten 
 
     Die Fehlermeldung und die rote Schriftart verschwinden, und Sie können fortfahren, die verbilligte Zahlung zu bearbeiten.    
 6. Vergewissern Sie sich, dass das Feld **Restbetrag** den Betrag enthält, der verbleibt, um den vollständigen Rechnungsbetrag zu bezahlen.  
-7. Wählen Sie die Aktion **Zahlung buchen**, um den Teilbetrag auf Sach-, Bank- und Debitorenkonten zu buchen.  
+7. Wählen Sie die Aktion **Zahlung buchen** , um den Teilbetrag auf Sach-, Bank- und Debitorenkonten zu buchen.  
 
 Der zugehörige Beleg bleibt offen.
 
 ### <a name="to-process-a-payment-that-is-lower-than-the-remaining-discounted-amount"></a>Zahlung verarbeiten, die niedriger als der verbleibende diskontierte Betrag ist
 1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Zahlungsregistrierung** ein, und wählen Sie dann den entsprechenden Link.  
-2. Geben Sie den Zahlungsbetrag im Feld **Betrag erhalten** ein. Der Betrag ist kleiner als der Betrag im Feld **Restbetrag nach Rabatt**.
+2. Geben Sie den Zahlungsbetrag im Feld **Betrag erhalten** ein. Der Betrag ist kleiner als der Betrag im Feld **Restbetrag nach Rabatt** .
 
     Das Kontrollkästchen **Zahlung erfolgt** wird automatisch aktiviert, und das Feld **Empfangsdatum** wird mit dem Arbeitsdatum ausgefüllt.  
-3. Geben Sie im Feld **Datum erhalten** das Zahlungsdatum ein. Das Datum steht vor dem Datum im Feld **Skontodatum**.
+3. Geben Sie im Feld **Datum erhalten** das Zahlungsdatum ein. Das Datum steht vor dem Datum im Feld **Skontodatum** .
 4. Vergewissern Sie sich, dass das Feld **Restbetrag** den Betrag enthält, der verbleibt, um den rabattierten Rechnungsbetrag zu bezahlen.  
-5. Wählen Sie die Aktion **Zahlung buchen**, um den Teilbetrag auf Sach-, Bank- und Debitorenkonten zu buchen.  
+5. Wählen Sie die Aktion **Zahlung buchen** , um den Teilbetrag auf Sach-, Bank- und Debitorenkonten zu buchen.  
 
 Der zugehörige Beleg bleibt offen.
 
 ### <a name="to-process-a-payment-that-is-more-than-the-remaining-discounted-amount"></a>Zahlung verarbeiten, die höher als der verbleibende diskontierte Betrag ist
 1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Zahlungsregistrierung** ein, und wählen Sie dann den entsprechenden Link.  
-2. Geben Sie den Zahlungsbetrag im Feld **Betrag erhalten** ein. Der Betrag ist grösser als der Betrag im Feld **Restbetrag nach Rabatt**.  
+2. Geben Sie den Zahlungsbetrag im Feld **Betrag erhalten** ein. Der Betrag ist grösser als der Betrag im Feld **Restbetrag nach Rabatt** .  
 
     Das Kontrollkästchen **Zahlung erfolgt** wird automatisch aktiviert, und das Feld **Empfangsdatum** wird mit dem Arbeitsdatum ausgefüllt.    
-3. Geben Sie im Feld **Datum erhalten** das Zahlungsdatum ein. Das Datum steht vor dem Datum im Feld **Skontodatum**.
+3. Geben Sie im Feld **Datum erhalten** das Zahlungsdatum ein. Das Datum steht vor dem Datum im Feld **Skontodatum** .
 4. Vergewissern Sie sich, dass das Feld **Restbetrag** den Wert Null (0) enthält.  
-5. Wählen Sie auf der Registerkarte **Zahlung buchen**, um den Gesamtbetrag auf Sach-, Bank- und Debitorenkonten zu buchen.  
+5. Wählen Sie auf der Registerkarte **Zahlung buchen** , um den Gesamtbetrag auf Sach-, Bank- und Debitorenkonten zu buchen.  
 
 Der zugehörige Beleg ist abgeschlossen, und dem Debitor wird der Überzahlungsbetrag gutgeschrieben.  
 
@@ -151,7 +151,7 @@ Auf der Seite **Beleg suchen** können Sie aus Belegen suchen, die nicht vollst�
 Nachfolgend wird erklärt, wie man einen bestimmten Beleg findet, indem man beide Suchkriterien verwendet.  
 
 1. Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Zahlungsregistrierung** ein, und wählen Sie dann den entsprechenden Link.
-2. Zeigen Sie mit dem Mauszeiger auf eine beliebige Zeile und wählen Sie **Beleg suchen**.
+2. Zeigen Sie mit dem Mauszeiger auf eine beliebige Zeile und wählen Sie **Beleg suchen** .
 3. Auf der Seite **Belegsuche** geben Sie einen Suchwert im Feld **Belegnummer** ein.  
 
     > [!NOTE]  
@@ -159,7 +159,7 @@ Nachfolgend wird erklärt, wie man einen bestimmten Beleg findet, indem man beid
 4. Geben Sie in dem Feld **Betrag** den entsprechenden Betrag ein, der auf dem Beleg vorhanden ist, den Sie finden möchten.  
 5. Geben Sie im Feld **Betragsabwicklung in %** einen Prozentwert ein, um den Bereich von Beträgen zu definieren, die Sie sehen möchten, um den offenen Beleg zu finden.  
 
-    Wenn Sie 10 eingeben, dann sucht die Funktion nach Beträgen in einem Bereich zwischen zehn Prozent unter und zehn Prozent über dem Feld **Betrag**.    
+    Wenn Sie 10 eingeben, dann sucht die Funktion nach Beträgen in einem Bereich zwischen zehn Prozent unter und zehn Prozent über dem Feld **Betrag** .    
 6. Wählen Sie die Aktion **Suchen** aus.  
 
 Die Suchfunktion sucht unter Belegen, die nicht vollständig fakturiert sind basierend auf den angegebenen Kriterien.  
