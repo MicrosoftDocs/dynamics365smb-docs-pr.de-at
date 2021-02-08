@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: bc855987a95485db7c71be0d70ddcb618b483b6c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 9882b0d892373ac7affd4edefb822807f8fd82ae
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914654"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747551"
 ---
 # <a name="austria-local-functionality"></a>Lokale Funktion (Österreich)
-In den folgenden Themen werden Funktionen beschrieben, die der österreichischen Version von [!INCLUDE[d365fin](../../includes/d365fin_md.md)] eigen sind.  
+In den folgenden Themen werden Funktionen beschrieben, die der österreichischen Version von [!INCLUDE[prod_short](../../includes/prod_short.md)] eigen sind.  
 
 ## <a name="feature-availability"></a>Verfügbarkeit der Funktion
 
@@ -44,7 +44,7 @@ In den folgenden Themen werden Funktionen beschrieben, die der österreichischen
 
 ## <a name="see-also"></a>Siehe auch
 
-[Arbeiten mit [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Verfügbarkeit in Ländern/Regionen und unterstützte Übersetzungen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
-## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  
