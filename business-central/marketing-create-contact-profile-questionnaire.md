@@ -10,46 +10,46 @@ ms.workload: na
 ms.search.keywords: contacts, profiles
 ms.author: edupont
 ms.date: 10/01/2020
-ms.openlocfilehash: ef8b2c90ef01841e2c641b9fc96348d899d4997e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 65c27bee86d273c467709f1e238b996829d73f37
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919355"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755459"
 ---
-# <a name="use-profile-questionnaires-to-classify-business-contacts"></a><span data-ttu-id="0fc7d-103">Verwenden Sie Profilbefragungen, um Geschäftskontakten zu klassieren</span><span class="sxs-lookup"><span data-stu-id="0fc7d-103">Use Profile Questionnaires to Classify Business Contacts</span></span>
-<span data-ttu-id="0fc7d-104">Sie können Profilbefragungen einrichten, die Sie beim Eingeben der Informationen über die Profile Ihrer Kontakte verwenden möchten.</span><span class="sxs-lookup"><span data-stu-id="0fc7d-104">You can set up profile questionnaires that you want to use when entering information about your contacts' profiles.</span></span> <span data-ttu-id="0fc7d-105">In jedem Fragebogen können Sie die unterschiedlichen Fragen einrichten, die Sie Ihren Kontakten stellen möchten.</span><span class="sxs-lookup"><span data-stu-id="0fc7d-105">Within each questionnaire, you can set up the different questions you intend to ask your contacts.</span></span>  
+# <a name="use-profile-questionnaires-to-classify-business-contacts"></a><span data-ttu-id="ebbe9-103">Verwenden Sie Profilbefragungen, um Geschäftskontakten zu klassieren</span><span class="sxs-lookup"><span data-stu-id="ebbe9-103">Use Profile Questionnaires to Classify Business Contacts</span></span>
+<span data-ttu-id="ebbe9-104">Sie können Profilbefragungen einrichten, die Sie beim Eingeben der Informationen über die Profile Ihrer Kontakte verwenden möchten.</span><span class="sxs-lookup"><span data-stu-id="ebbe9-104">You can set up profile questionnaires that you want to use when entering information about your contacts' profiles.</span></span> <span data-ttu-id="ebbe9-105">In jedem Fragebogen können Sie die unterschiedlichen Fragen einrichten, die Sie Ihren Kontakten stellen möchten.</span><span class="sxs-lookup"><span data-stu-id="ebbe9-105">Within each questionnaire, you can set up the different questions you intend to ask your contacts.</span></span>  
 
-<span data-ttu-id="0fc7d-106">Sie können die Befragung auch dazu verwenden, um einige Fragen zum Kontakt, Debitor oder Kreditor automatisch zu beantworten.</span><span class="sxs-lookup"><span data-stu-id="0fc7d-106">You can also run the questionnaire to answer some of the questions based on contact, customer, or vendor data automatically.</span></span>  
+<span data-ttu-id="ebbe9-106">Sie können die Befragung auch dazu verwenden, um einige Fragen zum Kontakt, Debitor oder Kreditor automatisch zu beantworten.</span><span class="sxs-lookup"><span data-stu-id="ebbe9-106">You can also run the questionnaire to answer some of the questions based on contact, customer, or vendor data automatically.</span></span>  
 
-## <a name="to-add-a-profile-questionnaire"></a><span data-ttu-id="0fc7d-107">So fügen Sie eine Profilbefragung hinzu</span><span class="sxs-lookup"><span data-stu-id="0fc7d-107">To add a profile questionnaire</span></span>
-1.  <span data-ttu-id="0fc7d-108">Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Fragebogeneinrichtung** ein und wählen Sie dann den entsprechenden Link.</span><span class="sxs-lookup"><span data-stu-id="0fc7d-108">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Questionnaire Setup** , and then choose the related link.</span></span>  
-2.  <span data-ttu-id="0fc7d-109">Wählen Sie die Aktion **Neu** .</span><span class="sxs-lookup"><span data-stu-id="0fc7d-109">Choose the **New** Action.</span></span>  
-3.  <span data-ttu-id="0fc7d-110">Füllen Sie die Felder je nach Bedarf aus.</span><span class="sxs-lookup"><span data-stu-id="0fc7d-110">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+## <a name="to-add-a-profile-questionnaire"></a><span data-ttu-id="ebbe9-107">So fügen Sie eine Profilbefragung hinzu</span><span class="sxs-lookup"><span data-stu-id="ebbe9-107">To add a profile questionnaire</span></span>
+1.  <span data-ttu-id="ebbe9-108">Wählen Sie das Symbol ![Glühbirne, die die Tell Me Funktion öffnet](media/ui-search/search_small.png "Tell Me-Funktion"), geben Sie **Fragebogeneinrichtung** ein und wählen Sie dann den entsprechenden Link.</span><span class="sxs-lookup"><span data-stu-id="ebbe9-108">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Questionnaire Setup**, and then choose the related link.</span></span>  
+2.  <span data-ttu-id="ebbe9-109">Wählen Sie die Aktion **Neu**.</span><span class="sxs-lookup"><span data-stu-id="ebbe9-109">Choose the **New** Action.</span></span>  
+3.  <span data-ttu-id="ebbe9-110">Füllen Sie die Felder je nach Bedarf aus.</span><span class="sxs-lookup"><span data-stu-id="ebbe9-110">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## <a name="to-add-questions-to-a-profile-questionnaire"></a><span data-ttu-id="0fc7d-111">So fügen Sie einen Fragebogen einer Profilbefragung hinzu</span><span class="sxs-lookup"><span data-stu-id="0fc7d-111">To add questions to a profile questionnaire</span></span>
-1.  <span data-ttu-id="0fc7d-112">Wählen Sie den entsprechenden Profilfragebogen aus und wählen Sie dann die Aktion **Einstellung Fragebogen bearbeiten** .</span><span class="sxs-lookup"><span data-stu-id="0fc7d-112">Choose the relevant profile questionnaire, and then choose the **Edit Questionnaire Setup** action.</span></span>  
-2.  <span data-ttu-id="0fc7d-113">Wählen Sie in der ersten leeren Zeile im Feld **Art** die Option **Frage** aus, und geben Sie im Feld **Beschreibung** Ihre Frage ein.</span><span class="sxs-lookup"><span data-stu-id="0fc7d-113">On the first empty line, in the **Type** field, choose **Question** and type your question in the **Description** field.</span></span> <span data-ttu-id="0fc7d-114">Füllen Sie die anderen Felder in dieser Zeile aus.</span><span class="sxs-lookup"><span data-stu-id="0fc7d-114">Fill in the other fields on this line.</span></span>  
-3.  <span data-ttu-id="0fc7d-115">Wählen Sie in der nächsten leeren Zeile im Feld **Art** die Option **Antwort** aus, und geben Sie im Feld **Beschreibung** Ihre Antwort ein.</span><span class="sxs-lookup"><span data-stu-id="0fc7d-115">On the next empty line, in the **Type** field, choose **Answer** and type your answer in the **Description** field.</span></span>  
-4.  <span data-ttu-id="0fc7d-116">Wählen Sie im Feld **Priorität** die Priorität aus.</span><span class="sxs-lookup"><span data-stu-id="0fc7d-116">In the **Priority** field, select the priority.</span></span> <span data-ttu-id="0fc7d-117">Definieren Sie in den Feldern **Von Wert** und **Bis Wert** einen Punktbereich.</span><span class="sxs-lookup"><span data-stu-id="0fc7d-117">In the **From Value** and **To Value** fields, define a point range.</span></span> <span data-ttu-id="0fc7d-118">Kontakte, die innerhalb des definierten Bereichs Punkte erhalten, erhalten die Antwort.</span><span class="sxs-lookup"><span data-stu-id="0fc7d-118">Contacts that receive points within the defined range will get the answer.</span></span>  
+## <a name="to-add-questions-to-a-profile-questionnaire"></a><span data-ttu-id="ebbe9-111">So fügen Sie einen Fragebogen einer Profilbefragung hinzu</span><span class="sxs-lookup"><span data-stu-id="ebbe9-111">To add questions to a profile questionnaire</span></span>
+1.  <span data-ttu-id="ebbe9-112">Wählen Sie den entsprechenden Profilfragebogen aus und wählen Sie dann die Aktion **Einstellung Fragebogen bearbeiten**.</span><span class="sxs-lookup"><span data-stu-id="ebbe9-112">Choose the relevant profile questionnaire, and then choose the **Edit Questionnaire Setup** action.</span></span>  
+2.  <span data-ttu-id="ebbe9-113">Wählen Sie in der ersten leeren Zeile im Feld **Art** die Option **Frage** aus, und geben Sie im Feld **Beschreibung** Ihre Frage ein.</span><span class="sxs-lookup"><span data-stu-id="ebbe9-113">On the first empty line, in the **Type** field, choose **Question** and type your question in the **Description** field.</span></span> <span data-ttu-id="ebbe9-114">Füllen Sie die anderen Felder in dieser Zeile aus.</span><span class="sxs-lookup"><span data-stu-id="ebbe9-114">Fill in the other fields on this line.</span></span>  
+3.  <span data-ttu-id="ebbe9-115">Wählen Sie in der nächsten leeren Zeile im Feld **Art** die Option **Antwort** aus, und geben Sie im Feld **Beschreibung** Ihre Antwort ein.</span><span class="sxs-lookup"><span data-stu-id="ebbe9-115">On the next empty line, in the **Type** field, choose **Answer** and type your answer in the **Description** field.</span></span>  
+4.  <span data-ttu-id="ebbe9-116">Wählen Sie im Feld **Priorität** die Priorität aus.</span><span class="sxs-lookup"><span data-stu-id="ebbe9-116">In the **Priority** field, select the priority.</span></span> <span data-ttu-id="ebbe9-117">Definieren Sie in den Feldern **Von Wert** und **Bis Wert** einen Punktbereich.</span><span class="sxs-lookup"><span data-stu-id="ebbe9-117">In the **From Value** and **To Value** fields, define a point range.</span></span> <span data-ttu-id="ebbe9-118">Kontakte, die innerhalb des definierten Bereichs Punkte erhalten, erhalten die Antwort.</span><span class="sxs-lookup"><span data-stu-id="ebbe9-118">Contacts that receive points within the defined range will get the answer.</span></span>  
 
-<span data-ttu-id="0fc7d-119">Wiederholen Sie diese Schritte, um alle Fragen und Antworten für die Profilbefragung einzugeben.</span><span class="sxs-lookup"><span data-stu-id="0fc7d-119">Repeat these steps to enter all the questions and answers within the profile questionnaire.</span></span>
+<span data-ttu-id="ebbe9-119">Wiederholen Sie diese Schritte, um alle Fragen und Antworten für die Profilbefragung einzugeben.</span><span class="sxs-lookup"><span data-stu-id="ebbe9-119">Repeat these steps to enter all the questions and answers within the profile questionnaire.</span></span>
 
-<span data-ttu-id="0fc7d-120">Nachdem Sie eine Befragung erstellt haben, müssen Sie Kontaktbewertungen zu erstellen, um Ihre Kontakte zu klassifizieren.</span><span class="sxs-lookup"><span data-stu-id="0fc7d-120">After you have created a questionnaire, you must create contact ratings to classify your contacts.</span></span> <span data-ttu-id="0fc7d-121">Sie können auch Fragen einrichten, die automatisch auf Grundlage der Informationen in der Kontaktkarte bewertet werden.</span><span class="sxs-lookup"><span data-stu-id="0fc7d-121">You can also set up questions that are rated automatically based on information in the contact card.</span></span>  
-
-> [!NOTE]
-> <span data-ttu-id="0fc7d-122">Wenn Sie eine Frage eingeben, die automatisch beantwortet werden soll, wählen Sie die Optionen <STRONG>Zeile</STRONG> und dann <STRONG>Fragendetails</STRONG> aus, um die Kriterien einzugeben, die zur automatischen Beantwortung verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="0fc7d-122">If you enter a question that is automatically answered, choose <STRONG>Line</STRONG>, and then choose <STRONG>Question Details</STRONG>, to enter the criteria to automatically answer the question.</span></span>
-
-## <a name="the-automatic-classification-of-contacts"></a><span data-ttu-id="0fc7d-123">Die automatische Klassifizierung von Kontakten</span><span class="sxs-lookup"><span data-stu-id="0fc7d-123">The Automatic Classification of Contacts</span></span>
-<span data-ttu-id="0fc7d-124">Sie können Ihre Kontakte nach Debitoren, Kreditoren und Kontaktinformationen klassifizieren, indem Sie auf der Seite Profilbefragung einrichten automatisch beantwortete **Profilbefragungen** einrichten.</span><span class="sxs-lookup"><span data-stu-id="0fc7d-124">You can automatically classify your contacts according to customer, vendor, and contact information, by setting up automatically answered profile questions on the **Profile Questionnaire Setup** page.</span></span>  
+<span data-ttu-id="ebbe9-120">Nachdem Sie eine Befragung erstellt haben, müssen Sie Kontaktbewertungen zu erstellen, um Ihre Kontakte zu klassifizieren.</span><span class="sxs-lookup"><span data-stu-id="ebbe9-120">After you have created a questionnaire, you must create contact ratings to classify your contacts.</span></span> <span data-ttu-id="ebbe9-121">Sie können auch Fragen einrichten, die automatisch auf Grundlage der Informationen in der Kontaktkarte bewertet werden.</span><span class="sxs-lookup"><span data-stu-id="ebbe9-121">You can also set up questions that are rated automatically based on information in the contact card.</span></span>  
 
 > [!NOTE]
-> <span data-ttu-id="0fc7d-125">Nur als Debitor gespeicherten Kontakten kann eine Klassifizierung auf Debitordatenbasis zugeordnet werden und nur als Kreditor gespeicherten Kontakten kann eine Klassifizierung auf Kreditordatenbasis zugeordnet werden.</span><span class="sxs-lookup"><span data-stu-id="0fc7d-125">Only contacts that are recorded as customers can be assigned a classification based on customer data and only contacts that are recorded as vendors can be assigned a classification based on vendor data.</span></span> <span data-ttu-id="0fc7d-126">Die automatische Klassifizierung wird nicht automatisch aktualisiert.</span><span class="sxs-lookup"><span data-stu-id="0fc7d-126">The automatic classification is not updated automatically.</span></span> <span data-ttu-id="0fc7d-127">Deshalb können Sie die Profilbefragungen aktualisieren, nachdem Sie die Debitor-, Kreditor- oder Kontaktdaten aktualisiert haben, auf denen sie basieren.</span><span class="sxs-lookup"><span data-stu-id="0fc7d-127">Consequently, you may want to update the profile questionnaires, after you have updated the customer, vendor or contact data they are based on.</span></span>  
+> <span data-ttu-id="ebbe9-122">Wenn Sie eine Frage eingeben, die automatisch beantwortet werden soll, wählen Sie die Optionen <STRONG>Zeile</STRONG> und dann <STRONG>Fragendetails</STRONG> aus, um die Kriterien einzugeben, die zur automatischen Beantwortung verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="ebbe9-122">If you enter a question that is automatically answered, choose <STRONG>Line</STRONG>, and then choose <STRONG>Question Details</STRONG>, to enter the criteria to automatically answer the question.</span></span>
 
-<span data-ttu-id="0fc7d-128">Nachdem Sie automatische beantwortete Profilbefragungen eingerichtet haben, werden dem Kontakt [!INCLUDE[d365fin](includes/d365fin_md.md)] automatisch die richtigen Antworten zugeordnet, wenn Sie die Profilbefragung mit diesen Fragen einem Kontakt zuordnen.</span><span class="sxs-lookup"><span data-stu-id="0fc7d-128">After you have set up automatically answered profile questions, if you assign the profile questionnaire containing these questions to a contact, [!INCLUDE[d365fin](includes/d365fin_md.md)] will automatically assign the right answers for the contact.</span></span>  
+## <a name="the-automatic-classification-of-contacts"></a><span data-ttu-id="ebbe9-123">Die automatische Klassifizierung von Kontakten</span><span class="sxs-lookup"><span data-stu-id="ebbe9-123">The Automatic Classification of Contacts</span></span>
+<span data-ttu-id="ebbe9-124">Sie können Ihre Kontakte nach Debitoren, Kreditoren und Kontaktinformationen klassifizieren, indem Sie auf der Seite Profilbefragung einrichten automatisch beantwortete **Profilbefragungen** einrichten.</span><span class="sxs-lookup"><span data-stu-id="ebbe9-124">You can automatically classify your contacts according to customer, vendor, and contact information, by setting up automatically answered profile questions on the **Profile Questionnaire Setup** page.</span></span>  
 
-## <a name="example"></a><span data-ttu-id="0fc7d-129">Beispiel</span><span class="sxs-lookup"><span data-stu-id="0fc7d-129">Example</span></span>
-<span data-ttu-id="0fc7d-130">Sie können Ihre Kontakte danach klassifizieren, wie viel sie bei Ihnen gekauft haben:</span><span class="sxs-lookup"><span data-stu-id="0fc7d-130">You can classify your contacts according to how much they bought from you:</span></span>
+> [!NOTE]
+> <span data-ttu-id="ebbe9-125">Nur als Debitor gespeicherten Kontakten kann eine Klassifizierung auf Debitordatenbasis zugeordnet werden und nur als Kreditor gespeicherten Kontakten kann eine Klassifizierung auf Kreditordatenbasis zugeordnet werden.</span><span class="sxs-lookup"><span data-stu-id="ebbe9-125">Only contacts that are recorded as customers can be assigned a classification based on customer data and only contacts that are recorded as vendors can be assigned a classification based on vendor data.</span></span> <span data-ttu-id="ebbe9-126">Die automatische Klassifizierung wird nicht automatisch aktualisiert.</span><span class="sxs-lookup"><span data-stu-id="ebbe9-126">The automatic classification is not updated automatically.</span></span> <span data-ttu-id="ebbe9-127">Deshalb können Sie die Profilbefragungen aktualisieren, nachdem Sie die Debitor-, Kreditor- oder Kontaktdaten aktualisiert haben, auf denen sie basieren.</span><span class="sxs-lookup"><span data-stu-id="ebbe9-127">Consequently, you may want to update the profile questionnaires, after you have updated the customer, vendor or contact data they are based on.</span></span>  
+
+<span data-ttu-id="ebbe9-128">Nachdem Sie automatische beantwortete Profilbefragungen eingerichtet haben, werden dem Kontakt [!INCLUDE[prod_short](includes/prod_short.md)] automatisch die richtigen Antworten zugeordnet, wenn Sie die Profilbefragung mit diesen Fragen einem Kontakt zuordnen.</span><span class="sxs-lookup"><span data-stu-id="ebbe9-128">After you have set up automatically answered profile questions, if you assign the profile questionnaire containing these questions to a contact, [!INCLUDE[prod_short](includes/prod_short.md)] will automatically assign the right answers for the contact.</span></span>  
+
+## <a name="example"></a><span data-ttu-id="ebbe9-129">Beispiel</span><span class="sxs-lookup"><span data-stu-id="ebbe9-129">Example</span></span>
+<span data-ttu-id="ebbe9-130">Sie können Ihre Kontakte danach klassifizieren, wie viel sie bei Ihnen gekauft haben:</span><span class="sxs-lookup"><span data-stu-id="ebbe9-130">You can classify your contacts according to how much they bought from you:</span></span>
 
 <table>
 <colgroup>
@@ -58,27 +58,27 @@ ms.locfileid: "3919355"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="0fc7d-131"><strong>Antwort</strong></span><span class="sxs-lookup"><span data-stu-id="0fc7d-131"><strong>Answer</strong></span></span></th>
-<th><span data-ttu-id="0fc7d-132"><strong>Gilt für</strong></span><span class="sxs-lookup"><span data-stu-id="0fc7d-132"><strong>Applies to</strong></span></span></th>
+<th><span data-ttu-id="ebbe9-131"><strong>Antwort</strong></span><span class="sxs-lookup"><span data-stu-id="ebbe9-131"><strong>Answer</strong></span></span></th>
+<th><span data-ttu-id="ebbe9-132"><strong>Gilt für</strong></span><span class="sxs-lookup"><span data-stu-id="ebbe9-132"><strong>Applies to</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="0fc7d-133">A</span><span class="sxs-lookup"><span data-stu-id="0fc7d-133">A</span></span></p></td>
-<td><p><span data-ttu-id="0fc7d-134">Kontakte, die für 500.000 MW oder mehr gekauft haben</span><span class="sxs-lookup"><span data-stu-id="0fc7d-134">contacts who bought for 500,000 LCY or more</span></span></p></td>
+<td><p><span data-ttu-id="ebbe9-133">A</span><span class="sxs-lookup"><span data-stu-id="ebbe9-133">A</span></span></p></td>
+<td><p><span data-ttu-id="ebbe9-134">Kontakte, die für 500.000 MW oder mehr gekauft haben</span><span class="sxs-lookup"><span data-stu-id="ebbe9-134">contacts who bought for 500,000 LCY or more</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0fc7d-135">B</span><span class="sxs-lookup"><span data-stu-id="0fc7d-135">B</span></span></p></td>
-<td><p><span data-ttu-id="0fc7d-136">Kontakte, die von 100.000 bis 499.999 MW gekauft haben</span><span class="sxs-lookup"><span data-stu-id="0fc7d-136">contacts who bought for 100,000 up to 499,999 LCY</span></span></p></td>
+<td><p><span data-ttu-id="ebbe9-135">B</span><span class="sxs-lookup"><span data-stu-id="ebbe9-135">B</span></span></p></td>
+<td><p><span data-ttu-id="ebbe9-136">Kontakte, die von 100.000 bis 499.999 MW gekauft haben</span><span class="sxs-lookup"><span data-stu-id="ebbe9-136">contacts who bought for 100,000 up to 499,999 LCY</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="0fc7d-137">U</span><span class="sxs-lookup"><span data-stu-id="0fc7d-137">C</span></span></p></td>
-<td><p><span data-ttu-id="0fc7d-138">Kontakte, die für 99.999 MW oder weniger gekauft haben</span><span class="sxs-lookup"><span data-stu-id="0fc7d-138">contacts who bought for 99,999 LCY or less</span></span></p></td>
+<td><p><span data-ttu-id="ebbe9-137">U</span><span class="sxs-lookup"><span data-stu-id="ebbe9-137">C</span></span></p></td>
+<td><p><span data-ttu-id="ebbe9-138">Kontakte, die für 99.999 MW oder weniger gekauft haben</span><span class="sxs-lookup"><span data-stu-id="ebbe9-138">contacts who bought for 99,999 LCY or less</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
-<span data-ttu-id="0fc7d-139">Füllen Sie hierzu die Seite **Profilbefragung einrichten** folgendermaßen aus:</span><span class="sxs-lookup"><span data-stu-id="0fc7d-139">To do this, fill on the **Profile Questionnaire Setup** page as follows:</span></span>
+<span data-ttu-id="ebbe9-139">Füllen Sie hierzu die Seite **Profilbefragung einrichten** folgendermaßen aus:</span><span class="sxs-lookup"><span data-stu-id="ebbe9-139">To do this, fill on the **Profile Questionnaire Setup** page as follows:</span></span>
 
 
 <table>
@@ -91,46 +91,46 @@ ms.locfileid: "3919355"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="0fc7d-140"><strong>Art</strong></span><span class="sxs-lookup"><span data-stu-id="0fc7d-140"><strong>Type</strong></span></span></th>
-<th><span data-ttu-id="0fc7d-141"><strong>Beschreibung</strong></span><span class="sxs-lookup"><span data-stu-id="0fc7d-141"><strong>Description</strong></span></span></th>
-<th><span data-ttu-id="0fc7d-142"><strong>Automatische Klassifizierung</strong></span><span class="sxs-lookup"><span data-stu-id="0fc7d-142"><strong>Automatic Classification</strong></span></span></th>
-<th><span data-ttu-id="0fc7d-143"><strong>Von Wert</strong></span><span class="sxs-lookup"><span data-stu-id="0fc7d-143"><strong>From Value</strong></span></span></th>
-<th><span data-ttu-id="0fc7d-144"><strong>Bis Wert</strong></span><span class="sxs-lookup"><span data-stu-id="0fc7d-144"><strong>To Value</strong></span></span></th>
+<th><span data-ttu-id="ebbe9-140"><strong>Art</strong></span><span class="sxs-lookup"><span data-stu-id="ebbe9-140"><strong>Type</strong></span></span></th>
+<th><span data-ttu-id="ebbe9-141"><strong>Beschreibung</strong></span><span class="sxs-lookup"><span data-stu-id="ebbe9-141"><strong>Description</strong></span></span></th>
+<th><span data-ttu-id="ebbe9-142"><strong>Automatische Klassifizierung</strong></span><span class="sxs-lookup"><span data-stu-id="ebbe9-142"><strong>Automatic Classification</strong></span></span></th>
+<th><span data-ttu-id="ebbe9-143"><strong>Von Wert</strong></span><span class="sxs-lookup"><span data-stu-id="ebbe9-143"><strong>From Value</strong></span></span></th>
+<th><span data-ttu-id="ebbe9-144"><strong>Bis Wert</strong></span><span class="sxs-lookup"><span data-stu-id="ebbe9-144"><strong>To Value</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="0fc7d-145">Frage</span><span class="sxs-lookup"><span data-stu-id="0fc7d-145">Question</span></span></p></td>
-<td><p><span data-ttu-id="0fc7d-146">ABC Klassifizierung</span><span class="sxs-lookup"><span data-stu-id="0fc7d-146">ABC Classification</span></span></p></td>
-<td><p><span data-ttu-id="0fc7d-147">Klicken Sie in das Feld, um ein Häkchen einzufügen.</span><span class="sxs-lookup"><span data-stu-id="0fc7d-147">Click to insert a check mark</span></span></p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+<td><p><span data-ttu-id="ebbe9-145">Frage</span><span class="sxs-lookup"><span data-stu-id="ebbe9-145">Question</span></span></p></td>
+<td><p><span data-ttu-id="ebbe9-146">ABC Klassifizierung</span><span class="sxs-lookup"><span data-stu-id="ebbe9-146">ABC Classification</span></span></p></td>
+<td><p><span data-ttu-id="ebbe9-147">Klicken Sie in das Feld, um ein Häkchen einzufügen.</span><span class="sxs-lookup"><span data-stu-id="ebbe9-147">Click to insert a check mark</span></span></p></td>
+<td><p> </p></td>
+<td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0fc7d-148">Antwort</span><span class="sxs-lookup"><span data-stu-id="0fc7d-148">Answer</span></span></p></td>
-<td><p><span data-ttu-id="0fc7d-149">A</span><span class="sxs-lookup"><span data-stu-id="0fc7d-149">A</span></span></p></td>
-<td><p> </p></td>
-<td><p><span data-ttu-id="0fc7d-150">500.000</span><span class="sxs-lookup"><span data-stu-id="0fc7d-150">500,000</span></span></p></td>
-<td><p> </p></td>
+<td><p><span data-ttu-id="ebbe9-148">Antwort</span><span class="sxs-lookup"><span data-stu-id="ebbe9-148">Answer</span></span></p></td>
+<td><p><span data-ttu-id="ebbe9-149">A</span><span class="sxs-lookup"><span data-stu-id="ebbe9-149">A</span></span></p></td>
+<td><p> </p></td>
+<td><p><span data-ttu-id="ebbe9-150">500.000</span><span class="sxs-lookup"><span data-stu-id="ebbe9-150">500,000</span></span></p></td>
+<td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="0fc7d-151">Antwort</span><span class="sxs-lookup"><span data-stu-id="0fc7d-151">Answer</span></span></p></td>
-<td><p><span data-ttu-id="0fc7d-152">B</span><span class="sxs-lookup"><span data-stu-id="0fc7d-152">B</span></span></p></td>
-<td><p> </p></td>
-<td><p><span data-ttu-id="0fc7d-153">100,000</span><span class="sxs-lookup"><span data-stu-id="0fc7d-153">100,000</span></span></p></td>
-<td><p><span data-ttu-id="0fc7d-154">499,999</span><span class="sxs-lookup"><span data-stu-id="0fc7d-154">499,999</span></span></p></td>
+<td><p><span data-ttu-id="ebbe9-151">Antwort</span><span class="sxs-lookup"><span data-stu-id="ebbe9-151">Answer</span></span></p></td>
+<td><p><span data-ttu-id="ebbe9-152">B</span><span class="sxs-lookup"><span data-stu-id="ebbe9-152">B</span></span></p></td>
+<td><p> </p></td>
+<td><p><span data-ttu-id="ebbe9-153">100,000</span><span class="sxs-lookup"><span data-stu-id="ebbe9-153">100,000</span></span></p></td>
+<td><p><span data-ttu-id="ebbe9-154">499,999</span><span class="sxs-lookup"><span data-stu-id="ebbe9-154">499,999</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0fc7d-155">Antwort</span><span class="sxs-lookup"><span data-stu-id="0fc7d-155">Answer</span></span></p></td>
-<td><p><span data-ttu-id="0fc7d-156">U</span><span class="sxs-lookup"><span data-stu-id="0fc7d-156">C</span></span></p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p><span data-ttu-id="0fc7d-157">99,999</span><span class="sxs-lookup"><span data-stu-id="0fc7d-157">99,999</span></span></p></td>
+<td><p><span data-ttu-id="ebbe9-155">Antwort</span><span class="sxs-lookup"><span data-stu-id="ebbe9-155">Answer</span></span></p></td>
+<td><p><span data-ttu-id="ebbe9-156">U</span><span class="sxs-lookup"><span data-stu-id="ebbe9-156">C</span></span></p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+<td><p><span data-ttu-id="ebbe9-157">99,999</span><span class="sxs-lookup"><span data-stu-id="ebbe9-157">99,999</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
-<span data-ttu-id="0fc7d-158">Füllen Sie dann das Fenster **Profilfragendetails** folgendermaßen aus:</span><span class="sxs-lookup"><span data-stu-id="0fc7d-158">Then fill on the **Profile Question Details** page as follows:</span></span>
+<span data-ttu-id="ebbe9-158">Füllen Sie dann das Fenster **Profilfragendetails** folgendermaßen aus:</span><span class="sxs-lookup"><span data-stu-id="ebbe9-158">Then fill on the **Profile Question Details** page as follows:</span></span>
 <table>
 <colgroup>
 <col style="width: 50%" />
@@ -138,23 +138,23 @@ ms.locfileid: "3919355"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="0fc7d-159"><strong>Feld</strong></span><span class="sxs-lookup"><span data-stu-id="0fc7d-159"><strong>Field</strong></span></span></th>
-<th><span data-ttu-id="0fc7d-160"><strong>Wert</strong></span><span class="sxs-lookup"><span data-stu-id="0fc7d-160"><strong>Value</strong></span></span></th>
+<th><span data-ttu-id="ebbe9-159"><strong>Feld</strong></span><span class="sxs-lookup"><span data-stu-id="ebbe9-159"><strong>Field</strong></span></span></th>
+<th><span data-ttu-id="ebbe9-160"><strong>Wert</strong></span><span class="sxs-lookup"><span data-stu-id="ebbe9-160"><strong>Value</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span data-ttu-id="0fc7d-161"><strong>Debitorenklassifizierungsfeld</strong></span><span class="sxs-lookup"><span data-stu-id="0fc7d-161"><strong>Customer Classification Field</strong></span></span></td>
-<td><span data-ttu-id="0fc7d-162"><emphasis>Verkauf (MW)</emphasis></span><span class="sxs-lookup"><span data-stu-id="0fc7d-162"><emphasis>Sales (LCY)</emphasis></span></span></td>
+<td><span data-ttu-id="ebbe9-161"><strong>Debitorenklassifizierungsfeld</strong></span><span class="sxs-lookup"><span data-stu-id="ebbe9-161"><strong>Customer Classification Field</strong></span></span></td>
+<td><span data-ttu-id="ebbe9-162"><emphasis>Verkauf (MW)</emphasis></span><span class="sxs-lookup"><span data-stu-id="ebbe9-162"><emphasis>Sales (LCY)</emphasis></span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="0fc7d-163"><strong>Klassifizierungsmethode</strong></span><span class="sxs-lookup"><span data-stu-id="0fc7d-163"><strong>Classification Method</strong></span></span></td>
-<td><span data-ttu-id="0fc7d-164"><emphasis>Definierter Wert</emphasis></span><span class="sxs-lookup"><span data-stu-id="0fc7d-164"><emphasis>Defined Value</emphasis></span></span></td>
+<td><span data-ttu-id="ebbe9-163"><strong>Klassifizierungsmethode</strong></span><span class="sxs-lookup"><span data-stu-id="ebbe9-163"><strong>Classification Method</strong></span></span></td>
+<td><span data-ttu-id="ebbe9-164"><emphasis>Definierter Wert</emphasis></span><span class="sxs-lookup"><span data-stu-id="ebbe9-164"><emphasis>Defined Value</emphasis></span></span></td>
 </tr>
 </tbody>
 </table>
 
-<span data-ttu-id="0fc7d-165">Wenn Sie einem Kontakt die Profilbefragung mit dieser Frage zuordnen, wird die Anwendung in die Profilzeilen der Kontaktkarte automatisch die entsprechende Antwort für diesen Kontakt eingetragen.</span><span class="sxs-lookup"><span data-stu-id="0fc7d-165">When you assign the profile questionnaire containing this question to a contact, application automatically enters the relevant answer for this contact on the profile lines of the contact card.</span></span>
+<span data-ttu-id="ebbe9-165">Wenn Sie einem Kontakt die Profilbefragung mit dieser Frage zuordnen, wird die Anwendung in die Profilzeilen der Kontaktkarte automatisch die entsprechende Antwort für diesen Kontakt eingetragen.</span><span class="sxs-lookup"><span data-stu-id="ebbe9-165">When you assign the profile questionnaire containing this question to a contact, application automatically enters the relevant answer for this contact on the profile lines of the contact card.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="0fc7d-166">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="0fc7d-166">See Also</span></span>
-[<span data-ttu-id="0fc7d-167">Kontakte erstellen</span><span class="sxs-lookup"><span data-stu-id="0fc7d-167">Creating Contacts</span></span>](marketing-create-contact-companies.md)  
+## <a name="see-also"></a><span data-ttu-id="ebbe9-166">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="ebbe9-166">See Also</span></span>
+[<span data-ttu-id="ebbe9-167">Kontakte erstellen</span><span class="sxs-lookup"><span data-stu-id="ebbe9-167">Creating Contacts</span></span>](marketing-create-contact-companies.md)  
