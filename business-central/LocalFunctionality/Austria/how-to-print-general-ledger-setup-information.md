@@ -39,3 +39,6 @@ Bevor Sie [!INCLUDE[prod_short](../../includes/prod_short.md)] in Aufgaben des t
 
 ## <a name="see-also"></a>Siehe auch  
 [Finanzen einrichten](../../finance-setup-finance.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

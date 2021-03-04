@@ -182,3 +182,6 @@ Um eine Gruppe von Zertifikaten anzuzeigen, beginnen Sie auf der Seite **Gelange
 ## <a name="see-also"></a>Siehe auch  
 [Methoden für die Berechnung und Buchung von Mehrwertsteuer einrichten](finance-setup-vat.md)   
 [MwSt. an die Steuerbehörden melden](finance-how-report-vat.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

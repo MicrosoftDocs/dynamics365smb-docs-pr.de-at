@@ -38,3 +38,6 @@ Das Verkaufsangebot wird aus der Datenbank entfernt. Eine Verkaufsrechnung oder 
 [Einkaufeinrichten](purchasing-setup-purchasing.md)  
 [Senden von Belegen über E-Mail](ui-how-send-documents-email.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

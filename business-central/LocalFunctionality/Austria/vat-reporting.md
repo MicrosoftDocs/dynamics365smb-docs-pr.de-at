@@ -31,3 +31,6 @@ Folgende lokale MwSt.-Erklärungen können gedruckt werden:
 ## <a name="see-also"></a>Siehe auch  
 [Melden von MwSt. an die Steuerbehörden](../../finance-how-report-vat.md)  
 [Arbeiten mit MwSt im Verkauf und Einkauf](../../finance-work-with-vat.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

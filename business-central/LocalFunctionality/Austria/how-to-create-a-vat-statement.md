@@ -51,3 +51,6 @@ Wenn Ihre MwSt-Abrechnung fehlerfrei ist, können Sie die FDF-Datei an die Steue
 
 ## <a name="see-also"></a>Siehe auch  
 [MwSt.-Abrechnung](vat-reporting.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

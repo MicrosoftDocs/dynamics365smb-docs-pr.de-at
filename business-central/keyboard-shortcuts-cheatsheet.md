@@ -59,3 +59,6 @@ ms.locfileid: "3921734"
 > Für eine grafische, druckfreundliche Version wählen Sie das folgende Bild und laden Sie die PDF-Datei herunter.
 >
 > [![Symbol zum Öffnen einer PDF](media/keyboard_shortcut_inline.png)](media/keyboard_shortcuts.pdf)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
