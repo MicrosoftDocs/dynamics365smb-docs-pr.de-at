@@ -3,34 +3,37 @@ title: Drucken von Testberichte vor dem Registrieren von Lieferanmahnungen [AT]
 description: Nach dem Erstellen von Lieferanmahnungen und der Durchführung von ggf. notwendigen Änderungen können Sie entweder Testberichte drucken oder die Lieferanmahnungen in der österreichischen Version registrieren.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1ce6555d6ce6c43bfec51424c3c5df315b29c7dc
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 0202f2494895f959f3e5c5600c407b8b964e49c3
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916542"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377214"
 ---
-# <a name="print-test-reports-for-delivery-reminders-in-the-austrian-version"></a><span data-ttu-id="cf9d1-103">Drucken von Testberichten für Lieferanmahnungen in der österreichischen Version</span><span class="sxs-lookup"><span data-stu-id="cf9d1-103">Print Test Reports for Delivery Reminders in the Austrian Version</span></span>
+# <a name="print-test-reports-for-delivery-reminders-in-the-austrian-version"></a><span data-ttu-id="ccef0-103">Drucken von Testberichten für Lieferanmahnungen in der österreichischen Version</span><span class="sxs-lookup"><span data-stu-id="ccef0-103">Print Test Reports for Delivery Reminders in the Austrian Version</span></span>
 
-<span data-ttu-id="cf9d1-104">Nach dem Erstellen von Lieferanmahnungen und der Durchführung von ggf. notwendigen Änderungen können Sie entweder Testberichte drucken oder die Lieferanmahnungen registrieren.</span><span class="sxs-lookup"><span data-stu-id="cf9d1-104">After you have created delivery reminders and made any needed modifications, you can either print the test reports or issue the delivery reminders.</span></span>  
+<span data-ttu-id="ccef0-104">Nach dem Erstellen von Lieferanmahnungen und der Durchführung von ggf. notwendigen Änderungen können Sie entweder Testberichte drucken oder die Lieferanmahnungen registrieren.</span><span class="sxs-lookup"><span data-stu-id="ccef0-104">After you have created delivery reminders and made any needed modifications, you can either print the test reports or issue the delivery reminders.</span></span>  
 
-<span data-ttu-id="cf9d1-105">Ein Testbericht ist ein Dokument, anhand dessen Sie eine Lieferanmahnung vor dem Registrieren prüfen und ändern können.</span><span class="sxs-lookup"><span data-stu-id="cf9d1-105">A test report is a document that lets you review and modify a delivery reminder before you issue it.</span></span>  
+<span data-ttu-id="ccef0-105">Ein Testbericht ist ein Dokument, anhand dessen Sie eine Lieferanmahnung vor dem Registrieren prüfen und ändern können.</span><span class="sxs-lookup"><span data-stu-id="ccef0-105">A test report is a document that lets you review and modify a delivery reminder before you issue it.</span></span>  
 
-## <a name="to-print-test-reports-before-issuing-delivery-reminders"></a><span data-ttu-id="cf9d1-106">So drucken Sie Testberichte vor dem Registrieren von Lieferanmahnungen</span><span class="sxs-lookup"><span data-stu-id="cf9d1-106">To print test reports before issuing delivery reminders</span></span>  
+## <a name="to-print-test-reports-before-issuing-delivery-reminders"></a><span data-ttu-id="ccef0-106">So drucken Sie Testberichte vor dem Registrieren von Lieferanmahnungen</span><span class="sxs-lookup"><span data-stu-id="ccef0-106">To print test reports before issuing delivery reminders</span></span>  
 
-1.  <span data-ttu-id="cf9d1-107">Wählen Sie die ![Glühbirne, die das Tell Me Feature](../../media/ui-search/search_small.png "Tell me-Funktion") Symbol öffnet, geben Sie **Lieferanmahnung** ein und wählen Sie dann den entsprechenden Link.</span><span class="sxs-lookup"><span data-stu-id="cf9d1-107">Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Delivery Reminder**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="cf9d1-108">Wählen Sie auf der Seite **Lieferanmahnungenübersicht** die Aktion **Lieferanmahnung - Test**.</span><span class="sxs-lookup"><span data-stu-id="cf9d1-108">On the **Delivery Reminder List** page, choose the **Delivery Reminder - Test** action.</span></span>  
-3.  <span data-ttu-id="cf9d1-109">Auf der Seite **Lieferanmahnung - Test** können Sie einen Filter, wenn nur ausgewählte Lieferanmahnungen drucken möchten.</span><span class="sxs-lookup"><span data-stu-id="cf9d1-109">On the **Delivery Reminder - Test** page, set a filter if you want to print only selected delivery reminders.</span></span>  
-4.  <span data-ttu-id="cf9d1-110">Wählen Sie die Schaltfläche **Drucken** aus, um den Bericht zu drucken, oder die Schaltfläche **Vorschau**, um den Bericht auf dem Bildschirm anzuzeigen.</span><span class="sxs-lookup"><span data-stu-id="cf9d1-110">Choose the **Print** button to print the report, or choose the **Preview** button to view it on the screen.</span></span>  
+1.  <span data-ttu-id="ccef0-107">Wählen Sie die ![Glühbirne, die das Tell Me Feature](../../media/ui-search/search_small.png "Tell me-Funktion") Symbol öffnet, geben Sie **Lieferanmahnung** ein und wählen Sie dann den entsprechenden Link.</span><span class="sxs-lookup"><span data-stu-id="ccef0-107">Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Delivery Reminder**, and then choose the related link.</span></span>  
+2.  <span data-ttu-id="ccef0-108">Wählen Sie auf der Seite **Lieferanmahnungenübersicht** die Aktion **Lieferanmahnung - Test**.</span><span class="sxs-lookup"><span data-stu-id="ccef0-108">On the **Delivery Reminder List** page, choose the **Delivery Reminder - Test** action.</span></span>  
+3.  <span data-ttu-id="ccef0-109">Auf der Seite **Lieferanmahnung - Test** können Sie einen Filter, wenn nur ausgewählte Lieferanmahnungen drucken möchten.</span><span class="sxs-lookup"><span data-stu-id="ccef0-109">On the **Delivery Reminder - Test** page, set a filter if you want to print only selected delivery reminders.</span></span>  
+4.  <span data-ttu-id="ccef0-110">Wählen Sie die Schaltfläche **Drucken** aus, um den Bericht zu drucken, oder die Schaltfläche **Vorschau**, um den Bericht auf dem Bildschirm anzuzeigen.</span><span class="sxs-lookup"><span data-stu-id="ccef0-110">Choose the **Print** button to print the report, or choose the **Preview** button to view it on the screen.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="cf9d1-111">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="cf9d1-111">See Also</span></span>  
- <span data-ttu-id="cf9d1-112">[Lieferanmahnungen](delivery-reminders.md) </span><span class="sxs-lookup"><span data-stu-id="cf9d1-112">[Delivery Reminders](delivery-reminders.md) </span></span>  
- <span data-ttu-id="cf9d1-113">[So erstellen Sie Lieferanmahnungen](how-to-generate-delivery-reminders.md) </span><span class="sxs-lookup"><span data-stu-id="cf9d1-113">[Generate Delivery Reminders](how-to-generate-delivery-reminders.md) </span></span>  
- [<span data-ttu-id="cf9d1-114">Lieferbenachrichtigung registrieren</span><span class="sxs-lookup"><span data-stu-id="cf9d1-114">Issue Delivery Reminders</span></span>](how-to-issue-delivery-reminders.md)
+## <a name="see-also"></a><span data-ttu-id="ccef0-111">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="ccef0-111">See Also</span></span>  
+ <span data-ttu-id="ccef0-112">[Lieferanmahnungen](delivery-reminders.md) </span><span class="sxs-lookup"><span data-stu-id="ccef0-112">[Delivery Reminders](delivery-reminders.md) </span></span>  
+ <span data-ttu-id="ccef0-113">[So erstellen Sie Lieferanmahnungen](how-to-generate-delivery-reminders.md) </span><span class="sxs-lookup"><span data-stu-id="ccef0-113">[Generate Delivery Reminders](how-to-generate-delivery-reminders.md) </span></span>  
+ [<span data-ttu-id="ccef0-114">Lieferbenachrichtigung registrieren</span><span class="sxs-lookup"><span data-stu-id="ccef0-114">Issue Delivery Reminders</span></span>](how-to-issue-delivery-reminders.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
