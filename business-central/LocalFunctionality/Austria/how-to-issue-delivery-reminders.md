@@ -3,19 +3,19 @@ title: 'Gewusst wie: Registrieren von Lieferanmahnungen [AT]'
 description: Nachdem Sie in der österreichischen Version Lieferanmahnungen erstellt haben, müssen Sie sie registrieren und ausdrucken, damit Sie die Benachrichtigungen an Kreditoren senden können. Vor der Registrierung der Lieferbenachrichtigungen können Sie einen Testbericht drucken.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: caa82c59360a42b1d134a4cf226702b4df599f40
-ms.sourcegitcommit: 428f180604e5afcf94fa0e92a0615f58c88e13cd
+ms.openlocfilehash: 553dde541c2464393a584a94dcc61b535abbaa2a
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3931353"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377216"
 ---
 # <a name="issue-delivery-reminders-in-the-austrian-version"></a>Registrieren von Lieferanmahnungen in der österreichischen Version
 

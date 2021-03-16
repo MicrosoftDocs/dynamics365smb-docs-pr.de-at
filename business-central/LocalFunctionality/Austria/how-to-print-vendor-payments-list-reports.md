@@ -3,19 +3,19 @@ title: 'Gewusst wie: Druck von Listenberichten für Kreditorenzahlungen [AT]'
 description: Die Liste Kreditorenzahlungen zeigt eine Liste von Zahlungen für jeden Kreditor in der österreichischen Version an. Der Bericht kann Zahlungen chronologisch oder nach Kreditor gruppiert sortieren.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 852911857deea769054841c3f520281d8a8941ee
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f8d30edcfe4653adf3a490dfdf4c35f550792210
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916540"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377210"
 ---
 # <a name="print-vendor-payments-list-reports-in-the-austrian-version"></a>Drucken von Listenberichten für Kreditorenzahlungen in der österreichischen Version
 

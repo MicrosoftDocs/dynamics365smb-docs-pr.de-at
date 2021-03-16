@@ -3,19 +3,19 @@ title: Drucken von Testberichte vor dem Registrieren von Lieferanmahnungen [AT]
 description: Nach dem Erstellen von Lieferanmahnungen und der Durchführung von ggf. notwendigen Änderungen können Sie entweder Testberichte drucken oder die Lieferanmahnungen in der österreichischen Version registrieren.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1ce6555d6ce6c43bfec51424c3c5df315b29c7dc
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 0202f2494895f959f3e5c5600c407b8b964e49c3
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916542"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377214"
 ---
 # <a name="print-test-reports-for-delivery-reminders-in-the-austrian-version"></a>Drucken von Testberichten für Lieferanmahnungen in der österreichischen Version
 
