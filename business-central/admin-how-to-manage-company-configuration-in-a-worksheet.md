@@ -31,7 +31,7 @@ Die folgenden Verfahren zeigen, wie Tabelleninformationen für die Konfiguration
 2.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Konfigurationsarbeitsblatt** ein, und wählen Sie dann den zugehörigen Link.  
 
 ## <a name="to-add-a-table-to-the-worksheet"></a>So fügen Sie dem Arbeitsblatt eine Tabelle hinzu  
-1.  Auf der Seite **Config. Arbeitsblatt** wählen Sie die **Liste bearbeiten** Aktion aus.  
+1.  Auf der Seite **Konfig. Arbeitsblatt** wählen Sie die **Liste bearbeiten** Aktion aus.  
 2.  Wählen Sie in der ersten Anfragezeile in dem Feld **Art** die Art **Tabelle**.  
 4.  Wählen Sie im Feld **ID-Tabelle** die Tabelle aus, die Sie der Konfiguration hinzufügen möchten.  
 5.  Geben Sie im Feld **Seiten-ID** die Seiten-ID ein, die mit der Tabelle verknüpft ist. Für Standard-Tabellen wird dieser Wert automatisch ausgefüllt. Für benutzerdefinierte Tabellen müssen Sie die ID zur Verfügung stellen
@@ -62,7 +62,7 @@ Die folgenden Verfahren zeigen, wie Tabelleninformationen für die Konfiguration
     |**Nur lizenzierte Tabellen einschließen**|Aktivieren Sie das Kontrollkästchen, um nur die Tabellen einzuschließen, für die die Lizenz, unter der Sie das Arbeitsblatt erstellen, Ihnen den Zugriff erlaubt.|
 
 3. Geben Sie im Inforegister **Objekt** nach Bedarf Filter ein, um die Arten von Tabellen festzulegen, die Sie ein- oder ausschließen möchten.  
-4. Wählen Sie die Schaltfläche **OK**. [!INCLUDE[prod_short](includes/prod_short.md)] Tabellen werden dem Fenster hinzugefügt. Jeder Eintrag in der Liste hat die Zeilenart **Tabelle**.  
+4. Wählen Sie die Schaltfläche **OK**. [!INCLUDE[prod_short](includes/prod_short.md)] Tabellen werden dem Arbeitsblatt hinzugefügt. Jeder Eintrag in der Liste hat die Zeilenart **Tabelle**.  
 5. Um doppelte Tabelleninformationen zu entfernen, die aus der **Zugehörige Tabellen abrufen**-Aktion resultieren können, wählen Sie auf der Registerkarte Aktionen in der Gruppe Funktion **Doppelte Zeilen löschen** aus. Hierdurch werden doppelte Tabellen, die denselben Paketcode haben, entfernt.  
 6. Sie können diesem Arbeitsblatt Tabellen hinzufügen, die zu einer Tabelle gehören, die Sie ausgewählt haben. Überprüfen Sie die Informationen in der Infobox **Zugehörige Tabellen**, um festzustellen, ob es fehlende Tabellen gibt. Um zugehörige Tabellen für eine bestimmte Tabelle hinzuzufügen, wählen Sie die Tabelle in der Übersicht aus, und wählen Sie auf der Registerkarte Aktionen in der Gruppe Funktionen die Option **Zugehörige Tabellen abrufen** aus.  
 
@@ -104,7 +104,7 @@ Nachdem Sie einem Konfigurationspaket alle erforderlichen Tabellen hinzugefügt 
 1.  Wählen Sie die Tabellen aus, und löschen Sie sie, indem Sie die **Löschen** Aktion auswählen.  
 
     > [!NOTE]  
-    >  Die Tabellen bleiben im Paket, obwohl sie aus dem Vorschlag gelöscht werden.  
+    >  Die Tabellen bleiben im Paket, obwohl sie aus dem Arbeitsblatt gelöscht werden.  
 
 ## <a name="to-review-and-customize-existing-database-data"></a>So können Sie vorhandene Datenbank-Daten prüfen und anpassen.
 Wenn Sie ein Konfigurationspaket für eine Lösung erstellen, können Sie die verfügbaren Datenbankdaten anzeigen und anpassen, um Ihren Debitoranforderungen entsprechen. Die Datenbanktabelle muss eine zugeordnete Seite haben.  

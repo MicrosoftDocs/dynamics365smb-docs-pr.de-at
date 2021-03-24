@@ -89,8 +89,8 @@ Zusätzlich zu den externen Lieferterminzusagen, die Sie auf der Seite **Liefert
 
     "3w" bedeutet zum Beispiel, dass die Verschiebung drei Wochen beträgt. Stellen Sie ein "l" vor einen dieser Codes, um die jeweils laufende Zeiteinheit anzugeben. Wenn Sie zum Beispiel als Basis für die Verschiebung den aktuellen Monat verwenden möchten, geben Sie **lm** ein.  
 3. Geben Sie in das Feld **Lieferterminzusagennummern** eine Nummernserie ein, indem Sie eine Zeile aus der Liste auf der Seite **Nummernserien** wählen.  
-4. Geben Sie eine Lieferterminzusagenvorlage im Feld **Lieferterminzusagenvorlage** ein, indem Sie eine Zeile auf der Seite **Bestellvorschlag Vorl.-Übers.** wählen.  
-5. Geben Sie im Feld **Lieferterminzusagenvorschlag** einen Vorschlag ein, indem Sie eine Zeile auf der Seite **Bestellvorschlagsnamen** wählen.
+4. Geben Sie eine Lieferterminzusagenvorlage im Feld **Lieferterminzusagenvorlage** ein, indem Sie eine Zeile auf der Seite **Bestellarbeitsblatt-Vorl.-Übers.** wählen.  
+5. Geben Sie im Feld **Lieferterminzusagenarbeitsblatt** einen Vorschlag ein, indem Sie eine Zeile auf der Seite **Bestellvorschlagsnamen** wählen.
 
 ### <a name="to-enter-inbound-warehouse-handling-time-in-the-inventory-setup-page"></a>Eingehende Lagerdurchlaufzeit auf der Einrichtungsseite des Bestands eingeben  
 Wenn Sie die Lagerdurchlaufzeit bei der Berechnung der Lieferterminzusage in der Einkaufszeile berücksichtigen wollen, können Sie sie als Vorgabewert für das Lager und für Ihren Lagerort einrichten.    

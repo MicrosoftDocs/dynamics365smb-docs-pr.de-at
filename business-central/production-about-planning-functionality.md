@@ -101,7 +101,7 @@ Enthält das Feld die Option **Unbeschränkt**, wird die Zeile beim Berechnen vo
 
 ### <a name="warning"></a>Warnung
 
-Das Feld **Warnung** auf der **Planungsvorschlag** Seite informiert Sie über jede mögliche Planungszeile, die für eine ungewöhnliche Situation mit einen Text erstellt wird, den der Benutzer klicken kann, um weitere Informationen anzuzeigen. Folgende Arten von Warnungen sind verfügbar:
+Das Feld **Warnung** auf der Seite **Planungsarbeitsblatt** informiert Sie über jede mögliche Planungszeile, die für eine ungewöhnliche Situation mit einen Text erstellt wird, den der Benutzer klicken kann, um weitere Informationen anzuzeigen. Folgende Arten von Warnungen sind verfügbar:
 
 - Notfall
 - Ausnahme
