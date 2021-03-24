@@ -1,6 +1,6 @@
 ---
 title: 'Vorgehensweise: Ändern von Planungsvorschlägen in einer grafischen Ansich| Microsoft Docst'
-description: Eine typische Planungsaktivität besteht darin, Planungsvorschlagszeilen zu ändern oder hinzuzufügen, um die vorgeschlagenen Beschaffungsaufträge zu ändern, bevor Sie diese kommissionieren, indem Sie die Funktion Ereignismeldung durchführen ausführen. Eine Alternative zur Durchführung im Planungsvorschlag ist die Verwendung einer grafischen Ansicht.
+description: Eine typische Planungsaktivität besteht darin, Planungsarbeitsblattzeilen zu ändern oder hinzuzufügen, um die vorgeschlagenen Beschaffungsaufträge zu ändern, bevor Sie diese kommissionieren, indem Sie die Funktion Ereignismeldung durchführen ausführen. Eine Alternative zur Durchführung im Planungsarbeitsblatt ist die Verwendung einer grafischen Ansicht.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -17,9 +17,9 @@ ms.contentlocale: de-AT
 ms.lasthandoff: 02/15/2021
 ms.locfileid: "5381332"
 ---
-# <a name="modify-planning-suggestions-in-a-graphical-view"></a><span data-ttu-id="11b64-104">Ändern von Planungsvorschlägen in einer grafischen Ansicht</span><span class="sxs-lookup"><span data-stu-id="11b64-104">Modify Planning Suggestions in a Graphical View</span></span>
+# <a name="modify-planning-suggestions-in-a-graphical-view"></a><span data-ttu-id="b1cf0-104">Ändern von Planungsvorschlägen in einer grafischen Ansicht</span><span class="sxs-lookup"><span data-stu-id="b1cf0-104">Modify Planning Suggestions in a Graphical View</span></span>
 
-<span data-ttu-id="11b64-105">Eine typische Planungsaktivität besteht darin, Planungsvorschlagszeilen zu ändern oder hinzuzufügen, um die vorgeschlagenen Beschaffungsaufträge zu ändern, bevor Sie diese kommissionieren, indem Sie die Funktion **Ereignismeldung durchführen** ausführen.</span><span class="sxs-lookup"><span data-stu-id="11b64-105">A typical planning activity is to change or add planning worksheet lines to modify the suggested supply orders before you commit them by running the **Carry out Action Message** function.</span></span> <span data-ttu-id="11b64-106">Eine Alternative zur Durchführung im Planungsvorschlag ist die Verwendung einer grafischen Ansicht.</span><span class="sxs-lookup"><span data-stu-id="11b64-106">An alternative to doing this in the planning worksheet is to use a graphical view.</span></span> <span data-ttu-id="11b64-107">Dies wird derzeit in [!INCLUDE[prod_short](includes/prod_short.md)] jedoch nicht unterstützt.</span><span class="sxs-lookup"><span data-stu-id="11b64-107">However, this is currently not supported in [!INCLUDE[prod_short](includes/prod_short.md)].</span></span>  
+<span data-ttu-id="b1cf0-105">Eine typische Planungsaktivität besteht darin, Planungsarbeitsblattzeilen zu ändern oder hinzuzufügen, um die vorgeschlagenen Beschaffungsaufträge zu ändern, bevor Sie diese kommissionieren, indem Sie die Funktion **Ereignismeldung durchführen** ausführen.</span><span class="sxs-lookup"><span data-stu-id="b1cf0-105">A typical planning activity is to change or add planning worksheet lines to modify the suggested supply orders before you commit them by running the **Carry out Action Message** function.</span></span> <span data-ttu-id="b1cf0-106">Eine Alternative zur Durchführung im Planungsarbeitsblatt ist die Verwendung einer grafischen Ansicht.</span><span class="sxs-lookup"><span data-stu-id="b1cf0-106">An alternative to doing this in the planning worksheet is to use a graphical view.</span></span> <span data-ttu-id="b1cf0-107">Dies wird derzeit in [!INCLUDE[prod_short](includes/prod_short.md)] jedoch nicht unterstützt.</span><span class="sxs-lookup"><span data-stu-id="b1cf0-107">However, this is currently not supported in [!INCLUDE[prod_short](includes/prod_short.md)].</span></span>  
 
 <!--On the **Item Availability by Timeline** page, you can modify certain supply orders and suggestions by dragging elements on the x-axis to change quantity or dragging elements on the y-axis to change due date.  
 
@@ -93,16 +93,16 @@ To implement the supply plan changes, you must follow the resulting action messa
  |While moving an element, press Esc.|Cancels the move. **Note:**  Does not work if you have released the mouse button.|
 -->
 
-## <a name="see-also"></a><span data-ttu-id="11b64-108">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="11b64-108">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b1cf0-108">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="b1cf0-108">See Also</span></span>
 
-[<span data-ttu-id="11b64-109">Planung</span><span class="sxs-lookup"><span data-stu-id="11b64-109">Planning</span></span>](production-planning.md)  
-[<span data-ttu-id="11b64-110">Produktion einrichten</span><span class="sxs-lookup"><span data-stu-id="11b64-110">Setting Up Manufacturing</span></span>](production-configure-production-processes.md)  
-[<span data-ttu-id="11b64-111">Produktion</span><span class="sxs-lookup"><span data-stu-id="11b64-111">Manufacturing</span></span>](production-manage-manufacturing.md)  
-[<span data-ttu-id="11b64-112">Lagerbesttand</span><span class="sxs-lookup"><span data-stu-id="11b64-112">Inventory</span></span>](inventory-manage-inventory.md)  
-[<span data-ttu-id="11b64-113">Einkauf</span><span class="sxs-lookup"><span data-stu-id="11b64-113">Purchasing</span></span>](purchasing-manage-purchasing.md)  
-[<span data-ttu-id="11b64-114">Designdetails: Vorratsplanung</span><span class="sxs-lookup"><span data-stu-id="11b64-114">Design Details: Supply Planning</span></span>](design-details-supply-planning.md)  
-[<span data-ttu-id="11b64-115">Bewährte Einrichtungsmethoden: Beschaffungsplanung</span><span class="sxs-lookup"><span data-stu-id="11b64-115">Setup Best Practices: Supply Planning</span></span>](setup-best-practices-supply-planning.md)  
-<span data-ttu-id="11b64-116">[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="11b64-116">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>
+[<span data-ttu-id="b1cf0-109">Planung</span><span class="sxs-lookup"><span data-stu-id="b1cf0-109">Planning</span></span>](production-planning.md)  
+[<span data-ttu-id="b1cf0-110">Produktion einrichten</span><span class="sxs-lookup"><span data-stu-id="b1cf0-110">Setting Up Manufacturing</span></span>](production-configure-production-processes.md)  
+[<span data-ttu-id="b1cf0-111">Produktion</span><span class="sxs-lookup"><span data-stu-id="b1cf0-111">Manufacturing</span></span>](production-manage-manufacturing.md)  
+[<span data-ttu-id="b1cf0-112">Lagerbesttand</span><span class="sxs-lookup"><span data-stu-id="b1cf0-112">Inventory</span></span>](inventory-manage-inventory.md)  
+[<span data-ttu-id="b1cf0-113">Einkauf</span><span class="sxs-lookup"><span data-stu-id="b1cf0-113">Purchasing</span></span>](purchasing-manage-purchasing.md)  
+[<span data-ttu-id="b1cf0-114">Designdetails: Vorratsplanung</span><span class="sxs-lookup"><span data-stu-id="b1cf0-114">Design Details: Supply Planning</span></span>](design-details-supply-planning.md)  
+[<span data-ttu-id="b1cf0-115">Bewährte Einrichtungsmethoden: Beschaffungsplanung</span><span class="sxs-lookup"><span data-stu-id="b1cf0-115">Setup Best Practices: Supply Planning</span></span>](setup-best-practices-supply-planning.md)  
+<span data-ttu-id="b1cf0-116">[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="b1cf0-116">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
