@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c6589fbbc3bba3b6ba703c0533258218ff440ff8
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: d88abb3840937000e8e2c5401953d54ffef4817e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5377208"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771512"
 ---
 # <a name="set-up-delivery-reminders-in-the-austrian-version"></a>Einrichten von Lieferanmahnungen in der österreichischen Version
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2abc1fba53edea2811b0c8424090ba521b73e45c
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: d81c750d5a937e332b9d6a9c2214de1621b6a3d1
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5377212"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5774412"
 ---
 # <a name="set-up-delivery-reminder-terms-levels-and-text-in-the-austrian-version"></a>Einrichten von Lieferanmahnungsbestimmungen, Stufen und Text in der österreichischen Version
 

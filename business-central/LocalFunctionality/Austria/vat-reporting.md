@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c7552721e5c21262c2f49b5f8550511184178466
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: b50350b4e13a15f56e559160b93e75c9a2f11cd8
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5379610"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5774414"
 ---
 # <a name="vat-reporting-in-the-austrian-version"></a>MwSt.-Abrechnung in der österreichischen Version
 

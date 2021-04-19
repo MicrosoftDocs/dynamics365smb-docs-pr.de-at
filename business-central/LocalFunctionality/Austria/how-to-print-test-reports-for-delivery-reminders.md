@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0202f2494895f959f3e5c5600c407b8b964e49c3
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: e296611c71da4d115b74bfc92d6afbb3b3bd304d
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5377214"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776582"
 ---
 # <a name="print-test-reports-for-delivery-reminders-in-the-austrian-version"></a>Drucken von Testberichten für Lieferanmahnungen in der österreichischen Version
 

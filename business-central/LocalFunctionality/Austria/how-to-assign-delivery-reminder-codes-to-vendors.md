@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: bfd81fcbf424ef28bff682d4eb1285df068fa497
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 668fd7660d69bd9f9ef192e410f6835e3df42935
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5377226"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5774432"
 ---
 # <a name="assign-delivery-reminder-codes-to-vendors-in-the-austrian-version"></a>Zuweisen von Lieferanmahnungen zu Kreditoren in der österreichischen Version
 
