@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: write down
-ms.date: 02/22/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e5d000b1ff7d1b83188449c80a9a9eefe79e8676
-ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
+ms.openlocfilehash: eb7e0d0d082d8a86ce61b6dffab46ce6248a29d9
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5493245"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5782296"
 ---
 # <a name="set-up-fixed-asset-depreciation"></a>Richten Sie eine neue Anlagenkarte ein
 
@@ -26,7 +26,7 @@ Nachdem Sie die erforderlichen AfA-Bücher erstellt haben, müssen Sie jeder Anl
 
 In einem AfA-Buch können Sie festlegen, wie eine Anlage abgeschrieben wird. Sie können mehrere AfA-Bücher einrichten, um die verschiedenen Abschreibungsarten zu erleichtern.  
 
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **AfA-Bücher** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell me-Funktion") aus, geben Sie **AfA-Bücher** ein, und wählen Sie dann den zugehörigen Link.
 2. Auf der Seite **AfA-Buch Übersicht** wählen Sie die Aktion **Neu** aus.
 3. Füllen Sie im Inforegister **AfA-Buchkarte** die Seite nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -41,7 +41,7 @@ In einem AfA-Buch können Sie festlegen, wie eine Anlage abgeschrieben wird. Sie
 Wenn Sie beispielsweise ein Anlagevermögen veräußern, in dem im Abschreibungsbuch keine Rundung angegeben ist, die Einrichtung des Hauptbuchs Ihres Unternehmens jedoch eine Rundung erfordert, wird bei der Veräußerung des Anlagevermögens die Fehlermeldung angezeigt, dass ein Betrag gerundet werden muss auf einem Hauptbucheintrag.  
 
 ## <a name="to-assign-a-depreciation-book-to-a-fixed-asset"></a>So verknüpfen Sie ein AfA-Buchs mit einer Anlage
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Anlagen** ein, und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell me-Funktion") aus, geben Sie **Anlagen** ein, und wählen Sie dann den entsprechenden Link.
 2. Wählen Sie die Anlage aus, für die Sie ein Anlagen-AfA-Buch einrichten möchten.
 3. Füllen Sie im Inforegister **AfA-Buch** die Felder nach Bedarf aus.
 4. Wenn Sie mehrere AfA-Bücher der Anlage zuweisen müssen, wählen Sie die Aktion **Weitere AfA-Bücher hinzufügen** aus.
@@ -87,7 +87,7 @@ Sie können für jedes AfA-Buch Vorgaben für Vorlagen und Buch.-Blätter defini
 [Anlagen einrichten](fa-setup.md)  
 [Anlagen](fa-manage.md)  
 [Finanzen](finance.md)  
-[Erste Schritte](product-get-started.md)  
+[Vorbereitungen zum Tätigen von Geschäften](ui-get-ready-business.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
