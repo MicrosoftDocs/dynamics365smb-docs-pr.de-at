@@ -8,37 +8,37 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: projects
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ae031822f6d52e3fc066935cadab1d2e2ae924ac
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 7d2751a75de909e0c2d0e5d081d33a16b8d578ba
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5388342"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780324"
 ---
-# <a name="setting-up-project-management"></a><span data-ttu-id="ef869-103">Richten Sie Ihr Projektmanagement ein.</span><span class="sxs-lookup"><span data-stu-id="ef869-103">Setting Up Project Management</span></span>
-<span data-ttu-id="ef869-104">Bevor Sie [!INCLUDE[prod_short](includes/prod_short.md)] verwnden können, um Projekte zu verwalten, müssen Sie Ressourcen, Arbeitszeitblätter und Projekte einrichten.</span><span class="sxs-lookup"><span data-stu-id="ef869-104">Before you can use [!INCLUDE[prod_short](includes/prod_short.md)] to manage projects, you must set up resources, time sheets, and jobs.</span></span>
+# <a name="setting-up-project-management"></a><span data-ttu-id="c5850-103">Richten Sie Ihr Projektmanagement ein.</span><span class="sxs-lookup"><span data-stu-id="c5850-103">Setting Up Project Management</span></span>
+<span data-ttu-id="c5850-104">Bevor Sie [!INCLUDE[prod_short](includes/prod_short.md)] verwnden können, um Projekte zu verwalten, müssen Sie Ressourcen, Arbeitszeitblätter und Projekte einrichten.</span><span class="sxs-lookup"><span data-stu-id="c5850-104">Before you can use [!INCLUDE[prod_short](includes/prod_short.md)] to manage projects, you must set up resources, time sheets, and jobs.</span></span>
 
-<span data-ttu-id="ef869-105">Dann können Sie Projekte und Planressourcen für Projekte erstellen sowie Budget- und Titelmaschinen- und -Mitarbeiterstunden mit Arbeitszeittabellen verwalten.</span><span class="sxs-lookup"><span data-stu-id="ef869-105">Then you can create jobs and schedule resources for projects as well as manage budgets and track machine and employee hours with time sheets.</span></span> <span data-ttu-id="ef869-106">Weitere Informationen finden Sie unter [Projekte Verwalten](projects-manage-projects.md).</span><span class="sxs-lookup"><span data-stu-id="ef869-106">For more information, see [Managing Projects](projects-manage-projects.md).</span></span>  
+<span data-ttu-id="c5850-105">Dann können Sie Projekte und Planressourcen für Projekte erstellen sowie Budget- und Titelmaschinen- und -Mitarbeiterstunden mit Arbeitszeittabellen verwalten.</span><span class="sxs-lookup"><span data-stu-id="c5850-105">Then you can create jobs and schedule resources for projects as well as manage budgets and track machine and employee hours with time sheets.</span></span> <span data-ttu-id="c5850-106">Weitere Informationen finden Sie unter [Projekte Verwalten](projects-manage-projects.md).</span><span class="sxs-lookup"><span data-stu-id="c5850-106">For more information, see [Managing Projects](projects-manage-projects.md).</span></span>  
 
-<span data-ttu-id="ef869-107">In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert</span><span class="sxs-lookup"><span data-stu-id="ef869-107">The following table describes a sequence of tasks, with links to the topics that describe them.</span></span>
+<span data-ttu-id="c5850-107">In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert</span><span class="sxs-lookup"><span data-stu-id="c5850-107">The following table describes a sequence of tasks, with links to the topics that describe them.</span></span>
 
-| <span data-ttu-id="ef869-108">Aktion</span><span class="sxs-lookup"><span data-stu-id="ef869-108">To</span></span> | <span data-ttu-id="ef869-109">Siehe</span><span class="sxs-lookup"><span data-stu-id="ef869-109">See</span></span> |
+| <span data-ttu-id="c5850-108">Aktion</span><span class="sxs-lookup"><span data-stu-id="c5850-108">To</span></span> | <span data-ttu-id="c5850-109">Siehe</span><span class="sxs-lookup"><span data-stu-id="c5850-109">See</span></span> |
 | --- | --- |
-| <span data-ttu-id="ef869-110">Richten Sie das Projektmanagement ein.</span><span class="sxs-lookup"><span data-stu-id="ef869-110">Set up project management.</span></span>|[<span data-ttu-id="ef869-111">Allgemeine Informationen für Projekte einrichten</span><span class="sxs-lookup"><span data-stu-id="ef869-111">Set general information for jobs</span></span>](projects-how-setup-jobs.md#to-set-general-information-for-jobs)|
-| <span data-ttu-id="ef869-112">Legen Sie Ihre Ressourcen und die verwandten Kosten und Preise fest, entweder für einzelne Ressourcen, für Ressourcengruppen oder für alle verfügbaren Ressourcen des Unternehmens.</span><span class="sxs-lookup"><span data-stu-id="ef869-112">Set up your resources and the related costs and prices, either for individual resources, resource groups, or for all available resources of the company.</span></span> |[<span data-ttu-id="ef869-113">Ressourcen einrichten</span><span class="sxs-lookup"><span data-stu-id="ef869-113">Set Up Resources</span></span>](projects-how-setup-resources.md) |
-| <span data-ttu-id="ef869-114">Mit Arbeitszeittabellen kann eine Ressource den Zeitverbrauch für eine Mitarbeiter oder einen Arbeitsplatz einfach melden, und ein Manager kann den Verbrauch und die Verteilung einfach überprüfen.</span><span class="sxs-lookup"><span data-stu-id="ef869-114">Enable resources to report time usage for an individual or a machine and enable a manager to review the usage and its allocation.</span></span> |[<span data-ttu-id="ef869-115">Einrichten von Arbeitszeittabellen</span><span class="sxs-lookup"><span data-stu-id="ef869-115">Set Up Time Sheets</span></span>](projects-how-setup-time-sheets.md) |
-| <span data-ttu-id="ef869-116">Erstellen Sie Projektkarten und bereiten Sie Projektaufgaben vor.</span><span class="sxs-lookup"><span data-stu-id="ef869-116">Create job cards and prepare job tasks.</span></span> <span data-ttu-id="ef869-117">Richten Sie Preise für Projektartikel und Projektressourcen ein und definieren Sie Projektbuchungsgruppen.</span><span class="sxs-lookup"><span data-stu-id="ef869-117">Set up prices for job items and job resources and define job posting groups.</span></span> |[<span data-ttu-id="ef869-118">Einrichten von Projekten</span><span class="sxs-lookup"><span data-stu-id="ef869-118">Set Up Jobs</span></span>](projects-how-setup-jobs.md) |
+| <span data-ttu-id="c5850-110">Richten Sie das Projektmanagement ein.</span><span class="sxs-lookup"><span data-stu-id="c5850-110">Set up project management.</span></span>|[<span data-ttu-id="c5850-111">Allgemeine Informationen für Projekte einrichten</span><span class="sxs-lookup"><span data-stu-id="c5850-111">Set general information for jobs</span></span>](projects-how-setup-jobs.md#to-set-general-information-for-jobs)|
+| <span data-ttu-id="c5850-112">Legen Sie Ihre Ressourcen und die verwandten Kosten und Preise fest, entweder für einzelne Ressourcen, für Ressourcengruppen oder für alle verfügbaren Ressourcen des Unternehmens.</span><span class="sxs-lookup"><span data-stu-id="c5850-112">Set up your resources and the related costs and prices, either for individual resources, resource groups, or for all available resources of the company.</span></span> |[<span data-ttu-id="c5850-113">Ressourcen einrichten</span><span class="sxs-lookup"><span data-stu-id="c5850-113">Set Up Resources</span></span>](projects-how-setup-resources.md) |
+| <span data-ttu-id="c5850-114">Mit Arbeitszeittabellen kann eine Ressource den Zeitverbrauch für eine Mitarbeiter oder einen Arbeitsplatz einfach melden, und ein Manager kann den Verbrauch und die Verteilung einfach überprüfen.</span><span class="sxs-lookup"><span data-stu-id="c5850-114">Enable resources to report time usage for an individual or a machine and enable a manager to review the usage and its allocation.</span></span> |[<span data-ttu-id="c5850-115">Einrichten von Arbeitszeittabellen</span><span class="sxs-lookup"><span data-stu-id="c5850-115">Set Up Time Sheets</span></span>](projects-how-setup-time-sheets.md) |
+| <span data-ttu-id="c5850-116">Erstellen Sie Projektkarten und bereiten Sie Projektaufgaben vor.</span><span class="sxs-lookup"><span data-stu-id="c5850-116">Create job cards and prepare job tasks.</span></span> <span data-ttu-id="c5850-117">Richten Sie Preise für Projektartikel und Projektressourcen ein und definieren Sie Projektbuchungsgruppen.</span><span class="sxs-lookup"><span data-stu-id="c5850-117">Set up prices for job items and job resources and define job posting groups.</span></span> |[<span data-ttu-id="c5850-118">Einrichten von Projekten</span><span class="sxs-lookup"><span data-stu-id="c5850-118">Set Up Jobs</span></span>](projects-how-setup-jobs.md) |
 
-## <a name="see-also"></a><span data-ttu-id="ef869-119">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="ef869-119">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c5850-119">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="c5850-119">See Also</span></span>
 
-[<span data-ttu-id="ef869-120">Projekte verwalten</span><span class="sxs-lookup"><span data-stu-id="ef869-120">Managing Projects</span></span>](projects-manage-projects.md)  
-[<span data-ttu-id="ef869-121">Video: So erstellen Sie ein Projekt in Dynamics 365 Business Central</span><span class="sxs-lookup"><span data-stu-id="ef869-121">Video: How to create a job in Dynamics 365 Business Central</span></span>](https://www.youtube.com/watch?v=VqaPWr7BWmw)  
-[<span data-ttu-id="ef869-122">Finanzen</span><span class="sxs-lookup"><span data-stu-id="ef869-122">Finance</span></span>](finance.md)  
-[<span data-ttu-id="ef869-123">Einkauf</span><span class="sxs-lookup"><span data-stu-id="ef869-123">Purchasing</span></span>](purchasing-manage-purchasing.md)  
-[<span data-ttu-id="ef869-124">Verkauf</span><span class="sxs-lookup"><span data-stu-id="ef869-124">Sales</span></span>](sales-manage-sales.md)  
-<span data-ttu-id="ef869-125">[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="ef869-125">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>  
+[<span data-ttu-id="c5850-120">Projekte verwalten</span><span class="sxs-lookup"><span data-stu-id="c5850-120">Managing Projects</span></span>](projects-manage-projects.md)  
+[<span data-ttu-id="c5850-121">Video: So erstellen Sie ein Projekt in Dynamics 365 Business Central</span><span class="sxs-lookup"><span data-stu-id="c5850-121">Video: How to create a job in Dynamics 365 Business Central</span></span>](https://www.youtube.com/watch?v=VqaPWr7BWmw)  
+[<span data-ttu-id="c5850-122">Finanzen</span><span class="sxs-lookup"><span data-stu-id="c5850-122">Finance</span></span>](finance.md)  
+[<span data-ttu-id="c5850-123">Einkauf</span><span class="sxs-lookup"><span data-stu-id="c5850-123">Purchasing</span></span>](purchasing-manage-purchasing.md)  
+[<span data-ttu-id="c5850-124">Verkauf</span><span class="sxs-lookup"><span data-stu-id="c5850-124">Sales</span></span>](sales-manage-sales.md)  
+<span data-ttu-id="c5850-125">[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="c5850-125">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
