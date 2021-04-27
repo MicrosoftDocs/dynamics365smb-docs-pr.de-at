@@ -82,7 +82,7 @@
 ##### [Designdetails: Codeunit 12 Änderungen: Zuordnen der globalen Variablen für Fibu Buch.-Blatt-Beitrags-Zeile](design-details-codeunit-12-changes-mapping-global-variables-for-general-journal-post-line.md)  
 ##### [Designdetails: Codeunit 12 Änderungen: Änderungen in Fibu Buch.-Blatt-Beitrags-Verfahren](design-details-codeunit-12-changes-changes-in-general-journal-post-procedures.md)
 #### Designdetails: Dimensionssatzposten
-##### [Designdetails: Dimensionssatzposten-Übersicht](design-details-dimension-set-entries-overview.md).  
+##### [Designdetails: Dimensionssatzposten-Übersicht](design-details-dimension-set-entries-overview.md)  
 ##### [Designdetails: Suche nach Dimensionskombinationen](design-details-searching-for-dimension-combinations.md)  
 ##### [Designdetails: Tabellenstruktur](design-details-table-structure.md)  
 
