@@ -17,7 +17,7 @@ ms.contentlocale: de-AT
 ms.lasthandoff: 03/31/2021
 ms.locfileid: "5780324"
 ---
-# <a name="setting-up-project-management"></a>Richten Sie Ihr Projektmanagement ein.
+# <a name="setting-up-project-management"></a>Projektmanagement einrichten
 Bevor Sie [!INCLUDE[prod_short](includes/prod_short.md)] verwnden können, um Projekte zu verwalten, müssen Sie Ressourcen, Arbeitszeitblätter und Projekte einrichten.
 
 Dann können Sie Projekte und Planressourcen für Projekte erstellen sowie Budget- und Titelmaschinen- und -Mitarbeiterstunden mit Arbeitszeittabellen verwalten. Weitere Informationen finden Sie unter [Projekte Verwalten](projects-manage-projects.md).  
