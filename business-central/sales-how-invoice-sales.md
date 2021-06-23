@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c43d72e3e87c5a9a9c8512c687a480f3bcd37a43
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d0a48037123dee4a7c9282432cc2b357b335e794
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778814"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115582"
 ---
 # <a name="invoice-sales"></a>Fakturieren eines Verkaufs
 
@@ -121,6 +121,10 @@ Sie können direkt gezahlte Rechnungen für nicht-registrierte Debitoren auch er
 
 > [!TIP]
 > Wenn Sie Ihren Kunden Erinnerungen an überfällige Zahlungen senden möchten, müssen Sie Erinnerungsstufen und -bedingungen einrichten. Weitere Informationen finden Sie unter [Einrichten von Betimmungen und Ebenen](finance-setup-reminders.md).  
+
+## <a name="external-document-numbers"></a>Externe Belegnummern
+
+[!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/modules/invoicing-customers-dynamics-365-business-central/index)
 
