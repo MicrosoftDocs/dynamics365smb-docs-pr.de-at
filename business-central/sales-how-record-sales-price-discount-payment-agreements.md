@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6c5b7f3d4ac36bb2d4a3213217a521e5286f74bb
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bb93853d878ec1aa9b8b0095eb89589c35610f1a
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778689"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216170"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Spezielle Verkaufspreise und Rabatte aufzeichnen
 > [!NOTE]
@@ -127,7 +127,7 @@ Diese Schritte unterscheiden sich je nachdem, ob Ihr Administrator das Feature-U
     > Rechnungsrabattcodes werden durch Bestandskundenkarten dargestellt. Dies ermöglicht es Ihnen, Rechnungsrabattbedingungen schnell einem Debitor zuzuweisen, indem es den Namen eines anderen Debitors mit den selben Konditionen auswählt.. Um kundenspezifische Rechnungsrabattbedingungen einzurichten, setzen Sie das Feld **Rechnungs-Rabatt-Code** auf den Kundencode des Kunden und fahren Sie dann mit dem nächsten Schritt fort.
 
 8. Auf der Seite **Debitorenkarte** wählen Sie die Aktion **Rechnungsrabatt** aus. Die Seite **Debitorenrechnungsrabatte** wird geöffnet.
-9. Geben Sie in dem Feld **Währungscode** den Code für die Währung ein, für die die Rechnungsrabattkonditionen gelten sollen. Wenn Sie Rechnungsrabattbedingungen in EUR einrichten möchten, dann lassen Sie das Feld leer.
+9. Geben Sie in dem Feld **Währungscode** den Code für die Währung ein, für die die Rechnungsrabattkonditionen gelten sollen. Wenn Sie Rechnungsrabattbedingungen in Ihrer Mandantenwährung einrichten möchten, dann lassen Sie das Feld leer.
 10. Optional geben Sie im Feld **Minimalbetrag** den Mindestbetrag ein, den eine Rechnung aufweisen muss, um für einen Rabatt in Frage zu kommen.
 11. Geben Sie im Feld **Rabatt** den Rechnungsrabatt als Prozentsatz des Rechnungsbetrages ein.
 12. Wiederholen Sie die Schritte 5 bis 7 für jede Währung, für die der Debitor einen Rechnungsrabatt erhält.
@@ -149,7 +149,7 @@ Nachdem Sie sich entschieden haben, welche Debitoren für Rechnungsrabatte in Fr
 Fahren Sie fort, um neue Verkaufsrechnungsrabatt-Bedingungen einzurichten.
 
 1. Auf der Seite **Debitoren** wählen Sie die Aktion **Rechnungsrabatt** aus. Die Seite **Debitorenrechnungsrabatte** wird geöffnet.
-2. Geben Sie in dem Feld **Währungscode** den Code für die Währung ein, für die die Rechnungsrabattkonditionen gelten sollen. Wenn Sie Rechnungsrabattbedingungen in EUR einrichten möchten, dann lassen Sie das Feld leer.
+2. Geben Sie in dem Feld **Währungscode** den Code für die Währung ein, für die die Rechnungsrabattkonditionen gelten sollen. Wenn Sie Rechnungsrabattbedingungen in Ihrer Mandantenwährung einrichten möchten, dann lassen Sie das Feld leer.
 3. Geben Sie im Feld **Minimalbetrag** den Mindestbetrag ein, den eine Rechnung aufweisen muss, um für einen Rabatt in Frage zu kommen.
 4. Geben Sie im Feld **Rabatt** den Rechnungsrabatt als Prozentsatz des Rechnungsbetrages ein.
 5. Wiederholen Sie die Schritte 5 bis 7 für jede Währung, für die der Debitor einen Rechnungsrabatt erhält.
