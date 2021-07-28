@@ -1,6 +1,6 @@
 ---
 title: Lokale Funktion (Österreich)
-description: Die folgenden Themen beschreiben die lokale Funktion in der österreichischen Version von Business Central.
+description: Die folgenden Themen beschreiben die verschiedenen lokalen Funktionen in der österreichischen Version von Business Central.
 author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/17/2021
 ms.author: soalex
-ms.openlocfilehash: 0f362b422020ca7e49bb3fa9173307f2ebe27d67
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c8e8d4de282406b089bf62c901c873ebc44a92d8
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774430"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6323523"
 ---
 # <a name="austria-local-functionality"></a>Lokale Funktion (Österreich)
 In den folgenden Themen werden Funktionen beschrieben, die der österreichischen Version von [!INCLUDE[prod_short](../../includes/prod_short.md)] eigen sind.  

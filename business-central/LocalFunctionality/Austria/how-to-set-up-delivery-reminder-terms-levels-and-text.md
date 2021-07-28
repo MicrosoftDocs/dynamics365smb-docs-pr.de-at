@@ -1,5 +1,5 @@
 ---
-title: Einrichten von Lieferanmahnungsbestimmungen, Stufen und Text [AT]
+title: Lieferbenachrichtigungsbestimmungen, Stufen und Text [AT]
 description: Zur Erstellung von Lieferanmahnungen in der österreichischen Version müssen Sie bestimmte Aufgaben einrichten.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: d81c750d5a937e332b9d6a9c2214de1621b6a3d1
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fe75030ed9c3580398429d39c761eef21f28af26
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774412"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6322030"
 ---
 # <a name="set-up-delivery-reminder-terms-levels-and-text-in-the-austrian-version"></a>Einrichten von Lieferanmahnungsbestimmungen, Stufen und Text in der österreichischen Version
 

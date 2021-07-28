@@ -1,5 +1,5 @@
 ---
-title: Vorgehensweise beim Zuweisen von Lieferanmahnungscodes zu Kreditoren [AT]
+title: Zuweisen von Lieferbenachrichtigungscodes zu Kreditoren [AT]
 description: Um Lieferanmahnungen für überfällige Einkäufe zu aktivieren, müssen Sie Kreditoren Lieferanmahnungsbedingungen in der österreichischen Version zuweisen.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 668fd7660d69bd9f9ef192e410f6835e3df42935
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e901a9ff9d9898c3789076873d9ac1bbd3e17829
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774432"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6322510"
 ---
 # <a name="assign-delivery-reminder-codes-to-vendors-in-the-austrian-version"></a>Zuweisen von Lieferanmahnungen zu Kreditoren in der österreichischen Version
 

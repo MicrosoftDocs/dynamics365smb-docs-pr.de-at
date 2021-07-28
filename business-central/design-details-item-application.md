@@ -1,5 +1,5 @@
 ---
-title: Designdetailsl- Artikelausgleich | Microsoft Docs
+title: Designdetails - Artikelausgleich | Microsoft Docs
 description: Dieses Thema beschreibt, woher Lagermenge und Wert erfasst werden, wenn Sie eine Lagertransaktion buchen.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -127,7 +127,7 @@ Das folgende Beispiel, das die Auswirkungen des festen Ausgleichs einer Einkaufs
 
 Die folgende Tabelle zeigt das Ergebnis des Szenarios auf die Wertposten des Artikels an.  
 
-Die folgende Tabelle zeigt das Ergebnis des Szenarios für die Werteinträge des Artikels, nachdem die Buchung abgeschlossen und die Kostenanpassung durchgeführt wurde.
+Die folgende Tabelle zeigt das Ergebnis des Szenarios für die Wertposten des Artikels, nachdem die Buchung abgeschlossen und die Kostenanpassung durchgeführt wurde.
 
 |Buchungsdatum|Artikelpostenart|Bewertete Menge|Einstandsbetrag (tatsächl.)|Ausgleich mit Artikelposten|Bew. z. Einst.-Pr. (durchschn.)|Artikelposten Lfd. Nr.|Postennr.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|--------------------------------------------|-------------------------------------------------|-----------------------------------------------|----------------------------------|  
@@ -198,7 +198,7 @@ Wenn Sie die Stapelverarbeitung **Kostenanpassung Artikeleinträge** ausführen,
 >  Wenn Sie eine Transaktion mit einem festen Ausgleich buchen und der Artikelposten, zu dem Sie verknüpfen, ist geschlossen (d. h. die Restmenge ist gleich 0), wird automatisch der alte Ausgleich zurückgenommen und erneut mit dem Artikelposten ausgeglichen, wobei der von Ihnen angegebene feste Ausgleich verwendet wird.  
 
 ## <a name="transfer-application"></a>Umlagerungs-Anwendung  
-Wenn ein Artikel von einem Lagerort zu einem anderen innerhalb des Lagerbestands übertragen wird, wird eine Anwendung zwischen den beiden Übergangsposten erstellt. Die Bewertung eines Übergangspostens hängt von der Lagerabgangsmethode ab. Für Artikel mit der Kostenberechnungsmethode Durchschnitt wird Bewertung mithilfe der durchschnittlichen Kosten in der Durchschnittskostenperiode erstellt, in der das Bewertungsdatum der Übertragung auftritt. Für Artikel mit anderen Kostenbewertungsmethoden wird die Bewertung durch Rückverfolgung zu den Kosten der ursprünglichen Bestandszunahme durchgeführt.  
+Wenn ein Artikel von einem Lagerort zu einem anderen innerhalb des Bestands übertragen wird, wird eine Anwendung zwischen den beiden Übergangsposten erstellt. Die Bewertung eines Übergangspostens hängt von der Lagerabgangsmethode ab. Für Artikel mit der Kostenberechnungsmethode Durchschnitt wird Bewertung mithilfe der durchschnittlichen Kosten in der Durchschnittskostenperiode erstellt, in der das Bewertungsdatum der Übertragung auftritt. Für Artikel mit anderen Kostenbewertungsmethoden wird die Bewertung durch Rückverfolgung zu den Kosten der ursprünglichen Bestandszunahme durchgeführt.  
 
 ### <a name="example--average-costing-method"></a>Beispiel - Durchschnittskostenberechnungsmethode  
 Das folgende Beispiel, das zeigt, wie Übergangsposten ausgeglichen werden, basiert auf dem folgenden Szenario für einen Artikel mit der Durchschnittskostenbewertungsmethode und der Durchschnittskostenperiode Tag.  
