@@ -1,6 +1,6 @@
 ---
 title: Drucken von Finanzbuchhaltungs-Setupinformationen [AT]
-description: Bevor Sie die österreichische Version von Business Central in Aufgaben des täglichen Geschäfts verwenden, können Sie Finanzbuchhaltungseinrichtungs-Informationen ausführen, um die Stammdaten anzuzeigen, die Sie eingerichtet haben.
+description: Bevor Sie die österreichische Version in Aufgaben des täglichen Geschäfts verwenden, können Sie Finanzbuchhaltungseinrichtungs-Informationen ausführen, um die Stammdaten anzuzeigen, die Sie eingerichtet haben.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: f1fdb0757bee01ed0dc2ba85175b60a965b60d52
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bcece16bf57c3f0555c2e5a44db0a44dac3572b8
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771519"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437207"
 ---
 # <a name="print-general-ledger-setup-information-in-the-austrian-version"></a>Drucken von Finanzbuchhaltungs-Setupinformationen in der österreichischen Version
 
@@ -23,7 +23,7 @@ Bevor Sie [!INCLUDE[prod_short](../../includes/prod_short.md)] in Aufgaben des t
 
 ## <a name="to-print-general-ledger-setup-information"></a>Gewusst wie: Drucken von Finanzbuchhaltungs-Setupinformationen  
 
-1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](../../media/ui-search/search_small.png "Tell me-Funktion") aus, geben Sie **G/L-Einrichtungsinformationen** ein und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet.](../../media/ui-search/search_small.png "Tell me-Funktion") aus. Geben Sie **Finanzbuchhaltungseinrichtungs-Informationen** ein, und wählen Sie dann den zugehörigen Link aus.  
 2.  Füllen Sie im Inforegister **Einrichtungsinformationen** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
     |Option|Description|  
