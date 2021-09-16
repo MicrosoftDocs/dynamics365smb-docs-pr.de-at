@@ -92,7 +92,7 @@ In den folgenden Beispielen stellen die schwarzen Pfeile vorhandenen Bedarf (auf
 
 **Beispiel 2**: Das geänderte Datum liegt innerhalb der Neuplanungsperiode, wodurch der bestehende Vorrat neu geplant wird. Ein neuer Vorrat wird vorgeschlagen, um den Bedarf außerhalb der Loskumulierungsperiode zu decken.  
 
-![Neuplanungsperiode, Loskumulierungsperiode und Neuplanung.](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "Neuplanungsperiode, Losakkumulationsperiode und Umplanung")  
+![Neuplanungsperiode, Loskumulierungsperiode und Neu planen.](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "Neuplanungsperiode, Losakkumulationsperiode und Neu planen")  
 
 **Beispiel 3**: Es gibt einen Bedarf in der Toleranzperiode, und die Vorratsmenge in der Loskumulierungsperiode entspricht der Vorratsmenge. Der nächste Bedarf wird aufgedeckt, und ein neuer Vorrat wird vorgeschlagen.  
 
