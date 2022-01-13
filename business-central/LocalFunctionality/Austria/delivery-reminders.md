@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 5005270, 5005272, 5005273, 5005274, 5005275, 5005276, 5005280
 ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: 52080cc3590aec15b3edbf6bababd501cd61f1f2
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: a7fa753691e93ff2ca7820a64febbbcac1b390c6
+ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6323521"
+ms.lasthandoff: 12/28/2021
+ms.locfileid: "7947060"
 ---
 # <a name="delivery-reminders-in-the-austrian-version"></a>Lieferanmahnungen in der österreichischen Version
 

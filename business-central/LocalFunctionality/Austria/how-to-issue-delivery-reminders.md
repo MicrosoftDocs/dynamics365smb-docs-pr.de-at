@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 5005272, 5005273, 5005274, 5005275, 5005276
 ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: 052cb55ab6c9a2ae7cb41f3a7aa4ee90e262f668
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 534cabe6c9d8fdafb46c9e9b68f3342cc9261b67
+ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321512"
+ms.lasthandoff: 12/28/2021
+ms.locfileid: "7947121"
 ---
 # <a name="issue-delivery-reminders-in-the-austrian-version"></a>Registrieren von Lieferanmahnungen in der österreichischen Version
 
