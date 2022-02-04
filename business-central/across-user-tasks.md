@@ -1,21 +1,16 @@
 ---
 title: Zuweisen und Verwalten von Aufgaben
-description: Erfahren Sie, wie Sie Benutzern, einschließlich Ihres Buchhalters, in Business Central Aufgaben zuweisen und wie Sie Aufgaben übernehmen und ausführen.
+description: 'Erfahren Sie, wie Sie Benutzern, einschließlich Ihres Buchhalters, in Business Central Aufgaben zuweisen und wie Sie Aufgaben übernehmen und ausführen.'
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: tasks, work
+ms.search.keywords: 'tasks, work'
+ms.search.form: '1164, 1170, 1171, 1172, 1175, 1176, 1177'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6c1e9a1e296abab8a77e47564eb70e97bfa7d57e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
-ms.translationtype: HT
-ms.contentlocale: de-AT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446432"
 ---
 # <a name="define-user-tasks"></a>Benutzeraufgaben definieren
 
