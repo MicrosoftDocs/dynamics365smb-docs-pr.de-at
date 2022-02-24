@@ -1,29 +1,28 @@
 ---
-title: Drucken von Finanzbuchhaltungs-Setupinformationen [AT]
-description: Bevor Sie die österreichische Version in Aufgaben des täglichen Geschäfts verwenden, können Sie Finanzbuchhaltungseinrichtungs-Informationen ausführen, um die Stammdaten anzuzeigen, die Sie eingerichtet haben.
+title: 'Gewusst wie: Drucken von Finanzbuchhaltungs-Setupinformationen'
+description: Bevor Sie Business Central in Aufgaben des täglichen Geschäfts verwenden können, können Sie Finanzbuchhaltungseinrichtungs-Informationen ausführen, um die Stammdaten anzuzeigen, die Sie eingerichtet haben.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/17/2021
-ms.author: edupont
-ms.openlocfilehash: bcece16bf57c3f0555c2e5a44db0a44dac3572b8
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 6ed479315a18152420d67b1cea19a1c217bc7621
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437207"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3180938"
 ---
-# <a name="print-general-ledger-setup-information-in-the-austrian-version"></a>Drucken von Finanzbuchhaltungs-Setupinformationen in der österreichischen Version
-
-Bevor Sie [!INCLUDE[prod_short](../../includes/prod_short.md)] in Aufgaben des täglichen Geschäfts verwenden können, können Sie **Finanzbuchhaltungseinrichtungs-Informationen** ausführen, um die Stammdaten anzuzeigen, die Sie eingerichtet haben. Sie können diese Stammdaten durchgehen, sodass Sie eine Grundlage für den Vergleich haben und dann überprüfen können, ob Sie die Buchungsgruppen korrekt eingerichtet haben.  
+# <a name="print-general-ledger-setup-information"></a>Drucken von Finanzbuchhaltungs-Setupinformationen
+Bevor Sie [!INCLUDE[d365fin](../../includes/d365fin_md.md)] in Aufgaben des täglichen Geschäfts verwenden können, können Sie **Finanzbuchhaltungseinrichtungs-Informationen** ausführen, um die Stammdaten anzuzeigen, die Sie eingerichtet haben. Sie können diese Stammdaten durchgehen, sodass Sie eine Grundlage für den Vergleich haben und dann überprüfen können, ob Sie die Buchungsgruppen korrekt eingerichtet haben.  
 
 ## <a name="to-print-general-ledger-setup-information"></a>Gewusst wie: Drucken von Finanzbuchhaltungs-Setupinformationen  
 
-1.  Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet.](../../media/ui-search/search_small.png "Tell me-Funktion") aus. Geben Sie **Finanzbuchhaltungseinrichtungs-Informationen** ein, und wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Suche nach Seiten- oder Berichtssymbolen") und geben Sie **Finanzbuchhaltungseinrichtungs-Informationen** ein. Wählen Sie dann den zugehörigen Link aus.  
 2.  Füllen Sie im Inforegister **Einrichtungsinformationen** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
     |Option|Description|  
@@ -39,6 +38,3 @@ Bevor Sie [!INCLUDE[prod_short](../../includes/prod_short.md)] in Aufgaben des t
 
 ## <a name="see-also"></a>Siehe auch  
 [Finanzen einrichten](../../finance-setup-finance.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -5,18 +5,18 @@ services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2021
+ms.date: 10/01/2019
 ms.author: solsen
-ms.openlocfilehash: 96e4ef52bc896cd02f0e6b38a470d16a00284c66
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: ab2bcb78479e91c111868c21bd3019c7971d9ffb
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445442"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310893"
 ---
 # <a name="view-test-reports-before-posting"></a>Anzeigen von Testberichten vor dem Buchen
 Wenn Sie bereit sind, einen Beleg zu buchen (beispielsweise eine Bestellung, eine Einkaufsrechnung oder eine Einkaufsgutschrift), können Sie den Beleg testen, um sicherzustellen, dass keine Probleme vorhanden sind, die das Buchen verhindern.
@@ -25,15 +25,12 @@ Wenn Sie bereit sind, einen Beleg zu buchen (beispielsweise eine Bestellung, ein
 >   Die nachfolgende Prozedur beschreibt, wie Sie einen Einkaufsbeleg vor dem Verbuchen testen. Diese Funktionalität gilt auf gleiche Weise für Verkaufsbelege.
 
 ## <a name="to-print-a-test-report-before-posting-a-purchase-invoice"></a>So drucken Sie einen Testbericht vor der Buchung einer Einkaufsrechnung
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Einkaufsrechnungen** ein, und wählen Sie dann den zugehörigen Link.
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Kaufrechnung** ein, und wählen dann den zugehörigen Link aus.
 2. Öffnen Sie die Einkaufsrechnung, die Sie testen möchten.
 3. Wählen Sie die **Bericht testen** Aktion aus.  
 
 Alle Teile der Einkaufsrechnung werden überprüft, und die Ergebnisse werden in einem Bericht dargestellt. Wenn der Bericht Fehler oder fehlende Informationen anzeigt, müssen Sie das jeweilige Problem lösen, bevor Sie die Einkaufsrechnung buchen.
 
 ## <a name="see-also"></a>Siehe auch
-[Journale und Belege buchen](ui-post-documents-journals.md)  
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Journale und Dokumente buchen](ui-post-documents-journals.md)  
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -1,20 +1,24 @@
 ---
-title: 'Einrichten von Ressourcen, Arbeitszeittabellen und Aufträgen'
-description: 'In diesem Thema wird beschrieben, wie Sie Ressourcen, Arbeitszeittabellen und Aufträge festlegen, um Projekte und deren Budgets zu verwalten.'
+title: Ressourcen, Arbeitszeittabellen und Aufgaben einrichten| Microsoft Docs
+description: Beschreibt, wie Ressourcen, Arbeitszeittabellen und Projekte eingerichtet werden, um Projekte zu verwalten.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: projects
-ms.search.form: '289, 290, 376, 462, 463, 1029, 8904, 9014, 9015'
-ms.date: 06/22/2021
-ms.author: edupont
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: f2c02cdcad7c0b33ad172df0b8a4d821f7fcd2df
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.translationtype: HT
+ms.contentlocale: de-AT
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2312645"
 ---
-# <a name="setting-up-project-management"></a>Projektmanagement einrichten
-
-Bevor Sie [!INCLUDE[prod_short](includes/prod_short.md)] verwnden können, um Projekte zu verwalten, müssen Sie Ressourcen, Arbeitszeitblätter und Projekte einrichten.
+# <a name="setting-up-project-management"></a>Richten Sie Ihr Projektmanagement ein.
+Bevor Sie [!INCLUDE[d365fin](includes/d365fin_md.md)] verwnden können, um Projekte zu verwalten, müssen Sie Ressourcen, Arbeitszeitblätter und Projekte einrichten.
 
 Dann können Sie Projekte und Planressourcen für Projekte erstellen sowie Budget- und Titelmaschinen- und -Mitarbeiterstunden mit Arbeitszeittabellen verwalten. Weitere Informationen finden Sie unter [Projekte Verwalten](projects-manage-projects.md).  
 
@@ -34,7 +38,4 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 [Finanzen](finance.md)  
 [Einkauf](purchasing-manage-purchasing.md)  
 [Verkauf](sales-manage-sales.md)  
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
