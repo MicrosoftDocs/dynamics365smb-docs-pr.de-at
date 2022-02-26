@@ -1,23 +1,23 @@
 ---
-title: Überblick zu Aufgaben, Serviceverträge zu erfüllen | Microsoft Docs
-description: Gliederungsaufgaben, Serviceverträge mit Kunden verwalten.
+title: Übersicht der Aufgaben zum Erfüllen von Serviceverträgen
+description: Umreißt die Aufgaben, die mit der Erfüllung von Serviceverträgen mit Ihren Debitoren verbunden sind, wie das Festlegen von Standard-Vertragsvereinbarungen mit anpassbaren Vorlagen und mehr.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contract, agreement, configure
-ms.date: 10/01/2019
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 50214fcf1e1f13c8e4fa69e1b14ba4adc537bf86
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 56fe45da5979f6f06fc17d68b676350a70288261
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316229"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011715"
 ---
 # <a name="fulfilling-service-contracts"></a>Erfüllen von Serviceverträgen 
 Eine Möglichkeit zum Einrichten eines Servicemanagementgeschäfts besteht darin, dass standardmäßige vertragliche Vereinbarungen zwischen Ihnen und den Debitoren bestehen, in denen die Qualität des Services und die Erwartungen daran beschrieben werden. Ein derartiges System kann implementiert werden, indem eine Möglichkeit zum einfachen Erstellen von Vertragsvorlagen geboten wird, die erforderliche Informationen, wie Startdatum des Vertrags und Rechnungsperiode, beinhalten.  
@@ -37,3 +37,6 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 [Bereitstellen von Service](service-deliver-service.md)  
 [Einrichten der Serviceverwaltung](service-setup-service.md)  
 [Erstellen von Serviceverträgen und Servicevertragsangeboten](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

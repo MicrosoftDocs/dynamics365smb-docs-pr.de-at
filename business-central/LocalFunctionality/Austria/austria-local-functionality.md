@@ -1,24 +1,24 @@
 ---
 title: Lokale Funktion (Österreich)
-description: Die folgenden Themen beschreiben die lokale Funktion in der österreichischen Version von Business Central.
+description: Die folgenden Themen beschreiben die verschiedenen lokalen Funktionen in der österreichischen Version von Business Central.
 author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/09/2020
+ms.date: 06/17/2021
 ms.author: soalex
-ms.openlocfilehash: a282de7e8dea6d5d2c38a66a9f1fa829f0d19425
-ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
+ms.openlocfilehash: c8e8d4de282406b089bf62c901c873ebc44a92d8
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "3454320"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6323523"
 ---
 # <a name="austria-local-functionality"></a>Lokale Funktion (Österreich)
-In den folgenden Themen werden Funktionen beschrieben, die der österreichischen Version von [!INCLUDE[d365fin](../../includes/d365fin_md.md)] eigen sind.  
+In den folgenden Themen werden Funktionen beschrieben, die der österreichischen Version von [!INCLUDE[prod_short](../../includes/prod_short.md)] eigen sind.  
 
 ## <a name="feature-availability"></a>Verfügbarkeit der Funktion
 
@@ -44,7 +44,10 @@ In den folgenden Themen werden Funktionen beschrieben, die der österreichischen
 
 ## <a name="see-also"></a>Siehe auch
 
-[Arbeiten mit [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Verfügbarkeit in Ländern/Regionen und unterstützte Übersetzungen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
-## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

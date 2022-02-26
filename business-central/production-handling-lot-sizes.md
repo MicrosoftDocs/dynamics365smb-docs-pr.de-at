@@ -7,11 +7,16 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: null
+ms.search.form: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.openlocfilehash: 05e592d1f4ecd281b71ab4f182c5c535faa611a1
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.translationtype: HT
+ms.contentlocale: de-AT
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973931"
 ---
-
 # <a name="handling-lot-sizes-in-production"></a>Umgang mit Losgrößen in der Produktion
 In Bezug auf die Menge korreliert die Anzahl der Artikel, die Sie in einem Produktionsvorgang produzieren, möglicherweise nicht mit dem Verkauf. Sie können beispielsweise Hunderte von Artikeln in einem einzigen Los produzieren, aber jeden Artikel einzeln verkaufen. Wenn Sie Ihre Produktionswege und Stücklisten konfigurieren, sollten Sie einige Nuancen in Bezug auf die Losgrößen berücksichtigen. In diesem Thema wird beschrieben, wie sich Losgrößen auf Kostenberechnungen und Ressourcenplanung auswirken.
 
