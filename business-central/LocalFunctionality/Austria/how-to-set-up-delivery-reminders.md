@@ -2,7 +2,6 @@
 title: 'Gewusst wie: Einrichten von Lieferanmahnungen [AT]'
 description: In der österreichischen Version von Business Central können Sie Lieferanmahnungen nutzen, um Verkäufer über verspätete Lieferungen zu mahnen.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d88abb3840937000e8e2c5401953d54ffef4817e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9d0ee41eb20f0598b978b193de9f1777a4b50a9a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771512"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142688"
 ---
 # <a name="set-up-delivery-reminders-in-the-austrian-version"></a>Einrichten von Lieferanmahnungen in der österreichischen Version
 

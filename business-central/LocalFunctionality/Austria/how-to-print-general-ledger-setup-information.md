@@ -2,7 +2,6 @@
 title: Drucken von Finanzbuchhaltungs-Setupinformationen [AT]
 description: Bevor Sie die österreichische Version in Aufgaben des täglichen Geschäfts verwenden, können Sie Finanzbuchhaltungseinrichtungs-Informationen ausführen, um die Stammdaten anzuzeigen, die Sie eingerichtet haben.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: bcece16bf57c3f0555c2e5a44db0a44dac3572b8
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: bfac03e3d13ebb481ce81ec36fa0aafa6b9be772
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437207"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147402"
 ---
 # <a name="print-general-ledger-setup-information-in-the-austrian-version"></a>Drucken von Finanzbuchhaltungs-Setupinformationen in der österreichischen Version
 

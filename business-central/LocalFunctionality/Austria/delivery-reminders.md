@@ -2,7 +2,6 @@
 title: Lieferanmahnungen in der österreichischen Version
 description: Lieferanmahnungen dienen in der österreichischen Version dazu, überfällige Kreditorlieferungen zu verfolgen und Kreditoren an überfällige Lieferungen zu erinnern.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 5005270, 5005272, 5005273, 5005274, 5005275, 5005276, 5005280
 ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: a7fa753691e93ff2ca7820a64febbbcac1b390c6
-ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
+ms.openlocfilehash: bff501343d1804100d37a5a71072591807434806
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947060"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139013"
 ---
 # <a name="delivery-reminders-in-the-austrian-version"></a>Lieferanmahnungen in der österreichischen Version
 
