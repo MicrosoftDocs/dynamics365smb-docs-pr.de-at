@@ -2,6 +2,7 @@
 title: PC-Tastenkombinationskurzübersicht Referenz
 description: Ein druckerfreundliches Bezugsblatt für PC-Benutzer, das die gängigsten Tastenkombinationen enthält.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 0e605470c312b93d7ebe7afde1c673bd57fb3615
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 34494802f001e78c56cb2eeab997f60cda320472
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135255"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5784534"
 ---
 # <a name="keyboard-quick-reference---pc-only"></a>Nur PC-Tastenkombinationskurzübersicht
 
@@ -88,7 +89,7 @@ ms.locfileid: "8135255"
 > [!TIP]
 > Für eine grafische, druckfreundliche Version wählen Sie das folgende Bild und laden Sie die PDF-Datei herunter.
 >
-> [![Symbol, das ein PDF öffnet.](media/keyboard_shortcut_inline.png)](media/keyboard_shortcuts.pdf)
+> [![Symbol zum Öffnen einer PDF](media/keyboard_shortcut_inline.png)](media/keyboard_shortcuts.pdf)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

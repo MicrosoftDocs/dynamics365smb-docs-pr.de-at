@@ -1,20 +1,21 @@
 ---
-title: Design-Details – Integration mit dem Bestand
-description: Der Anwendungsbereich Warehouse Management und der Anwendungsbereich Inventur interagieren bei der physischen Inventur und beim Inventur- oder Lagerabgleich miteinander.
+title: 'Designdetails: Integration mit dem Lagerbestand | Microsoft Docs'
+description: Der Logistik-Anwendungsbereich und der Lager-Anwendungsbereich interagieren miteinander im physischen Bestand und in der Bestands- und Lageranpassung.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: 58cb2222f2533e2ba952727243a5fdb830b34e75
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: bbc9c0e55041f4584ae7609f727179737adaa041
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145905"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185365"
 ---
 # <a name="design-details-integration-with-inventory"></a>Designdetails: Integration mit dem Lagerbestand
 Der Logistik-Anwendungsbereich und der Lager-Anwendungsbereich interagieren miteinander im physischen Bestand und in der Bestands- und Lageranpassung.  
@@ -47,5 +48,3 @@ Der Logistik-Anwendungsbereich und der Lager-Anwendungsbereich interagieren mite
 ## <a name="see-also"></a>Siehe auch  
  [Designdetails: Logistik](design-details-warehouse-management.md)   
  [Designdetails: Verfügbarkeit im Lager](design-details-availability-in-the-warehouse.md)
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

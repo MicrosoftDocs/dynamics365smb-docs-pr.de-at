@@ -1,29 +1,30 @@
 ---
 title: Designdetails - Bestandbewertung | Microsoft Docs
-description: Die Bestandsbewertung ist die Ermittlung der Kosten eines Lagerartikels.
+description: Die Lagerbewertung ist die Identifizierung der Kosten, die einem Lagerartikel zugewiesen sind, wie durch folgende Formel dargestellt.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: a4877cf45e4cbf035e2914b72e10f4d7a4102e59
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d37ef45bc1232bf0811a14123a814f1bf57ee7c2
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145879"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3787713"
 ---
 # <a name="design-details-inventory-valuation"></a>Designdetails: Bestandsbewertung
 Die Lagerbewertung ist die Identifizierung der Kosten, die einem Lagerartikel zugewiesen sind, wie durch folgende Formel dargestellt.  
 
 Endbestand = Anfangsbestand + Nettoeinkäufe - Vertriebskosten  
 
-Die Berechnung der Lagerbewertung verwendet das Feld **Kostenbetrag (Ist)** der Wertposten für den Artikel. Die Posten werden nach der Postenart klassifiziert, die den Kostenkomponenten, den direkten Kosten, den indirekten Kosten, der Abweichung, der Neubewertung und der Rundung entspricht. Weitere Informationen finden Sie unter [Designdetails: Kostenkomponenten](design-details-cost-components.md)  
+Die Berechnung der Lagerbewertung verwendet das Feld **Kostenbetrag (Ist)** der Wertposten für den Artikel. Die Posten werden nach der Postenart klassifiziert, die den "Kostenkomponenten", den direkten Kosten, den indirekten Kosten, der Abweichung, der Neubewertung und der Rundung entspricht. Weitere Informationen finden Sie unter [Designdetails: Kostenkomponenten](design-details-cost-components.md)  
 
-Posten werden gegeneinander ausgeglichen, entweder durch den festen Ausgleich oder entsprechend der allgemeinen Kostenfluss-Annahme, die von der Kostenberechnungsmethode definiert ist. Ein Posten des Lagerabgangs kann mit mehr als einem Zugangseintrag mit verschiedenen Buchungsdaten und ggfs. verschiedenen Anschaffungskosten ausgeglichen werden. [Weitere Informationen finden Sie unter "Designdetails: Artikelverfolgung"](design-details-item-application.md). Daher basiert die Berechnung des Lagerbestandwerts für ein gegebenes Datum auf dem Aufsummieren von positiven und negativen Wertposten.  
+Posten werden gegeneinander ausgeglichen, entweder durch den "festen Ausgleich" XE oder entsprechend der allgemeinen Kostenfluss-Annahme, die von der Kostenberechnungsmethode XE "Methode; Kosten" XE "Kostenmethode definiert ist. Ein Posten des Lagerabgangs kann mit mehr als einem Zugangseintrag mit verschiedenen Buchungsdaten und ggfs. verschiedenen "Anschaffungskosten" ausgeglichen werden. [Weitere Informationen finden Sie unter "Designdetails: Artikelverfolgung".](design-details-item-application.md) Daher basiert die Berechnung des "Lagerwerts" für ein gegebenes Datum auf dem Aufsummieren von positiven und negativen Wertposten.  
 
 ## <a name="inventory-valuation-report"></a>Bericht "Aktuellen Lagerwert ermitteln"  
 Um den Lagerwert im Bericht **Lagerwert berechnen** zu berechnen, beginnt der Bericht, den Lagerbestand des Artikels zu einem bestimmten Startdatum zu berechnen. Er fügt den Wert von Lagerzugängen hinzu nd subtrahiert den Wert von Lagerabgängen bis zu einem bestimmten Enddatum. Das Endergebnis ist der Lagerwert am Enddatum. Der Bericht berechnet diese Werte, indem er die Werte im Feld **Kostenbetrag (ist)** in den Wertposten summiert, wobei die Buchungsdaten als Filter verwendet werden.  
@@ -57,7 +58,4 @@ Der Zweck der WIP-Bestandsbewertung besteht darin, den Wert der Artikel zu ermit
 [Designdetails: Fertigungsauftrags-Buchung](design-details-production-order-posting.md)
 [Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)  
 [Finanzen](finance.md)  
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

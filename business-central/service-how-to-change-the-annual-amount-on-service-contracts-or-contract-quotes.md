@@ -1,27 +1,28 @@
 ---
-title: Ändern des jährlichen Betrags für Serviceverträgen oder Vertragsangebote
+title: 'Vorgehensweise: Ändern des Betrags "Zu fakturieren (Jahr)" von Serviceverträgen oder Vertragsangeboten | Microsoft Docs'
 description: Gibt den Betrag an, der jährlich für den Servicevertrag oder das Vertragsangebot fakturiert wird.
 author: bholtorf
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: c131e7b93a73bbcc0a7977f11e70518961b77134
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f34aec769a1b850eb14dcc9a5310274e0b82b375
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134968"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311760"
 ---
 # <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Ändern des jährlichen Betrags für Serviceverträgen oder Vertragsangebote
 Sie können den Betrag "Zu fakturieren (Jahr)" des Servicevertrags oder Vertragsangebots ändern, um den jährlich fakturierten Betrag zu korrigieren.  
 
 ## <a name="to-change-the-annual-amount-of-the-service-contract-or-contract-quote"></a>So ändern Sie den Betrag "Zu fakturieren (Jahr)" eines Servicevertrags oder Vertragsangebots  
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Serviceverträge** oder **Servicevertragsangebote** ein, und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Serviceverträge** oder **Servicevertragsangebote** ein, und wählen dann den zugehörigen Link aus.  
 2. Wählen Sie den Vertrag oder das Vertragsangebot aus.  
 3. Wählen Sie die Aktionen **Vertrag öffnen** aus, um den Vertrag oder das Vertragsangebot zwecks Bearbeitung zu öffnen.  
 4. Wählen Sie das Kontrollkästchen **Nicht ausgegl. Betr. zulassen** aus, wenn Sie den jährlichen Betrag ändern und die Differenz manuell in den Vertragszeilen ausgleichen möchten. Falls Sie das nicht möchten, deaktivieren Sie das Kontrollkästchen, um die Differenz in den Vertragszeilen automatisch ausgleichen zu lassen, wenn Sie den jährlichen Betrag ändern.  
@@ -29,7 +30,7 @@ Sie können den Betrag "Zu fakturieren (Jahr)" des Servicevertrags oder Vertrags
 6. Abhängig davon, ob das Kontrollkästchen **Nicht ausgegl. Betr. zulassen** aktiviert ist, rufen Sie die manuelle oder die automatische Verteilung der Differenz der jährlichen Beträge auf. Die Vertragszeilen werden so aktualisiert, dass der Wert des Feldes **Berech. zu fakturieren (Jahr)** gleich dem neuen Betrag ist.  
 
 ## <a name="distributing-differences-between-new-and-calculated-annual-amounts"></a>Verteilen von Differenzen zwischen neuen und berechneten jährlichen Beträgen
-Wenn Sie den jährlichen Betrag für einen Servicevertrag oder ein Vertragsangebot ändern, müssen Sie u. U. die Differenz zwischen dem neuen und dem berechneten jährlichen Betrag auf die Vertragszeilen verteilen. Es gibt drei Möglichkeiten, Beträge zu verteilen:
+Wenn Sie den jährlichen Betrag für einen Servicevertrag oder ein Servicevertragsangebot ändern, müssen Sie u. U. die Differenz zwischen dem neuen und dem berechneten jährlichen Betrag auf die Vertragszeilen verteilen. Es gibt drei Möglichkeiten, Beträge zu verteilen:
 
 * Gleichmäßige Verteilung  
 * Verteilung nach Zeilenbetrag  
@@ -79,7 +80,45 @@ Wenn Sie den jährlichen Betrag für den Servicevertrag oder das Servicevertrags
     * Zeilenrabatt % = Zeilenrabattbetrag / Zeilenwert * 100  
     * DB = Zeilenbetrag - Zeileneinstandspreis  
 
+### <a name="distribution-based-on-line-amount"></a>Verteilung nach Zeilenbetrag
+Wenn Sie den jährlichen Betrag für den Servicevertrag oder das Servicevertragsangebot ändern, müssen Sie u. U. die Differenz zwischen dem neuen und dem berechneten jährlichen Betrag auf die Vertragszeilen verteilen. Die Verteilung basierend auf dem Zeilenbetrag ist eine der automatischen Verteilungsmethoden, die Ihnen dabei helfen kann, die Differenz zwischen dem neuen und dem berechneten jährlichen Betrag auf die Zeilenbeträge der Vertragszeilen zu verteilen. Die Verteilung wird proportional zu dem Anteil vorgenommen, den der Zeilenbetrag am berechneten Betrag fakturieren (Jahr) hat. Die folgende Übersicht über Verteilungsschritte für Vertragszeilen beschreibt die Grundidee dieser Methode:  
+
+1. Der Zeilenbetragsprozentanteil wird wie folgt berechnet: Der Inhalt des Felds **Zeilenbetrag** wird in allen Vertragszeilen durch die Werte des Felds **Berech. zu fakturieren (Jahr)** dividiert.  
+2. Der Wert des Felds **Zeilenbetrag** wird aktualisiert, indem die Differenz zwischen dem neuen und dem berechneten jährlich zu fakturierenden Betrag hinzuaddiert wird, dann wird mit dem Zeilenbetragsprozentanteil multipliziert.  
+3. Der Inhalt der Felder **Zeilenrabattbetrag**, **Zeilenrabatt %** und **DB** wird hinsichtlich des neuen Werts im Feld **Zeilenrabattbetrag** wie folgt aktualisiert:  
+
+    * Zeilenrabattbetrag = Zeilenwert - Zeilenbetrag  
+    * Zeilenrabatt % = Zeilenrabattbetrag / Zeilenwert * 100  
+    * DB = Zeilenbetrag - Zeileneinstandspreis  
+
 Die Schritte werden für jede Vertragszeile wiederholt.  
+
+#### <a name="example"></a>Beispiel  
+Das Feld **Nicht ausgegl. Betr. zulassen** ist nicht im Servicevertrag aktiviert, wenn dieser drei Vertragszeilen mit folgenden Daten enthält.  
+
+|Artikel|Zeileneinstandspreis|Zeilenwert|Zeilenrabatt %|Zeilenrabattbetrag|Zeilenbetrag|DB|  
+|----------|---------------|----------------|---------------------|--------------------------|-----------------|------------|  
+|Artikel 1|15.00|17.00|3.00|0.51|25.00|1.49|  
+|Artikel 2|20,00|23.00|Keine|0.00|55.10|3.00|  
+|Artikel 3|24.00|27.00|3.00|0.81|112.70|2.19|  
+
+Das Feld **Zu fakturieren (Jahr)** entspricht dem Wert des Felds **Berech. zu fakturieren (Jahr)**, das immer der Summe der Zeilenbeträge entspricht. In diesem Fall entspricht es 16,49 + 23,00 + 26,19 = 65,68.  
+
+Wenn Sie den Wert von **Zu fakturieren (Jahr)** auf 60 ändern, werden die DB-Prozentsatzanteile für jede Vertragszeile berechnet:  
+
+* Artikel 1 – 5 / (5 + 5,1 +12,7) = 0,2193 %  
+* Artikel 2 – 5,1 / (5 + 5,1 + 12,7) = 0,2237  
+* Artikel 3 – 12.7 / (5 + 5,1 +12,7) = 0,557 %  
+
+Der Wert des Felds **Zeilenbetrag** wird in jeder Vertragszeile aktualisiert. Dabei wird folgende Formel verwendet: Zeilenbetrag + Differenz zwischen dem neuen und dem berechneten Betrag zu fakturieren (Jahr) * Prozentanteil des Beitrags. Danach werden die Felder **Zeilenrabattbetrag**, **Zeilenrabatt %** und **DB** aktualisiert, indem die Formeln aus den o. a. Schritten verwendet werden.  
+
+Zum Schluss werden die Vertragszeilen die folgenden Daten enthalten.  
+
+|Artikel|Zeileneinstandspreis|Zeilenwert|Zeilenrabatt %|Zeilenrabattbetrag|Zeilenbetrag|DB|  
+|----------|---------------|----------------|---------------------|--------------------------|-----------------|------------|  
+|Artikel 1|15.00|17.00|11.41|1.94|15.06|0.06|  
+|Artikel 2|20,00|23.00|8.65|1.99|21.01|1.01|  
+|Artikel 3|24.00|27.00|11.37|3.07|23.93|-0,07|  -   Zeilenrabatt % = Zeilenrabattbetrag / Zeilenwert * 100  
 
 #### <a name="example"></a>Beispiel  
 Das Feld **Nicht ausgegl. Betr. zulassen** ist nicht im Servicevertrag aktiviert, wenn dieser drei Vertragszeilen mit folgenden Daten enthält.  
@@ -149,6 +188,3 @@ Zum Schluss werden die Vertragszeilen die folgenden Daten enthalten.
 ## <a name="see-also"></a>Siehe auch  
 [Erstellen von Serviceverträgen und Servicevertragsangeboten](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Einrichten der Serviceverwaltung](service-setup-service.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

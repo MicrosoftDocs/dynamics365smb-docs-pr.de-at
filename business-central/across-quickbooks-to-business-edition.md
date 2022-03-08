@@ -1,26 +1,27 @@
 ---
-title: Daten aus einer QuickBooks-App übertragen
+title: Daten aus einer QuickBooks-App übertragen | Microsoft Docs
 description: Sie können Daten, wie Debitoren, Kreditoren, Lagerartikel und Sachkonten aus QuickBooks-Apps auf Business Central migrieren.
+documentationcenter: ''
 author: bholtorf
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, import, migrate, data, transfer, QuickBooks, customize
-ms.search.form: 1808
-ms.date: 04/01/2021
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 9e8f24712efe1c6902d83e3c454d5c90209629c3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ba671c21d0e9c8ebf3df11fd75a55e5229c142cb
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134078"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187693"
 ---
 # <a name="changing-from-a-quickbooks-app-to-dynamics-365-business-central"></a>Von einer QuickBooks-App zu Dynamics 365 Business Central wechseln
-Mehr und mehr zunehmende Geschäfte wechseln von Finanz-Apps, wie QuickBooks Desktop und QuickBooks Online, die für Startups und andere Kleinunternehmen vorgesehen sind, zu [!INCLUDE[prod_short](includes/prod_short.md)], das auch größere komplexere Organisationen unterstützt. 
+Mehr und mehr zunehmende Geschäfte wechseln von Finanz-Apps, wie QuickBooks Desktop und QuickBooks Online, die für Startups und andere Kleinunternehmen vorgesehen sind, zu [!INCLUDE[d365fin](includes/d365fin_md.md)], das auch größere komplexere Organisationen unterstützt. 
 
-Beim Wechsel möchten Unternehmen die Geschäftsdaten in der Regel mitnehmen, um nicht von Vorne beginnen zu müssen. Zur Datenübertragung bietet [!INCLUDE[prod_short](includes/prod_short.md)] integrierte Erweiterungen, die Daten, wie Debitoren, Kreditoren, Lagerartikel und Sachkonten, migrieren. Die folgenden Erweiterungen sind eingerichtet und vorbereitet, um als integrierter Teil des unterstützten Setups bei der **Datenmigration** zu helfen.
+Beim Wechsel möchten Unternehmen die Geschäftsdaten in der Regel mitnehmen, um nicht von Vorne beginnen zu müssen. Zur Datenübertragung bietet [!INCLUDE[d365fin](includes/d365fin_md.md)] integrierte Erweiterungen, die Daten, wie Debitoren, Kreditoren, Lagerartikel und Sachkonten, migrieren. Die folgenden Erweiterungen sind eingerichtet und vorbereitet, um als integrierter Teil des unterstützten Setups bei der **Datenmigration** zu helfen.
 
 * QuickBooks Datenmigration 
 * QuickBooks Online-Datenmigration
@@ -31,11 +32,8 @@ Weitere Informationen finden Sie bei der passenden Erweiterung für Ihre QuickBo
 * [Die QuickBooks Online-Datenmigrationserweiterung](ui-extensions-quickbooks-online-data-migration.md)
 
 ## <a name="ready-now"></a>Schon bereit?
-Wenn Sie jetzt loslegen wollen, wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Unterstützte Einrichtung** ein, und wählen Sie dann den zugehörigen Link. Wählen Sie **Migrieren von Geschäftsdaten** und anschließend führen Sie die Schritte im Handbuch aus.
+Wenn Sie jetzt loslegen möchten, wählen Sie die Funktion ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") öffnet, geben Sie **Unterstützte Einrichtung** ein und wählen Sie dann den entsprechenden Link. Wählen Sie **Migrieren von Geschäftsdaten** und anschließend führen Sie die Schritte im Handbuch aus.
 
 ## <a name="see-also"></a>Siehe auch
 [Geschäftsdaten aus anderen Finanzsystemen importieren](across-import-data-configuration-packages.md)  
 [Anpassen von Business Central mithilfe der Erweiterungen](ui-extensions.md)   
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

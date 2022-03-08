@@ -1,30 +1,27 @@
 ---
-title: KPI-Webdienste für Kontenschemata festlegen und veröffentlichen
+title: 'Vorgehensweise: Einrichten und Veröffentlichen von KPI-Webdienste auf der Basis von Kontenschemata  | Microsoft Docs'
 description: Dieses Thema beschreibt, wie die KPI-Daten Kontenschema basierend auf bestimmte Kontenschemata angezeigt werden.
 author: bholtorf
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.form: 103, 104, 197, 196, 195, 198, 490, 764, 765, 766
-ms.date: 06/15/2021
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 29816a5812ce5d5cfe19b8c27b475ddd2090710f
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 95089c696457662737bc524a095b674a5b9a83d5
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335439"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878574"
 ---
 # <a name="set-up-and-publish-kpi-web-services-based-on-account-schedules"></a>Einrichten und Veröffentlichen von KPI-Webdienste auf der Basis von Kontenschemata
 Auf der Seite **Kontopaln KPI Web-Service einrichten** richten Sie ein, wie die Kontenschema-KPI-Daten angezeigt werden, und auf welchen spezifischen Kontenschemata die KPIs basieren. Wenn Sie die Schaltfläche **Webdienst veröffentlichen** wählen, werden die angegebenen Kontenschema-KPI-Daten der Liste der veröffentlichten Webdienste auf der Seite **Web-Dienste** hinzugefügt.  
 
-> [!NOTE]
-> Wenn Sie diesen Webdienst verwenden, werden Abschlussdaten nicht in Ihren Datensatz aufgenommen. So können Sie Filter in Power BI verwenden, um verschiedene Zeiträume zu analysieren.
-
 ## <a name="to-set-up-and-publish-a-kpi-web-service-that-is-based-on-account-schedules"></a>So richten Sie einen KPI-Webdienst ein und veröffentlichen ihn, der auf Kontenschemata basiert  
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Setup von Kontenschema-KPI-Webdiensten** ein und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie die Symbol ![Glühbirne , das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Kontenschema-KPI-Webdienst** ein und wählen Sie dann den entsprechenden Link.  
 2.  Füllen Sie im Inforegister **Allgemein** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
     |Feld|Description|  
@@ -57,7 +54,4 @@ Auf der Seite **Kontopaln KPI Web-Service einrichten** richten Sie ein, wie die 
 [Finanzen](finance.md)  
 [Finanzen einrichten](finance-setup-finance.md)  
 [Die Finanzbuchhaltung und der Kontenplan](finance-general-ledger.md)  
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

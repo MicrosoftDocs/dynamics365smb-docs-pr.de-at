@@ -1,32 +1,41 @@
 ---
-title: Generieren von Lieferanmahnungen [AT]
-description: In der österreichischen Version von Business Central können Sie Lieferanmahnungen automatisch generieren, wenn eine Bestellung nicht wie erwartet geliefert wurde.
+title: 'Gewusst wie: Einrichten von Lieferbenachrichtigungen'
+description: In Business Central können Sie Lieferbenachrichtigungen erstellen, wenn eine Bestellung nicht wie erwartet geliefert wurde.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 175deb0d137a3f92c7e1aff59734e0d3f9112a78
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: b60dcc99c168bb5679408182b40cf287a2e49647
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139015"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3180939"
 ---
-# <a name="generate-delivery-reminders-in-the-austrian-version"></a>Generieren von Lieferanmahnungen in der österreichischen Version
+# <a name="generate-delivery-reminders"></a>So erstellen Sie Lieferanmahnungen
+In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], können Sie Lieferbenachrichtigungen erstellen, wenn eine Bestellung nicht wie erwartet geliefert wurde. Sie können Lieferbenachrichtigung für alle überfälligen Lieferungen generieren lassen oder manuell eine einzelne Lieferbenachrichtigung erstellen. Weitere Informationen finden Sie unter [Gewusst wie: Erstellen von manuellen Lieferbenachrichtigungen](how-to-create-delivery-reminders-manually.md).  
 
-[!INCLUDE [delivery-reminders-generate](../includes/ATCHDE/delivery-reminders-generate.md)]
+> [!NOTE]  
+>  Um Lieferanmahnungen zu erstellen, müssen Sie die Lieferanmahnungseigenschaften einrichten. Weitere Informationen finden Sie unter [Lieferbenachrichtigungen erstellen](how-to-set-up-delivery-reminders.md).  
 
-## <a name="see-also"></a>Siehe auch
+## <a name="to-generate-delivery-reminders-for-all-overdue-deliveries"></a>Um Lieferanmahnungen für alle überfälligen Lieferungen zu erstellen  
 
-[So erstellen Sie Lieferanmahnungen manuell](how-to-create-delivery-reminders-manually.md)  
-[Gewusst wie: Einrichten von Lieferanmahnungen](how-to-set-up-delivery-reminders.md)  
-[So werden Lieferanmahnungscodes zu Kreditoren zugewiesen](how-to-assign-delivery-reminder-codes-to-vendors.md)  
-[Lieferbenachrichtigung registrieren](how-to-issue-delivery-reminders.md)  
-[Lieferanmahnungen](delivery-reminders.md)  
+1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Suche nach Seiten- oder Berichtssymbolen") und geben Sie **Lieferbenachrichtigung** ein. Wählen Sie dann den zugehörigen Link aus.  
+2.  Wählen Sie die Aktion **Neu** aus.  
+3.  Wählen Sie auf der Seite **Lieferanmahnung** die Aktion **Lieferanmahnung erstellen**.  
+4.  Wählen Sie die entsprechenden Filter aus.  
+5.  Wählen Sie die Schaltfläche **OK** aus.  
 
+Wenn es überfällige Lieferungen gibt, die den Filtern entsprechen, die Sie festgelegt haben, werden Mahnungen erstellt. So können die Lieferbenachrichtigungen ausgeben und erstellen.  
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+## <a name="see-also"></a>Siehe auch  
+ [So erstellen Sie Lieferanmahnungen manuell](how-to-create-delivery-reminders-manually.md)   
+ [Gewusst wie: Einrichten von Lieferbenachrichtigungen](how-to-set-up-delivery-reminders.md)   
+ [So werden Lieferbenachrichtigungscodes zu Kreditoren zugewiesen](how-to-assign-delivery-reminder-codes-to-vendors.md)   
+ [Lieferbenachrichtigung registrieren](how-to-issue-delivery-reminders.md)   
+ [Lieferanmahnungen](delivery-reminders.md)

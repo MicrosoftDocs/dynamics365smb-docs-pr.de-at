@@ -2,19 +2,20 @@
 title: Kostenrechnung | Microsoft Docs
 description: Kostenrechnung wird verwendet, um Ihnen dabei zu helfen, die Kosten des Betriebs eines Geschäftes zu erkennen. Um mit der Kostenrechnung anzufangen, sehen Sie sich die folgenden Themen an.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: c22248b9f81837cfaf52717314d7981a64ede8c8
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 9700b3453e43b1f692d1e98c2feab225b57e7c01
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148653"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882607"
 ---
 # <a name="accounting-for-costs"></a>Kostenrechnung
 Kostenrechnung wird verwendet, um Ihnen dabei zu helfen, die Kosten des Betriebs eines Geschäftes zu erkennen. Um mit der Kostenrechnung anzufangen, sehen Sie sich die folgenden Themen an.  
@@ -27,14 +28,10 @@ Kostenrechnung wird verwendet, um Ihnen dabei zu helfen, die Kosten des Betriebs
 |So übertragen Sie Sachposten in Kostenposten.|[Übertragung und Buchung von Kostenzuteilungen](finance-transfer-and-post-cost-entries.md)|  
 |Kosten zuordnen.|[Definieren und Zuweisen von Kosten](finance-define-and-allocate-costs.md)|  
 |Erlernen Sie die Prozesse beim Erstellen von Kostenbudgets.|[Erstellen von Kostenbudgets](finance-create-cost-budgets.md)|
-|Wenn Sie Kostenposten aus dem Kostenjournal stornieren.|[Kostenbu&dgetposten löschen](finance-how-to-delete-cost-budget-entries.md)|
+|Wenn Sie Kostenposten aus dem Kostenjournal stornieren.|[Kostenbu&dgetposten löschen](finance-how-to-delete-cost-budget-entries.md)| 
 
-## <a name="see-related-training-at-microsoft-learn"></a>Das dazugehörige Training finden Sie unter [Microsoft Learn](/learn/paths/use-cost-accounting-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Siehe auch  
 [Finanzen](finance.md)  
 [Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)  
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

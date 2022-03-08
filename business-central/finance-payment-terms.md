@@ -2,16 +2,17 @@
 title: Zahlungsbedingungen einrichten
 description: Verwenden Sie in der Basisversion von Business Central Zahlungsbedingungen, um Fälligkeitstermine und Zahlungsrabatte zu verwalten.
 author: edupont04
+ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.search.form: 4
+ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2ad055bef260d732c9f7732c094f660704f6acdf
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 10ae5c1932e21b452efd41a1212f1840101a277b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136001"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437333"
 ---
 # <a name="set-up-payment-terms"></a>Zahlungsbedingungen einrichten
 

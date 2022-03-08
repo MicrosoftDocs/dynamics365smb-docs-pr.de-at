@@ -2,6 +2,7 @@
 title: C5-Datenmigrations-Erweiterung verwenden | Microsoft Docs
 description: Verwenden Sie diese Erweiterung, um Debitoren, Kreditoren, Artikel und Sachkonten von Microsoft Dynamics C5 2012 zu Business Central zu migrieren.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: ccebff57d4189a3273c9930fc82ca665e7f807c5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4e9a121efe984e075c54c747fc426bf9a4519b81
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133645"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5787419"
 ---
 # <a name="the-c5-data-migration-extension"></a>Die C5-Datenmigrations-Erweiterung
 
@@ -106,7 +107,7 @@ Die maximale Dateigröße, die Sie zu [!INCLUDE[prod_short](includes/prod_short.
 Es gibt nur einige wenige Schritte, um die Daten aus C5 zu exportieren und sie in [!INCLUDE[prod_short](includes/prod_short.md)] zu importieren:  
 
 1. In C5 verwenden Sie die Funktion **Datenbank exportieren**, um die Daten zu exportieren. Senden Sie dann den Exportordner an einen komprimierten (gezippten) Ordner.  
-2. Wählen Sie in [!INCLUDE[prod_short](includes/prod_short.md)] die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Datenmigration** ein, und wählen Sie dann **Datenmigration**.  
+2. Wählen Sie in [!INCLUDE[prod_short](includes/prod_short.md)] die Option ![Glühbirne, die das Tell Me-Feature öffnet](media/ui-search/search_small.png "Tell me-Funktion"), geben Sie **Datenmigration** ein und wählen Sie dann **Datenmigration**.  
 3. Schliessen Sie die Schritte im unterstützten Setup ab. Stellen Sie sicher, dass Sie **Importieren aus Microsoft Dynamcis C5 2012** als die Datenquelle auswählen.  
 
 ## <a name="viewing-the-status-of-the-migration"></a>Zeigt den Status der Datenmigration an

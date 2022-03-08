@@ -1,24 +1,25 @@
 ---
-title: Banking festlegen
+title: Einrichten von Banken | Microsoft Docs
 description: Sie verwenden Bankkontokarten, um Ihre Bankkonten und Einrichtungsbankfeeds, wie Yodlee, um Daten auszutauschen.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, link
-ms.search.form: 1200
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 21665191cc2b6dbedc09321fd165ef2fab098fc3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 1d312045c8ac5f7e349880123cb4d3fecdb345a3
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139954"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752322"
 ---
 # <a name="setting-up-banking"></a>Einrichten von Banken
-
 Bankkontokarten dienen zum Nachverfolgen aller Bankkonten in beliebiger Währung. Sobald Bankkonten eingerichtet wurden, können auch Schecks gedruckt werden.
 
 Um elektronische Bankdienstleistungen zum Importieren von Bankkontoauszügen und zum Exportieren von Zahlungen zu verwenden, müssen Sie die benötigten Dienste einrichten und aktivieren.
@@ -29,14 +30,8 @@ Um elektronische Bankdienstleistungen zum Importieren von Bankkontoauszügen und
 | Richten Sie einen externen Dienst ein, der es Ihnen ermöglicht, Bankauszüge als Bankfeeds für Zahlungsausgleich und Bankabstimmung zu importieren. |[Den Envestnet Yodlee Bank Feeds Service einrichten](bank-how-setup-bank-statement-service.md) |
 | Richten Sie einen externen Dienst ein, der es Ihnen ermöglicht, Ihre Zahlungen zur Bearbeitung an die Bank zu exportieren und Bankauszüge als Bankdateien zum Zahlungsausgleich und zur Bankabstimmung zu importieren. |[Verwenden der AMC Banking 365 Fundamentals-Erweiterung](ui-extensions-amc-banking.md) |
 
-[!INCLUDE [local-functionality](includes/local-functionality.md)]
-
 ## <a name="see-also"></a>Siehe auch
-
 [Abstimmen von Bankkonten](bank-manage-bank-accounts.md)  
 [Verwalten von Forderungen](receivables-manage-receivables.md)  
 [Verwalten von Verbindlichkeiten|](payables-manage-payables.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

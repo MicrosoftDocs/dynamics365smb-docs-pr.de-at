@@ -2,20 +2,20 @@
 title: Lagerbestand verwalten
 description: In diesem Thema wird beschrieben, wie Sie die physischen Produkte, die Sie in Zahlung nehmen, verwalten, indem Sie eine Karte für Lagerartikel erstellen.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.search.forms: 5804, 2106, 5823, 5751, 5750, 772, 5829, 5828, 513, 304, 40, 38, 167, 117, 5827, 9223, 158, 354, 9152, 286, 5754, 5402, 209, 297, 298, 99000782
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: c2479b23ba429d80137d5bbba6200c2e45a0f943
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9290d61245eec3331be315adf00e3e71a7fb5e97
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148544"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587907"
 ---
 # <a name="manage-inventory"></a>Lagerbestand verwalten
 
@@ -42,7 +42,7 @@ In der folgenden Tabelle sind verwandte Aufgaben aufgeführt.
 |Aktion |Siehe |
 |---|----|
 |Erstellen Sie Artikelkarten für Lagerartikel, mit denen Sie handeln.|[Neue Artikel registrieren](inventory-how-register-new-items.md)|
-|Strukturieren Sie übergeordnete Artikel, die Sie als Bausätze verkaufen und aus den Komponenten des übergeordneten Artikels bestehen oder für die Sie Auftragsmontage oder Lagerfertigung ausführen.|[Mit Fertigungsstücklisten arbeiten](inventory-how-work-BOMs.md)|
+|Strukturieren Sie übergeordnete Artikel, die Sie als Sets verkaufen, die aus den Komponenten des übergeordneten Artikels bestehen oder für die Sie die Auftragsmontage oder das Lager haben.|[Mit Fertigungsstücklisten arbeiten](inventory-how-work-BOMs.md)|
 |Aktualisert eine Übersicht über Artikel und erleichtert das Suchen und das Sortieren von Artikeln, indem diese in Kategorien organisiert werden.|[Artikel kategorisieren](inventory-how-categorize-items.md)|
 |Weisen Sie Ihren Artikeln Artikelattribute verschiedener Werttypen zu, um das Sortieren und Finden von Artikel zu erleichtern.|[Arbeiten mit Artikelattributen](inventory-how-work-item-attributes.md)|
 |Erstellen Sie spezielle Artikelkarten, die Sie Debitoren anbieten, für die Sie aber keinen Bestand verwalten.|[Arbeiten mit Katalogartikeln](inventory-how-work-nonstock-items.md)|

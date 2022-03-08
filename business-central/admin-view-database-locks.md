@@ -1,20 +1,20 @@
 ---
 title: Datenbank-Sperren anzeigen
-description: Erfahren Sie, wie Sie Informationen über Debitoren-Datenbanksperren direkt über die Client-Oberfläche in Business Central anzeigen können.
+description: Erfahren Sie, wie Sie Informationen über Datenbanksperren direkt über die Clientschnittstelle in Business Central anzeigen können.
 author: jswymer
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 9511
-ms.date: 06/14/2021
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 0a2561eea331ffbaeb058dee2ee13caf0a82d18c
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6880ffa9a2ab42c1af7c22f9cace64697c9f905b
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143703"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922334"
 ---
 # <a name="viewing-database-locks"></a>Anzeigen von Datenbank-Sperren
 
@@ -24,7 +24,7 @@ Benutzer können für den Abschluss von Transaktionen mit den gesperrten Daten g
 
 ## <a name="to-view-database-locks"></a>So zeigen Sie Datenbanksperren an
 
-Wählen Sie das ![Suchen Sie nach Seite oder Bericht.](media/ui-search/search_small.png "Suche nach Seiten- oder Berichtssymbolen") Symbol. Geben Sie **Datenbanksperren** ein und wählen Sie dann den zugehörigen Link.
+Wählen Sie das Symbol ![Seite suchen oder Bericht](media/ui-search/search_small.png "Suche nach Seiten- oder Berichtssymbolen"), geben Sie **Datenbanksperren** ein, und wählen Sie dann den entsprechenden Link.
 
 Die Seite **Datenbanksperren** zeigt eine Momentaufnahme aller aktuellen Datenbanksperren.
 
@@ -33,6 +33,3 @@ Weitere Informationen über Datenbanksperren finden Sie unter [Überwachung von 
 ## <a name="see-also"></a>Siehe auch
 
 [Datenbanksperren überwachen](/dynamics365/business-central/dev-itpro/administration/monitor-database-locks) 
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

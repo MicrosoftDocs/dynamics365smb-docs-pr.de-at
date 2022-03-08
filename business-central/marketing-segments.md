@@ -1,22 +1,23 @@
 ---
 title: Verwalten von Segmenten und Auswählen von Kontakten
 description: Dieses Thema beschreibt, wie Sie ein Segment erstellen, indem Sie eine Gruppe von Kontakten nach bestimmten Kriterien auswählen, um dieses Segment später mit einer Kampagne anzusprechen.
+services: project-madeira
 documentationcenter: ''
 author: jswymer
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.search.forms: 5150, 5142, 5140, 5141, 5144, 5091, 5143, 5093, 5092
 ms.date: 06/22/2021
 ms.author: jswymer
-ms.openlocfilehash: c107a9ae74343663eea6a97fb0360852b49ecd05
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6a058433fdd95e4fc78502dd54fbc948fa11a183
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130350"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6323610"
 ---
 # <a name="managing-segments"></a>Verwalten von Segmenten
 Sie können Segmente erstellen, um anhand bestimmter Kriterien eine Gruppe von Kontakten auszuwählen. Beispiele für ein Segment sind die Branche, der die Kontakte angehören, oder die Geschäftsbeziehung, die mit den Kontakten besteht. Ein Segment kann erstellt werden, um die gewünschten Kontakte für die Zielgruppe einer Kampagne auszuwählen.

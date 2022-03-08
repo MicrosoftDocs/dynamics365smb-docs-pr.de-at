@@ -1,20 +1,22 @@
 ---
-title: Journale und Dokumente buchen
-description: Dieses Thema beschreibt Buchungsaktionen und die Möglichkeiten, wie Sie Belege und Erfassungen in den verschiedenen Sachkonten der Firma buchen können.
+title: Übersicht über das Buchen von Belegen und Buch.-Blättern | Microsoft Docs
+description: Zeigt Buchungsaktionen und die Art und Weise, wie Sie Dokumente und Buch.-Blätter buchen können.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
-ms.topic: overview
+ms.service: dynamics365-business-central
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/24/2021
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 13c2639ab416fd472850fef5161f0f374024bb51
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 794342d893b784c40f314b65e53a5d65a32489fa
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335595"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5389616"
 ---
 # <a name="posting-documents-and-journals"></a>Journale und Dokumente buchen
 Das Buchen stellt die Buchhaltungsaktion vom Aufzeichnen von Geschäftstransaktionen in verschiedenen Mandantensachkontos dar.

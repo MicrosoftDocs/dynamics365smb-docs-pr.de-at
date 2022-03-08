@@ -1,21 +1,21 @@
 ---
-title: Funktionen und Informationen finden (enthält Video)
+title: Suchen nach Funktionen und Informationen | Microsoft Docs
 description: Dieses Thema beschreibt, wie Sie die Suche verwenden, um Aktionen, Seiten, Berichte, Dokumentation und Daten sowie andere Apps und Beratungsdienste zu finden.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: c11b0b82d0c6634fc69b09b8995046bf194a3838
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 6de3033333e997fa335f085499b81e1caa4146d7
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323219"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5381696"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Suchen von Seiten und Informationen mit Wie möchten Sie weiter verfahren  
 In diesem Thema wird beschrieben, wie Sie mit „Wie möchten Sie weiter verfahren“ schnell zu Aktionen, Seiten oder Berichten navigieren, Informationen zum Abschluss einer bestimmten Aufgabe finden und zusätzliche Apps und Beratungsdienste für [!INCLUDE[prod_short](includes/prod_short.md)] zu ermitteln.  
@@ -23,7 +23,7 @@ In diesem Thema wird beschrieben, wie Sie mit „Wie möchten Sie weiter verfahr
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2086048]
 
-Wenn Sie Hilfe bei der Suche nach etwas benötigen, verwenden Sie die ![Sagen Sie mir, was Sie tun möchten.](media/ui-search/search.png "Suche nach Seite oder Bericht") **Sagen Sie mir, was Sie tun möchten** Symbol, um danach zu suchen. Sie können „Wie möchten Sie weiter verfahren“ auch über ALT+Q starten.
+Wenn Sie Hilfe bei der Suche nach etwas benötigen, verwenden Sie das ![Tell me](media/ui-search/search.png "Suche nach Seite oder Bericht") **Tell me** Symbol, um danach zu suchen. Sie können „Wie möchten Sie weiter verfahren“ auch über ALT+Q starten.
 
 Sobald Sie Zeichen eingeben, zeigt [!INCLUDE[prod_short](includes/prod_short.md)] sofort Treffer an. Ergebnisse in der Liste ändern sich, wenn Sie weitere Zeichen eingeben. Wenn Sie bemerken, dass bei der Eingabe des Wortes "Produkt" auch Ergebnisse wie **Artikel** angezeigt werden, liegt das daran, dass "Wie möchten Sie weiter verfahren" Synonyme und alternative Suchbegriffe verwendet, um die Suche nach Aktionen, Seiten und Berichten zu vereinfachen.
 

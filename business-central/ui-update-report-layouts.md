@@ -1,23 +1,23 @@
 ---
-title: Benutzerdefinierte Berichtslayouts aktualisieren
-description: Erfahren Sie, wie Sie ein angepasstes Berichtslayout, das in einem Bericht verwendet wird, aktualisieren können, wenn es z.B. Designänderungen am Dataset des Berichts gibt.
+title: Ein Berichtslayout aktuell behalten | Microsoft Docs
+description: Gelegentlich müssen Sie möglicherweise ein benutzerdefiniertes Berichtslayout aktualisieren, das in einem Bericht verwendet wird. Dies ist obligatorisch, wenn es eine Entwurfsänderung an dem Datensatz des Berichts gegeben hat, wenn zum Beispiel ein Feld, das im Layout verwendet wird, aus dem Berichtsdatensatz entfernt wurde.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 9652, 9650
-ms.date: 06/24/2021
+ms.search.keywords: ''
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: d04b6b37573c81c3eef43fd2077b42bd7f5e1884
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e0f55d52c866dbe6a9738dbec374c7a20af63b56
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144636"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3781127"
 ---
 # <a name="update-custom-report-layouts"></a>Benutzerdefinierte Berichtslayouts aktualisieren
-
 Gelegentlich müssen Sie möglicherweise ein benutzerdefiniertes Berichtslayout aktualisieren, das in einem Bericht verwendet wird. Dies ist obligatorisch, wenn es eine Entwurfsänderung an dem Datensatz des Berichts gegeben hat, wenn zum Beispiel ein Feld, das im Layout verwendet wird, aus dem Berichtsdatensatz entfernt wurde. Wenn ein Berichtlayout eine Aktualisierung benötigt, erhalten Sie eine Fehlermeldung, wenn Sie versuchen, die Berichtvorschau anzeigen, zu drucken oder zu speichern.  
 
 Um Berichtlayout aus der Fehlermeldung automatisch zu aktualisieren, die angezeigt wird, wenn Sie diesen Bericht ausführen, wählen Sie die Schaltfläche **Ja** auf der Fehlermeldung. Oder im Voraus, wenn Sie Berichte ausführen, können Sie bestimmte Berichtslayouts oder alle benutzerdefinierten Berichtslayouts aktualisieren, auf die sich Datasetänderungen auswirken können.  
@@ -28,7 +28,7 @@ Nicht alle Berichtsdatasetänderungen können automatisch aktualisiert werden in
 
 ## <a name="to-update-one-or-more-custom-report-layouts"></a>Um eine oder mehrere benutzerdefinierten Berichtslayouts zu aktualisieren  
 
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Berichtslayouts** ein und wählen Sie dann den zugehörigen Link.  
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Berichtslayouts** ein, und wählen Sie dann den zugehörigen Link.  
 
 2.  Auf der Seite **Berichtslayouts**, wenn Sie einen bestimmten Bericht aktualisieren möchten, wählen Sie das Layout aus der Liste, und wählen die **Layout aktualisieren** Aktion aus. Oder, wenn alle benutzerdefinierten Berichtslayouts des Unternehmens aktualisieren möchten, wählen Sie die Aktion **Alle Layouts aktualisieren** aus.  
 
@@ -36,7 +36,7 @@ Wenn keine Fehler auftreten, wird die Aktualisierung für die Berichtslayouts ü
 
 ## <a name="to-test-custom-report-layout-updates"></a>Updates zu benutzerdefinierten Berichtslayouts testen  
 
-1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Auswahl des Berichtslayouts** ein und wählen Sie dann den entsprechenden Link.  
+1.  Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Berichtslayoutauswahl** ein, und wählen Sie dann den zugehörigen Link.  
 
 2.  Auf der Seite **Auswahl des Berichtslayouts** wählen Sie die **Testlayout-Aktualisierungen** Aktion aus.  
 
@@ -67,6 +67,3 @@ Nachdem Sie das Layout ändern, versuchen Sie, das Layout erneut zu aktualisiere
 ## <a name="see-also"></a>Siehe auch  
  [Verwalten von Berichtslayouts](ui-manage-report-layouts.md)  
  [Arbeiten mit Berichten, Stapelverarbeitungen und XMLports](ui-work-report.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

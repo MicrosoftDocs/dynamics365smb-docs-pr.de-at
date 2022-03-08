@@ -1,22 +1,23 @@
 ---
-title: Verwalten Sie Interaktionen mit Ihren Kontakten
+title: Aktivitäten mit Kontakten verwalten | Microsoft Docs
 description: Sie können Aktivitäten alle Arten der Kommunikation zwischen Ihrem Unternehmen und Ihren Kontakten aufzeichnen, uum Beispiel Briefe, Fax, E-Mail, Telefon, Besprechungen usw.
+services: project-madeira
 documentationcenter: ''
 author: jswymer
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.search.forms: 5082,
-ms.date: 04/01/2021
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 464940f091356f1a0eaa0b160e2850aded545487
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: eedb7a319a11b740f6afa869d162f15c167ccc6d
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131396"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1446801"
 ---
 # <a name="record-interactions-with-contacts"></a>Aktivitäten mit Kontakten aufzeichnen
 Die Einrichtung der Anwendung zur Aufzeichnung von Aktivitäten besteht aus diesen Aufgaben:
@@ -49,12 +50,9 @@ Auf dieser Seite können Sie folgende Aktivitäten durchführen:
 * Anzeigen des Status von Aktivitäten.
 * Aktivitäten als storniert markieren.
 
-Sie können Aktivitätenprotokollposten löschen, die storniert wurden. Um Interaktionsprotokolleinträge zu löschen, wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Stornierte Aktivitätenprotokollposten löschen** ein und wählen Sie dann den zugehörigen Link und füllen Sie die Informationen aus.
+Sie können Aktivitätenprotokollposten löschen, die storniert wurden. Um Aktivitätenprotokollposten zu löschen, wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“](media/ui-search/search_small.png "Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren") aus, geben **Stornierte Aktivitätenprotokollposten löschen** ein, und wählen Sie den zugehörigen Link aus und geben dann die Informationen ein.
 
 ## <a name="see-also"></a>Siehe auch
 [Kontakte verwalten](marketing-contacts.md)  
 [Verkaufschancen verwalten](marketing-manage-sales-opportunities.md)  
 [Arbeiten mit  Business Central](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

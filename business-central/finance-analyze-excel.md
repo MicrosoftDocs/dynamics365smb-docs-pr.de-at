@@ -2,17 +2,17 @@
 title: Arbeiten mit Finanzübersichten in Excel
 description: Mehr erfahren, wie Sie die Finanzauswertungen in Microsoft Excel von Business Central für eine bessere Analyse öffnen können.
 author: edupont04
-ms.topic: overview
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.search.keywords: accountant, accounting, financial report
-ms.search.form: 9027
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ac018d5477d42189d648936bfc7511f6214d52b5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 58c1d9bba8942dbd400a3ed0837ef7a39fd2bb13
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136157"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747158"
 ---
 # <a name="analyzing-financial-statements-in-microsoft-excel"></a>Analysieren von Finanzauswertungen in Microsoft Excel
 
@@ -33,7 +33,7 @@ Im Menüband wählen Sie den entsprechenden Excel-Bericht aus und lassen ihn öf
 
 Nehmen wir mal an, Sie möchten den Cashflow vertiefter ansehen. Vom Geschäftsleiter- oder dem Buchhalter-Rollencenter aus können Sie den Bericht **Cashflowauszug** in Excel öffnen, tatsächlich exportieren wir aber die relevanten Daten für Sie und erstellen eine Excel-Arbeitsmappe auf Grundlage einer vordefinierte Vorlage. Abhängig von Ihrem Browser werden Sie aufgefordert, möglicherweise die Arbeitsmappe zu öffnen oder zu speichern.  
 
-Dort finden Sie eine Registerkarte, in der die Daten für Sie im ersten Arbeitsblatt ausgebreitet werden. Alle Daten, die exportiert wurden, sind ebenfalls in anderen Arbeitsblättern vorhanden, wenn Sie sie benötigen. Sie können den Bericht sofort drucken, oder Sie können das Feld ändern, solange Sie die Übersicht und die Details haben, die Sie anzeigen möchten. Verwenden Sie das [!INCLUDE [prod_short](includes/prod_short.md)] Excel-Add-In, um Daten zu filtern und zu analysieren.  
+Dort finden Sie eine Registerkarte, in der die Daten für Sie im ersten Fenster ausgebreitet werden. Alle Daten, die exportiert wurden, sind ebenfalls in anderen Arbeitsblättern vorhanden, wenn Sie sie benötigen. Sie können den Bericht sofort drucken, oder Sie können das Feld ändern, solange Sie die Übersicht und die Details haben, die Sie anzeigen möchten. Verwenden Sie das [!INCLUDE [prod_short](includes/prod_short.md)] Excel-Add-In, um Daten zu filtern und zu analysieren.  
 
 ### <a name="understanding-the-excel-templates"></a>Grundlegendes zu den Excel-Vorlagen
 
@@ -56,6 +56,3 @@ Mit dem Add-In können Sie neue Daten abrufen von [!INCLUDE [prod_short](include
 [Finanzen einrichten](finance-setup-finance.md)  
 [Die Finanzbuchhaltung und der Kontenplan](finance-general-ledger.md)  
 [Arbeiten mit  Business Central](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

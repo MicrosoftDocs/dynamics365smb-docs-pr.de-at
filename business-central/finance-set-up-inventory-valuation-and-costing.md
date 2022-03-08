@@ -1,17 +1,18 @@
 ---
-title: Bestandsbewertung und Kalkulation festlegen
-description: Um sicherzustellen, dass Lagerregulierungen ordnungsgemäß aufgezeichnet werden, müssen Sie verschiedene Felder und Seiten einrichten, bevor Sie Artikeltransaktionen durchführen können.
+title: Einrichten der Lagerwertberechnung und der Kostenrechnung | Microsoft Docs
+description: In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: ''
-ms.date: 06/16/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8dd8b86e7ff07b9500c094bd2e570dbb6a371754
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 2194a29247b6ec3c2ee87dfbfe6631f433d0514e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142098"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5783739"
 ---
 # <a name="setting-up-inventory-valuation-and-costing"></a>Einrichten der Lagerwertberechnung und der Kostenrechnung
 

@@ -2,6 +2,7 @@
 title: Zu synchronisierende Tabellen und Felder zuordnen | Microsoft Docs
 description: Erfahren Sie, wie Sie Tabellen und Felder für die Datensynchronisation zwischen Business Central und Microsoft Dataverse zuordnen können.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,15 +10,15 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 844b053a307d88bd93d945a7927726fd28518000
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 185d0a1c55830f6e4ed979154744076d457b5724
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147155"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446407"
 ---
 # <a name="mapping-the-tables-and-fields-to-synchronize"></a>Zu synchronisierende Tabellen und Felder zuordnen
-
+[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
 
 Die Basis für die Synchronisation von Tabellen und Feldern in [!INCLUDE[prod_short](includes/prod_short.md)] mit Tabellen und Spalten in [!INCLUDE[prod_short](includes/cds_long_md.md)], damit Daten ausgetauscht werden können. Die Zuordnung erfolgt über Integrationstabellen. 
 
@@ -47,9 +48,7 @@ Nachdem Sie die Strategie festgelegt haben, können Sie auf der Seite **Gekoppel
 Das Zuordnen von Tabellen ist nur der erste Schritt. Sie müssen auch die Felder in den Tabellen zuordnen. Integrationsfeldzuordnungen verknüpfen Felder in [!INCLUDE[prod_short](includes/prod_short.md)]-Tabellen entsprechenden Spalten in [!INCLUDE[prod_short](includes/cds_long_md.md)] zu und bestimmen, ob Daten in jeder Tabelle synchronisiert werden sollen. Die Standardtabellenzuordnung, die von [!INCLUDE[prod_short](includes/prod_short.md)] bereitgestellt wird, umfasst Feldzuordnungen, aber Sie können diese, wenn gewünscht ändern. Weitere Informationen finden Sie unter [Anzeigen von Tabellenzuordnungen](admin-synchronizing-business-central-and-sales.md#tip-for-admins-viewing-table-mappings).
 
 > [!Note]
-> Wenn Sie eine on-premises Version von [!INCLUDE[prod_short](includes/prod_short.md)] verwenden, sind die Zuordnungen von Integrationsfeldern in Tabelle 5336 Zuordnung von Integrationsfeldern definiert.
-
-Sie können die Felder manuell zuordnen oder den Prozess automatisieren, indem Sie mehrere Felder gleichzeitig anhand von Kriterien für die Übereinstimmung ihrer Werte zuordnen. Weitere Informationen finden Sie unter [Mehrere Datensätze auf der Basis von Feldwertabgleich koppeln](admin-how-to-couple-and-synchronize-records-manually.md).
+> Wenn Sie eine lokale Version von [!INCLUDE[prod_short](includes/prod_short.md)] verwenden, werden Integrationsfeldzuordnungen in Tabelle 5336 „Integrationsfeldzuordnung“ definiert.
 
 ### <a name="handling-differences-in-field-values"></a>Behandlung von Unterschieden in Feldwerten
 Manchmal sind die Werte in den Feldern, die Sie zuordnen möchten, unterschiedlich. Zum Beispiel ist in [!INCLUDE[crm_md](includes/crm_md.md)] der Sprachcode für die Vereinigten Staaten „U.S.“, aber in [!INCLUDE[prod_short](includes/prod_short.md)] ist es „US“. Das bedeutet, daß Sie den Wert bei der Datensynchronisation umwandeln müssen. Dies geschieht durch Transformationsregeln, die Sie für die Felder definieren. Sie definieren Transformationsregeln auf der Seite **Integrationstabellenzuordnungen**, indem Sie **Zuordnungen** und dann **Felder** wählen. Vordefinierte Regeln werden bereitgestellt, aber Sie können auch eigene Regeln erstellen. Weitere Informationen finden Sie unter [Transformationsregeln](across-how-to-set-up-data-exchange-definitions.md#transformation-rules).

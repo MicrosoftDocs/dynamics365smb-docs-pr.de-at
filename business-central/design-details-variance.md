@@ -1,20 +1,23 @@
 ---
 title: Designdetails - Abweichungen | Microsoft Docs
 description: Abweichung wird als Differenz zwischen den Ist-Kosten und Einstandspreis (fest) definiert, wie in der folgenden Formel beschrieben.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
-ms.author: edupont
-ms.openlocfilehash: a2984aa0d33f95dc98db168b6c18299769583c9f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 04/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 77f8b444e97964cef26bd49b5af59a2cedbf5235
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8149233"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1243382"
 ---
 # <a name="design-details-variance"></a>Designdetails: Abweichung
 Abweichung wird als Differenz zwischen den Ist-Kosten und Einstandspreis (fest) definiert, wie in der folgenden Formel beschrieben.  
@@ -37,7 +40,7 @@ Abweichung wird als Differenz zwischen den Ist-Kosten und Einstandspreis (fest) 
 
  Die folgende Tabelle zeigt die sich daraus ergebenden Wertposten.  
 
- ![Abweichungsberechnung beim Kauf.](media/design_details_inventory_costing_11_purchase_variance.png "Einkaufsabweichungsberechnung")  
+ ![Einkaufsabweichungsberechnung](media/design_details_inventory_costing_11_purchase_variance.png "Einkaufsabweichungsberechnung")  
 
 ## <a name="determining-the-standard-cost"></a>Bestimmen der Standardkosten  
  Die Standardkosten werden verwendet, wenn die Abweichung und der zu nutzende Betrag berechnet werden. Da sich die Standardkosten aufgrund manueller Aktualisierungsberechnungen ändern können, benötigen Sie einen Zeitpunkt, an dem die Standardkosten für die Abweichungsberechnung fest sind. An diesem Punkt wird der Lagerzugang fakturiert. Für gefertigt oder montierte Artikel, ist der Zeitpunkt, an dem die Standardkosten bestimmt werden, der der Kostenanpassung.  
@@ -47,22 +50,19 @@ Abweichung wird als Differenz zwischen den Ist-Kosten und Einstandspreis (fest) 
 |Kostenanteil|Gekaufter Artikel|Erzeugter/Montierter Artikel|  
 |----------------|--------------------|------------------------------|  
 |**Einstandspreis (fest)**||Einstufige Materialkosten + Einstufige Kapazitätskosten + Einstufige Fremdarbeitskosten + Einstufige Kap.-Gemeinkosten + Einstufige Prod.-Gemeinkosten|  
-|**Einstufige Materialkosten**|Einstandspreis|![Gleichung 1.](media/design_details_inventory_costing_11_equation_1.png "Gleichung 1")|  
-|**Einstufige Kapazitätskosten**|Nicht anwendbar|![Gleichung 2.](media/design_details_inventory_costing_11_equation_2.png "Gleichung 2")|  
-|**Einstufige Fremdarbeitskosten**|Nicht anwendbar|![Gleichung 3.](media/design_details_inventory_costing_11_equation_3.png "Gleichung 3")|  
-|**Einstufige Kap.-Gemeinkosten**|Nicht anwendbar|![Gleichung 4.](media/design_details_inventory_costing_11_equation_4.png "Gleichung 4")|  
+|**Einstufige Materialkosten**|Einstandspreis|![Formel 1](media/design_details_inventory_costing_11_equation_1.png "Formel 1")|  
+|**Einstufige Kapazitätskosten**|Nicht anwendbar|![Formel 2](media/design_details_inventory_costing_11_equation_2.png "Formel 2")|  
+|**Einstufige Fremdarbeitskosten**|Nicht anwendbar|![Formel 3](media/design_details_inventory_costing_11_equation_3.png "Formel 3")|  
+|**Einstufige Kap.-Gemeinkosten**|Nicht anwendbar|![Formel 4](media/design_details_inventory_costing_11_equation_4.png "Formel 4")|  
 |**Einstufige Prod.-Gemeinkosten**|Nicht anwendbar|(Einstufige Materialkosten + Einstufige Kapazitätskosten + Einstufige Fremdarbeitskosten) * Indirekte Kosten %/100 + Gemeinkostensatz|  
-|**Mehrstufige Materialkosten**|Einstandspreis|![Gleichung 5.](media/design_details_inventory_costing_11_equation_5.png "Gleichung 5")|  
-|**Mehrstufige Kapazitätskosten**|Nicht anwendbar|![Gleichung 6.](media/design_details_inventory_costing_11_equation_6.png "Gleichung 6")|  
-|**Mehrstufige Fremdarbeitskosten**|Nicht anwendbar|![Gleichung 7.](media/design_details_inventory_costing_11_equation_7.png "Gleichung 7")|  
-|**Mehrstufige Kapazitätsgemeinkosten**|Nicht anwendbar|![Gleichung 8.](media/design_details_inventory_costing_11_equation_8.png "Gleichung 8")|  
-|**Mehrstufige Prod.-Gemeinkosten**|Nicht anwendbar|![Gleichung 9.](media/design_details_inventory_costing_11_equation_9.png "Gleichung 9")|  
+|**Mehrstufige Materialkosten**|Einstandspreis|![Formel 5](media/design_details_inventory_costing_11_equation_5.png "Formel 5")|  
+|**Mehrstufige Kapazitätskosten**|Nicht anwendbar|![Formel 6](media/design_details_inventory_costing_11_equation_6.png "Formel 6")|  
+|**Mehrstufige Fremdarbeitskosten**|Nicht anwendbar|![Formel 7](media/design_details_inventory_costing_11_equation_7.png "Formel 7")|  
+|**Mehrstufige Kapazitätsgemeinkosten**|Nicht anwendbar|![Formel 8](media/design_details_inventory_costing_11_equation_8.png "Formel 8")|  
+|**Mehrstufige Prod.-Gemeinkosten**|Nicht anwendbar|![Formel 9](media/design_details_inventory_costing_11_equation_9.png "Formel 9")|  
 
 ## <a name="see-also"></a>Siehe auch  
  [Designdetails: Lagerkostenberechnung](design-details-inventory-costing.md)   
  [Designdetails: Kostenmethoden](design-details-costing-methods.md) [Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)  
  [Finanzen](finance.md)  
- [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+ [Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

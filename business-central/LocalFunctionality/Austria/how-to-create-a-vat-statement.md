@@ -2,32 +2,30 @@
 title: So erstellen Sie eine MwSt.-Abrechnung
 description: Sie können einen regelmäßigen Bericht der MsSt.-Transaktionen übermitteln. Die MwSt.-Abrechnung wird als FDF-Datei übermittelt, die einer bearbeitbaren PDF-Datei von der Steuerbehörde entspricht.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: d50c4d5fd156690e9178060c4e6b7656dec311d9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: e58bb9ae6ff5f9c1b82ba7f822c8e99623f2a661
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139009"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676713"
 ---
 # <a name="create-a-vat-statement"></a>Erstellen einer MwSt.-Abrechnung
-[!INCLUDE[prod_short](../../includes/prod_short.md)] ermöglicht Ihnen, einen regelmäßigen Bericht der MsSt.-Transaktionen zu übermitteln. Die MwSt.-Abrechnung wird als FDF-Datei übermittelt, die einer bearbeitbaren PDF-Datei von der Steuerbehörde entspricht.  
-
-> [!NOTE]  
->  Mit Gültigkeit ab dem 1. Juli 2020 haben die österreichischen Behörden als vorübergehende Maßnahme zur Förderung der Wirtschaft in Bereichen, die hart von COVID-19 getroffen wurden, die Mehrwertsteuer für bestimmte Gastronomiedienstleistungen auf 5 % gesenkt. Wenn Sie Debitoren oder Kreditoren in den betroffenen Bereichen haben, müssen Sie MwSt-Buchungsgruppen erstellen, die den korrekten MwSt-Satz widerspiegeln, und diese für Transaktionen verwenden, die ab dem 1. Juli 2020 erstellt wurden. Um sicherzustellen, dass die neuen 5%-MwSt.-Transaktionen korrekt in die MwSt.-Abrechnungen aufgenommen werden, führen Sie die Aktion **MwSt.-Abrechnung aktualisieren** im Feld **Suche** aus. Dadurch wird die MwSt.-Erklärung neu erstellt und die 5%-Transaktionen eingezogen, die im entsprechenden Feld in der offiziellen PDF-Vorlage für die MwSt.-Erklärung zur Berichterstattung bereit sind. Stellen Sie außerdem sicher, dass Sie die offizielle PDF-Vorlage für die MwSt-Berichterstattung erhalten.  
+[!INCLUDE[d365fin](../../includes/d365fin_md.md)] ermöglicht Ihnen, einen regelmäßigen Bericht der MsSt.-Transaktionen zu übermitteln. Die MwSt.-Abrechnung wird als FDF-Datei übermittelt, die einer bearbeitbaren PDF-Datei von der Steuerbehörde entspricht.  
 
 > [!IMPORTANT]  
 >  Vor der Erstellung der MwSt.-Erklärung müssen Sie detaillierte Informationen zu Ihrer Firmenadresse auf der Seite „Firmendaten” angeben. Zu diesen Angaben zählen Straße, Hausnummer, Etage und Zimmernummer. Diese Informationen werden in die FDF-Datei aufgenommen.  
 
 ## <a name="to-create-a-vat-statement"></a>So erstellen Sie eine MwSt.-Abrechnung  
 
-1.  Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet.](../../media/ui-search/search_small.png "Tell me-Funktion") aus. Geben Sie **MwSt.-Abrechnung AT** ein, und wählen Sie dann den zugehörigen Link aus.  
+1.  Wählen Sie die ![Glühbirne, die das Tell Me Feature](../../media/ui-search/search_small.png "Tell me-Funktion") Symbol öffnet, geben Sie **MWST-Abrechnung AT** ein und wählen Sie dann den entsprechenden Link.  
 2.  Füllen Sie die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
 
     |Feld|Description|  
@@ -50,6 +48,3 @@ Wenn Ihre MwSt-Abrechnung fehlerfrei ist, können Sie die FDF-Datei an die Steue
 
 ## <a name="see-also"></a>Siehe auch  
 [MwSt.-Abrechnung](vat-reporting.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

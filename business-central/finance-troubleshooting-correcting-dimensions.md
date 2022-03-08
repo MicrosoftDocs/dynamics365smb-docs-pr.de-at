@@ -2,27 +2,25 @@
 title: Fehlersuche und Korrektur von Dimensionen
 description: Erfahren Sie, wie Sie typische Dimensionsfehler beheben und wie Sie Dimensionen korrigieren können, nachdem sie in gebuchten Transaktionen verwendet wurden.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dimension, correction, correct, business intelligence
-ms.search.form: 116, 540, 2588
-ms.date: 09/27/2021
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 91dce6ef4fee44800ab5892a986783139eeed892
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 018e0ebdb96e155959fc0042e4c2a9b778ecffb0
+ms.sourcegitcommit: cbd00f24fb471381bbfd64670237eda176bd78e5
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146479"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947506"
 ---
 # <a name="troubleshooting-and-correcting-dimensions"></a>Fehlersuche und Korrektur von Dimensionen
-
 Finanzberichte und Analyseansichten stützen sich oft auf Daten aus Dimensionen. Trotz der vorhandenen Sicherheitsvorkehrungen passiert manchmal ein Fehler, der zu Ungenauigkeiten führen kann. In diesem Thema werden einige der typischen Fehler beschrieben und es wird erklärt, wie Sie Dimensionszuordnungen auf gebuchten Transaktionen korrigieren können, damit die Finanzberichte korrekt sind.
 
 ## <a name="troubleshooting-dimensions-errors"></a>Beheben von Dimensionsfehlern
-
 Wenn Sie Belege oder Zeilen in der Erfassung buchen, die Dimensionen enthalten, können verschiedene Fehler auftreten, die jedoch typischerweise mit einer falschen Einrichtung oder Zuordnung von Dimensionen zusammenhängen.
 
 > [!NOTE]
@@ -44,33 +42,30 @@ Wenn Sie Belege oder Zeilen in der Erfassung buchen, die Dimensionen enthalten, 
 |Eine Dimensionskorrektur wird nicht korrekt abgeschlossen.||Wählen Sie **Zurücksetzen** aus. um die Korrektur auf einen Entwurfszustand zurückzusetzen. Dadurch werden die Änderungen zurückgesetzt und Sie können die Korrektur erneut ausführen.|
 
 ## <a name="changing-dimension-assignments-after-posting"></a>Ändern der Dimensionszuweisungen nach dem Buchen
-
 Wenn Sie feststellen, dass für gebuchte Hauptbucheinträge eine falsche Dimension verwendet wurde, können Sie die Dimensionswerte korrigieren und Ihre Analyseansichten aktualisieren. Dies hilft Ihnen dabei, Ihre Finanzberichte und ‑analysen korrekt zu halten.
 
 > [!IMPORTANT]
 > Die Funktionen zum Korrigieren von Dimensionen sind nur dazu gedacht, die Genauigkeit der Finanzberichte zu unterstützen. Dimensionskorrekturen beziehen sich nur auf die Sachbucheinträge. Sie ändern nicht die Dimensionen, die den Einträgen in anderen Sachkonten für dieselbe Transaktion zugeordnet sind. Es besteht eine Diskrepanz zwischen den Dimensionen, die im Hauptbuch und den Nebenbüchern zugeordnet sind.
 
 ### <a name="setting-up-dimension-corrections"></a>Einrichten von Dimensionskorrekturen
-
 Beim Einrichten von Dimensionskorrekturen sind zwei Dinge zu beachten:
 
 * Gibt es Dimensionen, bei denen Sie nicht zulassen möchten, dass sie von Menschen geändert werden? Geben Sie auf der Seite **Dimensionskorrektureinstellungen** die Dimensionen an, die Sie für Änderungen blockieren möchten.
 * Wem möchten Sie erlauben, Dimensionen zu ändern? Weisen Sie die **D365 DIM-KORREKTUR** Erlaubnis Benutzern zu, damit Personen Änderungen vornehmen können. Mit den Berechtigungen können sie Dimensionskorrekturen erstellen, ausführen und bei Bedarf rückgängig machen. Sie können auch blockierte Dimensionen angeben. Weitere Informationen finden Sie unter [Berechtigungen für Benutzer und Gruppen zuweisen](ui-define-granular-permissions.md). 
 
 ### <a name="correcting-a-dimension"></a>Korrigieren einer Dimension
-
 Sie können einen oder mehrere Hauptbucheinträge manuell auswählen oder Filter verwenden, um Sätze von Einträgen auszuwählen. Bei Bedarf können Sie auch Dimensionen hinzufügen oder löschen. 
 
 1. Verwenden Sie eine der folgenden Seiten, um eine Dimensionskorrektur zu starten:
 
-    * Auf der Seite **Sachpostenjournalnr.**, indem Sie ein Register auswählen und dann die Aktion **Dimensionen korrigieren** auswählen. Dies startet eine Korrektur für die Einträge im ausgewählten Register.
-    * Auf der Seite **Sachposten**, indem Sie die Aktion **Dimensionskorrektur** auswählen. 
+* Auf der Seite **Sachpostenjournalnr.**, indem Sie ein Register auswählen und dann die Aktion **Dimensionen korrigieren** auswählen. Dies startet eine Korrektur für die Einträge im ausgewählten Register.
+* Auf der Seite **Sachposten**, indem Sie die Aktion **Dimensionskorrektur** auswählen. 
 
 2. Geben Sie im Feld **Beschreibung** die Informationen zur Veränderung ein. Andere Personen verwenden diese Informationen möglicherweise später, um zu verstehen, was getan wurde.
 3. Wählen Sie im Inforegister **Ausgewählte Posten** die entsprechenden Einträge aus.
 
-    > [!IMPORTANT]
-    > Wenn Sie eine Auswahl ändern, werden die Werte im Inforegister **Dimensionskorrekturänderungen** zurückgesetzt. Wählen Sie daher immer die Einträge aus, bevor Sie Dimensionswertänderungen angeben.
+> [!IMPORTANT]
+> Wenn Sie eine Auswahl ändern, werden die Werte im Inforegister **Dimensionskorrekturänderungen** zurückgesetzt. Wählen Sie daher immer die Einträge aus, bevor Sie Dimensionswertänderungen angeben.
 
    Die Optionen werden in der folgenden Tabelle beschrieben.
 
@@ -88,41 +83,29 @@ Sie können einen oder mehrere Hauptbucheinträge manuell auswählen oder Filter
 6. Wählen Sie **Ausführen** aus.
 
 ### <a name="validating-dimension-corrections"></a>Validieren von Dimensionskorrekturen
-
 Bevor Sie eine Korrektur ausführen, sollten Sie diese zuerst validieren. Die Validierung prüft auf Einschränkungen bei der Wertbuchung für die Sachkonten, Einschränkungen für Dimensionen und ob die Dimensionswerte blockiert sind. Während der Validierung wird der Status der Korrektur auf **Validierung in Bearbeitung** gesetzt. Nachdem Sie eine Korrektur validiert haben, wird das Ergebnis im Feld **Überprüfungsstatus** angezeigt. Wenn Fehler gefunden wurden, können Sie die Aktion **Fehler anzeigen** verwenden, um sie zu untersuchen. Nachdem Sie einen Fehler behoben haben, müssen Sie die Aktion **Erneut öffnen** zum Ausführen der Korrektur oder einer neuen Validierung verwenden.
 
 Sie können eine Korrektur entweder sofort ausführen oder für eine spätere Ausführung planen. Wenn Sie Korrekturen an einem großen Datensatz ausführen, empfehlen wir, die Ausführung außerhalb der Geschäftszeiten zu planen. Weitere Informationen finden Sie unter [Dimensionskorrekturen bei großen Datensätzen](finance-troubleshooting-correcting-dimensions.md#dimension-corrections-on-large-data-sets).
 
 ### <a name="undoing-a-correction"></a>Rückgängig machen einer Korrektur
-
 Wenn Ihnen nach dem Korrigieren einer Dimension das, was Sie sehen, nicht gefällt, können Sie die Aktion **Rückgängig machen** zum Zurücksetzen des vorherigen Werts verwenden. Sie können jedoch nur die letzte Korrektur rückgängig machen. Bevor Sie eine Korrektur rückgängig machen, können Sie die Änderungen überprüfen, die durch das Rückgängigmachen vorgenommen werden. Dies ist beispielsweise nützlich, wenn sich die Dimensionsbeschränkungen nach der Korrektur geändert haben.
 
 Wenn die Aktion „Rückgängig“ nicht verfügbar ist, z. B. weil Sie viele Korrekturen vorgenommen haben, können Sie die Aktion **In Entwurf kopieren** verwenden, um eine neue Korrektur für dieselben Einträge zu starten.
 
 ### <a name="dimension-corrections-on-large-data-sets"></a>Dimensionskorrekturen bei großen Datenmengen
-
 Seien Sie vorsichtig, wenn Sie große Sätze von Einträgen korrigieren, z. B. Sets mit mehr als 10.000 Einträgen. Wenn Sie können, empfehlen wir, dass Sie die Filter verwenden, um die Korrekturen für kleinere Datensätze auszuführen. Es ist auch eine gute Idee, Korrekturen außerhalb der normalen Geschäftszeiten durchzuführen. 
 
 ### <a name="using-analysis-views-with-dimension-corrections"></a>Analyseansichten mit Dimensionskorrekturen verwenden
-
 Wenn **Bei Buchung aktualisieren** für eine Analyseansicht aktiviert ist, kann [!INCLUDE[prod_short](includes/prod_short.md)] die Ansicht, wann Dokumente und Journale gebucht werden, anzeigen. Sie können Ansichten auch mit dieser Einstellung aktualisieren, die mit Ergebnissen von Dimensionskorrekturen aktiviert ist. Aktivieren Sie dazu den Umschalter **Analyseansichten aktualisieren**. Das Aktualisieren von Analyseansichten kann sich auf die Leistung auswirken, insbesondere bei großen Datenmengen. Wir empfehlen daher, die Analyseansichten nur bei kleinen Datenmengen zu aktualisieren.  
 
 ### <a name="viewing-historical-dimension-corrections"></a>Anzeigen historischer Dimensionskorrekturen
-
 Wenn ein Hauptbucheintrag korrigiert wurde, können Sie die Änderung mithilfe von der Aktion **Verlauf der Dimensionskorrekturen** untersuchen.
 
 ### <a name="handling-incomplete-corrections"></a>Umgang mit unvollständigen Korrekturen
-
 Wenn eine Korrektur nicht abgeschlossen ist, wird auf der Korrekturkarte eine Warnung angezeigt. In diesem Fall können Sie die Aktion **Zurücksetzen** verwenden, um die Korrektur auf einen Entwurfsstatus zurückzusetzen und die Änderungen rückgängig zu machen. Sie können die Korrektur dann erneut ausführen.
 
 > [!NOTE]
 > Das Zurücksetzen einer unvollständigen Korrektur wirkt sich nicht auf Aktualisierungen der Analyseansichten aus, da diese am Ende des Korrekturprozesses erfolgen.
 
 ### <a name="using-cost-accounting-with-corrected-gl-entries"></a>Verwenden von Kostenrechnung mit korrigierten Sachkonteneinträgen
-
-Nachdem Sie die Dimensionen korrigiert haben, sind Ihre Daten für die Kostenrechnung nicht mehr synchron. Die Kostenrechnung verwendet Dimensionen, um Beträge für Kostenstellen und Kostenobjekte zu aggregieren und Kostenzuordnungen durchzuführen. Das Ändern der Abmessungen für Sachkontenbuchungen bedeutet wahrscheinlich, dass Sie Ihre Kostenrechnungsmodelle erneut ausführen. Ob Sie nur einige Kostenregister löschen und Zuordnungen erneut ausführen müssen oder alles löschen und alle Ihre Modelle erneut ausführen müssen, hängt von den aktualisierten Daten und der Einrichtung Ihrer Kostenrechnungsfunktionen ab. Sie müssen manuell ermitteln, wo sich Korrekturen an Dimensionen auf die Kalkulation auswirken und wo Aktualisierungen erforderlich sind. [!INCLUDE[prod_short](includes/prod_short.md)] bietet derzeit keine automatisierte Möglichkeit, dies zu tun.
-
-## <a name="see-also"></a>Weitere Informationen
-
-[Arbeiten mit Dimensionen](finance-dimensions.md)
-[Analysieren von Daten nach Dimensionen](bi-how-analyze-data-dimension.md)  
+Nachdem Sie die Dimensionen korrigiert haben, sind Ihre Daten für die Kostenrechnung nicht mehr synchron. Die Kostenrechnung verwendet Dimensionen, um Beträge für Kostenstellen und Kostenobjekte zu aggregieren und Kostenzuordnungen durchzuführen. Das Ändern der Abmessungen für Sachkontenbuchungen bedeutet wahrscheinlich, dass Sie Ihre Kostenrechnungsmodelle erneut ausführen. Ob Sie nur einige Kostenregister löschen und Zuordnungen erneut ausführen müssen oder alles löschen und alle Ihre Modelle erneut ausführen müssen, hängt von den aktualisierten Daten und der Einrichtung Ihrer Kostenrechnungsfunktionen ab. Es ist ein manueller Prozess, festzustellen, wo sich Dimensionskorrekturen auf die Kostenrechnung auswirken und wo Aktualisierungen erforderlich sind. [!INCLUDE[prod_short](includes/prod_short.md)] bietet derzeit keine automatisierte Möglichkeit, dies zu tun.

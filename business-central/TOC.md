@@ -24,13 +24,27 @@
 
 ### Designdetails
 #### [Anwendungsdesigndetails – Übersicht](design-details-application-design.md)
+#### Designdetails: Vorratsplanung
+##### [Lieferplanung – Übersicht](design-details-supply-planning.md)
+##### [Designdetails: Zentrale Konzepte des Planungssystems](design-details-central-concepts-of-the-planning-system.md)  
+##### [Designdetails: Reservierung, Auftragsnachverfolgung und Aktionsmeldungen](design-details-reservation-order-tracking-and-action-messaging.md)  
+##### [Designdetails: Ausgleich von Bedarf und Vorrat](design-details-balancing-demand-and-supply.md)  
+##### [Designdetails: Umgang mit Wiederbeschaffungsverfahren](design-details-handling-reordering-policies.md)  
+##### [Designdetails: Planungsparameter](design-details-planning-parameters.md)  
+##### [Designdetails: Planungs-Zuordnungstabelle](design-details-planning-assignment-table.md)  
+##### [Designdetails: Bedarf an leerem Lagerort](design-details-demand-at-blank-location.md)  
+##### [Designdetails: Umlagerungen in Planung](design-details-transfers-in-planning.md)
 #### Designdetails: Lagerkostenberechnung
-##### [Designdetails der Bestandskosten](design-details-inventory-costing.md)
+##### [Nachkalkulationsübersicht](design-details-inventory-costing.md)
 ##### [Designdetails: Kostenberechnungsmethoden](design-details-costing-methods.md)  
 ##### [Designdetails: Lagerabgangsmethode für Artikel ändern](design-details-changing-costing-methods.md)
 ##### [Designdetails: Artikelausgleich](design-details-item-application.md)  
 ##### [Designdetails: Bekannte Artikelanwendungsprobleme](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 ##### [Designdetails: Kostenregulierung](design-details-cost-adjustment.md)  
+##### Designdetails: Buchungsdatum auf Ausgleichs-Wertposten
+###### [Designdetails: Buchungsdatum auf Ausgleichs-Wertposten](design-details-inventory-adjustment-value-entry-posting-date.md)  
+###### [Fehlermeldung „Buchungsdatum liegt nicht in Ihrem Bereich der zulässigen Buchungsdaten“](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
+###### [Buchungsdatum der Korrekturwerteingabe im Vergleich zur Quelleingabe](design-details-inventory-adjustment-value-entry-source-entry.md)  
 ##### [Designdetails: Soll-Kosten-Buchen](design-details-expected-cost-posting.md)  
 ##### [Designdetails: Durchschnittskosten](design-details-average-cost.md)  
 ##### [Designdetails: Abweichung](design-details-variance.md)  
@@ -44,26 +58,8 @@
 ##### [Designdetails: Konten in der Finanzbuchhaltung](design-details-accounts-in-the-general-ledger.md)
 ##### [Designdetails: Bestandsbewertung](design-details-inventory-valuation.md)  
 ##### [Designdetails: Neubewertung](design-details-revaluation.md)
-#### Designdetails: Buchungsdatum auf Ausgleichs-Wertposten
-##### [Übersicht über das Buchungsdatum der Korrekturwerteingabe](design-details-inventory-adjustment-value-entry-posting-date.md)  
-##### [Fehlermeldung „Buchungsdatum liegt nicht in Ihrem Bereich der zulässigen Buchungsdaten“](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
-##### [Buchungsdatum der Korrekturwerteingabe im Vergleich zur Quelleingabe](design-details-inventory-adjustment-value-entry-source-entry.md)
-#### Designdetails: Dimensionssatzposten
-##### [Designdetails: Dimensionssatzposten-Übersicht](design-details-dimension-set-entries-overview.md)
-##### [Designdetails: Suche nach Dimensionskombinationen](design-details-searching-for-dimension-combinations.md)
-##### [Designdetails: Tabellenstruktur](design-details-table-structure.md)
-#### Designdetails: Vorratsplanung
-##### [Designdetails der Beschaffungsplanung](design-details-supply-planning.md)
-##### [Designdetails: Zentrale Konzepte des Planungssystems](design-details-central-concepts-of-the-planning-system.md)  
-##### [Designdetails: Reservierung, Auftragsnachverfolgung und Aktionsmeldungen](design-details-reservation-order-tracking-and-action-messaging.md)  
-##### [Designdetails: Ausgleich von Bedarf und Vorrat](design-details-balancing-demand-and-supply.md)  
-##### [Designdetails: Umgang mit Wiederbeschaffungsverfahren](design-details-handling-reordering-policies.md)  
-##### [Designdetails: Planungsparameter](design-details-planning-parameters.md)  
-##### [Designdetails: Planungs-Zuordnungstabelle](design-details-planning-assignment-table.md)  
-##### [Designdetails: Bedarf an leerem Lagerort](design-details-demand-at-blank-location.md)  
-##### [Designdetails: Umlagerungen in Planung](design-details-transfers-in-planning.md)
 #### Designdetails: Lagerverwaltung
-##### [Designdetails des Warehouse Managements](design-details-warehouse-management.md)
+##### [Lagerverwaltung – Übersicht](design-details-warehouse-management.md)
 ##### [Designdetails: Lagerübersicht](design-details-warehouse-overview.md)  
 ##### [Designdetails: Lagereinrichtung](design-details-warehouse-setup.md)  
 ##### [Designdetails: Eingehender Lagerfluss](design-details-inbound-warehouse-flow.md)  
@@ -72,7 +68,7 @@
 ##### [Designdetails: Ausgehender Lagerfluss](design-details-outbound-warehouse-flow.md)  
 ##### [Designdetails: Integration mit dem Lagerbestand](design-details-integration-with-inventory.md)
 #### Designdetails: Artikelnachverfolgung
-##### [Designdetails der Artikelverfolgung](design-details-item-tracking.md)
+##### [Artikelverfolgung – Übersicht](design-details-item-tracking.md)
 ##### [Designdetails: Artikelverfolgungsdesign](design-details-item-tracking-design.md)  
 ##### [Designdetails: Artikelverfolgungs-Buchungsstruktur](design-details-item-tracking-posting-structure.md)  
 ##### [Designdetails: Aktive vs. historische Artikelverfolgungsposten](design-details-active-versus-historic-item-tracking-entries.md)  
@@ -82,10 +78,14 @@
 ##### [Designdetails: Artikelverfolgung und Reservierungen](design-details-item-tracking-and-reservations.md)  
 ##### [Designdetails: Artikelverfolgung im Lager](design-details-item-tracking-in-the-warehouse.md)
 #### Designdetails: Fibu Buch.-Blatt-Buchungsposition
-##### [Designdetails der Fibu Buch.-Blatt-Buchungszeile](design-details-general-journal-post-line.md)
+##### [Fibu Buch.-Blatt-Buchungszeile](design-details-general-journal-post-line.md)
 ##### [Fibu-Buchungszeile - Überblick](design-details-general-journal-post-line-overview.md)  
 ##### [Designdetails: Buchungs-Schnittstellenstruktur](design-details-posting-interface-structure.md)  
 ##### [Designdetails: Buchungs-Modul-Struktur](design-details-posting-engine-structure.md)  
+#### Designdetails: Dimensionssatzposten
+##### [Designdetails: Dimensionssatzposten-Übersicht](design-details-dimension-set-entries-overview.md)  
+##### [Designdetails: Suche nach Dimensionskombinationen](design-details-searching-for-dimension-combinations.md)  
+##### [Designdetails: Tabellenstruktur](design-details-table-structure.md)  
 
 ## Testen
 ### [Testversionen und Abonnements](across-preview.md)
@@ -483,7 +483,6 @@
 #### [Abstimmen von Debitoren-Zahlungen mit dem Zahlungseingangs Buch.-Blatt oder von Debitorenposten](receivables-how-apply-sales-transactions-manually.md)
 #### [Einziehen von Restbeträgen](receivables-collect-outstanding-balances.md)
 #### [Erfassen von Zahlungen per Lastschriftverfahren SEPA](finance-collect-payments-with-sepa-direct-debit.md)
-#### [Mahnungen für ausstehende Salden versenden](receivables-send-reminders.md)
 #### [Debitoren sperren](receivables-how-block-customers.md)
 #### [Arbeiten mit Zahlungstoleranzen und Skontotoleranzen](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Die Erweiterung zur Vorhersage verspäteter Zahlungen](ui-extensions-late-payment-prediction.md)
@@ -684,8 +683,8 @@
 ### [Projektmanagement – Übersicht](projects-manage-projects.md)
 ### [Projektberichte](project-reports.md)
 ### [Projekt erstellen](projects-how-create-jobs.md)
-### [Ressourcen für Projekte verwenden](projects-how-use-resources.md)
-### [Arbeitszeittabellen verwenden](projects-how-use-time-sheets.md)
+### [Verwenden von Ressourcen für Projekte](projects-how-use-resources.md)
+### [Verwenden von Arbeitszeittabellen für Projekte](projects-how-use-time-sheets.md)
 ### [Verwalten von Anlagenbudgets](projects-how-manage-budgets.md)
 ### [Verbrauch bei Projekten aufzeichnen](projects-how-record-job-usage.md)
 ### [Verwalten von Projektlieferungen](projects-how-manage-project-supplies.md)
@@ -704,7 +703,6 @@
 ### [Anlagen abschreiben oder amortisieren](fa-how-depreciate-amortize.md)
 ### [Anlagen entsorgen oder außer Dienst stellen](fa-how-dispose-retire.md)
 ### [Budgets für Anlagen verwalten](fa-how-manage-budgets.md)
-### [Problembehebung bei Anlagenposten](fa-troubleshooting-fa-ledger-entries.md)
 
 ## Marketing & Vertrieb
 ### [Marketing und Vertrieb – Übersicht](marketing-relationship-management.md)
@@ -1231,8 +1229,6 @@
 ##### [Auf MwSt-Transaktionsberichte vorbereiten](LocalFunctionality/Italy/how-to-prepare-for-vat-transactions-reports.md)
 ##### [GuV-Bücher und MwSt-Register drucken und erneut drucken](LocalFunctionality/Italy/how-to-print-and-reprint-g-l-books-and-vat-registers.md)
 ##### [Intrastat-Berichte für Italien drucken](LocalFunctionality/Italy/how-to-print-intrastat-reports-for-italy.md)
-#### Quellensteuer
-##### [Quellensteuer in der italienischen Version einrichten](LocalFunctionality/Italy/set-up-withholding-tax.md)
 ##### [Quellensteuerberichte drucken](LocalFunctionality/Italy/how-to-print-withholding-tax-reports.md)
 #### Banking und Zahlungen
 ##### [Zahlungsbedingungen einrichten](LocalFunctionality/Italy/how-to-set-up-payment-terms.md)
@@ -1262,26 +1258,28 @@
 #### [Lokale Funktionen in der mexikanischen Version](LocalFunctionality/Mexico/mexico-local-functionality.md)
 #### Steuer
 ##### [Einrichten und Generieren von DIOT-Berichten](LocalFunctionality/Mexico/ui-extensions-setup-and-generate-diot-report-mx.md)
-##### [Berechnungen einrichten und Buchungsmethoden für Mehrwertsteuer](finance-setup-vat.md)  
+##### [Mehrwertsteuer in Mexiko](LocalFunctionality/Mexico/mexico-sales-tax.md)  
+##### [Erwerbsteuer und Umsatzsteuer einrichten](LocalFunctionality/Mexico/how-to-set-up-use-tax-and-purchase-tax.md)  
+##### [Unrealisierte MwSt und Verkaufszahlungsrabatte einrichten](LocalFunctionality/Mexico/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)
+##### [MwSt in Mexiko melden](LocalFunctionality/Mexico/mexico-sales-tax.md)
+##### [Einlagen erstellen](LocalFunctionality/Mexico/how-to-create-deposits.md)  
 ##### [Steuerkennungstypen für Mexiko](LocalFunctionality/Mexico/tax-identification-types-for-mexico.md)
 ##### [MwSt-Neuberechnung](LocalFunctionality/Mexico/vat-recalculation.md)
 #### Elektronische Rechnungsstellung
-##### [Elektronische Rechnungsstellung (MX)](LocalFunctionality/Mexico/electronic-invoicing.md)
-##### [PAC-Webdienste einrichten](LocalFunctionality/Mexico/how-to-set-up-pac-web-services.md)
-##### [Elektronische Rechnungsstellung (MX) einrichten](LocalFunctionality/Mexico/how-to-set-up-electronic-invoicing.md)
-##### [Elektronische Rechnungen (MX) generieren](LocalFunctionality/Mexico/how-to-generate-electronic-invoices.md)
-##### [Carta de Porte-Lieferscheine und -Umlagerungsaufträge (MX)](LocalFunctionality/Mexico/packing-slips-transfer-orders.md)
-#### Allgemein
+##### [Elektronische Rechnungsstellung](LocalFunctionality/Mexico/electronic-invoicing.md)
+##### [Elektronische Rechnungsstellung einrichten](LocalFunctionality/Mexico/how-to-set-up-electronic-invoicing.md)
+##### [Elektronische Rechnungen generieren](LocalFunctionality/Mexico/how-to-generate-electronic-invoices.md)
 ##### [Elektronische Buchhaltungs-Regelungen in Mexiko](LocalFunctionality/Mexico/electronic-accounting-regulations.md)
-##### [Elektronische Zahlungen machen ](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
+##### [Elektronische Zahlungen machen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
+#### Allgemein
+##### [PAC-Webdienste einrichten](LocalFunctionality/Mexico/how-to-set-up-pac-web-services.md)
 ##### [Problembehandlungsberichte drucken](LocalFunctionality/Mexico/how-to-print-troubleshooting-reports.md)  
-##### [Einlagen erstellen](LocalFunctionality/Mexico/how-to-create-deposits.md)  
 
 ### Niederlande
 #### [Lokale Funktionen in der niederländischen Version](LocalFunctionality/Netherlands/netherlands-local-functionality.md)
 #### MwSt.
 ##### [Eine Protokolldatei für die Steuerbehörde erstellen](LocalFunctionality/Netherlands/how-to-create-an-audit-file-for-the-tax-authority.md)
-##### [MwSt-Kategorien einrichten](LocalFunctionality/Netherlands/how-to-set-up-vat-categories.md)
+##### [MwSt-Kategorien einrichten](LocalFunctionality\Netherlands\how-to-set-up-vat-categories.md)
 ##### [Elektronische MwSt und ICP-Meldungen](LocalFunctionality/Netherlands/electronic-vat-and-icp-declarations.md)
 ##### [Elektronische MwSt und ICP-Meldungen einrichten](LocalFunctionality/Netherlands/how-to-set-up-electronic-vat-and-icp-declarations.md)
 ##### [Elektronische MwSt und ICP-Meldungen übermitteln](LocalFunctionality/Netherlands/electronic-vat-and-icp-declarations.md)
@@ -1292,7 +1290,7 @@
 ##### [Zahlungsszenario 1 - Inlandszahlungen (MW in MW)](LocalFunctionality/Netherlands/payment-scenario-1-domestic-payments-lcy-to-lcy-.md)  
 ##### [Zahlungsszenario 2 - Zahlung in Fremdwährung (FW in FW)](LocalFunctionality/Netherlands/payment-scenario-2-foreign-payment-fcy-to-fcy-.md)  
 ##### [Zahlungsszenario 3 - Zahlung in Fremdwährung (MW in FW)](LocalFunctionality/Netherlands/payment-scenario-3-foreign-payment-lcy-to-fcy-.md)
-##### [Vorschläge erstellen](LocalFunctionality/Netherlands/how-to-create-proposals.md)
+##### [Vorschläge erstellen](LocalFunctionality\Netherlands\how-to-create-proposals.md)
 ##### [Lieferschein-Berichte](LocalFunctionality/Netherlands/docket-reports.md)
 ##### [Eingeben und Buchen von Kasse- und Bank- oder Giro-Buch.-Blättern](LocalFunctionality/Netherlands/how-to-enter-and-post-cash-and-bank-or-giro-journals.md)
 ##### [Drucken von Testberichten für Kasse und Bank oder Giro-Buch.-Blättern](LocalFunctionality/Netherlands/how-to-print-the-test-reports-for-cash-and-bank-or-giro-journals.md)
@@ -1300,7 +1298,7 @@
 ##### [SEPA-Zahlungen aktivieren](LocalFunctionality/Netherlands/how-to-activate-sepa-payments.md)
 ##### [Kreditorenzahlungen elektronisch im SEPA ISO 20022-Zahlungsformat übermitteln](LocalFunctionality/Netherlands/how-to-submit-vendor-payments-electronically-in-sepa-iso-20022-payment-format.md)
 ##### [Zahlungsverlauf erstellen und exportieren](LocalFunctionality/Netherlands/how-to-create-and-export-payment-history.md)
-##### [Importieren und Abstimmen von Bankabrechnungen](LocalFunctionality/Netherlands/how-to-import-and-reconcile-bank-statements.md)
+##### [Importieren und Abstimmen von Bankabrechnungen](LocalFunctionality\Netherlands\how-to-import-and-reconcile-bank-statements.md)
 #### Kernfinanzierung
 ##### [Ausgleichen und Ausgleich Aufheben von Sachposten](LocalFunctionality/Netherlands/how-to-apply-and-unapply-general-ledger-entries.md)
 ##### [Notwendige Beschreibungen in den Sachkosten](LocalFunctionality/Netherlands/required-descriptions-in-g-l-entry.md)
@@ -1606,120 +1604,6 @@
 ##### [Problembehebungsberichte drucken](LocalFunctionality/UnitedStates/how-to-print-troubleshooting-reports.md)
 ### [Regulatorische Warnungen übermitteln](submit-regulatory-alerts.md)
 
-<!--Reporting landing page-->
-# Business Intelligence und Berichte 
-
-## [Übersicht](reports-bi-reporting.md)
-
-## Berichte in der täglichen Arbeit verwenden
-### [Übersicht](reports-use-reports.md)
-### [Ausführen von Berichten](ui-work-report.md)
-### [Bookmarking eines Berichts](ui-bookmarks.md)
-### [Analysieren von Berichtsdaten mit Excel](report-analyze-excel.md)
-<!--### [Using the report inbox] (missing.md)-->
-### [Drucken von Berichten](ui-specify-printer-selection-reports.md#default)
-### [Planen von Berichten](ui-work-report.md#ScheduleReport)
-### [Verwaltung gespeicherter Berichtseinstellungen](reports-saving-reusing-settings.md)
-### [Das Standard-Layout für Berichte ändern](ui-how-change-layout-currently-used-report.md)
-
-## Integrierte Berichte
-### [Bericht Übersicht](reports-available-reports.md)
-### Finanzen
-#### [Finanzielle Analysen](bi.md)
-#### [Analysieren von Finanzauszügen mit Excel](finance-analyze-excel.md)
-#### [Schlüssel-Finanzberichte](finance-reports.md)
-#### [Debitoren Berichte](receivables-reports.md)
-#### [Kreditorenberichte](payables-reports.md)
-#### [Cashflow Analyse](finance-setup-cash-flow-analyses.md)
-#### [Finanzdaten von mehreren Firmen konsolidieren](finance-consolidated-company-reporting.md)
-
-### Verkauf
-#### [Verkaufsberichte](sales-reports.md)
-#### [Rahmenauftragsstatus](sales-how-to-create-blanket-sales-orders.md#to-view-the-status-of-a-blanket-sales-order)
-#### [Paketverfolgung](sales-how-track-packages.md)
-#### [Betrachten Sie ungebuchte und gebuchte Zeilen des Verkaufsrahmenauftrags](sales-how-to-create-blanket-sales-orders.md#to-view-unposted-and-posted-blanket-sales-order-lines)
-
-### Einkauf
-#### [Einkaufsberichte](purchase-reports.md)
-#### [Sachkonto-Einträge für den Kauf anzeigen](ui-post-purchases.md#viewing-ledger-entries)
-
-### Bestand und Lager
-#### [Bestands- und Lagerberichte](inventory-wms-reports.md)
-#### [Verfügbarkeit von Artikeln](inventory-how-availability-overview.md)
-#### [Verfolgen Sie Artikel mit Serien‑, Chargen‑ und Paketnummern](inventory-how-work-item-tracking.md)
-#### [Verfolgen von Artikeln mit Artikelverfolgung](inventory-how-to-trace-item-tracked-items.md)
-#### [Die Abstimmung zwischen dem Bestands-Sachkonto und dem Allgemeinen Hauptbuch prüfen](finance-how-to-post-inventory-costs-to-the-general-ledger.md#to-audit-the-reconciliation-between-the-inventory-ledger-and-the-general-ledger)
-#### [Cross-Docked Artikel in einem Versand- oder Kommissionierarbeitsblatt anzeigen](warehouse-how-to-cross-dock-items.md#to-view-cross-docked-items-in-a-shipment-or-pick-worksheet)
-
-### Kostenträger
-#### [Projektberichte](project-reports.md)
-#### [Schätzungen der Auftragsnutzung anzeigen](projects-how-record-job-usage.md#to-view-job-usage-estimates-and-post-updates)
-#### [Überwachen des Status und der Leistung](projects-how-monitor-progress-performance.md)
-
-### Anlagen
-#### [Anlagen Berichte](fa-reports.md)
-#### [Überwachung von Wartungskosten](fa-how-maintain.md#to-monitor-maintenance-costs)
-#### [Überwachen des Versicherungsschutzes](fa-how-insure.md#to-monitor-insurance-coverage)
-#### [Geänderte Abschreibungsbuchwerte anzeigen](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
-#### [Entsorgungsbucheinträge anzeigen](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
-#### [Geplante Entsorgungswerte anzeigen](fa-how-manage-budgets.md#to-view-projected-disposal-values)
-
-### Montageverwaltung
-#### [Berichte der Montageleitung](assembly-reports.md)
-#### [Ansicht der Stücklisten-Struktur](inventory-how-work-boms.md#to-view-components-and-resources-indented-according-to-the-bom-structure)
-
-### Produktion
-#### [Produktionsberichte](production-reports.md)
-#### [Betrachten Sie die Ladung von Arbeits- und Maschinenplätzen](production-how-to-view-the-load-on-work-centers.md)
-#### [Ansicht von Sachkontoeinträgen für Arbeitsplätze](production-how-to-post-capacities.md#to-view-work-center-ledger-entries)
-
-### Service
-#### [So zeigen Sie die Servicestatistik an](service-service-statistics.md)
-#### [Serviceaufträge Übersicht](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
-#### [Serviceangebote Übersicht](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
-#### [Übersicht über gebuchte Belege](service-service-posting.md#to-view-information-about-a-posted-service-document)
-
-## Ad-hoc-Datenanalyse
-### [Übersicht](reports-adhoc-analysis.md)
-### [Sortieren, Durchsuchen und Filtern](ui-enter-criteria-filters.md)
-### [Suchen und Filtern FAQ](ui-search-filter-faq.yml)
-### [Analysieren von Seitendaten in Excel](across-work-with-excel.md)
-### [Analysieren von Berichtsdaten mit Excel](ui-work-report.md#saving-a-report-to-a-file)
-### [Finanzielle Analysen](bi.md)
-
-## Integrierte Analysen 
-### [Übersicht](reports-built-in-analytics.md)
-### [Intelligente Einblicke](about-intelligent-cloud.md)
-### [Arbeiten mit Power BI Berichten](across-working-with-powerbi.md)
-### [Finanzielle Analysen](bi.md)
-### [Analysieren von Finanzauszügen mit Excel](finance-analyze-excel.md)
-### [Finanzdaten von mehreren Firmen konsolidieren](finance-consolidated-company-reporting.md)
-### [Telemetrie der Berichtsnutzung](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
-
-
-## Analysieren von Daten in Business Intelligence Tools
-### [Übersicht](reports-external-analysis.md)
-### [Verwendung von Power BI mit Business Central](admin-powerbi.md)
-### [Analysieren von Finanzauszügen mit Excel](finance-analyze-excel.md)
-### [Daten in Data-Warehouses oder Data-Lakes extrahieren](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)
-### [Lesen von Daten mit der Business Central API](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)
-
-## Entwickeln von Berichten
-### [Übersicht](reports-develop-reports.md)
-### Entwickeln von Berichtslayouts
-#### [Layout-Typen (Word und RDLC)](ui-manage-report-layouts.md)
-#### [Ein neues Layout erstellen](ui-how-create-custom-report-layout.md)
-#### [Schriftarten in Layouts verwenden](ui-fonts.md)  
-#### [Arbeiten mit Word-Layouts](ui-how-add-fields-word-report-layout.md)
-#### [Importieren/Exportieren eines Layouts](ui-how-import-and-export-report-layout.md)
-#### [Layout aktualisieren](ui-update-report-layouts.md)
-#### [Das Standard-Layout ändern](ui-how-change-layout-currently-used-report.md)
-### Entwickeln von Berichts-Datasets
-#### [Anleitung zur Entwicklung von Berichten](/dynamics365/business-central/dev-itpro/developer/devenv-reports)
-#### [Anleitung zur Leistungsoptimierung von Berichten](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports)
-
-
-<!--Security landing page-->
 # Sicherheit, Datenschutz, Konformität
 ## Sicherheit und Schutz
 ### [Sicherheits- und Schutzübersicht (nur in englischer Sprache)](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)

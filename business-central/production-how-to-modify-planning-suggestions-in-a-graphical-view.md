@@ -1,24 +1,25 @@
 ---
-title: Ändern von Planungsvorschlägen in der grafischen Ansicht
-description: Typische Planungsaktivität – ändern oder fügen Sie Zeilen im Planungsarbeitsblatt hinzu, um die vorgeschlagenen Vorräte zu modifizieren, bevor Sie die Funktion „Aktion ausführen“ Nachricht ausführen.
+title: 'Vorgehensweise: Ändern von Planungsvorschlägen in einer grafischen Ansich| Microsoft Docst'
+description: Eine typische Planungsaktivität besteht darin, Planungsvorschlagszeilen zu ändern oder hinzuzufügen, um die vorgeschlagenen Beschaffungsaufträge zu ändern, bevor Sie diese kommissionieren, indem Sie die Funktion Ereignismeldung durchführen ausführen. Eine Alternative zur Durchführung im Planungsvorschlag ist die Verwendung einer grafischen Ansicht.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/25/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 08c685e37ccc6ee1fa3d4503cc40bd054b4a4ca1
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d00650a3490cd4995e4c531aca5346c8c0256179
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146401"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759284"
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a>Ändern von Planungsvorschlägen in einer grafischen Ansicht
 
-Eine typische Planungsaktivität besteht darin, Planungsarbeitsblattzeilen zu ändern oder hinzuzufügen, um die vorgeschlagenen Beschaffungsaufträge zu ändern, bevor Sie diese kommissionieren, indem Sie die Funktion **Ereignismeldung durchführen** ausführen. Eine Alternative zur Durchführung im Planungsarbeitsblatt ist die Verwendung einer grafischen Ansicht. Dies wird derzeit in [!INCLUDE[prod_short](includes/prod_short.md)] jedoch nicht unterstützt.  
+Eine typische Planungsaktivität besteht darin, Planungsvorschlagszeilen zu ändern oder hinzuzufügen, um die vorgeschlagenen Beschaffungsaufträge zu ändern, bevor Sie diese kommissionieren, indem Sie die Funktion **Ereignismeldung durchführen** ausführen. Eine Alternative zur Durchführung im Planungsvorschlag ist die Verwendung einer grafischen Ansicht. Dies wird derzeit in [!INCLUDE[prod_short](includes/prod_short.md)] jedoch nicht unterstützt.  
 
 <!--On the **Item Availability by Timeline** page, you can modify certain supply orders and suggestions by dragging elements on the x-axis to change quantity or dragging elements on the y-axis to change due date.  
 
@@ -36,7 +37,7 @@ The following procedure shows how to modify supply suggestions by drag and drop.
 
 ## To modify suggested supply orders in the graphical view
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Planning Worksheet**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Planning Worksheet**, and then choose the related link.  
 
 2. Choose the line that you want to see item availability for, choose **Item Availability by**, and then choose **Timeline**.
 
@@ -102,6 +103,3 @@ To implement the supply plan changes, you must follow the resulting action messa
 [Designdetails: Vorratsplanung](design-details-supply-planning.md)  
 [Bewährte Einrichtungsmethoden: Beschaffungsplanung](setup-best-practices-supply-planning.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

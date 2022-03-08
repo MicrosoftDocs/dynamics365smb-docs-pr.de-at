@@ -1,31 +1,33 @@
 ---
-title: Tatsächlichen Beträge mit den budgetierten Beträgen analysieren
-description: In diesem Thema wird beschrieben, wie Sie Ist-Beträge gegenüber Plan-Beträgen analysieren können, um Daten Ihrer Firma zu erfassen, zu analysieren und weiterzugeben.
+title: Analysieren von Actuals vs. Budget | Microsoft Docs
+description: Beschreibt, wie die tatsächlichen Beträge mit den budgetierten Beträgen analysiert werden.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.search.form: 120, 121, 422
-ms.date: 06/15/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: df267dab7bc0d292bcd90a3e8b1063a5e87e7e61
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: d343de5288dd5ba746a5de53ea1b05a62510c47a
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335101"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5382620"
 ---
 # <a name="analyze-actual-amounts-versus-budgeted-amounts"></a>Tatsächlichen Beträge mit den budgetierten Beträgen analysieren
 Als Teil des Zusammentragen, Analysieren und Teilen der Firmendaten sehen Sie aktuelle Beträge verglichen mit den budgetierten Beträgen für alle Konten sowie für mehrere Perioden.
 
-Um budgetierte Beträge zu analysieren, müssen Sie zunächst Sachkontenbudgets erstellen. Weitere Informationen finden Sie unter [Sachkonto-Budgets erstellen](finance-how-create-budgets.md).
+Um budgetierte Beträge zu analysieren, müssen Sie zunächst Sachkonto-Budgets erstellen. Weitere Informationen finden Sie unter [Sachkonto-Budgets erstellen](finance-how-create-budgets.md).
 
 ## <a name="to-view-a-gl-budget"></a>Einsehen eines Sachkonto-Budgets
 In einem Budget mit Dimensionen können Sie die Posten filtern und somit bestimmte Budgets einsehen.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Sachkontenbudgets** ein, und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Sachkontenbudgets** ein, und wählen Sie dann den entsprechenden Link.
 2. Öffnen Sie auf der Seite **G/L Budgets** das Budget, das Sie anzeigen möchten.  
 3. Auf der Seite oben füllen Sie die Felder aus, um anzuzeigen, was gezeigt werden soll. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -41,7 +43,7 @@ In einem Budget mit Dimensionen können Sie die Posten filtern und somit bestimm
 ## <a name="to-view-actual-and-budgeted-amounts-for-all-accounts"></a>Aktuelle und budgetierte Beträge für alle Konten anzeigen:  
 Sie können Finanzbudgets anzeigen und sie mit tatsächlichen Werten in verschiedenen Bereichen von [!INCLUDE[prod_short](includes/prod_short.md)] vergleichen.
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Kontenplan** ein, und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Kontenplan** ein und wählen Sie dann den entsprechenden Link.  
 2. Auf der Seite **Kontenplan** wählen Sie die **Saldo/Budget** Aktion aus.
 3. Auf der Seite oben füllen Sie die Felder aus, um anzuzeigen, was gezeigt werden soll.  
 4. Um die Spezifikation eines angezeigten Betrags anzuzeigen, aktivieren Sie das Feld.  
@@ -57,7 +59,7 @@ Die Spalten auf der linken Seite enthalten den Kontenplan. Von den fünf Spalten
 ## <a name="to-view-actual-and-budgeted-amounts-for-several-periods"></a>Aktuelle und budgetierte Beträge für mehrere Perioden anzeigen:  
 Anstatt die aktuellen und budgetierten Beträge für alle Konten für eine einzige Periode einzusehen, können Sie eine Anzahl von Perioden für ein einziges Konto einsehen.  
 
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Kontenplan** ein, und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Kontenplan** ein und wählen Sie dann den entsprechenden Link.  
 2. Auf der Seite **Kontenplan** wählen Sie das entsprechende Sachkonto aus, und wählen Sie die **Sachkontensaldo/Budget** Aktion aus.  
 3. Auf der Seite oben füllen Sie die Felder aus, um anzuzeigen, was gezeigt werden soll.   
 4. Um die Spezifikation eines angezeigten Betrags anzuzeigen, aktivieren Sie das Feld.  

@@ -1,20 +1,22 @@
 ---
-title: Analysiert die Fehlzeiten der Mitarbeiter.
-description: Beschreibt, wie Sie die Abwesenheit von Mitarbeitern datenmäßig erfassen und Abwesenheitsstatistiken mithilfe der Seiten Abwesenheitsregistrierung und Abwesenheiten von Mitarbeitern analysieren können.
+title: Verwalten der Abwesenheit von Mitarbeitern| Microsoft Docs
+description: Beschreibt, wie die Abwesenheit von Mitarbeitern erfasst wird und Abwesenheitsstatistiken analysiert werden.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 5212, 5211, 5200
-ms.date: 06/16/2021
-ms.author: edupont
-ms.openlocfilehash: 77ae09aebd78c870cc92d01700fc9a9188f340ee
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 04/01/2019
+ms.author: SorenGP
+ms.openlocfilehash: 29b1b29fa1115991b8a8bd569a476e977fba8dce
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146453"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1238618"
 ---
 # <a name="manage-employee-absence"></a>Analysiert die Fehlzeiten der Mitarbeiter.
 Damit die Abwesenheit eines Mitarbeiters verwaltet werden kann, muss diese auf der Seite **Abwesenheitsregistrierung** aufgezeichnet werden. Sie kann dann auf verschiedene Art und Weise zur Analyse und Berichterstellungszwecken angezeigt werden.
@@ -69,8 +71,5 @@ Sie können die Mitarbeiterabwesenheiten auf täglicher Basis oder einem anderen
 ## <a name="see-also"></a>Siehe auch
 [Personalwesen verwalten](hr-manage-human-resources.md)  
 [Finanzen](finance.md)  
-[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Funktionen, die angezeigt werden ändern](ui-experiences.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Sie können auswählen, welche Funktionen angezeigt werden](ui-experiences.md)
