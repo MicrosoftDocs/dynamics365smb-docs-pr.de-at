@@ -1,27 +1,26 @@
 ---
-title: 'Gewusst wie: Vorauszahlungsrechnungen erstellen | Microsoft Docs'
-description: Erfahren Sie, wie Sie Situationen bearbeiten, in denen Vorauszahlung gefordert wird, oder Ihr Kreditor dies fordert.
+title: Vorauszahlungsrechnungen erstellen
+description: Behandeln Sie Situationen, in denen Sie oder Ihr Kreditor eine Vorauszahlung verlangen. Verwenden Sie die voreingestellten Prozentsätze für jede Verkaufs- oder Kauf-Zeile oder passen Sie den Betrag nach Bedarf an.
 author: edupont04
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/23/2020
+ms.search.form: 42, 50, 9305, 9307
+ms.date: 12/02/2021
 ms.author: edupont
-ms.openlocfilehash: 85a5bbd3c1920aaac3e0560737f921c7518d1d32
-ms.sourcegitcommit: 63102669366eb26f9c32729848170bc2e5c4d6ae
+ms.openlocfilehash: c1374929790c27bd84733e506866a1e54cea9ffd
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "3503611"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136079"
 ---
 # <a name="create-prepayment-invoices"></a>Vorauszahlungsrechnungen erstellen
 
 Wenn Sie von Ihren Debitoren erwarten, dass diese vor der Lieferung eines Auftrags eine Vorauszahlung leisten, können Sie die Funktion „Vorauszahlung“ verwenden. Dies gilt auch, wenn Ihr Verkäufer erwartet, dass Sie die Zahlung übermitteln, bevor er eine Bestellung an Sie versendet.  
 
-Sie können den Vorauszahlungsprozess starten, wenn Sie eine Einkaufsbestellung oder einen Verkaufsauftrag erstellen. Wenn Sie für diesen Debitor oder Kreditor einen standardmäßigen Vorauszahlungsprozentsatz haben, wird dieser automatisch in die resultierende Vorauszahlungsrechnung aufgenommen. Sie können auch einen Vorauszahlungsprozentsatz für das gesamte Dokument angeben.
+Sie können den Vorauszahlungsprozess starten, wenn Sie eine Einkaufsbestellung oder einen Verkaufsauftrag erstellen. Wenn Sie für ein Artikel in der Bestellung oder für einen Debitor oder Kreditor einen standardmäßigen Vorauszahlungsprozentsatz haben, wird dieser automatisch in die resultierende Vorauszahlungsrechnung aufgenommen. Sie können auch einen Vorauszahlungsprozentsatz für das gesamte Dokument angeben.
 
 Nachdem Sie einen Auftrag oder eine Bestellung angelegt haben, können Sie eine Vorauszahlungsrechnung erstellen. Sie können für Verkaufs- oder Einkaufszeile die Standardprozentsätze verwenden, oder Sie können den Betrag den Anforderungen entsprechend anpassen. So können Sie beispielsweise den Gesamtbetrag für den gesamten Auftrag angeben.  
 
@@ -29,7 +28,7 @@ Im Folgenden wird beschrieben, wie eine Vorauszahlung für einen Verkaufsauftrag
 
 ## <a name="to-create-a-prepayment-invoice"></a>So erstellen Sie eine Vorauszahlungsrechnung
 
-1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Verkaufsaufträge** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Verkaufsaufträge** ein, und wählen Sie dann den zugehörigen Link.  
 2. Erstellen Sie einen neuen Verkaufsauftrag für den relevanten Debitor. Weitere Informationen finden Sie unter [Produkte verkaufen](sales-how-sell-products.md)  
 
     Auf dem Inforegister **Vorauszahlung** gibt das Feld **Vorauszahlung %** den Prozentsatz an, der zur Berechnung des Vorauszahlungsbetrags verwendet werden soll. Wenn auf der Debitorenkarte ein standardmäßiger Vorauszahlungsprozentsatz angegeben ist, wird das Feld automatisch ausgefüllt. Sie können den Prozentsatz ändern. <!--This percentage is applied to lines where the item on that line does not already specify a prepayment percentage. The prepayment percentage is only copied from the header to lines that do not copy the default prepayment percentage from the item.-->  
@@ -47,6 +46,9 @@ Im Folgenden wird beschrieben, wie eine Vorauszahlung für einen Verkaufsauftrag
 
     Wenn Sie einen standardmäßigen Vorauszahlungsprozentsatz für den Debitor oder auf dem Inforegister **Vorauszahlung** in diesem Dokument festgelegt haben, wird dieser Wert in jede Zeile kopiert. Sie können den Inhalt des Felds  in der Zeile **Vorauszahlung %** ändern.  
 
+    > [!TIP]
+    > Wenn das Feld **Vorauszahlung %** nicht angezeigt wird, können Sie es durch Personalisierung hinzufügen.  Weitere Informationen finden Sie unter [Personalisieren Sie Ihren Arbeitsbereich](ui-personalization-user.md).
+
 4. Um den gesamten Vorauszahlungsbetrag anzuzeigen, wählen Sie die Aktion **Statistik**.
 
     Wenn Sie den gesamten Vorauszahlungsbetrag für den Auftrag anpassen möchten, können Sie den Inhalt des Feldes **Vorauszahlungsbetrag** auf der Seite **Verkaufsauftragsstatistik** ändern.  
@@ -63,7 +65,7 @@ Im Folgenden wird beschrieben, wie eine Vorauszahlung für einen Verkaufsauftrag
 Es können weitere Vorauszahlungsrechnungen für den Auftrag ausgegeben werden. Erhöhen Sie hierzu den Vorauszahlungsbetrag für eine oder mehrere Zeilen, passen Sie im Bedarfsfall das Belegdatum an, und buchen Sie die Vorauszahlungsrechnung. Für die Differenz zwischen den bisher fakturierten Vorauszahlungsbeträgen und dem neuen Vorauszahlungsbetrag wird eine neue Rechnung erstellt.  
 
 > [!NOTE]  
-> Wenn Sie in Nordamerika sind, können Sie den Prozentsatz nicht ändern, nachdem die Vorauszahlungsrechnung gebucht wurde. Dieses wird in der nordamerikanischen Version von [!INCLUDE[d365fin](includes/d365fin_md.md)] verhindert, da die Berechnung der Verkaufssteuer ansonsten falsch ist.  
+> Wenn Sie in Nordamerika sind, können Sie den Prozentsatz nicht ändern, nachdem die Vorauszahlungsrechnung gebucht wurde. Dieses wird in der nordamerikanischen Version von [!INCLUDE[prod_short](includes/prod_short.md)] verhindert, da die Berechnung der Verkaufssteuer ansonsten falsch ist.  
 
  Wenn Sie bereit zum Buchen des verbleibenden Rechnungsbetrags sind, buchen Sie diesen auf die gleiche Weise, wie Sie jede andere Rechnung buchen. Der Vorauszahlungsbetrag wird automatisch vom fälligen Betrag abgezogen.  
 
@@ -72,4 +74,8 @@ Es können weitere Vorauszahlungsrechnungen für den Auftrag ausgegeben werden. 
 [Fakturieren von Vorauszahlungen](finance-invoice-prepayments.md)  
 [Exemplarische Vorgehensweise: Einrichten und Fakturieren von Verkaufsvorauszahlungen](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
 [Finanzen](finance.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Ihren Arbeitsbereich personalisieren](ui-personalization-user.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,23 +1,22 @@
 ---
-title: Verwaltung von Verkaufschancen und Leads | Microsoft Docs
+title: Verwalten Sie Verkaufschancen und Leads
 description: Beschreibt, wie sämtliche eingehenden Leads oder Verkaufschancen in Business Central verwaltet werden und verknüpft die Verkaufschance mit einem Vertriebsmitarbeiter, um die potenziellen Verkäufe nachverfolgen zu können.
-services: project-madeira
 documentationcenter: ''
 author: jswymer
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2020
+ms.search.forms: 5132, 5101, 5103, 5102, 5146, 5199, 5197, 5198, 5137, 5086, 5089, 5087, 5088, 5090, 5128, 5133, 5114, 5151, 5145, 5126, 5189, 5191, 5097, 5135, 5188, 5187, 5154, 5147, 5131, 9257, 5124, 782, 5130, 5123, 5127, 5174, 5125, 5115, 5112, 5111, 5110, 5109, 5149, 5169, 5190, 783, 505, 5118, 5072, 781, 5152, 5153, 5155, 5098, 5196, 5096, 5099, 9255, 5129, 5136
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: f6ba8df61a2c375c9a938cbe5b0c1a30032c5d9d
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: cf696f5e30c308e04f90983eece35017045e985d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4755359"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135098"
 ---
 # <a name="managing-sales-opportunities"></a>Verkaufschancen verwalten
 Alle eingehenden Informationen zu potenziellen Kunden können als Verkaufschance behandelt werden. Sie können Verkaufschancen erstellen und diese einem Verkäufer zuordnen, um potenziellen Verkäufe nachverfolgen zu können.
@@ -36,3 +35,6 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 [Verkauf](sales-manage-sales.md)  
 [Erstellen und Verwalten von Kontakten](marketing-contacts.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,24 +1,24 @@
 ---
-title: Häufig gestellte Fragen zu „Wie möchten Sie weiter verfahren“ | Microsoft Docs
-description: Dieser Artikel bietet Antworten zu den häufig von unseren Partner und Debitoren über „Wie möchten Sie weiter verfahren“ gestellten Fragen.
+title: Häufig gestellte Fragen zu Tell Me
+description: In diesem Artikel finden Sie Antworten auf Fragen, die unsere Partner und Kunden häufig zur „Wie möchten Sie weiter verfahren“-Funktion stellen.
 author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 04/01/2019
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.date: 06/24/2021
 ms.author: bholtorf
-ms.openlocfilehash: d04f78b31b9fb0403201cb9e5cb1f98f1ef935e1
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 13605b6188f9aa2c30a82cbb8216d8419a711d31
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248036"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8334731"
 ---
 # <a name="tell-me-faq"></a>Häufig gestellte Fragen zu „Wie möchten Sie weiter verfahren“
-In diesem Thema werden Fragen beantwortet, die unsere fortgeschrittenen Benutzer häufig über die Funktion „Wie möchten Sie weiter verfahren“ stellen. Diese Funktion hat die vorherige Seitensuchfunktion, die als **Seiten und Bereichte finden** bekannt ist.
+In diesem Thema werden Fragen beantwortet, die unsere erfahrenen Benutzer häufig zu der Funktion "Wie möchten Sie weiter verfahren" stellen.
 
 ### <a name="are-all-actions-from-my-current-page-discoverable-in-tell-me"></a>Können alle Aktionen auf meiner aktuellen Seite von „Wie möchten Sie weiter verfahren“ festgestellt werden?
 Nein. Aktionen in Zeilen, z. B. der insgesamt, Verkaufszeilen-Teil der FactBoxes werden in „Wie möchten Sie weiter verfahren“ nicht angezeigt.
@@ -32,8 +32,8 @@ Aktionen, Seiten und Berichte, die aus Erweiterungen stammen, werden von „Wie 
 ### <a name="what-makes-this-different-from-what-was-previously-known-as-page-search"></a>Worin unterschiedet sich dies von der vorherigen Funktion, die als Seitensuche bekannt war?
 Die Seitensuche wurde zu „Wie möchten Sie weiter verfahren“ weiterentwickelt, damit Sie schneller arbeiten können. Die Seitensuche konnte Ihnen nur bei der Navigation in Seiten oder Berichten helfen. Auf technischer Ebene basiert „Wie möchten Sie weiter verfahren“ nicht mehr auf dem vorherigen MenuSuite-Konzept.
 
-### <a name="i-use-on-premises-d365fin-does-that-include-tell-me"></a>Ich verwende [!INCLUDE[d365fin](includes/d365fin_md.md)] lokal. Schließt das „Wie möchten Sie weiter verfahren“ ein?
-Sie können „Wie möchten Sie weiter verfahren“ mit dem lokalen Webclient verwenden, um nach Aktionen, Seiten und Berichten zu suchen, aber nicht nach Dokumentation oder Apps und Beratungsdiensten auf AppSource. Benutzer, die vom Dynamics NAV-Client eine Verbindung mit [!INCLUDE[d365fin](includes/d365fin_md.md)] herstellen, nutzen weiterhin die Seitensuche.
+### <a name="i-use-on-premises-prod_short-does-that-include-tell-me"></a>Ich verwende [!INCLUDE[prod_short](includes/prod_short.md)] lokal. Schließt das „Wie möchten Sie weiter verfahren“ ein?
+Sie können „Wie möchten Sie weiter verfahren“ mit dem lokalen Webclient verwenden, um nach Aktionen, Seiten und Berichten zu suchen, aber nicht nach Dokumentation oder Apps und Beratungsdiensten auf AppSource.
 
 ### <a name="is-tell-me-available-for-all-form-factors"></a>Ist „Wie möchten Sie weiter verfahren“ für alle Formularfaktoren verfügbar?
 „Wie möchten Sie weiter verfahren“ ist nur im Webclient oder der Windows-Desktop-App verfügbar.
@@ -41,5 +41,15 @@ Sie können „Wie möchten Sie weiter verfahren“ mit dem lokalen Webclient ve
 ### <a name="are-the-documentation-results-available-in-any-language"></a>Sind die Dokumentationsergebnisse in jeder Sprache verfügbar?
 Die Hilfeartikelanzeige werden in der Sprache angezeigt, die Sie in **Meine Einstellungen** angegeben haben, sofern die Hilfe in diese Sprache verfügbar ist.
 
+### <a name="why-dont-i-see-a-bookmark-icon-for-my-search-results"></a>Warum sehe ich kein Lesezeichensymbol für meine Suchergebnisse?
+Das Lesezeichensymbol wird im Benachrichtigungsfenster nicht angezeigt, wenn die Personalisierung für eine Benutzerrolle deaktiviert ist.
+
+
 ## <a name="see-also"></a>Siehe auch  
-[Suchen von Funktionen und Informationen](ui-search.md)
+[Speichern und personalisieren Sie Listenansichten](ui-views.md)  
+[Suchen von Seiten und Informationen mit Wie möchten Sie weiter verfahren](ui-search.md)  
+[Suche nach Seiten mit dem Rollen-Explorer](ui-role-explorer.md)  
+[Erstellen eines Lesezeichens für eine Seite oder einen Bericht im Rollencenter](ui-bookmarks.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,21 +1,20 @@
 ---
-title: 'Designdetails: Artikelverfolgungsdesign | Microsoft Docs'
-description: Dieses Thema zeigt eine Übersicht über Entwurfsdetails für Artikelverfolgung.
+title: Design-Details – Element-Verfolgung
+description: Die Artikelverfolgung bietet eine einfache Handhabung von Seriennummern und Chargennummern, die für die Erfüllung gesetzlicher Anforderungen oder zur Unterstützung der Garantieabwicklung benötigt werden.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 50ae6f2f3538269cc7c82dd2d84644a1a31d7f56
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 55e8463e788e222265a0ec837196c55726caf53e
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4751372"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146635"
 ---
 # <a name="design-details-item-tracking"></a>Designdetails: Artikelnachverfolgung
 Da der Warenfluss in heutigen Lieferketten immer komplexer wird, wird die Möglichkeit, Artikel nachzuverfolgen für die involvierten Unternehmen immer wichtiger. Den Transaktionsfluss eines Artikels zu überwachen ist eine gesetzlich vorgeschriebenes Erfordernis in Bezug auf medizinische und chemische Vorräte, andere Sektoren haben Produkte mit Garantien oder Ablaufdatumsangaben für Kundenservicegründe zu überwachen.  
@@ -31,3 +30,9 @@ Ein Artikelverfolgungssystem sollte für eine einfache Handhabung der Serien- un
 [Designdetails: Artikelverfolgung und Planung](design-details-item-tracking-and-planning.md)  
 [Designdetails: Artikelverfolgung und Reservierungen](design-details-item-tracking-and-reservations.md)  
 [Designdetails: Artikelverfolgung im Lager](design-details-item-tracking-in-the-warehouse.md)
+
+## <a name="see-also"></a>Siehe auch
+
+[Arbeiten mit Serien‑, Chargen‑ und Paketnummern](inventory-how-work-item-tracking.md)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

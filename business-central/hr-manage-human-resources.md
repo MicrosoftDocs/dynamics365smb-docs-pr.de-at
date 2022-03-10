@@ -1,26 +1,25 @@
 ---
-title: Personal-Funktionalität nutzen| Microsoft Docs
+title: Personalwesen verwalten
 description: Sie können neue Mitarbeiter registrieren, Informationen über bestehende Mitarbeiter bearbeiten und Fehlzeiten aufzeichnen und analysieren.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
-ms.date: 04/01/2020
+ms.search.form: 5200, 5201, 5212, 5211
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 86f8a20a2d42b7b84f062ddce702930d89bcbd75
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 97758b684b3a68508b9b6966d155f956d58c1f4a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3777633"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135923"
 ---
 # <a name="manage-human-resources"></a>Personalwesen verwalten
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] können Sie ausführliche Datensätze über Ihre Mitarbeiter anlegen. Sie haben die Möglichkeit zum Erfassen und Pflegen von Mitarbeiterinformationen wie Arbeitsverträgen, vertraulichen Informationen, Qualifikationen oder Mitarbeiterkontakten.
+
+In [!INCLUDE[prod_short](includes/prod_short.md)] können Sie ausführliche Datensätze über Ihre Mitarbeiter anlegen. Sie haben die Möglichkeit zum Erfassen und Pflegen von Mitarbeiterinformationen wie Arbeitsverträgen, vertraulichen Informationen, Qualifikationen oder Mitarbeiterkontakten.
 
 Sie können auch Fehlzeiten von Mitarbeitern erfassen, was die Analyse der erfassten Abwesenheiten nach Bedarf ermöglicht.
 
@@ -31,9 +30,13 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 | An | Siehe |
 | --- | --- |
 | Erfassen Sie neue Mitarbeiter oder bearbeiten Sie Datensätze für vorhandene Mitarbeiter, und fügen Sie zugehörige Informationen hinzu, wie Verträge und Artikel. |[Erfassen eines Mitarbeiters](hr-how-register-employees.md) |
-| Erfassen Sie die Abwesenheit von Mitarbeitern und zeigen Sie die Abwesenheitsstatistik anhand verschiedener Filter an. |[Analysiert die Fehlzeiten der Mitarbeiter.](hr-how-manage-absence.md) |
+| Erfassen Sie die Abwesenheit von Mitarbeitern und zeigen Sie die Abwesenheitsstatistik anhand verschiedener Filter an. |[Abwesenheit der Mitarbeiter verwalten](hr-how-manage-absence.md) |
 
 ## <a name="see-also"></a>Siehe auch
+
 [Finanzen](finance.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Funktionen, die angezeigt werden ändern](ui-experiences.md)        
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -2,17 +2,16 @@
 title: Einkaufsrechnungen sofort ausgleichen
 description: Wenn Sie den Kreditor bar oder per Scheck bezahlen, können Sie die notwendigen Buchungen gleichzeitig bei der Buchung der Rechnung vornehmen.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.search.keywords: ''
-ms.date: 10/06/2020
+ms.search.form: 51, 9308
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 60d3cf3c9e141c8df36eaca2c1975b696fdb105b
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: f44aa85b0a9990038df3cf49b1ba0f24e24df354
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5387266"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141232"
 ---
 # <a name="settle-purchase-invoices-promptly"></a>Einkaufsrechnungen sofort ausgleichen
 
@@ -23,7 +22,7 @@ Wenn Sie den Kreditor bar oder per Scheck bezahlen, können Sie die notwendigen 
 
 ## <a name="to-settle-purchase-invoices-promptly"></a>So gleichen Sie Einkaufsrechnungen sofort aus
 
-1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell me-Funktion") Symbol öffnet, geben Sie **Kaufrechnungen** ein und wählen Sie dann den entsprechenden Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Einkaufsrechnungen** ein, und wählen Sie dann den zugehörigen Link.  
 2. Wählen Sie die Aktion **Neu** aus.  
 3. Um entweder bar oder per Banktransfer zu bezahlen, geben Sie die Nummer des Sachkontos für Barzahlungen oder die des Bankkontos in dem Feld **Gegenkontonr.** an.  
 

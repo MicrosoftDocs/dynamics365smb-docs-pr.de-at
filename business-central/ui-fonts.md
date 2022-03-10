@@ -1,21 +1,21 @@
 ---
 title: Verfügbare Schriftarten
-description: Die Onlineversion von Business Central enthält vorinstallierte Schriftarten auf den Servern, die beim Generieren von Berichten verwendet werden können.
+description: Erfahren Sie mehr über die vorinstallierten Schriftarten, die Sie für Ihr externe Berichte verwenden können.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.date: 11/30/2021
 ms.author: edupont
-ms.openlocfilehash: d94ecf2314e28dafbcf73a816446d6e3b929aedc
-ms.sourcegitcommit: cbd00f24fb471381bbfd64670237eda176bd78e5
+ms.openlocfilehash: faa581a88a6c7503c34177db459345a24638a95a
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5947380"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8334981"
 ---
 # <a name="available-fonts"></a>Verfügbare Schriftarten
 
@@ -48,15 +48,22 @@ Zusätzlich zu MICR-Schriftarten stehen spezielle Sicherheitsschriftarten zur Ve
 Weitere Informationen finden Sie unter [Scheck-Layout auswählen](finance-how-define-check-layouts.md).  
 
 ## <a name="fonts-for-barcodes"></a>Schriftarten für Barcodes
-Schriftarten zum Generieren eindimensionaler Barcodes sind installiert und können sowohl in Word- als auch in RDLC-Berichtslayouts verwendet werden.
+Schriftarten zum Generieren von Barcodes sind installiert und können sowohl in Word- als auch in RDLC-Berichtslayouts verwendet werden.
 
-Die folgenden Barcode-Symbologien werden unterstützt:
+Die folgenden eindimensionalen Barcode-Symbologien werden unterstützt:
 * Code 3 von 9 (Code 39)
 * Code 128
 * Code 93
 * Codabar
 * MSI
 * Interleaved 2 von 5
+
+Die folgenden zweidimensionalen Barcode-Symbologien werden unterstützt:
+* Aztekisch
+* Datenmatrix
+* Maxicode
+* PDF417
+* QR
 
 Weitere Informationen finden Sie unter [Barcode-Schriftarten mit Business Central Online](/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts).
 
@@ -65,6 +72,6 @@ Weitere Informationen finden Sie unter [Barcode-Schriftarten mit Business Centra
 [Verwalten von Berichtslayouts](ui-manage-report-layouts.md)  
 [Ein Prüflayout auswählen](finance-how-define-check-layouts.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-[Barcode-Schriftarten mit Business Central Online](/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts.md)
+[Barcode-Schriften mit Business Central Online](/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

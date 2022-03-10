@@ -2,20 +2,19 @@
 title: Lagerplatzinhalt erstellen
 description: Nachdem Sie Ihre Lagerplätze eingerichtet haben, können Sie die Artikel angeben, die Sie darin speichern möchten, und Regeln einrichten, die steuern, wie oft Lagerplätze nachgefüllt werden.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 7374
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 575b2fdd00b7761fa615b9265fa5f21d402e096d
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: b1332240d6c6b0e43bada158fe11e82d42e0119f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443021"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144246"
 ---
 # <a name="create-bin-contents"></a>Lagerplatzinhalt erstellen
 

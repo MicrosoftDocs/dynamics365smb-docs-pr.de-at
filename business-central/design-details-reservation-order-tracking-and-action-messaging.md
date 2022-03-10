@@ -2,7 +2,6 @@
 title: Designdetails -  Reservierung, Auftragsnachverfolgung und Aktionsmeldungen | Microsoft Docs
 description: Das Reservierungssystem ist umfassend und enthält auch die zusammenhängenden und parallelen Funktionen der Auftragsnachverfolgung und des Aktionsmessagings.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: design, replenishment, reordering
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: d53d813871b154a705676483559f7464bf8469fd
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: a45ba50302d2d50fae805c67ae51cb4d95b61d48
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214920"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131916"
 ---
 # <a name="design-details-reservation-order-tracking-and-action-messaging"></a>Designdetails: Reservierung, Auftragsnachverfolgung und Aktionsmeldungen
 Das Reservierungssystem ist umfassend und enthält auch die zusammenhängenden und parallelen Funktionen der Auftragsnachverfolgung und des Aktionsmessagings.  
@@ -111,7 +110,7 @@ Das Reservierungssystem ist umfassend und enthält auch die zusammenhängenden u
 
  Dieses Prinzip impliziert, dass eine Nachfrageänderung zu einer entsprechenden Unausgeglichenheit auf der Zugangsseite des Auftragsnetzwerks führt. Andererseits resultiert eine Angebotsänderung in einer entsprechenden Unausgeglichenheit auf der Bedarfsseite des Auftragsnetzwerks. In der Realität ist das Auftragsnetzwerk in einem Zustand konstanten Flusses, da Benutzer Aufträge eingeben, ergänzen und löschen. Bedarfsverursacher verarbeitet Aufträge dynamisch, reagiert auf jede Änderung zum Zeitpunkt ihrer Eingabe in das System ein und wird ein Teil des Auftragsnetzwerks. Sobald neue Auftragsnachverfolgungsdatensätze erstellt wurden, ist das Auftragsnetzwerk ausgeglichen, aber nur bis zur nächsten Änderung.  
 
- Um die Transparenz von Berechnungen im Planungssystem zu erhöhen, werden auf der Seite **Planungselement ohne Bedarfsverursacher** Mengen ohne Bedarfsverursacher angezeigt, die Mengenabweichung zwischen bekanntem Bedarf und vorgeschlagenem Vorrat aufweisen. Jede Zeile auf der Seite bezieht sich auf den Grund des Überschusses, wie **Rahmenauftrag**, **Sicherheitsbestands-Ebene**, **Feste Bestellmenge**, **Mindestauftragsmenge**, **Rundung** oder **Toleranz**.  
+ Um die Transparenz der Berechnungen im Planungssystem zu erhöhen, zeigt die Seite **Unverfolgte Planungselemente** nicht verfolgte Mengen an, die die Mengendifferenz zwischen bekanntem Bedarf und vorgeschlagenem Vorrat darstellen. Jede Zeile auf der Seite bezieht sich auf den Grund des Überschusses, wie **Rahmenauftrag**, **Sicherheitsbestands-Ebene**, **Feste Bestellmenge**, **Mindestauftragsmenge**, **Rundung** oder **Toleranz**.  
 
 ### <a name="offsetting-in-order-tracking"></a>Ausgleichung im Bedarfsverursacher  
  Im Gegensatz zu Reservierungen, die nur gegen verfügbare Artikelmengen vorgenommen werden können, ist die Auftragsnachverfolgung gegen alle Auftragsnetzwerkeinheiten möglich, die Teil der Nettobedarfsrechnung des Planungssystems sind. Der Nettobedarf wird wie folgt berechnet:  
@@ -138,7 +137,7 @@ Auf der Seite **Produktion Einrichtung** wird das Feld **Komponenten von Lageror
 
  Die folgenden Auftragsnachverfolgungsposten sind in der Tabelle **Reservierungsposten** enthalten, basierend auf den Daten in der Tabelle.  
 
- ![Erstes Beispiel der Auftragsnachverfolgungseinträge in der Reservierungseintragstabelle](media/supply_planning_RTAM_1.png "supply_planning_RTAM_1")  
+ ![Erstes Beispiel für Auftragsverfolgungseinträge in der Tabelle Reservierungseintrag.](media/supply_planning_RTAM_1.png "supply_planning_RTAM_1")  
 
 ### <a name="entry-numbers-8-and-9"></a>Postennummern 8 und 9  
  Für den Komponentenbedarf für LOTA und LOTB werden Auftragsnachverfolgungslinks aus dem Bedarf in Tabelle 5407, **Fert. Auftrags-Komponente**, für den Vorrat in Tabelle 32, **Artikelposten**, erstellt. Das Feld **Reservierungsstatus** enthält **Nachverfolgung**, um anzugeben, dass diese Posten dynamische Auftragsnachverfolgungslinks zwischen Vorrat und Bedarf sind.  
@@ -156,7 +155,7 @@ Auf der Seite **Produktion Einrichtung** wird das Feld **Komponenten von Lageror
 
  Jetzt sind die folgenden Bedarfsverursacherposten in der Tabelle **Reservierungsposten** enthalten.  
 
- ![Zweites Beispiel der Auftragsnachverfolgungseinträge in der Reservierungseintragstabelle](media/supply_planning_RTAM_2.png "supply_planning_RTAM_2")  
+ ![Zweites Beispiel für Auftragsverfolgungseinträge in der Tabelle „Reservierungseingang“.](media/supply_planning_RTAM_2.png "supply_planning_RTAM_2")  
 
 ### <a name="entry-numbers-8-and-9"></a>Postennummern 8 und 9  
  Bedarfsverursacherposten für die zwei Chargen der den Bedarf widerspiegelnden Komponente in Tabelle 5407 werden von einem Reservierungsstatus von **Bedarfsverursacher** zu **Überschuss** geändert. Der Grund besteht darin, dass Vorräte, mit denen vorher eine Verknüpfung hergestellt wurde (in Tabelle 32), von der Lieferung des Umlagerungsauftrags verwendet wurden.  
@@ -170,7 +169,7 @@ Auf der Seite **Produktion Einrichtung** wird das Feld **Komponenten von Lageror
 
  Jetzt sind die folgenden Bedarfsverursacherposten in der Tabelle **Reservierungsposten** enthalten.  
 
- ![Drittes Beispiel der Auftragsnachverfolgungseinträge in der Reservierungseintragstabelle](media/supply_planning_RTAM_3.png "supply_planning_RTAM_3")  
+ ![Drittes Beispiel für Einträge zur Auftragsverfolgung in der Tabelle Reservation Entry.](media/supply_planning_RTAM_3.png "supply_planning_RTAM_3")  
 
  Die Auftragsnachverfolgungsposten sind jetzt ähnlich dem ersten Punkt im Szenario, bevor der Umlagerungsauftrag als nur geliefert gebucht wurde, ausgenommen, dass die Posten für die Komponenten jetzt den Reservierungsstatus **Überschuss** haben. Dies liegt daran, dass der Komponentenbedarf noch am Lagerort WEST ist und gibt wieder, dass das Feld **Lagerortcode** in der FA-Komponentenzeile **WEST** enthält, wie im **Komponenten von Lagerort**-Einrichtungsfeld festgelegt. Das Lieferung, die diesem zuvor Bedarf zugeordnet wurde, wurde zum Lagerort OST übertragen und kann jetzt nicht vollständig zurückverfolgt werden, es sei denn, der Komponentenbedarf auf der Fertigungsauftragszeile wurd zum Lagerort OST geändert.  
 
@@ -178,7 +177,7 @@ Auf der Seite **Produktion Einrichtung** wird das Feld **Komponenten von Lageror
 
  Jetzt sind die folgenden Bedarfsverursacherposten in der Tabelle **Reservierungsposten** enthalten.  
 
- ![Viertes Beispiel der Auftragsnachverfolgungseinträge in der Reservierungseintragstabelle](media/supply_planning_RTAM_4.png "supply_planning_RTAM_4")  
+ ![Viertes Beispiel für Einträge zur Auftragsverfolgung in der Tabelle „Reservierungseingang“.](media/supply_planning_RTAM_4.png "supply_planning_RTAM_4")  
 
 ### <a name="entry-numbers-21-and-22"></a>Postennummern 21 und 22  
  Da der Komponentenbedarf zum Lagerort OST geändert wurde und der Vorrat als Artikelposten am Lagerort OST verfügbar ist, werden alle Auftragsnachverfolgungsposten für die beiden Chargennummern jetzt vollständig verfolgt, angezeigt durch den Reservierungsstatus von **Nachverfolgung**.  
@@ -197,8 +196,8 @@ Auf der Seite **Produktion Einrichtung** wird das Feld **Komponenten von Lageror
 |Ereignismeldung|Description|  
 |--------------------|---------------------------------------|  
 |**"Menge ändern"**|Ändert die Menge eines vorhandenen Beschaffungsauftrags, um einen geänderten oder neuen Bedarf zu decken.|  
-|**Neu berechnen**|Neuplanung des Fälligkeitsdatums eines bestehenden Fertigungsauftrags oder einer Bestellung.|  
-|**Neu berechnen & Menge ändern**|Neuplanung des Fälligkeitsdatums und Mengenänderung eines bestehenden Fertigungsauftrags oder einer Bestellung.|  
+|**Neu planen**|Neu planen des Fälligkeitsdatums eines bestehenden Fertigungsauftrags oder einer Bestellung.|  
+|**Neu berechnen & Menge ändern**|Neu planen des Fälligkeitsdatums und Mengenänderung eines bestehenden Fertigungsauftrags oder einer Bestellung.|  
 |**Neu**|Erstellt einen neuen Auftrag, wenn der Bedarf nicht durch eine der vorherigen Aktionsmeldungen gedeckt werden kann.|  
 |**Stornieren**|Stornieren eines bestehenden Auftrags.|  
 

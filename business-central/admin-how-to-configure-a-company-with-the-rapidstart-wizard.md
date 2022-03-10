@@ -2,20 +2,19 @@
 title: So konfigurieren Sie einen Mandanten mit dem RapidStart-Assistenten | Microsoft Docs
 description: Sie können einen neuen Mandanten, den Sie erstellt haben, schnell konfigurieren, indem Sie den RapidStart Services-Konfigurations-Assistenten verwenden.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a8631e9ff23ac9972da82fca8f45876f4467031b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 1b29412d166bd5b2225d780a0b0cee476874dcd0
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917943"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130869"
 ---
 # <a name="configure-a-company-with-the-rapidstart-wizard"></a>So konfigurieren Sie einen Mandanten mit dem RapidStart-Assistenten
 Sie können einen neuen Mandanten, den Sie erstellt haben, schnell konfigurieren, indem Sie den RapidStart Services-Konfigurations-Assistenten verwenden.
@@ -39,7 +38,7 @@ Im folgenden Verfahren haben Sie dem Debitor das Konfigurationspaket bereitgeste
     >  Ändern Sie das Rollencenter erst, nachdem Sie die Konfiguration des Mandanten abgeschlossen haben. Wenn Sie weitere Einrichtungsdetails zu berücksichtigen haben, verwenden Sie erst das Konfigurationsarbeitsblatt, um mit Ihrer Arbeit fortzufahren. Kehren Sie dann zu dem Assistenten zurück, um Ihr Rollencenterprofil zu aktualisieren, oder wählen Sie auf der Registerkarte Start die Option **Vollständiges Setup** aus.
 
 7. Wählen Sie die Schaltfläche **OK**.  
-8. Um sicherzustellen, dass die Konfigurationsinformationen für das neue Unternehmen übernommen wurden, wählen Sie das Symbol ![Glühlampe, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Unternehmensinformation** ein und wählen Sie dann den zugehörigen Link aus.
+8. Um zu überprüfen, ob die Konfigurationsinformationen auf die neue Firma angewendet wurden, wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Unternehmensdaten** ein, und wählen Sie dann den zugehörigen Link.
 
 Das Fenster **Firmendaten** enthält Informationen, die Sie festgelegt haben.   
 
@@ -49,3 +48,6 @@ Jetzt haben Sie den Mandanten konfiguriert und Daten für ihn übernommen.
 [Konfigurationen für neue Mandanten übernehmen](admin-apply-configuration-to-new-companies.md)  
 [Mandanten mit RapidStart Services einrichten](admin-set-up-a-company-with-rapidstart.md)  
 [Verwaltung](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,22 +1,21 @@
 ---
-title: Anpassen von Business Central | Microsoft Docs
-description: Mehr über das Hinzufügen von Funktionalitäten und Anpassungen in Business Central.
-documentationcenter: ''
+title: Business Central anpassen
+description: Lesen Sie mehr über die verschiedenen Möglichkeiten, Business Central anzupassen, um den Zugriff auf die Funktionen zu verbessern, die Sie für Ihre tägliche Arbeit am meisten benötigen.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personalize, add-in, extend, customize
-ms.date: 04/01/2021
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: a2f4ed751ae630db7cc7f2eb12046492a5c56664
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6eea88cf254b4d1b299a54c47d0e87774f0b21ae
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773597"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335312"
 ---
 # <a name="customize-business-central"></a>Anpassen von Business Central
 Es gibt unterschiedliche Arten, die Anwendung anzupassen, um Ihnen und Ihren Kollegen Zugriff auf die Funktionen, die Funktionalität und die Daten zu geben, die Sie am häufigsten brauchen, uns so, dass es am besten in Ihre tägliche Arbeit passt. Diejenigen, die Änderungen sehen, verlassen sich auf das, was Sie tun in der Tabelle.

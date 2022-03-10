@@ -1,23 +1,21 @@
 ---
-title: Käufer einrichten und Käufer an Verkäufer zuweisen| Microsoft Docs
+title: Einkäufer festlegen und Einkäufer Lieferanten zuordnen (enthält Video)
 description: Wenn in Ihrem Unternehmen mehrere Einkäufer tätig sind, können Sie diese für statistische Analyse organisieren.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchasing agent
-ms.date: 10/01/2020
+ms.search.form: 14, 5116
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: bc3b02b22cf387cffc23177f217838c95dd9d04d
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 17f307f76f4f34e431b8ee2239886d91bc2c26e3
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5387741"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140726"
 ---
 # <a name="set-up-purchasers"></a>Einkäufer einrichten
 Falls in Ihrem Unternehmen mehrere Einkäufer tätig sind, können Sie diese auf einer Seite einrichten und jedem einen Code zuweisen. Diese Codes können Sie dann für statistische Auswertungen und als Filter in Berichten verwenden<br><br>  
@@ -25,12 +23,12 @@ Falls in Ihrem Unternehmen mehrere Einkäufer tätig sind, können Sie diese auf
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3Q7hU?rel=0]
 
 ## <a name="to-set-up-purchasers"></a>So richten Sie Einkäufer ein
-1. Wählen Sie das Symbol ![Glühbirne, das die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell Me-Funktion") aus, geben Sie **Verkäufer/Einkäufer** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Verkäufer/Einkäufer** ein und wählen Sie dann den zugehörigen Link.
 2. Wählen Sie auf der Seite **Verkäufer/Einkäufer** **Neu** aus.
 3. Füllen Sie auf der Seite **Verkäufer-/Einkäuferkarte** die Felder nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-purchasers-to-vendors"></a>Einkäufer Kreditoren zuweisen
-1. Wählen Sie die ![Glühbirne, die das Tell Me Feature](media/ui-search/search_small.png "Tell Me-Funktion") Symbol öffnet, geben Sie **Anbieter** ein und wählen Sie dann den entsprechenden Link.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Kreditoren** ein und wählen Sie dann den zugehörigen Link.
 2. Öffnen Sie die relevante Kreditorenkarte für den Kreditor, dem ein Einkäufer zugewiesen wird.
 3. Wählen Sie im Feld **Einkäufercode** den entsprechenden Code aus, und schließen Sie dann die Seite.
 

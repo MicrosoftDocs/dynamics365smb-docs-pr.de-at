@@ -1,23 +1,20 @@
 ---
-title: 'Vorgehensweise: Versandagenten | Microsoft Docs'
-description: Sie können einen Code für jeden Zusteller anlegen und Informationen dazu eingeben.
-services: project-madeira
-documentationcenter: ''
+title: Wie Sie Zusteller festlegen
+description: Erfahren Sie, wie Sie einen Code für jeden Ihrer Zusteller festlegen und beschreibende Informationen über jeden von ihnen und die von ihnen angebotenen Dienste eingeben.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/17/2019
-ms.author: sgroespe
-ms.openlocfilehash: 6d931625ef469a0b156d2794de7eda131213f28f
-ms.sourcegitcommit: 6dc83b27ac47f3b39a7b84cfb7446e7f48b8ce63
+ms.date: 06/23/2021
+ms.author: edupont
+ms.openlocfilehash: b4ec7a008c58256a8b7a351d8ee6890ad43fb00a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "1632700"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136994"
 ---
 # <a name="set-up-shipping-agents"></a>Zusteller einrichten
 Sie können einen Code für jeden Zusteller anlegen und Informationen dazu eingeben.  
@@ -30,7 +27,7 @@ Für jeden Zusteller können Sie eine unbegrenzte Anzahl von Transportarten anle
 Wenn Sie einer Verkaufsauftragszeile eine Zusteller Transportart zugeordnet haben, wird die Transportzeit für diese Zeile in den Lieferterminzusagen berücksichtigt. Weitere Informationen finden Sie unter [Berechnen von Lieferterminzusagen](sales-how-to-calculate-order-promising-dates.md).
 
 ## <a name="to-set-up-a-shipping-agent"></a>So richten Sie einen Zusteller ein  
-1.  Wählen Sie das Symbol ![Glühlampe, mit der die Funktion „Wie möchten Sie weiter verfahren“ geöffnet wird](media/ui-search/search_small.png "Wie möchten Sie weiter verfahren?") aus, geben Sie **Versandagent** ein, und wählen dann den zugehörigen Link aus.  
+1.  Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Versand-Zusteller** ein und wählen Sie dann den entsprechenden Link.  
 2.  Füllen Sie die Felder je nach Bedarf aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].  
 3.  Wählen Sie die Aktion **Zustellertransportarten**.
 4. In **Zustellertransportarten** füllen Sie die Felder wie notwendig aus.
@@ -39,11 +36,14 @@ Wenn Sie einer Verkaufsauftragszeile eine Zusteller Transportart zugeordnet habe
 >  Wenn Sie den Zusteller in der Auftragszeile löschen, wird auch der Zusteller Transportartcode gelöscht. Der Inhalt der Felder, die zum Teil auf der Zustellertransportart basierten, wird neu berechnet.  
 
 ## <a name="see-also"></a>Siehe auch
-[Liefermethoden einrichten](sales-how-set-up-shipment-methods.md)  
+[Lieferbedingungen einrichten](sales-how-set-up-shipment-methods.md)  
 [Um Pakete zu verfolgen](sales-how-track-packages.md)    
 [Logistik](warehouse-manage-warehouse.md)  
 [Lagerbestand](inventory-manage-inventory.md)  
 [Lagerortverwaltung einrichten](warehouse-setup-warehouse.md)     
 [Montageverwaltung](assembly-assemble-items.md)    
 [Designdetails: Logistik](design-details-warehouse-management.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

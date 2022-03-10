@@ -2,17 +2,17 @@
 title: Arbeit über mehrere Unternehmen hinweg im Unternehmens-Hub verwalten
 description: Erfahren Sie mehr über den Unternehmens-Hub in Dynamics 365 Business Central, mit dem Sie Ihre Arbeit unternehmensübergreifend verwalten.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 10/29/2020
+ms.search.form: 1151, 1154, 1165, 1166
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d85358c9fa1e4f6fb6d581daed45c4333511b990
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 410e3166674354499e76b9bc5483d66c037c4969
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5387491"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132072"
 ---
 # <a name="manage-work-across-multiple-companies-in-the-company-hub"></a>Arbeit über mehrere Unternehmen hinweg im Unternehmens-Hub verwalten
 
@@ -30,7 +30,7 @@ Wenn Sie die Rolle **Unternehmens-Hub** verwenden, wird auf Ihrer Homepage eine 
 > [!TIP]
 > Um auf ein bestimmtes Unternehmen in [!INCLUDE [prod_short](includes/prod_short.md)] zuzugreifen, wählen Sie den Namen des Unternehmens oder das Menüelement **Zu Unternehmen wechseln** aus. Sie werden dann automatisch in einer neuen Browserregisterkarte angemeldet.
 
-:::image type="content" source="media/company-hub-company-list-actions.png" alt-text="Aktionen für ein Unternehmen, das im Unternehmens-Hub aufgeführt ist":::
+:::image type="content" source="media/company-hub-company-list-actions.png" alt-text="Aktionen für eine Firma, die im Hub der Firma aufgeführt ist":::
 
 Sie können neue Unternehmen hinzufügen, z. B. wenn Sie einen neuen Kunden erhalten oder wenn Ihr Unternehmen eine neue Tochtergesellschaft hinzufügt. Weitere Informationen finden Sie unter [Fügen Sie Unternehmen zu Ihrem Unternehmens-Hub hinzu](company-hub-add-company.md).  
 
@@ -86,7 +86,7 @@ Sie können jedoch nur dann ein Unternehmen hinzufügen, wenn Ihnen Zugriff auf 
 
 Wenn Sie beispielsweise Buchhalter sind, können Ihre Kunden Sie in ihr [!INCLUDE [prod_short](includes/prod_short.md)] einladen. Weitere Informationen finden Sie unter [Ihren externen Buchhalter in Ihr Business Central einladen](finance-accounting.md#inviteaccountant).  
 
-Administratoren können dieselbe Anleitung zur unterstützten Einrichtung verwenden, um Sie zu ihrem [!INCLUDE [prod_short](includes/prod_short.md)] hinzuzufügen. Sie können Sie auch zum entsprechenden Azure AD-Konto im Microsoft 365 Admin Center hinzufügen. Weitere Informationen finden Sie unter [Benutzer und Gruppen verwalten](/microsoft-365/admin/add-users/?view=o365-worldwide&preserve-view=true).  
+Administratoren können dieselbe Anleitung für unterstützte Einrichtung verwenden, um Sie ihrem [!INCLUDE [prod_short](includes/prod_short.md)] hinzuzufügen. Sie können Sie auch zum entsprechenden Azure AD-Konto im Microsoft 365 Admin Center hinzufügen. Weitere Informationen finden Sie unter [Benutzer und Gruppen verwalten](/microsoft-365/admin/add-users/?view=o365-worldwide&preserve-view=true).  
 
 ## <a name="see-also"></a>Siehe auch
 

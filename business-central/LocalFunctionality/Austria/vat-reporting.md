@@ -2,20 +2,19 @@
 title: MwSt.-Abrechnung in der österreichischen Version
 description: MwSt.-Erklärungen können in der österreichischen Version elektronisch an Steuerbehörden übermittelt werden.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d91876aba06f0df8d597cff69e567f234681c45a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 46b6d307d8d0fb2239efe5ead63dc44c5d50e913
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916534"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134487"
 ---
 # <a name="vat-reporting-in-the-austrian-version"></a>MwSt.-Abrechnung in der österreichischen Version
 
@@ -31,3 +30,6 @@ Folgende lokale MwSt.-Erklärungen können gedruckt werden:
 ## <a name="see-also"></a>Siehe auch  
 [Melden von MwSt. an die Steuerbehörden](../../finance-how-report-vat.md)  
 [Arbeiten mit MwSt im Verkauf und Einkauf](../../finance-work-with-vat.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

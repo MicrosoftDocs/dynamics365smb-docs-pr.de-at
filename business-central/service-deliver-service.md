@@ -4,29 +4,28 @@ description: Gliedert Arbeiten, um sicherstellen, dass Sie Qualitätsdienst lief
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, service items, respond, response
-ms.date: 04/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 5d7180ad4eb26dc0f42432545da5f0abef5e9d02
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: ae2dd8a55c030d06e839a97f482adf1c548d6dbd
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251001"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8128534"
 ---
 # <a name="delivering-service"></a>Bereitstellen von Service
-[!INCLUDE[d365fin](includes/d365fin_md.md)] bietet Funktionen, die Ihnen die Bereitstellung von Service gemäß den von Ihnen erstellten Verträgen und die Erfüllung der Serviceaufträge entsprechend Ihren Zusagen ermöglichen. Die Servicetechniker oder Dispatcher können ausstehende Serviceaufträge mithilfe der **Einsatzplanung** problemlos ausfindig machen. Die **Einsatzplanung** zeigt auf einen Blick, welche Aufträge noch bearbeitet werden und welche bereits abgeschlossen wurden.  
+[!INCLUDE[prod_short](includes/prod_short.md)] bietet Funktionen, die Ihnen die Bereitstellung von Service gemäß den von Ihnen erstellten Verträgen und die Erfüllung der Serviceaufträge entsprechend Ihren Zusagen ermöglichen. Die Servicetechniker oder Dispatcher können ausstehende Serviceaufträge mithilfe der **Einsatzplanung** problemlos ausfindig machen. Die **Einsatzplanung** zeigt auf einen Blick, welche Aufträge noch bearbeitet werden und welche bereits abgeschlossen wurden.  
   
 Ausstehende Serviceaufträge können auch auf der Seite **Serviceaufgaben** geprüft werden. In dieser Ansicht der Serviceverpflichtungen wird angezeigt, an welcher Stelle des Serviceworkflows sich der Auftrag befindet, und der Status kann so geändert werden, dass die Interaktionen mit dem Debitor dargestellt werden.  
   
 In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.   
 
-Eine Servicemanagementanwendung benötigt eine Schnittstelle mit einer Serviceanforderung durch einen Debitor. Diese Serviceanforderung wird normalerweise in einen Serviceauftrag umgewandelt. [!INCLUDE[d365fin](includes/d365fin_md.md)]bietet Tools zum Erstellen eines Auftrags, und zwar entweder als direkte Reaktion auf eine Debitorenanforderung oder als Teil des Vertragsprozesses, falls die Anwendung entsprechend eingerichtet wurde.  
+Eine Servicemanagementanwendung benötigt eine Schnittstelle mit einer Serviceanforderung durch einen Debitor. Diese Serviceanforderung wird normalerweise in einen Serviceauftrag umgewandelt. [!INCLUDE[prod_short](includes/prod_short.md)]bietet Tools zum Erstellen eines Auftrags, und zwar entweder als direkte Reaktion auf eine Debitorenanforderung oder als Teil des Vertragsprozesses, falls die Anwendung entsprechend eingerichtet wurde.  
   
 Gegebenenfalls können Sie ein Leihgerätprogramm für Debitoren verwalten. Zudem besteht die Möglichkeit, die Preisstruktur zu bestimmen, Servicepreisangebote in logischen Gruppen zu platzieren und Preiskorrekturen zu erstellen.  
   
@@ -46,3 +45,6 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 [Planungsservice](service-plan-service.md)  
 [Erfüllen von Serviceverträgen](service-fulfill-service-contracts.md)  
 [Projekte verwalten](projects-manage-projects.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

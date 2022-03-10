@@ -1,26 +1,23 @@
 ---
 title: 'Designdetails: Abgleich mit der Finanzbuchhaltung | Microsoft Docs'
 description: Dieses Thema beschreibt die Abstimmung mit der Fibu, wenn Sie Lagertransaktionen buchen, z. B.  Verkaufslieferungen, Fertigerzeugnisse oder negative Anpassungen.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, reconciliation, general ledger, inventory
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 2d1d69b2aa03be59ec68e8198c794aca52ed7cb1
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 06/08/2021
+ms.author: edupont
+ms.openlocfilehash: f3781169dcf91eacaa8c0988a49d908f7f947f02
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306837"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145853"
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Designdetails: Abgleich mit der Finanzbuchhaltung
-Wenn Sie Lagertransaktionen buchen, z. B. Verkaufslieferungen, Einkaufsrechnungen, Fertigprodukte aus der Produktion oder Abgängen, werden die Mengen- und die Wertänderungen des Lagerbestandes in den Artikelposten bzw. in den Wertposten festgehalten. Verkaufslieferungen, Einkaufsrechnungen, Fertigprodukte aus der Produktion oder Abgänge), werden die Mengen- und die Wertänderungen des Lagerbestandes in den Artikelposten bzw. in den Wertposten festgehalten.  
+Wenn Sie Lagertransaktionen buchen, z. B. Verkaufslieferungen, Einkaufsrechnungen, Fertigprodukte aus der Produktion oder Abgängen, werden die Mengen- und die Wertänderungen des Lagerbestandes in den Artikelposten bzw. in den Wertposten festgehalten. Verkaufslieferungen, Einkaufsrechnungen, Fertigprodukte aus der Produktion oder Abgänge, werden die Mengen- und die Wertänderungen des Lagerbestandes in den Artikelposten bzw. in den Wertposten festgehalten.  
 
 Es gibt zwei Möglichkeiten, Inventurposten mit der Finanzbuchhaltung abzustimmen:  
 
@@ -84,16 +81,16 @@ Die nachstehende Tabelle zeigt, wie der Arbeitsplatz auf der Arbeitsplatzkarte e
     1. Die Interimskonten werden gelöscht. (Verkauf)  
     2. Kosten der verkauften Waren (COGS) werden gebucht. (Verkauf)  
 
-        ![Ergebnisse aus den Verkäufen, die zu GL-Konten gebucht werden](media/design_details_inventory_costing_3_gl_posting_sales.png "Ergebnisse aus den Verkäufen, die zu GL-Konten gebucht werden")  
+        ![Ergebnisse der Umsatzbuchung auf GL-Konten.](media/design_details_inventory_costing_3_gl_posting_sales.png "Ergebnisse der Verkaufsbuchung zu Sachkonten")  
 5. Der Benutzer bucht einen Verbrauch von 150 Gliedern, der die Anzahl der Links ist, die verwendet werden, um eine Kette herzustellen. (Materialverbrauch)  
 
-    ![Ergebnisse aus den Materialien, die zu GL-Konten gebucht werden](media/design_details_inventory_costing_3_gl_posting_material.png "Ergebnisse aus den Materialien, die zu GL-Konten gebucht werden")  
+    ![Ergebnisse der Materialbuchung auf GL-Konten.](media/design_details_inventory_costing_3_gl_posting_material.png "Ergebnisse der Materialbuchung zu Sachkonten")  
 6. Diese Arbeitsplatzgruppe brauchte 60 Minuten, um die Kette herzustellen. Der Benutzer bucht die Verarbeitungskosten. (Verbrauch, Kapazität)  
 
     1. Die direkten Kosten werden gebucht. (Verbrauch, Kapazität)  
     2. Die indirekten Kosten werden berechnet und gebucht. (Verbrauch, Kapazität)  
 
-        ![Ergebnisse aus den Kapazitäten, die zu GL-Konten gebucht werden](media/design_details_inventory_costing_3_gl_posting_capacity.png "Ergebnisse aus den Kapazitäten, die zu GL-Konten gebucht werden")  
+        ![Ergebnisse der Kapazitätsbuchung auf GL-Konten.](media/design_details_inventory_costing_3_gl_posting_capacity.png "Ergebnisse der Kapazitätsbuchung zu Sachkonten")  
 7. Der Benutzer bucht die Soll-Kosten einer Kette. (Istmeldung)  
 8. Der Benutzer beendet den Fertigungsauftrag und führt die Stapelverarbeitung **Kostenanpassung Artikeleinträge** aus. (Istmeldung)  
 
@@ -102,7 +99,7 @@ Die nachstehende Tabelle zeigt, wie der Arbeitsplatz auf der Arbeitsplatzkarte e
     3. Die indirekten Kosten (Gemeinkosten) werden vom Konto für indirekte Kosten zum Bestandskonto übertragen. (Istmeldung)  
     4. Dadurch ergibt sich ein Abweichungsbetrag von MW 157,00. Abweichungen werden nur für Standardkosntenartikel berechnet. (Istmeldung)  
 
-        ![Ergebnisse aus den Ergebnissen, die zu GL-Konten gebucht werden](media/design_details_inventory_costing_3_gl_posting_output.png "Ergebnisse aus den Ergebnissen, die zu GL-Konten gebucht werden")  
+        ![Ergebnisse der Ausgangsbuchung auf GL-Konten.](media/design_details_inventory_costing_3_gl_posting_output.png "Ergebnisse der Ausgabebuchung zu Sachkonten")  
 
         > [!NOTE]  
         >  Der Einfachheit halber wird nur ein Abweichungskonto angezeigt. Real existieren fünf verschiedene Konten:  
@@ -115,7 +112,7 @@ Die nachstehende Tabelle zeigt, wie der Arbeitsplatz auf der Arbeitsplatzkarte e
 
 9. Der Benutzer bewertet die Kette um von MW 150,00 auf MW 140,00. (Regulierung/Neubewertung/Rundung/Umlagerung)  
 
-    ![Ergebnisse aus den Anpassungen, die zu GL-Konten gebucht werden](media/design_details_inventory_costing_3_gl_posting_adjustment.png "Ergebnisse aus den Anpassungen, die zu GL-Konten gebucht werden")  
+    ![Ergebnisse der Korrekturbuchung auf GL-Konten.](media/design_details_inventory_costing_3_gl_posting_adjustment.png "Ergebnisse der Ausgleichsbuchung zu Sachkonten")  
 
 Weitere Informationen über das Verhältnis zwischen den Kontotypen und den verschiedenen Arten von Wertposten finden Sie unter [Designdetails. Konten in der Finanzbuchhaltung](design-details-accounts-in-the-general-ledger.md)  
 
@@ -125,4 +122,7 @@ Weitere Informationen über das Verhältnis zwischen den Kontotypen und den vers
 [Designdetails: Kostenregulierung](design-details-cost-adjustment.md)
 [Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)  
 [Finanzen](finance.md)  
-[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

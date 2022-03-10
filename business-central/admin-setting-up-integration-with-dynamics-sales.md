@@ -1,47 +1,128 @@
 ---
-title: Einrichten des Benutzerkontos für die Integration in Dynamics 365 for Sales | Microsoft Docs
+title: Einrichten des Benutzerkontos für die Integration in Microsoft Dataverse | Microsoft Docs
 description: Erfahren Sie, wie die Benutzerkonten eingerichtet werden, die die Apps zum Austausch von Daten verwenden, und die Mitarbeiter nutzen, um auf Daten in den Apps zuzugreifen und diese Daten zu synchronisieren.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: c318346c62b7776a550a77a2947173e33d5f17c0
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 6ed2346b1033559f24feafa1f9a527b4b817cfeb
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246591"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143911"
 ---
-# <a name="setting-up-user-accounts-for-integrating-with-dynamics-365-for-sales"></a>Einrichten des Benutzerkontos für die Integration in Dynamics 365 for Sales
-Dieser Artikel bietet eine Übersicht darüber, wie die Benutzerkonten eingerichtet werden, die erforderlich sind, um [!INCLUDE[d365fin](includes/d365fin_md.md)] in [!INCLUDE[crm_md](includes/crm_md.md)] zu integrieren.  
+# <a name="setting-up-user-accounts-for-integrating-with-microsoft-dataverse"></a>Einrichten des Benutzerkontos für die Integration in Microsoft Dataverse
 
-> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2085500]
 
-## <a name="setting-up-the-admininstrator-user-account-in-sales"></a>Einrichten des Admininstratorbenutzerkontos im Verkauf
-Sie müssen Ihr Administratorbenutzerkonto für [!INCLUDE[d365fin](includes/d365fin_md.md)] als Benutzer in [!INCLUDE[crm_md](includes/crm_md.md)] hinzufügen und dann den Benutzer zum Administrator in [!INCLUDE[crm_md](includes/crm_md.md)] befördern. Das Administratorbenutzerkonto muss auch die Rolle des Systemanpassers und mindestens eine andere nicht administrative Benutzerrolle, z. B. Vertriebsmanager, in [!INCLUDE[crm_md](includes/crm_md.md)] haben.
+Dieser Artikel bietet eine Übersicht darüber, wie die Benutzerkonten eingerichtet werden, die erforderlich sind, um [!INCLUDE[prod_short](includes/prod_short.md)] in [!INCLUDE[prod_short](includes/cds_long_md.md)] zu integrieren.  
 
-## <a name="setting-up-the-user-account-for-the-integration"></a>Einrichten des Benutzerkontos für die Integration
-Sie müssen ein spezifisches Benutzerkonto in Ihrem Office 365-Abonnement erstellen, das sowohl [!INCLUDE[d365fin](includes/d365fin_md.md)] als auch [!INCLUDE[crm_md](includes/crm_md.md)] verwenden können, um Daten zu synchronisieren. Das Benutzerkonto muss in der Lage sein, sich in [!INCLUDE[crm_md](includes/crm_md.md)] anzumelden. Das bedeutet, dass der Benutzer eine Lizenz für [!INCLUDE[crm_md](includes/crm_md.md)] haben muss. Dieses Konto muss auch ein nicht interaktives Konto in [!INCLUDE[crm_md](includes/crm_md.md)] sein. Weitere Informationen darüber, wie Benutzer in [!INCLUDE[crm_md](includes/crm_md.md)] erstellt werden, finden Sie unter [Verwalten von Sicherheit, Benutzern und Teams](http://go.microsoft.com/fwlink/?LinkID=616518). Nachdem die Verbindung eingerichtet ist, ordnet [!INCLUDE[d365fin](includes/d365fin_md.md)] dem Benutzerkonto Sicherheitsrollen zu, die es in [!INCLUDE[d365fin](includes/d365fin_md.md)] benötigt.
+## <a name="setting-up-the-administrator-user-account"></a>Einrichten des Administrator-Benutzerkontos
+Sie müssen Ihr Administrator-Benutzerkonto für [!INCLUDE[prod_short](includes/prod_short.md)] als Benutzer in [!INCLUDE[prod_short](includes/cds_long_md.md)] hinzufügen. Wenn Sie die Verbindung zwischen [!INCLUDE[prod_short](includes/prod_short.md)] und [!INCLUDE[prod_short](includes/cds_long_md.md)] einrichten, werden wir dieses Konto einmal zur Installation und Konfiguration einiger erforderlicher Komponenten verwenden. 
 
-![Der Leitfaden für das unterstützte Setup zeigt den Ort, an dem die Anmeldeinformationen für die Synchronisierung eingegeben werden](media/sync-user-setup.png "Assistentenseite für die Visualisierung des unterstützten Setups zeigt den Ort, an dem die Anmeldeinformationen für die Synchronisierung eingegeben werden")
+## <a name="permissions-and-security-roles-for-user-accounts-in-prod_short"></a>Berechtigungen und Sicherheitsrollen für Benutzerkonten in [!INCLUDE[prod_short](includes/cds_long_md.md)]
+Wenn Sie die CDS-Basisintegrationslösung installieren, werden die Berechtigungen für das Integrationsbenutzerkonto konfiguriert. Wenn diese Berechtigungen manuell geändert werden, können Sie sie zurücksetzen. Sie können dies tun, indem Sie die CDS-Basisintegrationslösung neu installieren, indem Sie die Option **Integrationslösung neu installieren** auf der Seite **Common Data Service Verbindungseinrichtung** wählen. Die Sicherheitsrolle der Business Central CDS Integration wird eingesetzt.
 
-> [!IMPORTANT]  
-> Verwenden Sie nicht das Administratorkonto für [!INCLUDE[crm_md](includes/crm_md.md)] für die Synchronisierung. Dadurch wird die Synchronisierung unterbrochen.
-> Um die konstante Synchronisierung zu vermeiden, werden auch Änderungen an den Daten, die durch das Integrationsbenutzerkonto vorgenommen werden, nicht synchronisiert. <!--What changes would this account make?--> Nachdem die Verbindung hergestellt wurde, empfehlen wir, den Zugriffsmodus für das Benutzerkonto für die Integration auf einen nicht interaktiven Modus in [!INCLUDE[crm_md](includes/crm_md.md)] festzulegen. Weitere Informationen finden Sie unter [Erstellen eines nicht interaktiven Benutzerkontos](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#create-a-non-interactive-user-account).
+<!--
+The following tables list the minimum permissions for the user accounts in [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
-## <a name="setting-up-accounts-for-sales-people"></a>Einrichten von Konten für Verkäufer
-Sie müssen Benutzerkonten in [!INCLUDE[crm_md](includes/crm_md.md)] für die Verkäufer von [!INCLUDE[d365fin](includes/d365fin_md.md)]. Um das zu vereinfachen, bietet das Microsoft 365 Admin Center eine Excel-Vorlage, die Sie verwenden können. Wählen Sie auf der Seite **Aktive Benutzer** die Option **Mehr** und dann **Mehrere Benutzer importieren** aus. Wählen Sie **CSV-Datei nur mit Kopfzeilen herunterladen** aus und geben Sie dann die Informationen für die Verkäufer ein. Um ein Beispiel anzusehen, wählen Sie **CSV-Datei mit Kopfzeilen und Beispielbenutzerinformationen herunterladen** aus. Nachdem Sie die Informationen über die Benutzer eingeben, besteht der nächste Schritt im Importvorgang darin, den Benutzern Lizenzen zu dem Dynamics 365 Customer Engagement-Plan zuzuweisen.  
+### Minimum Permissions for the Administrator
+The following table displays the minimum permissions on each tab for each security role that is required for the administrator user.
 
-Nachdem Sie die Benutzer importiert und ihnen Lizenzen für Dynamics 365 Customer Engagement zugewiesen haben, müssen Sie die Benutzer der Rolle **Verkäufer** in [!INCLUDE[crm_md](includes/crm_md.md)] zuweisen.
+##### Customization
+|Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
+|----|----|-----|----|----|
+|Model Driven App|Global|||Read|
+|Plugin Assembly|Global|Read|Read|Read|
+|Plugin Type|Global|Read|Read|Read|
+|Relationship|Global|||Read|
+|SDK Message|Global|Read|Read|Read|
+|SDK Message Proessing Step|Global|Read|Read|Read|
+|SDK Message Proessing Step Image|Global|Read|Read|Read|
+|System From|Global|||Write|
 
-![Koppeln von Verkäufern mit Benutzern in Dynamics 365 for Sales](media/couple-salespeople.png "Visualisierung des Koppelns von Verkäufern mit Benutzern in Dynamics 365 for Sales")
+##### Custom Entities
+|Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2020|
+|----|----|-----|----|----|
+|Business Central Account Statistics|Global|Read|Read|Read|
+|Business Central Connection|Global|Create, Read, Write, Delete|Create, Read, Write, Delete|Create, Read, Write, Delete|
+|Post Configuration|Global|||Write|
+
+### Minimum Permissions for automatically created [!INCLUDE[prod_short](includes/prod_short.md)] Integration application user
+The following table displays the minimum permissions on each tab for each security role that is required for the automatically created [!INCLUDE[prod_short](includes/prod_short.md)] Integration application user.
+
+##### Core Records
+|Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
+|----|----|-----|----|----|
+|Account|Global|Create, Read, Write, Append, Append To, Assign|Create, Read, Write, Append, Append To, Assign|Create, Read, Write, Append, Append To, Assign|
+|Action Card|Global||Read|Read|
+|Connection|Global|Read|Read|Read|
+|Contact|Global|Create, Read, Write, Append, Append To|Create, Read, Write, Append, Append To|Create, Read, Write, Append, Append To|
+|Note|Global|||Create, Read, Write, Delete Append, Assign|
+|Opportunity|Global||Create, Read, Write, Append, Append To|Create, Read, Write, Append, Append To|
+|Post|Global|||Create, Read, Append To|
+|User Entity UI|User|Create, Read, Write|Create, Read, Write|Create, Read, Write|
+
+##### Sales
+|Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
+|----|----|-----|----|----|
+|Invoice|Global|Create, Read, Write, Append, Append To|Create, Read, Write, Append, Append To|Create, Read, Write, Append, Append To|
+|Order|Global|Read, Write, Append To|Read, Write, Append To|Read, Write, Append, Append To, Assign|
+|Product|Global|Create, Read, Write, Append, Append To|Create, Read, Write, Append, Append To|Create, Read, Write, Append, Append To|
+|Property|Global|Read|Read|Read|
+|Property Association|Global|Read|Read|Read|
+|Property Option Set Item|Global|Read|Read|Read|
+|Quote|Global|Read|Read|Read|
+
+##### Service
+|Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
+|----|----|-----|----|----|
+|Case|Global|Read|Read|Read|
+
+##### Business Management
+|Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
+|----|----|-----|----|----|
+|Currency|Global|Create, Read, Write|Create, Read, Write|Create, Read, Write|
+|Organization|Global|Read, Write|Read, Write|Read, Write|
+|Security Role|Global|||Read|
+|User|Global|Create, Read, Write, Append, Append To|Create, Read, Write, Append, Append To|Create, Read, Write, Append, Append To|
+|User Settings|Global|Create, Read, Write, Delete, Append To|Create, Read, Write, Delete, Append To|Create, Read, Write, Delete, Append To|
+|Act on Behalf of Another User|Global|Yes|Yes|Yes|
+
+##### Customization
+|Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
+|----|----|-----|----|----|
+|Field|Global||Read|Read|
+|Plug-in Assembly|Global|Read|Read|Read|
+|Plug-in Type|Global|Read|Read|Read|
+|SDK Message|Global|Read|Read|Read|
+|SDK Message Processing Step|Global|Read|Read|Read|
+|Web Resource|Global|Read|Read|Read|
+
+##### Custom Entities
+|Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
+|----|----|-----|----|----|
+|Dynamics 365 Business Central Account Statistics|Global|Create, Read, Write, Append To|Create, Read, Write, Append To|Create, Read, Write, Append To|
+|Dynamics 365 Business Central Connection|Global|Read|Read|Read|
+
+### Product Availability User
+You can allow sales people to view inventory levels for the items they sell by granting them the permissions described in the following table.
+
+##### Custom Entities
+|Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
+|----|----|-----|----|----|
+|Dynamics 365 Business Central Account Statistics|Global|Create, Read, Write, Append To|Create, Read, Write, Append To|Create, Read, Write, Append To|
+|Dynamics 365 Business Central Connection|Global|Read|Read|Read|
+
+-->
 
 ## <a name="see-also"></a>Siehe auch  
-[Integrieren in Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  
+[Integrieren in Microsoft Dataverse](admin-common-data-service.md)  
+[Integration mit Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

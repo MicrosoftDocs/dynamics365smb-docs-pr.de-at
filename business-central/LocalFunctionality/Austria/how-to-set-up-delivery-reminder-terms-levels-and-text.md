@@ -1,21 +1,20 @@
 ---
-title: Einrichten von Lieferanmahnungsbestimmungen, Stufen und Text [AT]
+title: Lieferbenachrichtigungsbestimmungen, Stufen und Text [AT]
 description: Zur Erstellung von Lieferanmahnungen in der österreichischen Version müssen Sie bestimmte Aufgaben einrichten.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: ed46f58e4b65458432775452737c388bbbd62383
-ms.sourcegitcommit: 428f180604e5afcf94fa0e92a0615f58c88e13cd
+ms.openlocfilehash: 7a70f34955c2b0e3152a22a6f53f454212005203
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3931305"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147400"
 ---
 # <a name="set-up-delivery-reminder-terms-levels-and-text-in-the-austrian-version"></a>Einrichten von Lieferanmahnungsbestimmungen, Stufen und Text in der österreichischen Version
 
@@ -28,3 +27,6 @@ ms.locfileid: "3931305"
 [So werden Lieferanmahnungscodes zu Kreditoren zugewiesen](how-to-assign-delivery-reminder-codes-to-vendors.md)  
 [So erstellen Sie Lieferanmahnungen manuell](how-to-create-delivery-reminders-manually.md)  
 [Lieferbenachrichtigung registrieren](how-to-issue-delivery-reminders.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,28 +1,27 @@
 ---
-title: Relationship Management | Microsoft Docs
-description: Die Relationship Management-Funktion in Business Central unterstützt Ihr Verkaufsanstrengungen und Sie können damit auf Informationen Ihrer Kontakte und auf Vermögensfunktionen effizient zugreifen.
-services: project-madeira
+title: Marketing & Vertrieb
+description: Die Funktionen zur Verwaltung von Geschäftsbeziehungen unterstützen Ihre Vertriebsbemühungen und ermöglichen Ihnen den Zugriff auf Informationen über Kontakte und Interessenten, um Kunden effizient zu bedienen.
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contact, prospect, client
-ms.date: 10/01/2020
+ms.search.forms: 9076, 9026
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 00ffaf4cefa87ad530a94495386998d65be4fdc5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3dec95b484bce34c2eff2cbc49510e54f871f4ef
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923537"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137878"
 ---
 # <a name="managing-relationships"></a>Verwalten von Beziehungen
-Die Marketing & Vertriebsverwaltungsfeatures von [!INCLUDE[d365fin](includes/d365fin_md.md)] unterstützen Sie beim Verwalten und Ausführen von Verkaufsmaßnahmen. Mit diesen Features haben Sie Zugriff auf umfassende und exakte Informationen, dank derer Sie Ihre Aktivitäten auf bevorzugte Debitoren-Kontaktsegmente konzentrieren können.
+Die Marketing & Vertriebsverwaltungsfeatures von [!INCLUDE[prod_short](includes/prod_short.md)] unterstützen Sie beim Verwalten und Ausführen von Verkaufsmaßnahmen. Mit diesen Features haben Sie Zugriff auf umfassende und exakte Informationen, dank derer Sie Ihre Aktivitäten auf bevorzugte Debitoren-Kontaktsegmente konzentrieren können.
 
-Bei Verkaufs- und Marketingmaßnahmen dreht sich alles um die richtige Entscheidung und das richtige Timing. [!INCLUDE[d365fin](includes/d365fin_md.md)] stellt eine exakte und zeitnahe Übersicht über die Kontaktinformationen bereit, die es Ihnen ermöglicht, Interessenten gegenüber effizienter aufzutreten und die Kundenzufriedenheit zu steigern.
+Bei Verkaufs- und Marketingmaßnahmen dreht sich alles um die richtige Entscheidung und das richtige Timing. [!INCLUDE[prod_short](includes/prod_short.md)] stellt eine exakte und zeitnahe Übersicht über die Kontaktinformationen bereit, die es Ihnen ermöglicht, Interessenten gegenüber effizienter aufzutreten und die Kundenzufriedenheit zu steigern.
 
 In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert  
 
@@ -35,3 +34,6 @@ In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den 
 |Verarbeiten Sie neue Leads, indem Sie Verkaufschancen erstellen und dem Verkäufer zuordnen, um potenzielle Verkäufe nachverfolgen zu können.|[Verkaufschancen verwalten](marketing-manage-sales-opportunities.md)|
 |Erstellen Sie Marketingpläne, um Debitoren zu ermitteln, zu gewinnen und zu binden.|[Verwaltung von Marketingkampagnen](marketing-campaigns.md)|
 |Verwenden Sie Dynamics 365 Sales for Customer Engagement und nutzen Sie die nahtlose Integration in den Interessent-zu-Geld-Prozess, indem Sie Business Central für Backend-Aktivitäten wie Auftragsverarbeitung, Lagerbestandsverwaltung und Finanzbearbeitung verwenden.|[Integration mit Dynamics 365 Sales](marketing-integrate-dynamicscrm.md)|
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

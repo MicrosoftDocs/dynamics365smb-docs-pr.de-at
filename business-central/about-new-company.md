@@ -1,21 +1,21 @@
 ---
-title: Erstellen Sie neue Unternehmen, die ein unterstütztes Einrichtungshandbuch verwenden | Microsoft Docs
+title: Neue Unternehmen mithilfe der Anleitung für die unterstützte Einrichtung erstellen
 description: Es ist einfach, ein neues, leeres Unternehmen in Business Central. zu erstellen. Ein unterstütztes Einrichtungshandbuch hilft Ihnen Schritte für Schritt und Sie können Ihre vorhandenen Geschäftsdaten importieren.
 author: edupont04
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: company, setup wizard
-ms.date: 10/01/2020
+ms.search.form: 1803, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7724afe2cbc8872fe71f881e436f175668d09a9e
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: f05fcf2fc3137fbdf97940e5b3d73922180253b4
+ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4753609"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323182"
 ---
 # <a name="creating-new-companies-in-prod_short"></a>Neue Unternehmen anlegen in[!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -76,4 +76,7 @@ Sobald ein Unternehmen erstellt wurde, können Sie seinen Namen nicht mehr ände
 [Einrichten [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Geschäftsdaten aus anderen Finanzsystemen importieren](across-import-data-configuration-packages.md)  
 [Ändern von grundlegenden Einstellungen](ui-change-basic-settings.md)  
-[Erste Schritte](product-get-started.md)  
+[Vorbereitungen zum Tätigen von Geschäften](ui-get-ready-business.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,21 +1,21 @@
 ---
-title: Daten mit Aufbewahrungsrichtlinien bereinigen | Microsoft Docs
+title: Daten mit Aufbewahrungsrichtlinien bereinigen
 description: Sie können angeben, wie häufig Sie bestimmte Datentypen löschen möchten.
 author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delete, data, retention, policy, policies
-ms.date: 10/01/2020
+ms.search.form: 3903, 3901
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 4393053f9f158b04323453b7508cc19c10b04102
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 955b85020d4cb13f108bc1923de66eb13ade0061
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4754059"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132202"
 ---
 # <a name="define-retention-policies"></a>Aufbewahrungsrichtlinien definieren
 Administratoren können Aufbewahrungsrichtlinien definieren, um festzulegen, wie häufig [!INCLUDE[prod_short](includes/prod_short.md)] veraltete Daten in Tabellen löschen soll, die Protokolleinträge und archivierte Datensätze enthalten. Das Bereinigen von Protokolleinträgen kann beispielsweise das Arbeiten mit tatsächlich relevanten Daten erleichtern. Richtlinien können alle Daten in den Tabellen beinhalten, die nach dem Ablaufdatum liegen, oder Sie können Filterkriterien hinzufügen, die nur bestimmte abgelaufene Daten in die Richtlinie aufnehmen. 
@@ -40,7 +40,7 @@ Die Aufbewahrungszeiträume können beliebig lang oder kurz sein. Um Aufbewahrun
 > Aus Kompatibilitätsgründen haben wir für einige Tabellen einen Mindestaufbewahrungszeitraum festgelegt. Wenn Sie einen Aufbewahrungszeitraum festlegen, der die Mindestdauer unterschreitet, wird in einer Meldung der obligatorische Mindestaufbewahrungszeitraum angezeigt.
 
 ### <a name="set-up-a-retention-policy"></a>Aufbewahrungsrichtlinie einrichten
-1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Sie wünschen“ öffnet](media/ui-search/search_small.png "Tell me-Funktion") aus, geben Sie **Aufbewahrungsrichtlinien** ein, und wählen Sie dann den entsprechenden Link aus.
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Aufbewahrungsrichtlinien** ein und wählen Sie den zugehörigen Link.
 2. Geben Sie im Feld **Tabellen-ID** die Tabelle ein, die in der Richtlinie berücksichtigt werden soll.
 3. Geben Sie im Feld **Aufbewahrungszeitraum** an, wie lange die Daten in der Tabelle verbleiben sollen.
 4. Optional: Um die Richtlinie auf bestimmte Daten in einer Tabelle anzuwenden, deaktivieren Sie die Option „Auf alle Datensätze anwenden“. Das Inforegister „Datensatzaufbewahrungsrichtlinie“ wird angezeigt, in dem Sie Filter festlegen können, um Teilmengen von Daten für jede Zeile zu erstellen. Weitere Informationen finden Sie unter [Filterung](ui-enter-criteria-filters.md#filtering).
@@ -67,7 +67,7 @@ Wenn ein Entwickler eine Tabelle hinzufügt, kann er obligatorische Filter und S
 
 Im Folgenden finden Sie Beispiele zum Hinzufügen einer Tabelle zur Liste der zulässigen Tabellen mit und ohne obligatorische Filter oder Standardfilter. Ein komplexeres Beispiel finden Sie in der Codeunit 3999 „Aufb. -Richtl.  install. – Basis-App“. 
 
-```
+```al
  trigger OnInstallAppPerCompany()
     var
         RetenPolAllowedTables: Codeunit "Reten. Pol. Allowed Tables";
@@ -78,7 +78,7 @@ Im Folgenden finden Sie Beispiele zum Hinzufügen einer Tabelle zur Liste der zu
 
 Das folgende Beispiel enthält einen obligatorischen Filter.
 
-```
+```al
  trigger OnInstallAppPerCompany()
     var
         ChangeLogEntry: Record "Change Log Entry";
@@ -98,10 +98,15 @@ Das folgende Beispiel enthält einen obligatorischen Filter.
         RetenPolAllowedTables.AddAllowedTable(Database::"Change Log Entry", ChangeLogEntry.FieldNo(SystemCreatedAt), TableFilters);
     end;
 ```
+
 Nachdem ein Entwickler der Liste Tabellen hinzugefügt hat, kann ein Administrator diese in eine Aufbewahrungsrichtlinie aufnehmen. 
 
 ## <a name="see-also"></a>Siehe auch
+
+[Analysieren der Trace-Telemetrie von Aufbewahrungsrichtlinien](/dynamics365/business-central/dev-itpro/administration/telemetry-retention-policy-trace)  
 [Protokollieren von Änderungen in Business Central](across-log-changes.md)  
 [Filterung](ui-enter-criteria-filters.md#filtering)  
 [Verwenden von Aufgabenwarteschlangen für die Aufgabenplanung](admin-job-queues-schedule-tasks.md)  
 [Arbeiten mit [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
