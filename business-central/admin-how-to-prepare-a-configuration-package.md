@@ -1,7 +1,7 @@
 ---
 title: So bereiten Sie ein Konfigurationspaket vor
 description: Lernen Sie jetzt, wie Sie ein Konfigurationspaket RapidStart vorbereiten, mit dem Sie neue Firmen auf der Basis vorhandener Daten festlegen können.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6bb0c48f1b6be3857ada32e4847d28be19c61580
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 979680be432eb7ecf7c2753ce84b971b529e9665
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147103"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382462"
 ---
 # <a name="prepare-a-configuration-package"></a>So bereiten Sie ein Konfigurationspaket vor
 
@@ -32,7 +32,7 @@ Sie können keine Daten in Tabellen importieren, die gebuchte Einträge enthalte
 
 ### <a name="table-names-that-contain-special-characters"></a>Tabellennamen, die Sonderzeichen enthalten
 
-Seien Sie vorsichtig, wenn Sie Tabellen oder Felder haben, die denselben zeitlichen Namen haben, sich jedoch durch Sonderzeichen wie %, &, <,>, (, und) unterscheiden. Beispielsweise kann die Tabelle „XYZ“ die Felder „Feld 1“ und „Feld 1%“ enthalten.
+Seien Sie vorsichtig, wenn Sie Tabellen oder Felder haben, die denselben zeitlichen Namen haben, sich jedoch durch Sonderzeichen wie %, &, <, >, (, und) unterscheiden. Beispielsweise kann die Tabelle „XYZ“ die Felder „Feld 1“ und „Feld 1%“ enthalten.
 
 Der XML-Prozessor akzeptiert nur einige Sonderzeichen und entfernt diejenigen, die er nicht akzeptiert. Wenn das Entfernen eines Sonderzeichens, wie z. B. des %-Zeichens in „Feld 1 %“, zu zwei oder mehr Tabellen oder Feldern mit demselben Namen führt, tritt beim Exportieren oder Importieren eines Konfigurationspakets ein Fehler auf. 
 
