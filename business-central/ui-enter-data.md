@@ -258,7 +258,7 @@ Zeiträume können als Zahl gefolgt von der entsprechenden Einheit eingegeben we
 
 Hier folgen einige Beispiele.  
 
-|Termine|Maßeinheit**|  
+|Termine|Einheit**|  
 |------------------|-------------------------|  
 |2h|2 Stunden|  
 |6h 30 m|6 Stunden 30 Minuten|  
