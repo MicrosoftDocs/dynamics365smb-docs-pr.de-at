@@ -9,16 +9,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: f921a6da2bb963d7cb53f062f32db7af6169020c
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: d4d2134945f0beb15853bc9cca227cde74285c9d
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520091"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074533"
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Exemplarische Vorgehensweise: Einrichten und Nutzen eines Einkaufsanfrage-Genehmigungsworkflows
 
-Sie können den Genehmigungsprozesses für neuen oder geänderten Datensätze, z. B. Belege, Buch.-Blattzeilen und Debitorenkarten automatisieren, indem Sie Workflows mit Schritten für die entsprechenden Genehmigungen erstellen. Bevor Sie Genehmigungsworkflows erstellen, müssen Sie einen Genehmiger und einen Stellvertreter für jeden Genehmigungsbenutzer einrichten. Sie können außerdem die Grenzbeträge für die Genehmiger festlegen, um zu definieren, für welche Verkaufs- und Einkaufsdatensätze sie für eine Genehmigung qualifiziert sind. Genehmigungsanforderungen und andere Benachrichtigungen können als E-Mail oder interne Notiz gesendet werden. Für jede Genehmigungsbenutzereinrichtung können Sie angeben wann dieser Benachrichtigungen erhält.
+Sie können den Genehmigungsprozesses für neuen oder geänderten Datensätze, z. B. Dokumente, Buch.-Blattzeilen und Debitorenkarten automatisieren, indem Sie Workflows mit Schritten für die entsprechenden Genehmigungen erstellen. Bevor Sie Genehmigungsworkflows erstellen, müssen Sie einen Genehmiger und einen Stellvertreter für jeden Genehmigungsbenutzer einrichten. Sie können außerdem die Grenzbeträge für die Genehmiger festlegen, um zu definieren, für welche Verkaufs- und Einkaufsdatensätze sie für eine Genehmigung qualifiziert sind. Genehmigungsanforderungen und andere Benachrichtigungen können als E-Mail oder interne Notiz gesendet werden. Für jede Genehmigungsbenutzereinrichtung können Sie angeben wann dieser Benachrichtigungen erhält.
 
 > [!NOTE]
 > Zusätzlich zur Workflowfunktionalität in [!INCLUDE[prod_short](includes/prod_short.md)] ist die Power Automate-Integration möglich, um Workflows für Ereignisse in [!INCLUDE[prod_short](includes/prod_short.md)] zu verwenden. Beachten Sie, dass, obwohl es zwei verschiedene Workflowsysteme sind, eine mit Power Automate erstellte Flow-Vorlage der Liste von Workflow-Vorlagen in [!INCLUDE[prod_short](includes/prod_short.md)] hinzugefügt wird. Weitere Informationen finden Sie unter [Business Central in einem automatisierten Workflow nutzen](across-how-use-financials-data-source-flow.md).  
@@ -121,7 +121,9 @@ Sie definieren Workflowsvariationen, indem Sie die Felder in den Workflowzeilen 
 
 Wenn ein Szenario ein Workflowereignis oder -antwort benötigt, die nicht unterstützt wird, muss ein Microsoft-Partner diese implementieren, indem er den Workflow mithilfe von Power Automate anpasst. Weitere Informationen finden Sie unter [[!INCLUDE[prod_short](includes/prod_short.md)] in einem automatisierten Workflow verwenden](across-how-use-financials-data-source-flow.md) oder [Veranstaltungen in AL](/dynamics365/business-central/dev-itpro/developer/devenv-events-in-al) in der Entwicklerhilfe.
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-related-training-at-microsoft-learn"></a>Siehe zugehörige Schulung unter [Microsoft Learn](/learn/modules/use-approval-workflows/)
+
+## <a name="see-also"></a>Siehe auch 
 
 [Genehmigungsbenutzer einrichten](across-how-to-set-up-approval-users.md)  
 [Einrichten von Workflowbenachrichtigungen](across-setting-up-workflow-notifications.md)  
