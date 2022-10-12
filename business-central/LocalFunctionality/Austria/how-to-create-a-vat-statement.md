@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d50c4d5fd156690e9178060c4e6b7656dec311d9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 353e15f35e1e15499569a382a71811ec25d148b5
+ms.sourcegitcommit: b4da421c19c3aa3031b0344ec2829d2038be6642
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139009"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "9617932"
 ---
 # <a name="create-a-vat-statement"></a>Erstellen einer MwSt.-Abrechnung
 [!INCLUDE[prod_short](../../includes/prod_short.md)] ermöglicht Ihnen, einen regelmäßigen Bericht der MsSt.-Transaktionen zu übermitteln. Die MwSt.-Abrechnung wird als FDF-Datei übermittelt, die einer bearbeitbaren PDF-Datei von der Steuerbehörde entspricht.  
@@ -32,6 +32,7 @@ ms.locfileid: "8139009"
 
     |Feld|Description|  
     |---------------------------------|---------------------------------------|  
+    |**Datumsart für Zeitraum**|Gibt den Datumstyp der Periode an, ab der MwSt.-Posten in der Stapelverarbeitung erfasst werden.|
     |**Startdatum**|Gibt das Startdatum der MwSt.-Periode an.|  
     |**Enddatum**|Gibt das Enddatum der MwSt.-Periode an.|  
     |**MwSt.-Posten einschließen**|Gibt an, ob offene oder geschlossene oder sowohl offene als auch geschlossene MwSt.-Posten einbezogen werden.|  
