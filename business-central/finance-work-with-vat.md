@@ -10,12 +10,12 @@ ms.search.keywords: VAT, sales, purchases
 ms.search.form: 7, 118, 130, 142, 459, 460, 525
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: b8c09f49b741f7979f79f5e3305ef11258ffaaea
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 0a8d8f32613af2c0aab6905f62682e3c93307993
+ms.sourcegitcommit: b4da421c19c3aa3031b0344ec2829d2038be6642
 ms.translationtype: HT
 ms.contentlocale: de-AT
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530936"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "9617838"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Arbeiten mit MwSt im Verkauf und Einkauf
 Wenn Ihr Land oder Ihre Region verlangt, dass Sie die Mehrwertsteuer (MwSt.) auf Verkaufs- und Einkaufstransaktionen berechnen und melden, können Sie in [!INCLUDE[prod_short](includes/prod_short.md)] einrichten, dass Mehrwertsteuer berechnet wird. Weitere Informationen finden Sie [Einrichten der Berechnungs- und Buchungsmethoden für Mehrwertsteuer](finance-setup-vat.md).
@@ -61,6 +61,18 @@ Je nachdem, was Sie tun möchten, können Sie Debitoren oder Verkaufsbelegen ein
 
 #### <a name="examples"></a>Beispiele
 Faktoren wie das Land oder die Region, in dem Sie verkaufen, oder die Art der Branchen, in die Sie verkaufen, können sich auf die Höhe der Mehrwertsteuer auswirken, die Sie abführen müssen. Beispielsweise kann ein Restaurant 6 % Mehrwertsteuer für Mahlzeiten berechnen, die im Haus eingenommen werden, und 17 % für Speisen zum Mitnehmen. Um dies zu erreichen, erstellen Sie eine Umsatzsteuer-Geschäftsbuchungsgruppe (Preis) für „Inhouse“ und eine für „Mitnahme“.
+
+## <a name="working-with-vat-date"></a>Arbeiten mit MwSt.-Datum
+### <a name="vat-date-in-documents"></a>Umsatzsteuerdatum in Dokumenten
+Wenn Sie neue Verkaufs- oder Einkaufsbelege erstellen, basiert das **MwSt.-Datum** auf der Einstellung im Feld **Standard-MwSt.-Datum** auf der Seite **Hauptbuch einrichten**. Dieser Standardwert kann derselbe sein wie **Buchungsdatum** oder **Belegdatum**. Wenn Sie ein anderes MwSt.-Datum benötigen, können Sie den Wert im Feld **MwSt.-Datum** manuell ändern. Wenn Sie den Beleg buchen, wird das **MwSt.-Datum** auf dem Buchungsbeleg und in den Mehrwertsteuer- und Hauptbucheinträgen ausgewiesen.
+
+### <a name="correcting-vat-date-in-posted-entries"></a>Korrigieren des MwSt.-Datums in gebuchten Einträgen
+In einigen Situationen ist es notwendig, das MwSt.-Datum zu ändern, auch wenn der Beleg gebucht wurde und dies ist in [!INCLUDE[prod_short](includes/prod_short.md)] möglich. Zum Ändern von **MwSt.-Datum** für gebuchte Belege müssen Sie die folgenden Schritte ausführen:
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **MwSt.-Posten** ein und wählen Sie dann den entsprechenden Link.
+2. Finden Sie den Eintrag mit falschem Umsatzsteuerdatum.
+3. Klicken Sie auf die Aktion **Liste bearbeiten** und geben Sie das richtige Datum in das Feld **MwSt.-Datum** ein.
+4. Die Seite schließen.
+5. Das neue Umsatzsteuerdatum wird entspechend in **Sachkonteneinträge** und im gebuchten Beleg, falls vorhanden geändert.
 
 ## <a name="correcting-vat-amounts-manually-in-sales-and-purchase-documents"></a>MwSt.-Beträgen in Verkaufs- und Einkaufsbelegen manuell korrigieren  
 Sie können Korrekturen an gebuchten MwSt.-Posten vornehmen und die Umsatzsteuer- und Vorsteuerbeträge verändern, ohne die MwSt.-Bemessungsgrundlage zu verändern. Zum Beispiel, wenn Sie eine Rechnung von einem Lieferanten mit einem falschen Mehrwertsteuerbetrag erhalten.  
@@ -116,7 +128,7 @@ Für die Buchung einer Rechnung mit Einfuhrumsatzsteuer kann anstelle eines Fibu
 7. Im Fenster erstellen Sie eine Kombination **Gen. Bus. Buchungsgruppe** für die MwSt.-Behörde und der **Gen. Prod. Buchungsgruppe** für die Einfuhrumsatzsteuer. Für diese neue Kombination im Feld **Einkaufskonten**, wählen Sie das Sachkonto für die Einfuhrumsatzsteuer aus.  
 
 ### <a name="to-create-a-new-invoice-for-the-import-authority-vendor-once-you-have-completed-the-setup"></a>So erstellen Sie eine neue Rechnung für die als Kreditor fungierende Einfuhrbehörde, nachdem Sie die Einrichtung abgeschlossen haben  
-1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Einkaufsrechnungen** ein, und wählen Sie dann den zugehörigen Link.  
+1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Einkaufsrechnungen** ein, und wählen Sie dann den zugehörigen Link.  
 2. Erstellen Sie eine neue Einkaufsrechnung.  
 3. Wählen Sie im Feld **Eink. von Kred.-Nr.** die als Kreditor fungierende Einfuhrbehörde, und klicken Sie danach auf **OK**.  
 4. Klicken Sie in der ersten Einkaufszeile im Feld **Art** und wählen Sie **Sachkonto** und dann das **Nr.** Feld, wählen das Sachkonto Einfuhrumsatzsteuer aus.  
