@@ -428,6 +428,7 @@
 ### [Sachkontenbudgets erstellen](finance-how-create-budgets.md)
 ### [Transaktionen direkt in der Finanzbuchhaltung buchen](finance-how-post-transactions-directly.md)
 ### [Buch.-Blatt-Buchungen stornieren und Eingänge/Lieferungen rückgängig machen](finance-how-reverse-journal-posting.md)
+### [Export der Protokolldatei](finance-how-to-export-audit-files.md)
 ### [Kosten und Einkünfte zuteilen](year-allocate-costs-income.md)
 ### [Ausgaben der Beschäftigten aufzeichnen und erstatten](finance-how-record-reimburse-employee-expenses.md)
 ### [Umsätze und Ausgaben abgrenzen](finance-how-defer-revenue-expenses.md)
