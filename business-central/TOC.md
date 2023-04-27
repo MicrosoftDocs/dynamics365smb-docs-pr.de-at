@@ -809,12 +809,13 @@
 ##### [Unternehmensnummern und Filialnummern](LocalFunctionality/Belgium/enterprise-numbers-and-branch-numbers.md)
 ##### [Buchungszeitraum beschränken](LocalFunctionality/Belgium/how-to-limit-the-posting-period.md)
 ##### [Arbeitsdatum als Buchungsdatum festlegen](LocalFunctionality/Belgium/how-to-set-the-work-date-as-the-posting-date.md)
-##### [Buch-Blattvorlagen als erforderlich festlegen](LocalFunctionality/Belgium/specify-journal-template-mandatory.md)
+##### [Buch.-Blattvorlagen als obligatorisch festlegen](LocalFunctionality/Belgium/specify-journal-template-mandatory.md)
+##### [Stundungen in Vertriebs- und Kauf-Sachkontoberichten](LocalFunctionality/Belgium/how-to-use-deferrals.md}
 
 ### Kanada
-#### [Lokale Funktionen in der kanadischen Version](LocalFunctionality/Canada/canada-local-functionality.md)
+#### [Lokale Funktionalität in der kanadischen Version](LocalFunctionality/Canada/canada-local-functionality.md)
 #### Steuer
-##### [Verkaufssteuern sowie Steuern auf Waren und Dienstleistungen in Kanada melden](LocalFunctionality/Canada/sales-tax-goods-services.md)
+##### [Mehrwertsteuer und Waren- und Dienstleistungssteuer in Kanada melden](LocalFunctionality/Canada/sales-tax-goods-services.md)
 ##### [Verkaufssteuer in Kanada melden](LocalFunctionality/Canada/ca-sales-tax.md)
 ##### [Unrealisierte Verkaufssteuer und Verkaufsskonti einrichten](LocalFunctionality/Canada/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)
 ##### [Verbrauchssteuer und Umsatzsteuer einrichten](LocalFunctionality/Canada/how-to-set-up-use-tax-and-purchase-tax.md)
