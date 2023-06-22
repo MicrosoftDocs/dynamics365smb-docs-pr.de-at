@@ -10,11 +10,11 @@ ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# Einrichten von Lieferanmahnungsbestimmungen, Stufen und Text in der österreichischen Version
+# <a name="set-up-delivery-reminder-terms-levels-and-text-in-the-austrian-version" />Einrichten von Lieferanmahnungsbestimmungen, Stufen und Text in der österreichischen Version
 
 [!INCLUDE [delivery-reminder-terms-levels-text-setup](../includes/ATCHDE/delivery-reminder-terms-levels-text-setup.md)]
 
-## Siehe auch
+## <a name="see-also" />Siehe auch
 
 [Lieferanmahnungen](delivery-reminders.md)  
 [Gewusst wie: Einrichten von Lieferbenachrichtigungen](how-to-set-up-delivery-reminders.md)  

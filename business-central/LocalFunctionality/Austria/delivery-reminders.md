@@ -11,11 +11,11 @@ ms.search.form: '5005270, 5005272, 5005273, 5005274, 5005275, 5005276, 5005280'
 ms.date: 06/17/2021
 ms.author: edupont
 ---
-# Lieferanmahnungen in der österreichischen Version
+# <a name="delivery-reminders-in-the-austrian-version" />Lieferanmahnungen in der österreichischen Version
 
 [!INCLUDE [delivery-reminders](../includes/ATCHDE/delivery-reminders.md)]
 
-## Siehe auch
+## <a name="see-also" />Siehe auch
 
  [Gewusst wie: Einrichten von Lieferbenachrichtigungen](how-to-set-up-delivery-reminders.md)   
  [Einrichten von Lieferbenachrichtigungsbestimmungen, Stufen und Text](how-to-set-up-delivery-reminder-terms-levels-and-text.md)   
