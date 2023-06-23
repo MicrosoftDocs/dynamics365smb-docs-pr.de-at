@@ -62,7 +62,7 @@ Sie können dann die Felder in der neuen Artikelkarte nach Bedarf ausfüllen ode
 > [!NOTE]  
 > Zwischen der Artikelnummer des Kreditors und Ihrer neuen Artikelnummer wird automatisch eine Artikelreferenz eingefügt. Weitere Informationen finden Sie unter [Verwendung von Element-Referenzen](inventory-how-use-item-cross-refs.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-sales-documents-dynamics--business-central" />Siehe verwandte [Microsoft Schulungen](/training/modules/create-sales-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulescreate-sales-documents-dynamics-365-business-central" />Siehe verwandte [Microsoft Schulungen](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
 ## <a name="see-also" />Siehe auch
 
