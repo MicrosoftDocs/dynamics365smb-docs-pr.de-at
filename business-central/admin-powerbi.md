@@ -10,13 +10,13 @@ ms.date: 04/26/2023
 ms.author: jswymer
 ms.custom: bap-template
 ---
-# <a name="introduction-to-includeprodshortincludesprodshortmd-and-power-bi" />Einführung in [!INCLUDE[prod_short](includes/prod_short.md)] und Power BI
+# <a name="introduction-to--and-power-bi" />Einführung in [!INCLUDE[prod_short](includes/prod_short.md)] und Power BI
 
 Einblicke in Ihre [!INCLUDE[prod_short](includes/prod_short.md)]-Daten sind mit [Power BI](https://powerbi.microsoft.com), einem Datenvisualisierungssystem von Microsoft, kein Problem. Power BI ruft [!INCLUDE[prod_short](includes/prod_short.md)]-Daten ab, damit Sie mit diesen Daten Dashboards und Berichte erstellen können. Power BI stellt eine flexible Alternative zu den in [!INCLUDE[prod_short](includes/prod_short.md)] integrierten Berichten dar, mit der Sie einen Drilldown durchführen und die Visualisierung anpassen können. Sie können in [!INCLUDE[prod_short](includes/prod_short.md)] sogar die Daten verschiedener Unternehmen zusammenführen. Manche Power BI-Berichte können auch in Business Central eingebettet und angezeigt werden, ohne das System zu verlassen. Komplexere Dashboards bieten auf der Power BI-Webseite eine bessere Erfahrung.
 
 ![Power BI und Business Central.](media/power-bi-intro.png)
 
-## <a name="what-you-can-do-with-power-bi-and-includeprodshortincludesprodshortmd" />Möglichkeiten von Power BI und [!INCLUDE[prod_short](includes/prod_short.md)]
+## <a name="what-you-can-do-with-power-bi-and-" />Möglichkeiten von Power BI und [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Bei der Arbeit mit [!INCLUDE[prod_short](includes/prod_short.md)] und Power BI stehen Ihnen verschiedene Funktionen zur Verfügung. Manche Dinge werden über Power BI ausgeführt, andere über [!INCLUDE[prod_short](includes/prod_short.md)]. Außerdem sind einige Funktionen nur mit [!INCLUDE[prod_short](includes/prod_short.md)] online verfügbar und nicht mit on-premises. Die folgende Tabelle verschafft Ihnen einen Überblick.
 
@@ -71,7 +71,7 @@ Weitere Informationen zu Power BI Metriken finden Sie unter [Erste Schritte mit 
 - Wenn Power BI bereits eingerichtet ist und Sie die Features ausprobieren möchten, gehen Sie zu [Mit Power BI Berichten in Business Central arbeiten](across-working-with-powerbi.md).
 
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Siehe verwandte [Microsoft Schulungen](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Siehe verwandte [Microsoft Schulungen](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Siehe auch
 

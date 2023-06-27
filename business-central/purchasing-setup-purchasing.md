@@ -69,7 +69,7 @@ Mit der aktivierten Funktion kann eine Rücksendung erst gebucht werden, wenn di
 | Überprüfen Sie Spesenbelege, wandeln Sie Papier- und elektronische Dokumente in Buchungsblattzeile um, und digitalisieren Sie Papierrechnungen von Kreditoren. | [Einrichten von eingehenden Belegen](across-how-setup-income-documents.md) |
 | Geben Sie Standardberichte an, die für verschiedene Dokumenttypen verwendet werden sollen. |[Berichtsauswahl in Business Central](across-report-selections.md)|
 
-## <a name="see-related-training-at-microsoft-learnlearnpathstrade-get-started-dynamics-365-business-central" />Siehe verwandte Schulungen unter [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/).
+## <a name="see-related-training-at-microsoft-learn" />Siehe verwandte Schulungen unter [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/).
 
 ## <a name="see-also" />Siehe auch
 
