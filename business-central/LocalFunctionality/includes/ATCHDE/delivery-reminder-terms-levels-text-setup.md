@@ -13,7 +13,7 @@ Zur Erstellung von Lieferbenachrichtigungen müssen Sie Folgendes einrichten:
 
 Jede Lieferbenachrichtigungsmethoden verfügt über mindestens zwei Lieferbenachrichtigungsstufe und für jede Lieferbenachrichtigungsstufe können Sie Text angeben, der in die Lieferbenachrichtigung aufgenommen wird.  
 
-## <a name="to-set-up-delivery-reminder-terms"></a><a name="to-set-up-delivery-reminder-terms"></a>So richten Sie Lieferbenachrichtigungsmethoden ein
+## <a name="to-set-up-delivery-reminder-terms"></a><a name="to-set-up-delivery-reminder-terms"></a><a name="to-set-up-delivery-reminder-terms"></a>So richten Sie Lieferbenachrichtigungsmethoden ein
 
 1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet.](../../../media/ui-search/search_small.png "Tell me-Funktion") aus. Geben Sie **Lieferbenachrichtigungsbestimmungen** ein, und wählen Sie dann den zugehörigen Link aus.  
 2. Wählen Sie die Aktion **Neu**.  
@@ -27,7 +27,7 @@ Jede Lieferbenachrichtigungsmethoden verfügt über mindestens zwei Lieferbenach
 
 4. Wählen Sie die Schaltfläche **OK** aus.  
 
-## <a name="to-add-delivery-reminder-levels-to-a-delivery-reminder-term"></a><a name="to-add-delivery-reminder-levels-to-a-delivery-reminder-term"></a>So fügen Sie einer Lieferanmahnungsmethode Lieferanmahnungsstufen hinzu
+## <a name="to-add-delivery-reminder-levels-to-a-delivery-reminder-term"></a><a name="to-add-delivery-reminder-levels-to-a-delivery-reminder-term"></a><a name="to-add-delivery-reminder-levels-to-a-delivery-reminder-term"></a>So fügen Sie einer Lieferanmahnungsmethode Lieferanmahnungsstufen hinzu
 
 1. Wählen Sie auf der Seite **Lieferanmahnungsmethoden** die Lieferanmahnung aus, der Sie Stufen hinzufügen möchten, und wählen Sie dann die Aktion **Bearbeiten**.  
 2. Wählen Sie die Aktion **Neu**.  
@@ -44,7 +44,7 @@ Für jede Lieferbenachrichtigungsstufe können Sie Textnachrichtigen definieren,
 
 Im folgenden Verfahren wird beschrieben, wie Sie den Vortext einrichten. Diese Schritte gelten jedoch auch für das Einrichten von Nachtexten.  
 
-## <a name="to-set-up-delivery-reminder-text-messages"></a><a name="to-set-up-delivery-reminder-text-messages"></a>Einrichten von Lieferbenachrichtigungstexten
+## <a name="to-set-up-delivery-reminder-text-messages"></a><a name="to-set-up-delivery-reminder-text-messages"></a><a name="to-set-up-delivery-reminder-text-messages"></a>Einrichten von Lieferbenachrichtigungstexten
 
 1. Wählen Sie auf der Seite **Lieferanmahnungsstufen** eine Stufe aus, und wählen Sie dann die Aktion **Vortext**.  
 2. Wählen Sie die Aktion **Neu**.  

@@ -14,7 +14,7 @@ Nachdem Sie Lieferbenachrichtigungen erstellt haben, müssen Sie sie registriere
 
 Beim Registrieren der Lieferbenachrichtigungen werden Lieferanmahnungsposten erstellt. Sie können die generierten Posten auf der Seite **Lieferanmahnungsposten** ansehen.  
 
-## <a name="to-issue-delivery-reminders"></a><a name="to-issue-delivery-reminders"></a><a name="to-issue-delivery-reminders"></a>So registrieren Sie Lieferbenachrichtigungen
+## <a name="to-issue-delivery-reminders"></a><a name="to-issue-delivery-reminders"></a><a name="to-issue-delivery-reminders"></a><a name="to-issue-delivery-reminders"></a>So registrieren Sie Lieferbenachrichtigungen
 
 1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet.](../../../media/ui-search/search_small.png "Tell me-Funktion") aus. Geben Sie **Lieferanmahnung** ein, und wählen Sie dann den zugehörigen Link aus.  
 2. Wählen Sie auf der Seite **Lieferanmahnung** die Lieferanmahnung, die Sie registrieren möchten, und wählen Sie dann die Aktion **Bearbeiten**.  
@@ -36,7 +36,7 @@ Beim Registrieren der Lieferbenachrichtigungen werden Lieferanmahnungsposten ers
 
 Sie können die registrierten Lieferanmahnungen auf der Seite **Reg. Lieferanmahnung** betrachten. Wenn Sie möchten, können Sie jetzt eine Lieferbenachrichtigung drucken.  
 
-## <a name="to-view-delivery-reminder-ledger-entries"></a><a name="to-view-delivery-reminder-ledger-entries"></a><a name="to-view-delivery-reminder-ledger-entries"></a>So zeigen Sie die Lieferanmahnungsposten an
+## <a name="to-view-delivery-reminder-ledger-entries"></a><a name="to-view-delivery-reminder-ledger-entries"></a><a name="to-view-delivery-reminder-ledger-entries"></a><a name="to-view-delivery-reminder-ledger-entries"></a>So zeigen Sie die Lieferanmahnungsposten an
 
 1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet.](../../../media/ui-search/search_small.png "Tell me-Funktion") aus. Geben Sie **Bestellungen** ein, und wählen Sie dann den zugehörigen Link aus.  
 2. Wählen Sie die Bestellung aus, für die Sie den Benachrichtigungsstatus anzeigen möchten, und wählen Sie dann die Aktion **Bearbeiten**.  

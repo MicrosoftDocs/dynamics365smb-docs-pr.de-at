@@ -17,11 +17,11 @@ ms.contentlocale: de-AT
 ms.lasthandoff: 02/15/2022
 ms.locfileid: "8139007"
 ---
-# <a name="assign-delivery-reminder-codes-to-vendors-in-the-austrian-version"></a><a name="assign-delivery-reminder-codes-to-vendors-in-the-austrian-version"></a><a name="assign-delivery-reminder-codes-to-vendors-in-the-austrian-version"></a>Zuweisen von Lieferanmahnungen zu Kreditoren in der österreichischen Version
+# <a name="assign-delivery-reminder-codes-to-vendors-in-the-austrian-version"></a><a name="assign-delivery-reminder-codes-to-vendors-in-the-austrian-version"></a><a name="assign-delivery-reminder-codes-to-vendors-in-the-austrian-version"></a><a name="assign-delivery-reminder-codes-to-vendors-in-the-austrian-version"></a>Zuweisen von Lieferanmahnungen zu Kreditoren in der österreichischen Version
 
 [!INCLUDE [delivery-reminder-codes-vendors](../includes/ATCHDE/delivery-reminder-codes-vendors.md)]
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Siehe auch
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Siehe auch
 
 [Registriert einen neuen Kreditor](../../purchasing-how-register-new-vendors.md)  
 [Lieferanmahnungen](delivery-reminders.md)  
