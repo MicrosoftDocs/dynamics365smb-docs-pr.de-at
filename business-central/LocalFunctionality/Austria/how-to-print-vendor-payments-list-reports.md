@@ -10,14 +10,14 @@ ms.search.keywords: null
 ms.date: 06/29/2021
 ms.author: edupont
 ---
-# <a name="print-vendor-payments-list-reports-in-the-austrian-version"></a><a name="print-vendor-payments-list-reports-in-the-austrian-version"></a><a name="print-vendor-payments-list-reports-in-the-austrian-version"></a>Drucken von Listenberichten für Kreditorenzahlungen in der österreichischen Version
+# <a name="print-vendor-payments-list-reports-in-the-austrian-version"></a>Drucken von Listenberichten für Kreditorenzahlungen in der österreichischen Version
 
 Die Liste **Kreditorenzahlungen** in Österreich zeigt eine Liste von Zahlungen für jeden Kreditor an. Der Bericht kann Zahlungen chronologisch oder nach Kreditor gruppiert sortieren.  
 
 > [!NOTE]
 > Der Bericht **Liste für Kreditorenzahlungen** ist auf den folgenden Märkten verfügbar: Österreich, Deutschland, Schweiz.
 
-## <a name="to-print-the-vendor-payments-list-report"></a><a name="to-print-the-vendor-payments-list-report"></a><a name="to-print-the-vendor-payments-list-report"></a>Gewusst wie: Druck von Listenberichten für Kreditorenzahlungen
+## <a name="to-print-the-vendor-payments-list-report"></a>Gewusst wie: Druck von Listenberichten für Kreditorenzahlungen
 
 1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet.](../../media/ui-search/search_small.png "Tell me-Funktion") aus. Geben Sie **Liste Kreditorenzahlungen** ein, und wählen Sie dann den zugehörigen Link aus.  
 2. Füllen Sie die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
@@ -29,7 +29,7 @@ Die Liste **Kreditorenzahlungen** in Österreich zeigt eine Liste von Zahlungen 
 
  Am Ende des Berichts wir die Anzahl der verarbeiteten Zahlungen angezeigt.  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Zahlungen vornehmen](../../payables-make-payments.md)
 
