@@ -6,17 +6,17 @@ ms.topic: overview
 ms.search.keywords: 'account schedule, analysis, reporting, financial report, business intelligence, KPI'
 ms.search.form: '6316, 6317'
 ms.reviewer: jswymer
-ms.date: 04/26/2023
+ms.date: 07/17/2023
 ms.author: jswymer
 ms.custom: bap-template
 ---
-# <a name="introduction-to--and-power-bi"></a>Einführung in [!INCLUDE[prod_short](includes/prod_short.md)] und Power BI
+# Einführung in [!INCLUDE[prod_short](includes/prod_short.md)] und Power BI
 
 Einblicke in Ihre [!INCLUDE[prod_short](includes/prod_short.md)]-Daten sind mit [Power BI](https://powerbi.microsoft.com), einem Datenvisualisierungssystem von Microsoft, kein Problem. Power BI ruft [!INCLUDE[prod_short](includes/prod_short.md)]-Daten ab, damit Sie mit diesen Daten Dashboards und Berichte erstellen können. Power BI stellt eine flexible Alternative zu den in [!INCLUDE[prod_short](includes/prod_short.md)] integrierten Berichten dar, mit der Sie einen Drilldown durchführen und die Visualisierung anpassen können. Sie können in [!INCLUDE[prod_short](includes/prod_short.md)] sogar die Daten verschiedener Unternehmen zusammenführen. Manche Power BI-Berichte können auch in Business Central eingebettet und angezeigt werden, ohne das System zu verlassen. Komplexere Dashboards bieten auf der Power BI-Webseite eine bessere Erfahrung.
 
 ![Power BI und Business Central.](media/power-bi-intro.png)
 
-## <a name="what-you-can-do-with-power-bi-and-"></a>Möglichkeiten von Power BI und [!INCLUDE[prod_short](includes/prod_short.md)]
+## Möglichkeiten von Power BI und [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Bei der Arbeit mit [!INCLUDE[prod_short](includes/prod_short.md)] und Power BI stehen Ihnen verschiedene Funktionen zur Verfügung. Manche Dinge werden über Power BI ausgeführt, andere über [!INCLUDE[prod_short](includes/prod_short.md)]. Außerdem sind einige Funktionen nur mit [!INCLUDE[prod_short](includes/prod_short.md)] online verfügbar und nicht mit on-premises. Die folgende Tabelle verschafft Ihnen einen Überblick.
 
@@ -30,7 +30,7 @@ Bei der Arbeit mit [!INCLUDE[prod_short](includes/prod_short.md)] und Power BI s
 
 <a name="onprem"><sup>*</sup></a> Für diese Funktion ist eine registrierte Anwendung für Business Central in Microsoft Azure erforderlich. Weitere Informationen finden Sie unter [Registrieren von Business Central lokal in Azure AD zur Integration mit anderen Diensten](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
 
-## <a name="get-ready-to-use-power-bi"></a>Vorbereitung auf die Verwendung von Power BI
+## Vorbereitung auf die Verwendung von Power BI
 
 Es gibt einige Aufgaben, die vor der Verwendung von Power BI mit [!INCLUDE[prod_short](includes/prod_short.md)] erledigt werden müssen. <!-- Some of the tasks are typically only done by administrators or super users.--> Die Aufgaben hängen von Ihrer Rolle in Ihrer Organisation ab und davon, was Sie mit Power BI machen wollen:
 
@@ -45,7 +45,7 @@ Es gibt einige Aufgaben, die vor der Verwendung von Power BI mit [!INCLUDE[prod_
 |Stellen Sie Business Central-Daten auf Power BI||![ein Häkchen.](media/check.png)|![wieder ein Häkchen](media/check.png)|[Daten über API-Seiten oder OData-Webdienste exponieren](admin-powerbi-setup.md#exposedata)
 |Aktivieren Sie die Power BI-Integration<br />(nur vor Ort)||![ein Häkchen.](media/check.png)||[Business Central lokal für die Power BI-Integration festlegen](admin-powerbi-setup.md#setup)|
 
-## <a name="track-your-business-kpis-with-power-bi-metrics"></a>Verfolgen Sie Ihre Geschäfts-KPIs mit Power BI Metriken nach
+## Verfolgen Sie Ihre Geschäfts-KPIs mit Power BI Metriken nach
 
 Wenn Sie Power BI auf [!INCLUDE[prod_short](includes/prod_short.md)] Daten verwenden, können Sie wichtige KPIs oder Metriken ganz einfach nachverfolgen. 
 
@@ -53,27 +53,26 @@ Mit Metriken in Power BI können Sie Ihre eigenen Metriken zusammenstellen und s
 
 Befolgen Sie diesen vierstufigen Prozess, um Power BI Metriken einzurichten:
 
-1. Erstellen Sie eine Scorecard im Power BI Dienst. Weitere Informationen finden Sie unter [Scorecards in Power BI erstellen](/power-bi/create-reports/service-goals-create).
-2. Fügen Sie die _Metriken_ hinzu, die Sie nachverfolgen möchten, indem Sie eine Verbindung zu Ihrem Power BI Telemetriebericht herstellen. Weitere Informationen finden Sie unter [Verbundene Metriken erstellen](/power-bi/create-reports/service-goals-create-connected).
-3. Um Warnmeldungen hinzuzufügen, legen Sie Statusregeln für Ihre Metriken fest. Weitere Informationen finden Sie unter [Automatisierte Statusregeln für Metriken erstellen](/power-bi/create-reports/service-metrics-status-rules).
+1. Erstellen Sie eine Scorecard im Power BI Dienst. Weitere Informationen finden Sie unter [Scorecards in Power BI erstellen](/power-bi/create-reports/service-goals-create).  
+2. Fügen Sie die _Metriken_ hinzu, die Sie nachverfolgen möchten, indem Sie eine Verbindung zu Ihrem Power BI Telemetriebericht herstellen. Weitere Informationen finden Sie unter [Verbundene Metriken erstellen](/power-bi/create-reports/service-goals-create-connected).  
+3. Um Warnmeldungen hinzuzufügen, legen Sie Statusregeln für Ihre Metriken fest. Weitere Informationen finden Sie unter [Automatisierte Statusregeln für Metriken erstellen](/power-bi/create-reports/service-metrics-status-rules).  
 
-   Dieser Schritt automatisiert Statusaktualisierungen basierend auf Regeln, die diese Metrik steuern. Regeln lösen Änderungen basierend auf dem Wert, dem Prozentsatz der Zielerreichung, den Datumsbedingungen oder einer Kombination der drei aus, wodurch die Regeln so vielseitig wie möglich werden. Für verbundene Metriken werden diese Statusregeln jedes Mal aktualisiert, wenn die Daten in Ihrer Scorecard aktualisiert werden.
-4. Folgen Sie schließlich den Metriken, um Benachrichtigungen in Teams oder per E-Mail zu erhalten. Weitere Informationen finden Sie unter [Ihre Metriken nachverfolgen](/power-bi/create-reports/service-metrics-follow).
+    Dieser Schritt automatisiert Statusaktualisierungen basierend auf Regeln, die diese Metrik steuern. Regeln lösen Änderungen basierend auf dem Wert, dem Prozentsatz der Zielerreichung, den Datumsbedingungen oder einer Kombination der drei aus, wodurch die Regeln so vielseitig wie möglich werden. Für verbundene Metriken werden diese Statusregeln jedes Mal aktualisiert, wenn die Daten in Ihrer Scorecard aktualisiert werden.
+4. Folgen Sie schließlich den Metriken, um Benachrichtigungen in Teams oder per E-Mail zu erhalten. Weitere Informationen finden Sie unter [Ihre Metriken nachverfolgen](/power-bi/create-reports/service-metrics-follow).  
 
-Weitere Informationen zu Power BI Metriken finden Sie unter [Erste Schritte mit Metriken in Power BI](/power-bi/create-reports/service-goals-introduction).
+Weitere Informationen zu Power BI-Metriken finden Sie unter [Erste Schritte mit Metriken in Power BI](/power-bi/create-reports/service-goals-introduction).
 
 > [!NOTE]
 > Es ist derzeit nicht möglich, Scorecards aus Power BI Metriken in [!INCLUDE[prod_short](includes/prod_short.md)] einzubetten.
 
-## <a name="next-steps"></a>Nächste Schritte
+## Nächste Schritte
 
 - Wenn Sie ein Administrierender sind, der Power BI in [!INCLUDE[prod_short](includes/prod_short.md)] einrichten muss, gehen Sie zu [Power BI Integration aktivieren](admin-powerbi-setup.md).
 - Wenn Power BI bereits eingerichtet ist und Sie die Features ausprobieren möchten, gehen Sie zu [Mit Power BI Berichten in Business Central arbeiten](across-working-with-powerbi.md).
 
+## Siehe verwandte [Microsoft Schulungen](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
-## <a name="see-related-microsoft-training"></a>Siehe verwandte [Microsoft Schulungen](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
-
-## <a name="see-also"></a>Siehe auch
+## Siehe auch 
 
 [Business Intelligence](bi.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] einrichten](setup.md)  
