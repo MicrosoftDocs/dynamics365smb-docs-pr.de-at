@@ -3,18 +3,12 @@ author: edupont04
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 67161f4a1cfc016ea4161778b455e9a8340cde27
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: de-AT
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132244"
 ---
 Nachdem Sie Lieferbenachrichtigungen erstellt haben, müssen Sie sie registrieren und ausdrücken, damit Sie die Benachrichtigungen an Kreditoren senden können. Vor dem Ausstellen von Lieferanmahnnungen können Sie einen Testbericht drucken.  
 
 Beim Registrieren der Lieferbenachrichtigungen werden Lieferanmahnungsposten erstellt. Sie können die generierten Posten auf der Seite **Lieferanmahnungsposten** ansehen.  
 
-## <a name="to-issue-delivery-reminders"></a>So registrieren Sie Lieferbenachrichtigungen
+## So registrieren Sie Lieferbenachrichtigungen  
 
 1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet.](../../../media/ui-search/search_small.png "Tell me-Funktion") aus. Geben Sie **Lieferanmahnung** ein, und wählen Sie dann den zugehörigen Link aus.  
 2. Wählen Sie auf der Seite **Lieferanmahnung** die Lieferanmahnung, die Sie registrieren möchten, und wählen Sie dann die Aktion **Bearbeiten**.  
@@ -36,7 +30,7 @@ Beim Registrieren der Lieferbenachrichtigungen werden Lieferanmahnungsposten ers
 
 Sie können die registrierten Lieferanmahnungen auf der Seite **Reg. Lieferanmahnung** betrachten. Wenn Sie möchten, können Sie jetzt eine Lieferbenachrichtigung drucken.  
 
-## <a name="to-view-delivery-reminder-ledger-entries"></a>So zeigen Sie die Lieferanmahnungsposten an
+## So zeigen Sie die Lieferanmahnungsposten an  
 
 1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet.](../../../media/ui-search/search_small.png "Tell me-Funktion") aus. Geben Sie **Bestellungen** ein, und wählen Sie dann den zugehörigen Link aus.  
 2. Wählen Sie die Bestellung aus, für die Sie den Benachrichtigungsstatus anzeigen möchten, und wählen Sie dann die Aktion **Bearbeiten**.  

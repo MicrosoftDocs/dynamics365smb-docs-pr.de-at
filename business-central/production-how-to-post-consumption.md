@@ -7,19 +7,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '99000846, 99000850'
-ms.date: 04/01/2021
+ms.date: 03/08/2023
 ms.author: edupont
 ---
-# <a name="batch-post-production-consumption"></a>Produktionsverbrauch mit Stapelverarbeitung buchen
+# Produktionsverbrauch mit Stapelverarbeitung buchen
 
 Wenn die Buchungsmethode **Manuell** ist, müssen Sie den Verbrauch manuell mit einem Verbrauchsprotokoll buchen.  
 
->[!NOTE]
+> [!NOTE]
 > Wenn Sie auf der Lagerortkarte im Feld **Kommissionierung erforderlich** ein Häkchen gesetzt haben, um anzugeben, dass für den Lagerort die Bearbeitung der Kommissionierung erforderlich ist, müssen Sie diese Stapelvearbeitung nicht ausführen. [!INCLUDE[prod_short](includes/prod_short.md)] übernimmt den Verbrauch, wenn Sie die Lagerkommissionierung buchen. Weitere Informationen finden Sie unter [Herausnehmen für die Produktion in grundlegenden Lagerort-Konfigurationen](warehouse-how-to-pick-for-production.md).  
 
 Sie können [!INCLUDE[prod_short](includes/prod_short.md)] so einstellen, um automatisch (*flush*) Komponenten zu buchen, wenn Sie beginnen oder Fertigungsaufträge beenden. Weitere Informationen finden Sie unter [Vorgehensweise: Komponenten entsprechend dem Arbeitsgangs-Ausstoß leeren](production-how-to-flush-components-according-to-operation-output.md).
 
-## <a name="to-post-consumption-for-one-or-more-production-order-lines"></a>Die Laufzeit für eine oder mehrere Verbrauchszeile buchen
+## Die Laufzeit für eine oder mehrere Verbrauchszeile buchen
 
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell me-Funktion") Symbol. Geben Sie **Verbrauchs Buch.-Blatt** ein, und wählen Sie dann den zugehörigen Link.  
 2. Füllen Sie die Felder mit den Daten des Fertigungsauftrags und den Verbrauchsdaten aus. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -31,7 +31,9 @@ Sie können [!INCLUDE[prod_short](includes/prod_short.md)] so einstellen, um aut
 
 3. Um den Verbrauch zu buchen, wählen Sie die Aktion **Buchen** aus. Die damit verbundenen Bestände werden reduziert.
 
-## <a name="see-also"></a>Siehe auch
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
+
+## Siehe auch
 
 [Produktion](production-manage-manufacturing.md)  
 [Produktion einrichten](production-configure-production-processes.md)  

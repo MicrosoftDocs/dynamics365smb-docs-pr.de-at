@@ -6,7 +6,7 @@ ms.author: edupont
 ---
 Um Lieferbenachrichtungen für überfällige Einkäufe zu aktivieren, müssen Sie Kreditoren Lieferbenachrichtigungsbedingungen zuweisen.  
 
-## <a name="to-assign-delivery-reminder-codes-to-vendors"></a>So werden Kreditoren Lieferbenachrichtigungscodes zugewiesen
+## So werden Kreditoren Lieferbenachrichtigungscodes zugewiesen  
 
 1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet.](../../../media/ui-search/search_small.png "Tell me-Funktion") aus. Geben Sie **Kreditoren** ein, und wählen Sie dann den zugehörigen Link aus.  
 2. Wählen Sie den Kreditor aus, für den Sie Lieferbenachrichtigungsmethoden einrichten möchten, und wählen Sie dann die Aktion **Bearbeiten**.  
