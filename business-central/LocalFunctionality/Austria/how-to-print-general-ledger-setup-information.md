@@ -10,11 +10,11 @@ ms.search.keywords: null
 ms.date: 06/17/2021
 ms.author: edupont
 ---
-# Drucken von Finanzbuchhaltungs-Setupinformationen in der österreichischen Version
+# <a name="print-general-ledger-setup-information-in-the-austrian-version"></a>Drucken von Finanzbuchhaltungs-Setupinformationen in der österreichischen Version
 
 Bevor Sie [!INCLUDE[prod_short](../../includes/prod_short.md)] in Aufgaben des täglichen Geschäfts verwenden können, können Sie **Finanzbuchhaltungseinrichtungs-Informationen** ausführen, um die Stammdaten anzuzeigen, die Sie eingerichtet haben. Sie können diese Stammdaten durchgehen, sodass Sie eine Grundlage für den Vergleich haben und dann überprüfen können, ob Sie die Buchungsgruppen korrekt eingerichtet haben.  
 
-## Gewusst wie: Drucken von Finanzbuchhaltungs-Setupinformationen  
+## <a name="to-print-general-ledger-setup-information"></a>Gewusst wie: Drucken von Finanzbuchhaltungs-Setupinformationen
 
 1.  Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet.](../../media/ui-search/search_small.png "Tell me-Funktion") aus. Geben Sie **Finanzbuchhaltungseinrichtungs-Informationen** ein, und wählen Sie dann den zugehörigen Link aus.  
 2.  Füllen Sie im Inforegister **Einrichtungsinformationen** die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
@@ -30,7 +30,7 @@ Bevor Sie [!INCLUDE[prod_short](../../includes/prod_short.md)] in Aufgaben des t
 
 3.  Wählen Sie die Schaltfläche **Drucken** aus, um den Bericht zu drucken, oder die Schaltfläche **Vorschau**, um den Bericht auf dem Bildschirm anzuzeigen.  
 
-## Siehe auch  
+## <a name="see-also"></a>Siehe auch
 [Finanzen einrichten](../../finance-setup-finance.md)
 
 
