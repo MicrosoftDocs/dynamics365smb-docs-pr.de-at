@@ -1,20 +1,20 @@
 ---
 title: 'Lieferbenachrichtigungsbestimmungen, Stufen und Text [AT]'
 description: Zur Erstellung von Lieferanmahnungen in der österreichischen Version müssen Sie bestimmte Aufgaben einrichten.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
 ms.date: 06/25/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="set-up-delivery-reminder-terms-levels-and-text-in-the-austrian-version"></a>Einrichten von Lieferanmahnungsbestimmungen, Stufen und Text in der österreichischen Version
+# Einrichten von Lieferanmahnungsbestimmungen, Stufen und Text in der österreichischen Version
 
 [!INCLUDE [delivery-reminder-terms-levels-text-setup](../includes/ATCHDE/delivery-reminder-terms-levels-text-setup.md)]
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Lieferanmahnungen](delivery-reminders.md)  
 [Gewusst wie: Einrichten von Lieferbenachrichtigungen](how-to-set-up-delivery-reminders.md)  
