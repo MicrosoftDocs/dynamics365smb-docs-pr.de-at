@@ -49,8 +49,6 @@ Ein neues Feld **Löschen von Sachkonten blockieren** wird zur **Finanzbuchhaltu
 
 Das Setzen des Feldes **Löschung von Sachkonten sperren** auf *Ja* kann als bewährte Methode angesehen werden, ebenso wie das Festlegen des Datums im Feld **Sachkontolöschung prüfen nach**, zum Beispiel bis zu dem Datum, bis zu dem Sie Ihre Finanzdaten speichern müssen.  
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/chart-accounts-dynamics-365-business-central/index)
-
 ## Siehe auch
 
 [Die Finanzbuchhaltung und der Kontenplan](finance-general-ledger.md)  

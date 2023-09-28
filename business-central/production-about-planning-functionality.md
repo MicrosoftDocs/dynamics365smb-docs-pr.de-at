@@ -159,11 +159,9 @@ Einzelheiten zur Planung mit Standorten und Transfers finden Sie unter [Planen m
 > [!TIP]
 > Auf den Seiten **Anforderungsarbeitsblatt** oder **Planungsarbeitsblatt** können Sie die Zeilen organisieren, indem Sie nach einem Spaltennamen sortieren. Dies ist auf der Seite Planungsarbeitsblatt besonders nützlich, da sie für mehrstufige Produktionsaufträge verwendet werden kann. Standardmäßig werden Zeilen nach **Art.-Nr.** sortiert. Um Positionen für einen mehrstufigen Auftrag zu gruppieren, sortieren Sie nach **Ref. Best.-Nr.** Feld Auch **MPS-Bestellung** und **Planungsebene** können dabei helfen, die Hierarchie der Zeilen anzuzeigen.
 
-## Siehe verwandte [Microsoft Schulungen](/training/modules/plan-items-dynamics-365-business-central/)
-
 ## Siehe auch 
 
-[Designdetails: Vorratsplanung](design-details-supply-planning.md)  
+[Designdetails: Beschaffungsplanung](design-details-supply-planning.md)  
 [Planung](production-planning.md)  
 [Produktion einrichten](production-configure-production-processes.md)  
 [Produktion](production-manage-manufacturing.md)  

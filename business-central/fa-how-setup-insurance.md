@@ -55,8 +55,6 @@ Sie können zusätzliche Namen in einer Versicherungs Buch.-Blattvorlage einrich
 > [!NOTE]  
 >   Nummern haben in Buch.-Blattnamen eine spezielle Aufgabe. Wenn die Buch.-Blattvorlage oder der Buch.-Blattname eine Nummer enthält, wird diese beim Buchen des Buch.-Blatts automatisch um eins hochgezählt. Wenn z. B. HH1 in dem Feld **Name** verwendet wurde, ändert sich der Name auf HH2, nachdem das Buch.-Blatt HH1 gebucht wurde.
 
-## Siehe verwandte [Microsoft Schulungen](/training/paths/set-up-fixed-assets-management/)
-
 ## Siehe auch 
 
 [Anlagen einrichten](fa-setup.md)  

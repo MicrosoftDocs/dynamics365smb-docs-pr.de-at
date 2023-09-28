@@ -1,7 +1,7 @@
 ---
 title: Anlagen verwalten
 description: 'Sie führen einen Wartungs-Datensatz über alle Reparaturen und Wartungen an einer Anlage, um den Wert dieser Anlage zu erhalten.'
-author: edupont04
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,7 +9,7 @@ ms.workload: na
 ms.search.keywords: 'repair, service'
 ms.search.form: '5642, 5625'
 ms.date: 06/15/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
 # Anlagen verwalten
 
@@ -83,8 +83,6 @@ Sie können im Bericht **Wartungsdetails** Wartungsposten für eine oder mehrere
 1. Wählen Sie die ![Glühbirne, die die „Wie möchten Sie weiter verfahren“-Funktion öffnet.](media/ui-search/search_small.png "Tell Me-Funktion") Symbol. Geben Sie **Wartungsdetails** ein und wählen Sie dann den zugehörigen Link.
 2. Füllen Sie die Felder je nach Bedarf aus.
 3. Klicken Sie auf die Schaltfläche **Drucken** oder **Vorschau**.
-
-## Siehe verwandte [Microsoft Schulungen](/training/paths/manage-fixed-assets-maintenance-insurances/)
 
 ## Siehe auch 
 
