@@ -348,6 +348,11 @@
 #### [Mit Zahlungstoleranzen und Skontotoleranzen arbeiten](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Die Erweiterung zur Vorhersage verspäteter Zahlungen](ui-extensions-late-payment-prediction.md)
 
+### E-Belege verwalten
+#### [E-Belege einrichten](finance-how-setup-edocuments.md)
+#### [E-Belege bei Verkäufen und Einkäufen verwenden](finance-how-use-edocuments.md)
+#### [Erweiterung der E-Beleg-Funktionalität](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
+
 ### Mehrwertsteuer verwalten
 #### [Mehrwertsteuerverwaltung – Übersicht](finance-manage-vat.md)
 #### [EU-Drittanbieter-Einkaufstransaktionen einrichten](finance-how-to-eu3party-trade-purchase.md)
