@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# <a name="create-a-vat-statement"></a>Erstellen einer MwSt.-Abrechnung
+# Erstellen einer MwSt.-Abrechnung
 [!INCLUDE[prod_short](../../includes/prod_short.md)] ermöglicht Ihnen, einen regelmäßigen Bericht der MsSt.-Transaktionen zu übermitteln. Die MwSt.-Abrechnung wird als FDF-Datei übermittelt, die einer bearbeitbaren PDF-Datei von der Steuerbehörde entspricht.  
 
 > [!NOTE]  
@@ -19,7 +19,7 @@ ms.author: bholtorf
 > [!IMPORTANT]  
 >  Vor der Erstellung der MwSt.-Erklärung müssen Sie detaillierte Informationen zu Ihrer Firmenadresse auf der Seite „Firmendaten” angeben. Zu diesen Angaben zählen Straße, Hausnummer, Etage und Zimmernummer. Diese Informationen werden in die FDF-Datei aufgenommen.  
 
-## <a name="to-create-a-vat-statement"></a>So erstellen Sie eine MwSt.-Abrechnung
+## So erstellen Sie eine MwSt.-Abrechnung  
 
 1.  Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet.](../../media/ui-search/search_small.png "Tell me-Funktion") aus. Geben Sie **MwSt.-Abrechnung AT** ein, und wählen Sie dann den zugehörigen Link aus.  
 2.  Füllen Sie die Felder gemäß der Beschreibung in der folgenden Tabelle aus.  
@@ -43,7 +43,7 @@ ms.author: bholtorf
 
 Wenn Ihre MwSt-Abrechnung fehlerfrei ist, können Sie die FDF-Datei an die Steuerbehörde übermitteln. Weitere Informationen finden Sie online unter [Finanz-Online portal](https://go.microsoft.com/fwlink/?LinkId=239929).  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch  
 [MwSt.-Abrechnung](vat-reporting.md)
 
 
