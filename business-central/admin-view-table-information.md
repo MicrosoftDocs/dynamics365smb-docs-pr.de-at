@@ -17,7 +17,7 @@ Auf der Seite **8700 Tabelleninformationen** erhalten Sie Informationen über di
 
 Diese Informationen sind hilfreich bei der Behebung von Leistungsproblemen, da Sie die Verteilung der Datengröße auf Tabellen anzeigen können.
 
-## <a name="viewing-table-information-1"></a>Tabelleninformationen anzeigen
+## <a name="view-table-information"></a>Tabelleninformationen anzeigen
 
 Um diese Seite zu öffnen, wählen Sie das ![Suche nach Seite oder Bericht.](media/ui-search/search_small.png "Suche nach Seiten- oder Berichtssymbolen") Symbol. Geben Sie **Tabelleninformationen** ein und wählen Sie dann den entsprechenden Link.
 
