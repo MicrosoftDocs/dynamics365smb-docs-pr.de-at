@@ -1,16 +1,16 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 04/01/2021
+ms.date: 11/17/2023
 ms.author: bholtorf
 ---
 
-In [!INCLUDE[prod_short](../../../includes/prod_short.md)], können Sie Lieferbenachrichtigungen erstellen, wenn eine Bestellung nicht wie erwartet geliefert wurde. Sie können Lieferbenachrichtigung für alle überfälligen Lieferungen generieren lassen oder manuell eine einzelne Lieferbenachrichtigung erstellen.  
+In [!INCLUDE[prod_short](../../../includes/prod_short.md)], können Sie Lieferbenachrichtigungen erstellen, wenn eine Bestellung wie erwartet geliefert wurde. Sie können Lieferbenachrichtigung für alle überfälligen Lieferungen generieren lassen oder manuell eine einzelne Lieferbenachrichtigung erstellen.  
 
 > [!NOTE]  
 > Um Lieferanmahnungen zu erstellen, müssen Sie die Lieferanmahnungsbestimmungen, -stufen und -texte eingerichtet haben.  
 
-## <a name="to-generate-delivery-reminders-for-all-overdue-deliveries"></a>Um Lieferanmahnungen für alle überfälligen Lieferungen zu erstellen
+## Um Lieferanmahnungen für alle überfälligen Lieferungen zu erstellen  
 
 1. Wählen Sie ![Das Glühbirnen-Symbol, das die Funktion „Wie möchten Sie weiter verfahren“ öffnet.](../../../media/ui-search/search_small.png "Tell me-Funktion") aus. Geben Sie **Lieferanmahnung** ein, und wählen Sie dann den zugehörigen Link aus.  
 2. Wählen Sie die Aktion **Neu** aus.  
