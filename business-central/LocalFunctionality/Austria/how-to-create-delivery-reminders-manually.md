@@ -10,12 +10,12 @@ ms.search.keywords: null
 ms.date: 11/21/2023
 ms.author: bholtorf
 ---
-# Erstellen von manuellen Lieferanmahnungen in der österreichischen Version
+# <a name="create-delivery-reminders-manually-in-the-austrian-version"></a>Erstellen von manuellen Lieferanmahnungen in der österreichischen Version
 
 
 [!INCLUDE [delivery-reminders-create-manually](../includes/ATCHDE/delivery-reminders-create-manually.md)]
 
-## Siehe auch 
+## <a name="see-also"></a>Siehe auch
 
 [Lieferanmahnungen](delivery-reminders.md)  
 [Lieferanmahnungen generieren](how-to-generate-delivery-reminders.md)  

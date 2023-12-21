@@ -11,11 +11,11 @@ ms.search.form: '5005272, 5005273, 5005274, 5005275, 5005276'
 ms.date: 11/13/2023
 ms.author: bholtorf
 ---
-# Registrieren von Lieferanmahnungen in der österreichischen Version
+# <a name="issue-delivery-reminders-in-the-austrian-version"></a>Registrieren von Lieferanmahnungen in der österreichischen Version
 
 [!INCLUDE [delivery-reminders-issue](../includes/ATCHDE/delivery-reminders-issue.md)] 
 
-## Siehe auch 
+## <a name="see-also"></a>Siehe auch
 
 [Testberichte für Lieferanmahnungen drucken](how-to-print-test-reports-for-delivery-reminders.md)  
 [Lieferanmahnungen](delivery-reminders.md)  
