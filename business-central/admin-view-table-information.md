@@ -3,9 +3,7 @@ title: Tabelleninformationen anzeigen
 description: 'Erfahren Sie, wie Sie Informationen über Datenbanktabellen in Business Central anzeigen können.'
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: 8700
 ms.date: 10/11/2023
 ms.author: jswymer

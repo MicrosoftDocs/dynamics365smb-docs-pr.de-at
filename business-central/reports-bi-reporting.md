@@ -3,9 +3,7 @@ title: Überblick über Business Intelligence und Berichte
 description: 'Bietet einen Überblick über alle Funktionen für Business Intelligence und Reporting, die in Business Central unterstützt werden.'
 author: KennieNP
 ms.topic: get-started
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: feature overview
 ms.reviewer: bholtorf
 ms.date: 09/22/2022

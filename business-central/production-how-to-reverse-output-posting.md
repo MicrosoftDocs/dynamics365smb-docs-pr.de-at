@@ -3,9 +3,7 @@ title: Gebuchte fertig gestellte Menge stornieren
 description: 'Es kann vorkommen, dass die Buchung einer fertig gestellten Menge storniert werden muss. In diesem Thema wird die Vorgehensweise zum Stornieren von Ausgangsbuchungen beschrieben.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: 5510
 ms.date: 06/22/2021
 ms.author: bholtorf

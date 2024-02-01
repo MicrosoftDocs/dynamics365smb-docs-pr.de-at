@@ -3,9 +3,7 @@ title: Artikelposten entfernen und erneut ausgleichen
 description: 'Sie können bestimmte Artikelausgleichsposten, die bei Lagertransaktionen automatisch erstellt werden, anzeigen und manuell ändern.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '506, 521, 9125'
 ms.date: 04/01/2021
 ms.author: bholtorf

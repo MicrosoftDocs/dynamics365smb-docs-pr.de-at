@@ -3,9 +3,7 @@ title: Vorschau von Erfassungen vor dem POST eines Belegs oder Journals
 description: 'Sie können prüfen, ob Posten für Belege und Buch.-Blätter fehlerfrei sind, bevor sie auf das Sachkonto buchen.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central

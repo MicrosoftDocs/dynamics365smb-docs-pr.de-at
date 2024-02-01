@@ -3,9 +3,7 @@ title: So zeigen Sie archivierte Workflowschritt-Instanzen an
 description: Alle abgeschlossenen Workflowschritt-Instanzen werden auf der Seite „Archivierte Workflowinstanzen“gespeichert. Jeder Schritt besteht aus einem Workflow-Ereignis und einer Workflow-Antwort.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '1530,'
 ms.date: 09/09/2022

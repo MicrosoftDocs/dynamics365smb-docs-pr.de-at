@@ -3,9 +3,7 @@ title: Aufträge für die Anpassung und Abstimmung der Kalkulation des Bestands 
 description: 'Erfahren Sie, wie Sie die Aufgabenwarteschlange verwenden können, um die Aufgaben zum Anpassen der Lagerkosten oder zum Abstimmen der Kosten mit dem Hauptbuch in den Hintergrund zu verlagern. Angenommen, Ihr Unternehmen führt viele Aufgaben aus oder verarbeitet viele Transaktionen.'
 author: brentholtorf
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.reviewer: bholtorf
 ms.search.form: 461
 ms.date: 09/19/2023

@@ -3,9 +3,7 @@ title: Unternehmensdaten Schnellstart
 description: 'In diesem Schnellstart-Artikel erfahren Sie, wie Sie die ersten wichtigen Felder über Ihre Firma in Business Central ausfüllen.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: quickstart
 ms.search.form: '1,'
 ms.date: 03/14/2022

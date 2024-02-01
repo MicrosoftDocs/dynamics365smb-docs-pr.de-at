@@ -3,9 +3,7 @@ title: 'Legen Sie fest, wann und wie Sie Workflow-Benachrichtigungen erhalten m�
 description: 'Wenn Sie Benutzer in Workflows für Genehmigungen einrichten, können Sie angeben, wie und wann jeder Genehmigungsbenutzer benachrichtigt wird.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '663, 1500, 1512, 1513,'
 ms.date: 09/09/2022

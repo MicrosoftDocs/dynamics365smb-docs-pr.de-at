@@ -3,9 +3,7 @@ title: Design-Details – Allgemeine Fibu Buch.-Blatt-Zeile
 description: 'Diese Dokumentation stellt einen detaillierten technischen Einblick in die Urheberrechtshinweise und Prinzipien bereit, die verwendet werden, um die Finanzbuchhaltungs-Buchungsfunktion in Business Central neu zu gestalten.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'design, general journal, posting, codeunit 12'
 ms.date: 06/14/2021
 ms.author: bholtorf

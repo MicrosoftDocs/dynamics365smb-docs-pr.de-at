@@ -3,9 +3,7 @@ title: 'Verkaufsrechnungen erstellen, um einen Auftrag zu fakturieren'
 description: 'Beschreibt, wie Sie Debitoren die Ausgaben für einen Auftrag in Rechnung stellen können, wenn ein Projekt fortschreitet und sich die Kosten summieren.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: project invoice
 ms.search.form: '1002, 1007,'
 ms.date: 06/22/2021

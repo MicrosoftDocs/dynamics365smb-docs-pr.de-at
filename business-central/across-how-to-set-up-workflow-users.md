@@ -3,9 +3,7 @@ title: So legen Sie Workflow-Benutzer fest
 description: 'Bevor Sie Workflows erstellen können, müssen Sie die Benutzer, die daran teilnehmen, auf der Einrichtungsseite für Benutzergenehmigungen einrichten.'
 author: brentholtorf
 ms.topic: how-to
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'reject, delegate, request'
 ms.search.form: '1533,'
 ms.date: 05/31/2023

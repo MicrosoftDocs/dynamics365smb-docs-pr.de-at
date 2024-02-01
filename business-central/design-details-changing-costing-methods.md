@@ -3,9 +3,7 @@ title: Designdetails – Ändern der Lagerabgangsmethode für Artikel
 description: 'Erfahren Sie, wie Sie einem Artikel eine andere Lagerabgangsmethode zuweisen, obwohl Sie den Artikel bereits in Transaktionen verwendet haben.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'costing methods, costing, item cost'
 ms.search.form: 8645
 ms.date: 06/08/2021

@@ -3,9 +3,7 @@ title: Übersicht der Aufgaben zur Verwaltung von Debitoren
 description: In diesem Thema werden Aufgaben zur Verwaltung von Debitoren und zur Anwendung von Zahlungen auf Debitoren- oder Kreditor-Sachkonto-Einträge beschrieben.
 author: brentholtorf
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'customer payment, debtor, balance due, AR'
 ms.date: 06/23/2021
 ms.author: bholtorf

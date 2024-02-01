@@ -3,9 +3,7 @@ title: 'Gewusst wie: Druck von Listenberichten für Kreditorenzahlungen [AT]'
 description: Die Liste Kreditorenzahlungen in Österreich zeigt eine Liste von Zahlungen für jeden Kreditor an. Der Bericht kann Zahlungen chronologisch oder nach Kreditor gruppiert sortieren.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/29/2021
 ms.author: bholtorf

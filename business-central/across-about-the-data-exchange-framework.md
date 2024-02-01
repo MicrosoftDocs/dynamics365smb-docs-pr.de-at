@@ -3,13 +3,12 @@ title: Über das Datenaustauschframework
 description: 'Dieser Artikel erklärt, wie Sie das Datenaustauschframework verwenden, um den Austausch von Daten in geschäftlichen Belegen wie Rechnungen mit Ihren Geschäftspartnern zu verwalten.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'Data exchange framework, data files, data exchange, electronic document, invoice, Business Central, business document, standard-compliant file, OCR'
 ms.search.form: '189,'
 ms.date: 12/13/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Über das Datenaustauschframework
 

@@ -3,7 +3,6 @@ title: Öffnen von Business Central Dateien in OneDrive
 description: 'Erfahren Sie, wie Sie Business Central-Daten über OneDrive for Business freigeben können.'
 author: jswymer
 ms.topic: conceptual
-ms.workload: na
 ms.search.keywords: null
 ms.date: 08/03/2022
 ms.author: jswymer

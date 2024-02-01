@@ -3,7 +3,6 @@ title: 'Definieren Sie, wie die Daten elektronisch ausgetauscht werden'
 description: 'Definieren Sie, wie Business Central Daten mit externen Dateien wie elektronischen Belegen, Bankdaten, Artikelkatalogen und mehr austauscht.'
 author: brentholtorf
 ms.topic: conceptual
-ms.workload: na
 ms.search.keywords: null
 ms.search.form: '1210, 1211, 1213, 1214, 1215, 1216, 1217'
 ms.date: 11/03/2022

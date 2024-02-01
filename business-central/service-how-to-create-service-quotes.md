@@ -3,9 +3,7 @@ title: Wie Sie Serviceangebote erstellen
 description: 'Erfahren Sie, wie Sie ein Serviceangebot als Vorentwurf für einen Serviceauftrag verwenden und dann das Angebot in einen Serviceauftrag umwandeln.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: bholtorf

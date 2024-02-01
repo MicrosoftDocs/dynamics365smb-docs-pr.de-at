@@ -3,12 +3,11 @@ title: 'Schließen Sie Artikelbucheinträge, die aus einer festen Anwendung stam
 description: 'Erfahren Sie, wie Sie einen festen Ausgleich zwischen einer eingehenden Transaktion und der ursprünglichen ausgehenden Transaktion im Artikel-Buch erstellen.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: 40
 ms.date: 12/12/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Offene Artikelposten aus einem festen Ausgleich im Artikel Buch.-Blatt schließen
 

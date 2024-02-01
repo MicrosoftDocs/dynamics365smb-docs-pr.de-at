@@ -3,9 +3,7 @@ title: 'Einrichten von Mahnmethoden, Bestimmungen und Mahntext'
 description: 'Lernen Sie, wie Business Central eingerichtet wird, so dass Sie eine Mahnung an einen Debitoren wegen einer fälligen Zahlung senden können und wie der Zahlung wegen des Verzugs Zuschläge oder Gebühren hinzugefügt werden.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'payment due, debt, overdue, fee, charge, reminder'
 ms.search.form: '431, 432, 436, 478'
 ms.date: 02/09/2022

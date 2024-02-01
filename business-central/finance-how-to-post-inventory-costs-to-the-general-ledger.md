@@ -3,9 +3,7 @@ title: Abstimmen der Lagerregulierung mit der Finanzbuchhaltung
 description: 'Am Ende der Buchhaltungsperioden muss eine Sequenz von Steuerelementen und Prüfungsaufgaben durchgeführt werden, um einen korrekten und ausgeglichenen Bestandswert auszuweisen.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'warehouse, stock'
 ms.search.form: 9297
 ms.date: 06/16/2021

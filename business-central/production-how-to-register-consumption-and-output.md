@@ -3,9 +3,7 @@ title: Verbrauchsausgabe für Produktauftrag registrieren
 description: 'Dieses Thema erklärt, wie Sie den Verbrauch und die Ausgabe für eine freigegebene Fertigungsauftrags-Zeile registrieren, die auf der Seite Fertigungsjournal angezeigt wird.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: 5510
 ms.date: 03/08/2023
 ms.author: bholtorf

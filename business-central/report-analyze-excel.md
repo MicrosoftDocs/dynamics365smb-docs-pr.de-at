@@ -3,9 +3,7 @@ title: Analysieren von Berichtsdaten mit Excel und XML
 description: 'Lernen Sie, wie Sie mit Excel und XML ein Dataset für einen Bericht analysieren können.'
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'task, process, report, print, schedule, save, Excel, PDF, Word, dataset'
 ms.date: 03/16/2022
 ms.author: jswymer

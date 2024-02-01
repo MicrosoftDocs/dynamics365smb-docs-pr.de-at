@@ -3,9 +3,7 @@ title: Den Status von Synchronisationsaufträgen anzeigen (enthält Video)
 description: 'Verwenden Sie die Seite Gekoppelte Datensynchronisierungsfehler, um den Status der Synchronisierungsaufträge anzuzeigen, die für gekoppelte Datensätze in Integrationen ausgeführt wurden.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'sales, crm, integration, sync, synchronize'
 ms.search.form: 6250
 ms.date: 06/14/2021

@@ -3,7 +3,6 @@ title: Senden von Belegen und E-Mails
 description: 'Sie können Inhalt definieren, um in den Text eine E-Mail beispielsweise ein PayPal-Link einzufügen. Bestellanforderungen können auch Belege an eine E-Mail-Nachricht angehängt werden.'
 author: brentholtorf
 ms.topic: conceptual
-ms.workload: na
 ms.search.keywords: 'SMTP, mail, Microsoft 365, cover, body, PayPal, layout'
 ms.search.form: '41,'
 ms.date: 04/01/2021

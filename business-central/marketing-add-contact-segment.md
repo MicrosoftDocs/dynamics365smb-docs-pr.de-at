@@ -3,9 +3,7 @@ title: Kontakte zu Segmenten hinzufügen
 description: 'Nachdem Sie ein Segment erstellt haben, können Sie dem Segment Kontakte zum Beispiel als Teil der bestimmte Kunden oder der Clients einer Werbekampagnezielgruppenadressierung hinzufügen.'
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'marketing, campaign, promo, prospect, contact, client, customer'
 ms.search.form: '5091, 5093'
 ms.date: 04/01/2021

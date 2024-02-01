@@ -3,9 +3,7 @@ title: So erstellen Sie Serviceaufträge
 description: 'Lernen Sie die verschiedenen Aufgaben kennen, die mit dem Erstellen von Serviceaufträgen in Business Central verbunden sind, z.B. das Erstellen eines neuen Serviceauftrags oder von Aufträgen auf der Basis eines Servicevertrags.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: bholtorf

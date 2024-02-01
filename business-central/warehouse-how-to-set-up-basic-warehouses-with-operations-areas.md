@@ -3,9 +3,7 @@ title: Einrichten von Basislagern mit Vorgangsbereichen
 description: 'Legen Sie Lagerarbeitsbereiche fest und verwenden Sie Lagerbewegungen, Kommissionierungen und Einlagerungen, um Waren zwischen ihnen zu bewegen.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '6774, 6775, 6776'
 ms.date: 06/25/2021

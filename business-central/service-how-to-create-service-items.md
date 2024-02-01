@@ -3,9 +3,7 @@ title: Wie Sie Serviceartikel erstellen
 description: 'Lesen Sie über die verschiedenen Möglichkeiten, wie Sie in Business Central Serviceartikel erstellen können, zum Beispiel innerhalb eines Serviceauftrags oder beim Versand von Artikeln.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: bholtorf

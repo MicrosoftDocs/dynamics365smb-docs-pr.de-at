@@ -3,9 +3,7 @@ title: Suchen nach Kontakten von Microsoft Teams
 description: 'Erfahren Sie, wie Sie nach Business Central-Debitoren, ‑Kreditoren und anderen Kontakten von Microsoft Teams suchen.'
 author: jswymer
 ms.topic: get-started
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, contacts, search, messaging extensions'
 ms.date: 04/12/2021
 ms.author: jswymer

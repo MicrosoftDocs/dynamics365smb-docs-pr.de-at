@@ -3,9 +3,7 @@ title: Bewährte Einrichtungsmethoden – Lagerabgangsmethode
 description: 'Die Lagerabgangsmethode auf der Artikelkarte definiert, ob der Kostenfluss eines Artikels erfasst wird und ob ein tatsächlicher oder budgetierter Wert aktiviert wird und in der Kostenberechnung verwendet wird.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '30, 31'
 ms.date: 04/01/2021
 ms.author: bholtorf

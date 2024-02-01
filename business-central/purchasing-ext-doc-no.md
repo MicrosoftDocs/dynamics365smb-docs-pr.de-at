@@ -3,9 +3,7 @@ title: Externe Belegnummern auf Einkaufsbelegen
 description: 'Sie können Informationen zu den Nummern hinzufügen, die Ihre Kreditoren den von ihnen gesendeten Belegen zuweisen, indem Sie das Feld „Externe Dokumentnummer“ oder das Feld „Ihre Referenz“ verwenden. Hier erfahren Sie mehr über den Unterschied zwischen den beiden Feldern.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 05/27/2021
 ms.author: bholtorf

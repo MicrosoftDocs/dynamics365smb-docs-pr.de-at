@@ -3,19 +3,18 @@ title: 'Gewusst wie: Lieferanmahnungen manuell erstellen [AT]'
 description: 'In der österreichischen Version von Business Central können Sie Lieferanmahnungen erstellen, wenn eine Bestellung nicht wie erwartet geliefert wurde.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 11/21/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="create-delivery-reminders-manually-in-the-austrian-version"></a>Erstellen von manuellen Lieferanmahnungen in der österreichischen Version
+# Erstellen von manuellen Lieferanmahnungen in der österreichischen Version
 
 
 [!INCLUDE [delivery-reminders-create-manually](../includes/ATCHDE/delivery-reminders-create-manually.md)]
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch 
 
 [Lieferanmahnungen](delivery-reminders.md)  
 [Lieferanmahnungen generieren](how-to-generate-delivery-reminders.md)  
