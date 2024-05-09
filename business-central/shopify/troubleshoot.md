@@ -158,6 +158,10 @@ Der Benutzende, der Zugriff anfordert, hat nicht die notwendige Berechtigung zum
 
 Fordern Sie ein neues Token an, da die aktualisierte Version des Connectors mehr Berechtigungen (Anwendungsbereiche) erfordert. Weitere Informationen finden Sie unter [Anforderung des Zugriffstokens](#request-the-access-token).
 
+### [API] Ungültiger API-Schlüssel oder ungültiges Zugriffstoken (nicht erkannte Anmeldung oder falsches Kennwort)
+
+Fordern Sie ein neues Token an, da die aktualisierte Version des Connectors mehr Berechtigungen (Anwendungsbereiche) erfordert. Weitere Informationen finden Sie unter [Anforderung des Zugriffstokens](#request-the-access-token).
+
 ## Siehe auch 
 
 [Erste Schritte mit dem Konnektor für Shopify](get-started.md)
