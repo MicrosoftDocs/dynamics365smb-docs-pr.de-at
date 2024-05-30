@@ -9,10 +9,10 @@ ms.date: 03/17/2023
 ms.author: soalex
 ms.service: dynamics-365-business-central
 ---
-# <a name="austria-local-functionality"></a>Lokale Funktion (Österreich)
+# Lokale Funktion (Österreich)
 In den folgenden Themen werden Funktionen beschrieben, die der österreichischen Version von [!INCLUDE[prod_short](../../includes/prod_short.md)] eigen sind.  
 
-## <a name="feature-availability"></a>Verfügbarkeit der Funktion
+## Verfügbarkeit der Funktion
 
 * MwSt.
     * [Erstellen einer MwSt.-Abrechnung](how-to-create-a-vat-statement.md) **Jetzt erhältlich**
@@ -34,13 +34,13 @@ In den folgenden Themen werden Funktionen beschrieben, die der österreichischen
 * Allgemein
     * [Drucken von Finanzbuchhaltungs-Setupinformationen](how-to-print-general-ledger-setup-information.md) **Jetzt erhältlich**
 
-## <a name="future-legislation-requirements-being-investigated"></a>Künftige Anforderungen der Gesetzgebung, die untersucht werden
+## Künftige Anforderungen der Gesetzgebung, die untersucht werden
 
 * SAF-T-Berichterstellung in Österreich **2. Veröffentlichungszyklus 2024**
 
 Wenn Sie anstehende regulatorische Funktionen kennen, übermitteln Sie eine [Warnung zu regulatorischen Funktionen](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Arbeiten mit [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Verfügbarkeit nach Ländern/Regionen und unterstützte Sprachen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  

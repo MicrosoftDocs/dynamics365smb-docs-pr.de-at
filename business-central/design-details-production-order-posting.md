@@ -9,7 +9,7 @@ ms.date: 06/08/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-production-order-posting"></a>Designdetails: Fertigungsauftragsbuchung
+# Designdetails: Fertigungsauftragsbuchung
 Ähnlich wie bei der Montageauftragsbuchung werden die verbrauchten Komponenten und die verwendete Maschinenzeit konvertiert und als gefertigter Artikel ausgegeben, wenn der Fertigungsauftrag abgeschlossen wird. Weitere Informationen finden Sie unter [Designdetails: Montageauftragsbuchung](design-details-assembly-order-posting.md). Der Kostenfluss für Montageaufträge ist jedoch weniger Komplex, insbesondere da die Buchung der Montagekosten nur einmal geschieht und daher keinen WIP-Bestand generiert.
 
 
@@ -36,16 +36,16 @@ Abhängig vom Typ des Lagerbestands werden Erhöhungen und Reduzierungen von unt
 
 ||Zugänge|Abgänge|  
 |-|---------------|---------------|  
-|**Rohmaterialbestand**|-   Nettoeinkäufe von Material<br />-   Ausstoß Unterbaugruppen<br />-   Negativer Verbrauch|Materialverbrauch|  
+|**Rohmaterialbestand**|-   Netzwerkeinkäufe des Materials<br />-   Fertigprodukte aus Unterbaugruppen<br />-   Negativer Verbrauch|Materialverbrauch|  
 |**Produktionslager**|-   Materialverbrauch<br />-   Kapazitätsverbrauch<br />-   Produktionsgemeinkosten|Istmeldungen von Endartikeln (Fertigungskosten)|  
-|**Fertigerzeugnisse (Bestand)**|Istmeldungen von Endartikeln (Fertigungskosten)|-   Verkauf (Kosten verkäufter Erzeugnisse)<br />-   Negativer Ausstoß|  
-|**Rohmaterialbestand**|-   Nettoeinkäufe von Material<br />-   Ausstoß Unterbaugruppen<br />-   Negativer Verbrauch|Materialverbrauch|  
+|**Fertigerzeugnisse (Bestand)**|Istmeldungen von Endartikeln (Fertigungskosten)|-   Verkauf (Lagerverbrauch)<br />-   Negativausgabe|  
+|**Rohmaterialbestand**|-   Netzwerkeinkäufe des Materials<br />-   Fertigprodukte aus Unterbaugruppen<br />-   Negativer Verbrauch|Materialverbrauch|  
 
 Die Werte der Lagerzu- und - abgänge werden in den verschiedenen Arten von Produktionsartikel-Lagerbestand ebenso wie für gekauften Lagerbestand erfasst. Bei jeder Bestandserhöhungs- oder -minderungstransaktion werden ein Artikelposten und ein entsprechender Sachposten für den Betrag erstellt. Weitere Informationen finden Sie unter [Designdetails: Planungsbuchung](design-details-inventory-posting.md).  
 
 Obwohl die Werte von Transaktionen, die mit eingekauften Waren verknüpft sind, nur als Artikelposten mit zugehörigen Wertposten gebucht werden, werden Transaktionen, die mit gefertigten Artikeln verknüpft sind, als Kapazitätsposten mit zugehörigen Wertposten, zusätzlich zu den Artikelposten, gebucht.  
 
-## <a name="posting-structure"></a>Buchen der Struktur
+## Buchen der Struktur  
 Das Buchen von Fertigungsaufträgen auf das Produktionslager beinhaltet Istmeldung, Verbrauch und Kapazität.  
 
 Das folgende Diagramm zeigt die betroffenen Buchungsroutinen in Codeunit 22.  
@@ -68,12 +68,12 @@ Ein Wertposten, der den WIP-Bestandswert beschreibt, kann mit einer der folgende
 
 Weitere Informationen darüber, wie Kosten aus der Montage und aus der Produktion in der Finanzbuchhaltung gebucht werden, finden Sie unter [Designdetails: Bestandesbuchung](design-details-inventory-posting.md).  
 
-## <a name="capacity-posting"></a>Kapazitätsbuchung
+## Kapazitätsbuchung  
 Das Buchen von Istmeldungen aus dem letzten Arbeitsgang ergibt ein Kapazitätsposten für den Endartikel, zusätzlich zu dem Lagerzugang.  
 
  Der Kapazitätsposten ist ein Datensatz der Zeit, die benötigt wurde, um den Artikel zu fertigen. Der zugehörige Wertposten beschreibt die Erhöhung des WIP-Bestandswerts, der der Wert der Konvertierungskosten ist. Weitere Informationen finden Sie unter "Vom Kapazitätsposten" unter [Designdetails: Konten in der Finanzbuchhaltung](design-details-accounts-in-the-general-ledger.md).  
 
-## <a name="production-order-costing"></a>Nachkalkulation für einen Produktionsauftrag
+## Nachkalkulation für einen Produktionsauftrag  
  Um Lagerbestände und Produktionskosten zu steuern, muss ein Produktionsbetrieb die Kosten von Fertigungsaufträgen messen, da der vorbestimmte Einstandspreis (fest) jedes gefertigten Artikels in der Bilanz berechnet wird. Weitere Informationen darüber, warum Fertigungsartikel die Standard-Kostenbewertungsmethode verwenden, finden Sie unter [Designdetails: Kostenmethode](design-details-costing-methods.md).  
 
 > [!NOTE]  
@@ -97,7 +97,7 @@ In Standard-Kostenumgebungen basiert die Kalkulation eines Fertigungsauftrags au
     >  Dieses unterscheidet sich von der Montageauftragsbuchung, die immer Ist-Kosten bucht. Weitere Informationen finden Sie unter [Designdetails: Montageauftragsbuchung](design-details-assembly-order-posting.md).  
 2.  Wenn der Fertigungsauftrag auf **Beendet** gesetzt ist, wird die Bestellung fakturiert, indem die Stapelverarbeitung **Lagerreg. fakt. Einst. Preise** ausgeführt wird. Deshalb wird der Gesamtbetrag des Auftrags auf der Grundlage der Standardkosten der verbrauchten Materialien und der Kapazität berechnet. Die Abweichungen zwischen dem berechneten Einstandspreis (fest) und den tatsächlichen Produktionskosten werden berechnet und gebucht.  
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch  
  [Designdetails: Lagerkostenberechnung](design-details-inventory-costing.md)   
  [Designdetails: Montageauftragsbuchung](design-details-assembly-order-posting.md)  
  [Verwalten der Lagerregulierung](finance-manage-inventory-costs.md)[Finanzen](finance.md)  
