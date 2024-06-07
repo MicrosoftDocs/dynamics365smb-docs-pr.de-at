@@ -10,11 +10,11 @@ ms.date: 11/13/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="issue-delivery-reminders-in-the-austrian-version"></a>Registrieren von Lieferanmahnungen in der österreichischen Version
+# Registrieren von Lieferanmahnungen in der österreichischen Version
 
 [!INCLUDE [delivery-reminders-issue](../includes/ATCHDE/delivery-reminders-issue.md)] 
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch 
 
 [Testberichte für Lieferanmahnungen drucken](how-to-print-test-reports-for-delivery-reminders.md)  
 [Lieferanmahnungen](delivery-reminders.md)  
