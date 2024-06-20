@@ -11,11 +11,11 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Zuweisen von Lieferanmahnungen zu Kreditoren in der österreichischen Version
+# <a name="assign-delivery-reminder-codes-to-vendors-in-the-austrian-version"></a>Zuweisen von Lieferanmahnungen zu Kreditoren in der österreichischen Version
 
 [!INCLUDE [delivery-reminder-codes-vendors](../includes/ATCHDE/delivery-reminder-codes-vendors.md)]
 
-## Siehe auch
+## <a name="see-also"></a>Siehe auch
 
 [Registriert einen neuen Kreditor](../../purchasing-how-register-new-vendors.md)  
 [Lieferanmahnungen](delivery-reminders.md)  
