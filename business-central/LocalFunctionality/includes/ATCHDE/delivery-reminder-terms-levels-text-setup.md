@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 12/20/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 Zur Erstellung von Lieferbenachrichtigungen müssen Sie folgende Voraussetzungen einrichten:  
@@ -14,7 +15,7 @@ Zur Erstellung von Lieferbenachrichtigungen müssen Sie folgende Voraussetzungen
 
 Jede Lieferbenachrichtigungsmethode verfügt über mindestens zwei Lieferbenachrichtigungsstufen und für jede Lieferbenachrichtigungsstufe können Sie Text angeben, der in die Lieferbenachrichtigung aufgenommen wird.  
 
-## <a name="to-set-up-delivery-reminder-terms"></a>So richten Sie Lieferbenachrichtigungsmethoden ein
+## So richten Sie Lieferbenachrichtigungsmethoden ein  
 
 1. Wählen Sie das Symbol ![Glühbirne, die die Funktion „Wie möchten Sie weiter verfahren“ öffnet.](../../../media/ui-search/search_small.png "Tell me-Funktion") aus. Geben Sie **Lieferbenachrichtigungsbestimmungen** ein, und wählen Sie dann den zugehörigen Link aus.  
 2. Wählen Sie die Aktion **Neu**.  
@@ -28,7 +29,7 @@ Jede Lieferbenachrichtigungsmethode verfügt über mindestens zwei Lieferbenachr
 
 4. Wählen Sie die Schaltfläche **OK** aus.  
 
-## <a name="to-add-delivery-reminder-levels-to-a-delivery-reminder-term"></a>So fügen Sie einer Lieferanmahnungsmethode Lieferanmahnungsstufen hinzu
+## So fügen Sie einer Lieferanmahnungsmethode Lieferanmahnungsstufen hinzu  
 
 1. Wählen Sie auf der Seite **Lieferanmahnungsmethoden** die Lieferanmahnung aus, der Sie Stufen hinzufügen möchten, und wählen Sie dann die Aktion **Bearbeiten**.  
 2. Wählen Sie die Aktion **Neu**.  
@@ -45,7 +46,7 @@ Für jede Lieferbenachrichtigungsstufe können Sie Textnachrichtigen definieren,
 
 Im folgenden Verfahren wird beschrieben, wie Sie den Vortext einrichten. Diese Schritte gelten jedoch auch für das Einrichten von Nachtexten.  
 
-## <a name="to-set-up-delivery-reminder-text-messages"></a>Einrichten von Lieferbenachrichtigungstexten
+## Einrichten von Lieferbenachrichtigungstexten  
 
 1. Wählen Sie auf der Seite **Lieferanmahnungsstufen** eine Stufe aus, und wählen Sie dann die Aktion **Vortext**.  
 2. Wählen Sie die Aktion **Neu**.  

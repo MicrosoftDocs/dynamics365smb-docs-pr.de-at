@@ -9,12 +9,13 @@ ms.search.form: '5005272, 5005273, 5005274, 5005275, 5005276'
 ms.date: 11/13/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="issue-delivery-reminders-in-the-austrian-version"></a>Registrieren von Lieferanmahnungen in der österreichischen Version
+# Registrieren von Lieferanmahnungen in der österreichischen Version
 
 [!INCLUDE [delivery-reminders-issue](../includes/ATCHDE/delivery-reminders-issue.md)] 
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch 
 
 [Testberichte für Lieferanmahnungen drucken](how-to-print-test-reports-for-delivery-reminders.md)  
 [Lieferanmahnungen](delivery-reminders.md)  
