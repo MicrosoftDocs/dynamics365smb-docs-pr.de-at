@@ -10,11 +10,11 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="set-up-delivery-reminders-in-the-austrian-version"></a>Einrichten von Lieferanmahnungen in der österreichischen Version
+# Einrichten von Lieferanmahnungen in der österreichischen Version
 
 [!INCLUDE [delivery-reminders-setup](../includes/ATCHDE/delivery-reminders-setup.md)]
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch
 
 [Lieferanmahnungen](delivery-reminders.md)  
 [Einrichten von Lieferbenachrichtigungsbestimmungen, Stufen und Text](how-to-set-up-delivery-reminder-terms-levels-and-text.md)  

@@ -10,12 +10,12 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="create-delivery-reminders-manually-in-the-austrian-version"></a>Erstellen von manuellen Lieferanmahnungen in der österreichischen Version
+# Erstellen von manuellen Lieferanmahnungen in der österreichischen Version
 
 
 [!INCLUDE [delivery-reminders-create-manually](../includes/ATCHDE/delivery-reminders-create-manually.md)]
 
-## <a name="see-also"></a>Siehe auch
+## Siehe auch 
 
 [Lieferanmahnungen](delivery-reminders.md)  
 [Lieferanmahnungen generieren](how-to-generate-delivery-reminders.md)  
